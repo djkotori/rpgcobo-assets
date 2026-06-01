@@ -1,0 +1,17 @@
+[
+	{
+		"bannar":"fantasy.webp",
+		"name":{"ja":"ファンタジーRPG", "en":"Fantasy RPG"},
+		"desc":{
+			"ja":"ファンタジーRPGをテーマにしたキャラクターやマップを含む、プロジェクトの標準テンプレートです。",
+			"en":"A standard template for projects themed around fantasy RPGs, including characters and maps."
+		},
+		"dirs":[
+			{ "src":"common/project/resource", "dst":"project/resource" },
+			{ "src":"common/work", "dst":"work" },
+			{ "src":"fantasy/project/data", "dst":"project/data" },
+			{ "src":"fantasy/project/resource", "dst":"project/resource" }
+		],
+		"ver":["v0.*","v1.*"]
+	}
+]

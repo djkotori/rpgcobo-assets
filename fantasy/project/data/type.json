@@ -1,0 +1,98 @@
+{
+	"_meta":{"version":1},
+	"dmgform":[
+		{
+			"formula":"atk:@() src.PATK*rnd(2.0,2.2)\ndef:@() dst.PDEF\nhit:@() src.PHIT-dst.PEVA\ncri:@() src.CRI-dst.CEVA",
+			"icon":"",
+			"name":"物理攻撃"
+		},
+		{"formula":"atk:@() src.MATK+pow\ndef:@() dst.MDEF","icon":"","name":"魔法攻撃"},
+		{"formula":"atk:@() src.MATK+pow\ndef:@() dst.MDEF/16\neva:@() 1.0","icon":"","name":"回復魔法"},
+		{"formula":"atk:@() src.MATK+pow\ndef:@() dst.PDEF","icon":"","name":"物理魔法"},
+		{"formula":"atk:@() 100\ndef:@() (dst.PDEF+dst.MDEF)/4","icon":"","name":"攻撃アイテム"},
+		{"formula":"atk:@() 100","icon":"","name":"回復アイテム"},
+		{
+			"formula":"hit:@() { return debuffRate( dst, skill.putconds, skill.hitrate); }",
+			"icon":"",
+			"name":"デバフ付与"
+		}
+	],
+	"elem":[
+		{"icon":"","name":"斬"},
+		{"icon":"","name":"突"},
+		{"icon":"","name":"打"},
+		{"icon":"","name":"火"},
+		{"icon":"","name":"水"},
+		{"icon":"","name":"風"},
+		{"icon":"","name":"土"},
+		{"icon":"","name":"光"},
+		{"icon":"","name":"闇"},
+		{"icon":"","name":"草"},
+		{"icon":"","name":"雷"},
+		{"icon":"","name":"呪"}
+	],
+	"eqflag":[
+		{"icon":"","name":"勇者装備"},
+		{"icon":"","name":"女性装備"},
+		{"icon":"","name":"エルフ装備"}
+	],
+	"eqslot":[
+		{"eqtypebits":255,"icon":"","name":"武器"},
+		{"eqtypebits":768,"icon":"","name":"盾"},
+		{"eqtypebits":3072,"icon":"","name":"頭"},
+		{"eqtypebits":57344,"icon":"","name":"体"},
+		{"eqtypebits":196608,"icon":"","name":"装飾"}
+	],
+	"eqtype":[
+		{"eqctg":0,"icon":"","name":"素手"},
+		{"eqctg":0,"icon":"","name":"剣"},
+		{"eqctg":0,"icon":"","name":"大剣"},
+		{"eqctg":0,"icon":"","name":"槍"},
+		{"eqctg":0,"icon":"","name":"斧"},
+		{"eqctg":0,"icon":"","name":"杖"},
+		{"eqctg":0,"icon":"","name":"弓"},
+		{"eqctg":0,"icon":"","name":"槌"},
+		{"eqctg":1,"icon":"","name":"軽盾"},
+		{"eqctg":1,"icon":"","name":"重盾"},
+		{"eqctg":2,"icon":"","name":"帽子"},
+		{"eqctg":2,"icon":"","name":"兜"},
+		{"eqctg":2,"icon":"","name":"髪飾"},
+		{"eqctg":2,"icon":"","name":"服"},
+		{"eqctg":2,"icon":"","name":"軽鎧"},
+		{"eqctg":2,"icon":"","name":"重鎧"},
+		{"eqctg":2,"icon":"","name":"装飾"},
+		{"eqctg":2,"icon":"","name":"装飾"}
+	],
+	"jobflag":[
+		{"icon":"","name":"勇者の資格"},
+		{"icon":"","name":"王家の血筋"}
+	],
+	"jobslot":[
+		{"icon":"","lock":0,"name":"職業"},
+		{"icon":"","lock":0,"name":"特性"}
+	],
+	"resistg":[
+		{"icon":"","name":"死亡耐性"},
+		{"icon":"","name":"毒耐性"},
+		{"icon":"","name":"睡眠耐性"},
+		{"icon":"","name":"麻痺耐性"},
+		{"icon":"","name":"精神耐性"},
+		{"icon":"","name":"呪い耐性"},
+		{"icon":"","name":"虚脱耐性"},
+		{"icon":"","name":"集中耐性"}
+	],
+	"tribe":[
+		{"icon":"","name":"人間"},
+		{"icon":"","name":"男性"},
+		{"icon":"","name":"女性"},
+		{"icon":"","name":"飛行"},
+		{"icon":"","name":"機械"},
+		{"icon":"","name":"不死"},
+		{"icon":"","name":"虫"},
+		{"icon":"","name":"悪魔"},
+		{"icon":"","name":"獣"},
+		{"icon":"","name":"妖精"},
+		{"icon":"","name":"龍"},
+		{"icon":"","name":"水生"}
+	]
+}

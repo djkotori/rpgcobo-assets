@@ -1,0 +1,43 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dir
+/out
+/output
+/build
+/backup
+/savedata
+MagicaVoxel
+tmp
+log
+
+# misc
+.DS_Store
+desktop.ini
+*.pem
+*.code-workspace
+
+#native
+*.pdb
+*.exp
+*.o
+*.so
+*.user
+*_d.dll
+*_d.exe
+sakana.exe
+_*.bat
+x64
+.build
+.vs
+voxengine.lib
+
+#data
+*.blend1
+*.blend2
+/work/blend/**/*.pm
+/work/blend/**/*.mdl
+/work/blend/**/*.mot
+
+# me
+/*.ws
+*.local

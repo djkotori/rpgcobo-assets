@@ -1,0 +1,21 @@
+{
+	"_meta":{
+		"version":1,
+		"comment":"Do not modify this file."
+	},
+	"N000":{
+		"name":"$T.money",
+		"icon":"\uf25f",
+		"stacknum":100000000
+	},
+	"N001":{
+		"name":"$T.EXP",
+		"icon":"",
+		"stacknum":100000000
+	},
+	"N002":{
+		"name":"$T.JXP",
+		"icon":"",
+		"stacknum":100000000
+	}
+}

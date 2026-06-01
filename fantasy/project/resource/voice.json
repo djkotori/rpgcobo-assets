@@ -1,0 +1,22 @@
+{
+	"VA000":{
+		"ja":{
+			"list":[
+				{
+					"key":"BTL_BEGIN_1",
+					"style":"RPGのバトルで味方に対して大声で宣言する",
+					"text":"ここは俺に任せろ！"
+				},
+				{
+					"key":"BTL_WIN_1",
+					"style":"決意を込めて",
+					"text":"こんなところで負けるわけには行かないんだ！"
+				},
+				{"key":"BTL_ATTACK","style":"RPGのバトルで攻撃時の鋭い声で","text":"くらえ！！"}
+			],
+			"model":"Rasalgethi"
+		},
+		"name":{"ja":"ヒーローボイス"}
+	},
+	"_meta":{"caps":100}
+}
