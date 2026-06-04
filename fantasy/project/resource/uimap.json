@@ -124,7 +124,7 @@
 		},
 		"#4#":{
 			"baseui":"/resource/ui/rpgroot.ui",
-			"ja":{"desc":"","name":"ルートUI","useidx":-1},
+			"ja":{"desc":"","name":"ゲームルートUI","useidx":-1},
 			"uilist":[]
 		},
 		"#5#":{
@@ -134,7 +134,7 @@
 		},
 		"#6#":{
 			"baseui":"/resource/ui/battleui.ui",
-			"ja":{"desc":"","name":"バトルUI","useidx":-1},
+			"ja":{"desc":"","name":"ターンバトルUI","useidx":-1},
 			"uilist":[]
 		},
 		"#8#":{

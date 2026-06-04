@@ -3,16 +3,17 @@
 		"AGI":1,
 		"LV":1,
 		"MATK":1,
-		"MAXHP":10,
+		"MAXHP":9999,
 		"MDEF":10,
-		"PATK":3,
+		"PATK":1,
 		"PDEF":10,
 		"ai":[
 			{
 				"actnum":[1,1],
 				"ailv":1,
 				"cmds":[
-					{"affecttgr":true,"rate":50,"rndwgt":20,"skillid":null,"target":"random","turnbits":4095}
+					{"affecttgr":true,"rate":50,"rndwgt":20,"skillid":null,"target":"random","turnbits":4095},
+					{"affecttgr":false,"rate":50,"rndwgt":20,"skillid":"S000","target":"random","turnbits":4095}
 				],
 				"rate":100,
 				"req0":"none",
@@ -21,14 +22,14 @@
 			}
 		],
 		"defskillid":"S003",
-		"desc":"",
+		"desc":"攻撃能力はほとんどないが、無限とも思われる耐久力を持つ。",
 		"exp":10,
 		"item0":{"issteal":false,"itemid":null,"rate":50.0},
 		"item1":{"issteal":false,"itemid":null,"rate":50.0},
 		"item2":{"issteal":false,"itemid":null,"rate":50.0},
 		"item3":{"issteal":false,"itemid":null,"rate":50.0},
 		"jxp":1,
-		"mdlid":"EP012",
+		"mdlid":"EP060",
 		"money":10,
 		"name":"影人間",
 		"option":[]
@@ -63,7 +64,7 @@
 		],
 		"defskillid":"S003",
 		"desc":"洞窟や廃村に群れで住む小型の亜人。知能は低く力も弱いが狡猾で、罠や待ち伏せを好む。",
-		"exp":70,
+		"exp":10,
 		"item0":{"issteal":false,"itemid":"I000","rate":50.0},
 		"item1":{"issteal":false,"itemid":null,"rate":50.0},
 		"item2":{"issteal":false,"itemid":null,"rate":50.0},
@@ -144,19 +145,20 @@
 		"option":[]
 	},
 	"E004":{
-		"AGI":10,
+		"AGI":15,
 		"LV":1,
-		"MATK":10,
-		"MAXHP":10,
-		"MDEF":10,
-		"PATK":10,
-		"PDEF":10,
+		"MATK":15,
+		"MAXHP":20,
+		"MDEF":15,
+		"PATK":15,
+		"PDEF":15,
 		"ai":[
 			{
 				"actnum":[1,1],
 				"ailv":1,
 				"cmds":[
-					{"affecttgr":true,"rate":50,"rndwgt":20,"skillid":null,"target":"random","turnbits":4095}
+					{"affecttgr":true,"rate":50,"rndwgt":20,"skillid":null,"target":"random","turnbits":4095},
+					{"affecttgr":true,"rate":50,"rndwgt":20,"skillid":"S027","target":"random","turnbits":4095}
 				],
 				"rate":100,
 				"req0":"none",
@@ -166,14 +168,14 @@
 		],
 		"defskillid":"S003",
 		"desc":"暗い洞窟や廃墟に生息する大型のコウモリ。音波で周囲を探り、獲物を混乱させる。性格は臆病だが空腹時は凶暴化。",
-		"exp":10,
+		"exp":20,
 		"item0":{"issteal":false,"itemid":null,"rate":50.0},
 		"item1":{"issteal":false,"itemid":null,"rate":50.0},
 		"item2":{"issteal":false,"itemid":null,"rate":50.0},
 		"item3":{"issteal":false,"itemid":null,"rate":50.0},
 		"jxp":1,
 		"mdlid":"EP009",
-		"money":10,
+		"money":15,
 		"name":"オオコウモリ",
 		"option":[]
 	},
@@ -484,13 +486,13 @@
 		"option":[]
 	},
 	"E014":{
-		"AGI":100,
+		"AGI":15,
 		"LV":1,
-		"MATK":100,
-		"MAXHP":100,
-		"MDEF":100,
-		"PATK":100,
-		"PDEF":100,
+		"MATK":15,
+		"MAXHP":20,
+		"MDEF":15,
+		"PATK":15,
+		"PDEF":15,
 		"ai":[
 			{
 				"actnum":[1,1],
@@ -620,13 +622,13 @@
 		"option":[]
 	},
 	"E018":{
-		"AGI":100,
+		"AGI":15,
 		"LV":1,
-		"MATK":100,
-		"MAXHP":100,
-		"MDEF":100,
-		"PATK":100,
-		"PDEF":100,
+		"MATK":15,
+		"MAXHP":25,
+		"MDEF":15,
+		"PATK":15,
+		"PDEF":15,
 		"ai":[
 			{
 				"actnum":[1,1],
@@ -640,7 +642,7 @@
 				"turn":[1,3]
 			}
 		],
-		"defskillid":"S003",
+		"defskillid":"S010",
 		"desc":"荒野や街道に潜む人間の無法者。金品を狙って旅人を襲うが、戦闘力は個体差が大きい。危なくなるとすぐ逃げる臆病さも持つ。",
 		"exp":10,
 		"item0":{"issteal":false,"itemid":null,"rate":50.0},

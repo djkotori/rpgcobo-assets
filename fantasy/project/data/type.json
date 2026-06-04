@@ -34,7 +34,8 @@
 	"eqflag":[
 		{"icon":"","name":"勇者装備"},
 		{"icon":"","name":"女性装備"},
-		{"icon":"","name":"エルフ装備"}
+		{"icon":"","name":"エルフ装備"},
+		{"icon":"","name":"重装備"}
 	],
 	"eqslot":[
 		{"eqtypebits":255,"icon":"","name":"武器"},
@@ -45,8 +46,8 @@
 	],
 	"eqtype":[
 		{"eqctg":0,"icon":"","name":"素手"},
+		{"eqctg":0,"icon":"","name":"短刀"},
 		{"eqctg":0,"icon":"","name":"剣"},
-		{"eqctg":0,"icon":"","name":"大剣"},
 		{"eqctg":0,"icon":"","name":"槍"},
 		{"eqctg":0,"icon":"","name":"斧"},
 		{"eqctg":0,"icon":"","name":"杖"},
@@ -68,7 +69,7 @@
 		{"icon":"","name":"王家の血筋"}
 	],
 	"jobslot":[
-		{"icon":"","lock":0,"name":"職業"},
+		{"icon":"","lock":1,"name":"職業"},
 		{"icon":"","lock":0,"name":"特性"}
 	],
 	"resistg":[

@@ -1074,7 +1074,7 @@
 		"eventuse":false,
 		"hpb":[0,0,0],
 		"hsv":[-35,-4,24],
-		"name":"",
+		"name":{"ja":"レベルアップ"},
 		"ovfx":{
 			"color":{"color":[522133248,-1431655936,0]},
 			"delay":0,
@@ -1118,6 +1118,20 @@
 		"scale":1.0,
 		"speed":1.0,
 		"waittime":500
+	},
+	"FX084":{
+		"billboard":false,
+		"efx":"/resource/efx/heal_life1.ptd",
+		"eventuse":false,
+		"hpb":[0,0,0],
+		"hsv":[170,39,-24],
+		"name":{"ja":"(ヒール)吸血"},
+		"ovfx":{},
+		"place":0,
+		"pos":[0,0,0],
+		"scale":1.3,
+		"speed":1.0,
+		"waittime":300
 	},
 	"FX098":{
 		"billboard":false,

@@ -157,7 +157,7 @@
 			"name":{"en":"PBR Deferred+++","ja":"昼"},
 			"postfx":{"bloomblur":3.2,"bloompow":0.08,"bloomthrs":0.9,"dofblur":0.8,"dofrange":30,"dofz":4.0},
 			"renderpass":2,
-			"ss":{"aobias":0.6,"aoexp":1.0,"aopow":0.7,"aoradius":4.3,"gipow":1.0,"gitype":0}
+			"ss":{"aobias":0.6,"aoexp":1.2,"aopow":0.75,"aoradius":5.0,"gipow":1.0,"gitype":0}
 		},
 		{
 			"envlights":[
@@ -176,7 +176,7 @@
 			"id":"pbr_df-4-1-2",
 			"lock":true,
 			"name":{"en":"PBR Deferred+++","ja":"夕方"},
-			"postfx":{"bloomblur":3.2,"bloompow":0.08,"bloomthrs":0.9,"dofblur":0.5,"dofrange":80,"dofz":4.0},
+			"postfx":{"bloomblur":3.2,"bloompow":0.08,"bloomthrs":0.9,"dofblur":1.0,"dofrange":30,"dofz":4.0},
 			"renderpass":2,
 			"ss":{"aobias":0.6,"aoexp":1.0,"aopow":0.8,"aoradius":4.8,"gipow":1.0,"gitype":0}
 		},
@@ -266,7 +266,7 @@
 			"id":"pbr_df-3-3",
 			"lock":true,
 			"name":{"en":"PBR Deferred++","ja":"森"},
-			"postfx":{"bloomblur":3.2,"bloompow":0.12,"bloomthrs":0.9,"dofblur":0.5,"dofrange":80,"dofz":4.0},
+			"postfx":{"bloomblur":3.2,"bloompow":0.12,"bloomthrs":0.9,"dofblur":1.0,"dofrange":30,"dofz":4.0},
 			"renderpass":2,
 			"ss":{"aobias":0.45,"aoexp":1.0,"aopow":0.8,"aoradius":4.8,"gipow":1.0,"gitype":0}
 		},
@@ -415,7 +415,7 @@
 			"name":{"en":"PBR Deferred+","ja":"AOテスト"},
 			"postfx":{"bloomblur":3.2,"bloompow":0.12,"bloomthrs":0.9,"dofblur":0.5,"dofrange":40,"dofz":4.0},
 			"renderpass":2,
-			"ss":{"aobias":0.3,"aoexp":0.5,"aopow":1.0,"aoradius":3.0,"gipow":1.0,"gitype":0}
+			"ss":{"aobias":0.3,"aoexp":0.5,"aopow":2.0,"aoradius":5.0,"gipow":1.0,"gitype":0}
 		},
 		{
 			"envlights":[

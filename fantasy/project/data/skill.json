@@ -311,6 +311,92 @@
 		"spdrate":1.0,
 		"useact":{"eefx":"FX099","id":"use_normal","scp":null}
 	},
+	"S020":{
+		"H1":null,
+		"addlist":false,
+		"aimani":{"id":"aimw","mdlid":"CV000","part":0,"spd":1.0},
+		"atkact":{
+			"atkani":{"id":"slash1","mdlid":"CV000","part":0,"spd":1.0},
+			"atkdelay":100,
+			"atkefx":null,
+			"atksnd":null,
+			"id":"atk_normal",
+			"scp":null
+		},
+		"atkform":"",
+		"atknum":[1,1],
+		"cmdtgt":1,
+		"consume":[0,0],
+		"desc":"",
+		"dmgform":0,
+		"dmgrate":[0.9,1.1],
+		"dmgtype":1,
+		"elembits":1,
+		"endact":{"id":"noop","scp":null},
+		"enemyuse":true,
+		"eqtypebits":255,
+		"flags":255,
+		"hitact":{
+			"hitani":{"id":"damage","mdlid":"CV000","part":0,"spd":1.0},
+			"hitdelay":100,
+			"hitefx":"FX027",
+			"hitsnd":"SE204",
+			"id":"hit_normal",
+			"scp":null
+		},
+		"hitrate":1.0,
+		"icon":"",
+		"name":"引っかき",
+		"occasion":1,
+		"option":[],
+		"skilltype":"attack",
+		"spdrate":1.0,
+		"useact":{"eefx":"FX099","id":"use_normal","scp":null}
+	},
+	"S027":{
+		"H1":null,
+		"addlist":false,
+		"aimani":{"id":"aimw","mdlid":"CV000","part":0,"spd":1.0},
+		"atkact":{
+			"atkani":{"id":"stick1","mdlid":"CV000","part":0,"spd":1.0},
+			"atkdelay":100,
+			"atkefx":null,
+			"atksnd":null,
+			"id":"atk_normal",
+			"scp":null
+		},
+		"atkform":"src.MATK+10",
+		"atknum":[1,1],
+		"cmdtgt":1,
+		"consume":[0,0],
+		"desc":"",
+		"dmgform":1,
+		"dmgrate":[0.9,1.1],
+		"dmgtype":1,
+		"elembits":1,
+		"endact":{"id":"noop","scp":null},
+		"enemyuse":true,
+		"eqtypebits":255,
+		"flags":255,
+		"hitact":{
+			"hitani":{"id":"damage","mdlid":"CV000","part":0,"spd":1.0},
+			"hitdelay":100,
+			"hitefx":"FX036",
+			"hitsnd":"SE207",
+			"id":"hit_normal",
+			"scp":null
+		},
+		"hitrate":1.0,
+		"icon":"",
+		"name":"吸血",
+		"occasion":1,
+		"option":[
+			{"dmgval":-100,"efx":"FX084","opttype":"opt_recoil","relative":true}
+		],
+		"skilltype":"attack",
+		"spdrate":1.0,
+		"useact":{"eefx":"FX099","id":"use_normal","scp":null}
+	},
 	"S035":{
 		"H1":null,
 		"addlist":true,
@@ -414,7 +500,7 @@
 		"consume":[0,4],
 		"desc":"味方の毒、盲目、沈黙、技不能を解除する。",
 		"dmgform":2,
-		"dmgtype":2,
+		"dmgtype":0,
 		"endact":{"id":"noop","scp":null},
 		"enemyuse":true,
 		"eqtypebits":2047,
@@ -727,7 +813,7 @@
 		"occasion":1,
 		"option":[
 			{"elembits":7,"formbits":255,"opttype":"opt_elemsp","totalrate":100},
-			{"dmgval":30,"efx":"FX009","opttype":"opt_recoil","relative":true}
+			{"dmgval":15,"efx":"FX009","opttype":"opt_recoil","relative":true}
 		],
 		"skillid":null,
 		"skilltype":"enhance",
@@ -952,6 +1038,50 @@
 			"useefx":"FX060",
 			"usesnd":"SE228"
 		}
+	},
+	"S107":{
+		"HACT":null,
+		"acttest":null,
+		"addlist":true,
+		"aimani":{"id":"aimb","mdlid":"CV000","part":0,"spd":1.0},
+		"atkact":{
+			"ammofx":"FX081",
+			"ammotime":200,
+			"atkani":{"id":"bow1","mdlid":"CV000","part":0,"spd":1.0},
+			"atkefx":null,
+			"atksnd":null,
+			"id":"atk_shoot",
+			"scp":null
+		},
+		"atkform":"",
+		"atknum":[2,4],
+		"cmdtgt":2,
+		"consume":[0,3],
+		"desc":"",
+		"dmgform":0,
+		"dmgrate":[0.9,1.1],
+		"dmgtype":1,
+		"elembits":2,
+		"endact":{"id":"noop","scp":null},
+		"enemyuse":true,
+		"eqtypebits":64,
+		"flags":255,
+		"hitact":{
+			"hitani":{"id":"damage"},
+			"hitdelay":100,
+			"hitefx":"FX036",
+			"hitsnd":"SE207",
+			"id":"hit_normal",
+			"scp":null
+		},
+		"hitrate":1.0,
+		"icon":"",
+		"name":"闇雲の矢",
+		"occasion":1,
+		"option":[],
+		"skilltype":"attack",
+		"spdrate":1.0,
+		"useact":{"eefx":"FX099","id":"use_normal","scp":null}
 	},
 	"S190":{
 		"HACT":null,
