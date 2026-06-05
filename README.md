@@ -1,6 +1,8 @@
 # RPG-Cobo Assets
 
-![Editor Image](rpgcobo-logo.png)
+![Logo Image](header.jpg)
+
+[⇒ Japanese](README.ja.md)
 
 This is a repository that manages **default materials/templates** for RPG-Cobo.  
 Voxels for maps, characters, UI, sounds, sample projects, etc.  
@@ -10,7 +12,6 @@ Contains the basic materials needed to start creating games with RPG-Cobo.
 When you install RPG-Cobo from the link below, the materials in this repository will be available by default.
 
 ```
-(Coming Soon)
 https://rpg-cobo.com/download
 ```
 

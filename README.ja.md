@@ -1,6 +1,6 @@
 # RPG-Cobo Assets
 
-![Editor Image](rpgcobo-logo.png)
+![Logo Image](header.jpg)
 
 RPG-Cobo の **デフォルト素材・テンプレート** を管理するリポジトリです。  
 マップ用ボクセル、キャラクター、UI、サウンド、サンプルプロジェクトなど、  
@@ -10,7 +10,6 @@ RPG-Cobo でゲーム制作を始めるために必要な基本素材が含ま�
 以下のリンクよりRPG-Cobo をインストールすると、このリポジトリにある素材がデフォルトで利用できるようになります。
 
 ```
-(後日公開予定)
 https://rpg-cobo.com/download
 ```
 
