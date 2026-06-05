@@ -8,6 +8,7 @@
 		"name":{"ja":"awa"},
 		"ovfx":{
 			"color":{"color":[-256,0]},
+			"delay":0,
 			"enabled":true,
 			"scale":1.0,
 			"tex":null,

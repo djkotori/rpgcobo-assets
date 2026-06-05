@@ -3,10 +3,15 @@
 		"desc":"",
 		"icon":"",
 		"items":[
-			{"dataid":"I000","price":null,"reqfail":0,"reqs":null},
 			{"dataid":"W001","price":null,"reqfail":0,"reqs":null},
-			{"dataid":"W003","price":null,"reqfail":0,"reqs":null},
-			{"dataid":"A000","price":null,"reqfail":0,"reqs":null}
+			{"dataid":"W010","price":null,"reqfail":0,"reqs":null},
+			{"dataid":"W030","price":null,"reqfail":0,"reqs":null},
+			{"dataid":"A000","price":null,"reqfail":0,"reqs":null},
+			{"dataid":"I010","price":null,"reqfail":0,"reqs":null},
+			{"dataid":"I018","price":null,"reqfail":0,"reqs":null},
+			{"dataid":"I019","price":null,"reqfail":0,"reqs":null},
+			{"dataid":"I016","price":null,"reqfail":0,"reqs":null},
+			{"dataid":"I004","price":null,"reqfail":0,"reqs":null}
 		],
 		"name":"町の道具屋",
 		"type":0

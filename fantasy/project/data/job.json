@@ -7,21 +7,10 @@
 		"jobflag":-1,
 		"jobslotbits":1,
 		"learn":[],
-		"lvoption":[
-			{"LV":2,"opttype":"opt_getskill","perma":true,"skillid":"S012"},
-			{"LV":10,"jobflag":0,"opttype":"opt_jobflag","perma":true}
-		],
+		"lvoption":[],
 		"name":"村人",
 		"option":[
-			{"CDR.0":10,"CDR.1":0,"CDR.2":0,"CDR.3":0,"opttype":"opt_conddef"},
-			{"opttype":"opt_getskill","skillid":"S073"},
-			{"opttype":"opt_getskill","skillid":"S100"},
-			{"opttype":"opt_getskill","skillid":"S040"},
-			{"opttype":"opt_getskill","skillid":"S043"},
-			{"opttype":"opt_getskill","skillid":"S047"},
-			{"opttype":"opt_getskill","skillid":"S102"},
-			{"opttype":"opt_getskill","skillid":"S104"},
-			{"opttype":"opt_getskill","skillid":"S106"}
+			{"CDR.0":10,"CDR.1":0,"CDR.2":0,"CDR.3":0,"opttype":"opt_conddef"}
 		]
 	},
 	"J001":{
@@ -31,10 +20,7 @@
 		"icon":"",
 		"jobflag":0,
 		"jobslotbits":1,
-		"lvoption":[
-			{"LV":1,"condid":"K020","opttype":"opt_autocond","req":"turn1"},
-			{"LV":2,"opttype":"opt_getskill","perma":false,"skillid":"S103"}
-		],
+		"lvoption":[],
 		"name":"勇者",
 		"option":[
 			{"opttype":"opt_status","propid":"PATK","val":10,"valtype":"baserate"},

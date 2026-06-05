@@ -656,13 +656,13 @@
 		"option":[]
 	},
 	"E019":{
-		"AGI":100,
+		"AGI":10,
 		"LV":1,
-		"MATK":100,
-		"MAXHP":100,
-		"MDEF":100,
-		"PATK":100,
-		"PDEF":100,
+		"MATK":20,
+		"MAXHP":40,
+		"MDEF":20,
+		"PATK":15,
+		"PDEF":20,
 		"ai":[
 			{
 				"actnum":[1,1],
@@ -676,7 +676,7 @@
 				"turn":[1,3]
 			}
 		],
-		"defskillid":"S003",
+		"defskillid":"S020",
 		"desc":"草原や湿地に生息する大型の蛇。静かに獲物を待ち伏せ、素早い噛みつきで毒を注入する。温度変化に敏感で、夜間は動きが鈍る。",
 		"exp":10,
 		"item0":{"issteal":false,"itemid":null,"rate":50.0},
@@ -687,7 +687,9 @@
 		"mdlid":"EP006",
 		"money":10,
 		"name":"スネーク",
-		"option":[]
+		"option":[
+			{"condid":"K001","efx_start":null,"opttype":"opt_putcond","rate":1.0,"showmiss":false,"when":0,"whom":0}
+		]
 	},
 	"E020":{
 		"AGI":100,
@@ -724,13 +726,13 @@
 		"option":[]
 	},
 	"E021":{
-		"AGI":100,
+		"AGI":20,
 		"LV":1,
-		"MATK":100,
-		"MAXHP":100,
-		"MDEF":100,
-		"PATK":100,
-		"PDEF":100,
+		"MATK":20,
+		"MAXHP":50,
+		"MDEF":20,
+		"PATK":20,
+		"PDEF":20,
 		"ai":[
 			{
 				"actnum":[1,1],
@@ -744,7 +746,7 @@
 				"turn":[1,3]
 			}
 		],
-		"defskillid":"S003",
+		"defskillid":"S010",
 		"desc":"鉱山や洞窟に住む小柄な獣人。器用で道具作りが得意なため、罠や簡易武器を多用する。群れで行動すると急に強気になる",
 		"exp":10,
 		"item0":{"issteal":false,"itemid":null,"rate":50.0},
@@ -928,13 +930,13 @@
 		"option":[]
 	},
 	"E027":{
-		"AGI":100,
+		"AGI":10,
 		"LV":1,
-		"MATK":100,
-		"MAXHP":100,
-		"MDEF":100,
-		"PATK":100,
-		"PDEF":100,
+		"MATK":10,
+		"MAXHP":80,
+		"MDEF":15,
+		"PATK":25,
+		"PDEF":25,
 		"ai":[
 			{
 				"actnum":[1,1],

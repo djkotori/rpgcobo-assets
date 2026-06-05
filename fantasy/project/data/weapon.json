@@ -716,7 +716,7 @@
 	},
 	"W060":{
 		"MATK":0,
-		"PATK":11,
+		"PATK":3,
 		"desc":"",
 		"eqflag":-1,
 		"eqtype":6,
@@ -730,7 +730,7 @@
 	},
 	"W061":{
 		"MATK":0,
-		"PATK":11,
+		"PATK":8,
 		"desc":"",
 		"eqflag":-1,
 		"eqtype":6,

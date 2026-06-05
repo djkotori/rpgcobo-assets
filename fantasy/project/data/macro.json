@@ -2,7 +2,7 @@
 	"X000":{"cmdblock":[],"desc":"","name":"何もしない","runatmenu":false,"runmode":0,"runreqs":[]},
 	"X002":{
 		"cmdblock":[
-			{"bgmid":"MU099","cmd":"cmd_bgm","fadetime":1500,"restore":false},
+			{"bgmid":"MU000","cmd":"cmd_bgm","fadetime":1500,"restore":false},
 			{
 				"action":"show",
 				"cmd":"cmd_customui",
@@ -13,9 +13,9 @@
 				"uipath":"/resource/ui/gameover.ui",
 				"wait":true
 			},
-			{"cmd":"cmd_wait","time":1500},
+			{"cmd":"cmd_wait","time":1200},
 			{"bgmid":"MU017","cmd":"cmd_bgm","fadetime":0,"restore":false},
-			{"cmd":"cmd_wait","time":1500},
+			{"cmd":"cmd_wait","time":1800},
 			{"cmd":"cmd_showui","key":"misc_waitclick"},
 			{"cmd":"cmd_gotitle"}
 		],
@@ -138,7 +138,8 @@
 				"key":"message_log",
 				"text":"*message_log*"
 			},
-			{"cmd":"cmd_compute","lvar":"W","op":"=","rvar":true}
+			{"cmd":"cmd_compute","lvar":"W","op":"=","rvar":true},
+			{"ch":0,"cmd":"cmd_snd","sndid":"SE017","vol":100,"who":0}
 		],
 		"desc":"",
 		"name":"宝箱を開ける",

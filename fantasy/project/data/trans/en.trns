@@ -1,5 +1,5 @@
 {
-	"_meta":{"created":"1780306194","method":"google","progress":0,"srclang":"ja","srcver":1},
+	"_meta":{"created":"1780628823","edited":"1780628823","method":"google","progress":0,"srclang":"ja","srcver":2},
 	"check":null,
 	"transdict":{
 		"armor":{
@@ -75,9 +75,11 @@
 			"K042":{"name":"Automatic recovery"},
 			"K043":{"name":"magic reflection"}
 		},
-		"dict":{},
 		"enemy":{
-			"E000":{"name":"Shadow Man"},
+			"E000":{
+				"desc":"It has almost no offensive capabilities, but possesses seemingly infinite durability.",
+				"name":"Shadow Man"
+			},
 			"E001":{
 				"desc":"Small demi-humans that live in groups in caves and abandoned villages. They have low intelligence and are weak, but are cunning and like to set traps and ambush their prey.",
 				"name":"Goblin"
@@ -215,7 +217,7 @@
 				"name":"Brain"
 			},
 			"E035":{
-				"desc":"An embodiment of death that appears in cemeteries and cursed lands. It has little physical form, and a single scythe strike can erode the very soul. It has no emotions and is simply a being that brings death.",
+				"desc":"An embodiment of death that appears in cemeteries and cursed lands. It has little physical form, and a single scythe strike can erode the very soul. It has no emotions, and is simply a being that brings death.",
 				"name":"Shinigami"
 			},
 			"E036":{
@@ -359,10 +361,10 @@
 			"X003":{"name":"Group Encounter"},
 			"X004":{
 				"cmdblock":{
-					"0":{
+					"#0#":{
 						"cmdblocks":{
-							"0":{
-								"0":{"text":"I couldn't escape!"}
+							"#0#":{
+								"#0#":{"text":"I couldn't escape!"}
 							}
 						}
 					}
@@ -373,19 +375,19 @@
 			"X012":{"name":"Talking to a villager"},
 			"X013":{
 				"cmdblock":{
-					"3":{"text":"Welcome! We have a great selection of items!"},
-					"6":{"text":"Come again!"}
+					"#3#":{"text":"Welcome! We have a great selection of items!"},
+					"#6#":{"text":"Come again!"}
 				},
 				"name":"shop clerk"
 			},
 			"X014":{
 				"cmdblock":{
-					"3":{"text":"Welcome to the inn! Would you like to stay for one[b]for $W$T.money?"},
-					"4":{
+					"#3#":{"text":"Welcome to the inn! Would you like to stay for one[b]for $W$T.money?"},
+					"#4#":{
 						"cmdblocks":{
-							"0":{
-								"1":{"text":"Well then, please have a good rest."},
-								"15":{"text":"Good morning. Please come again soon."}
+							"#0#":{
+								"#1#":{"text":"Well then, please have a good rest."},
+								"#15#":{"text":"Good morning. Please come again soon."}
 							}
 						}
 					}
@@ -394,19 +396,19 @@
 			},
 			"X015":{
 				"cmdblock":{
-					"1":{"text":"Okay, next person please.\nLet's see, let me take a look at how it's doing."},
-					"5":{
+					"#1#":{"text":"Okay, next person please.\nLet's see, let me take a look at how it's doing."},
+					"#5#":{
 						"cmdblocks":{
-							"0":{
-								"0":{"text":"There's nothing wrong with.\nTake care!"}
+							"#0#":{
+								"#0#":{"text":"There's nothing wrong with.\nTake care!"}
 							}
 						}
 					},
-					"6":{"text":"I'll take a total of$X$T.money."},
-					"7":{
+					"#6#":{"text":"I'll take a total of$X$T.money."},
+					"#7#":{
 						"cmdblocks":{
-							"1":{
-								"0":{"text":"Don't push yourself too hard."}
+							"#1#":{
+								"#0#":{"text":"Don't push yourself too hard."}
 							}
 						}
 					}
@@ -415,9 +417,9 @@
 			},
 			"X017":{
 				"cmdblock":{
-					"1":{"text0":"Rest in a tent","text1":"Back"},
-					"16":{"text":"I rested comfortably in the tent.)"},
-					"4":{"text":"INFO..."}
+					"#1#":{"text0":"Rest in a tent","text1":"Back"},
+					"#4#":{"text":"INFO..."},
+					"#16#":{"text":"I rested comfortably in the tent.)"}
 				},
 				"name":"Tent use"
 			}
@@ -425,17 +427,17 @@
 		"map":{
 			"M000":{
 				"event":{
-					"1000001":{
+					"#1000001#":{
 						"page":{
-							"0":{
+							"#0#":{
 								"cmdblock":{
-									"14":{
+									"#14#":{
 										"cmdblocks":{
-											"0":{
-												"1":{
+											"#0#":{
+												"#1#":{
 													"cmdblocks":{
-														"0":{
-															"0":{"desc":"PRINT WX"}
+														"#0#":{
+															"#0#":{"desc":"PRINT WX"}
 														}
 													}
 												}
@@ -451,40 +453,77 @@
 			},
 			"M001":{
 				"encount":{
-					"0":{"name":"Group 01"}
+					"#0#":{"name":"Group 01"}
 				},
 				"event":{
-					"1000002":{"msg":"Welcome to RPG-Cobo!\nI'll start the guide now! 💕"}
+					"#1000002#":{"msg":"Welcome to RPG-Cobo!\nI'm a villager 💕"},
+					"#1000007#":{
+						"page":{
+							"#0#":{
+								"cmdblock":{
+									"#2#":{"text":"We can even create horror-themed scenes~~~"}
+								}
+							}
+						}
+					},
+					"#1000009#":{
+						"page":{
+							"#0#":{
+								"cmdblock":{
+									"#1#":{"text":"The enemy ahead is strong. I'll lend you my strength!"},
+									"#2#":{
+										"cmdblocks":{
+											"#0#":{
+												"#0#":{"text":"[B][+4] Leave it to me!"}
+											},
+											"#1#":{
+												"#0#":{"text":"Stop doing reckless things!"}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
 				},
 				"name":"First Map"
 			},
 			"M002":{"name":"Grassland 1"},
-			"M003":{"name":"city 1"},
+			"M003":{
+				"event":{
+					"#1000001#":{"msg":"MESSAGE"},
+					"#1000002#":{"msg":"MESSAGE"},
+					"#1000003#":{"msg":"MESSAGE"},
+					"#1000004#":{"msg":"MESSAGE"},
+					"#1000005#":{"msg":"You've finally arrived, I've been waiting forever."},
+					"#1000006#":{"msg":"MESSAGE"}
+				},
+				"name":"city 1"
+			},
 			"M004":{"name":"Map M004"},
 			"M005":{"name":"Map M005"},
 			"M006":{
 				"event":{
-					"1000001":{"msg":"adsawdawd"},
-					"1000002":{"msg":"MESSAGE"},
-					"1000004":{"msg":"MESSAGE"}
+					"#1000002#":{"msg":"MESSAGE"},
+					"#1000004#":{"msg":"MESSAGE"}
 				},
 				"name":"Room"
 			},
 			"M007":{"name":"Rakugaki Map"},
 			"M008":{
 				"encount":{
-					"0":{"name":"Group 01"}
+					"#0#":{"name":"Group 01"}
 				},
 				"event":{
-					"1000002":{"msg":"MESSAGE"},
-					"1000003":{"msg":"MESSAGE"},
-					"1000004":{"msg":"MESSAGE"},
-					"1000005":{"msg":"MESSAGE"},
-					"1000007":{"msg":"MESSAGE"},
-					"1000009":{"msg":"MESSAGE"},
-					"1000010":{"msg":"MESSAGE"},
-					"1000011":{"msg":"MESSAGE"},
-					"1000014":{"msg":"MESSAGE"}
+					"#1000002#":{"msg":"MESSAGE"},
+					"#1000003#":{"msg":"MESSAGE"},
+					"#1000004#":{"msg":"MESSAGE"},
+					"#1000005#":{"msg":"MESSAGE"},
+					"#1000007#":{"msg":"MESSAGE"},
+					"#1000009#":{"msg":"MESSAGE"},
+					"#1000010#":{"msg":"MESSAGE"},
+					"#1000011#":{"msg":"MESSAGE"},
+					"#1000014#":{"msg":"MESSAGE"}
 				},
 				"name":"For Web"
 			},
@@ -493,6 +532,7 @@
 			"M802":{"name":"Mori Battle"},
 			"M803":{"name":"Temple Battle"},
 			"M804":{"name":"Cave Battle 1"},
+			"M805":{"name":"Indoor Battle"},
 			"M980":{"name":"Flat template"},
 			"M981":{"name":"Grassland template"},
 			"M982":{"name":"City template"},
@@ -560,12 +600,14 @@
 			"S000":{"name":"Do nothing"},
 			"S001":{"name":"defense"},
 			"S002":{"name":"Run away"},
-			"S003":{"desc":"Normal attack when nothing is equipped","name":"hitting"},
+			"S003":{"desc":"Normal attack when nothing is equipped","name":"batting"},
 			"S010":{"name":"Slashing attack"},
 			"S011":{"name":"Slashing attack (Greatsword, Axe)"},
 			"S012":{"name":"Thrust Attack"},
 			"S013":{"name":"Slam attack"},
 			"S014":{"name":"Shooting Attack"},
+			"S020":{"name":"scratch"},
+			"S027":{"name":"Vampire"},
 			"S035":{"desc":"Restores a small amount of HP to an ally.","name":"Heel A"},
 			"S036":{"desc":"Greatly restores the HP of allies.","name":"Heel B"},
 			"S038":{"desc":"Restores a small amount of HP to all allies.","name":"Heal All A"},
@@ -585,6 +627,7 @@
 			"S104":{"name":"Kabutowari"},
 			"S105":{"name":"Yamikumo Ken"},
 			"S106":{"name":"Demon God Strike"},
+			"S107":{"name":"Blind Arrow"},
 			"S190":{"name":"Automatic recovery"}
 		},
 		"store":{
@@ -594,99 +637,151 @@
 		},
 		"type":{
 			"dmgform":{
-				"0":{"name":"Physical Attack"},
-				"1":{"name":"Magic Attack"},
-				"2":{"name":"Healing Magic"},
-				"3":{"name":"Physical magic"},
-				"4":{"name":"Attack Item"},
-				"5":{"name":"Recovery Item"},
-				"6":{"name":"Debuff application"}
+				"#0#":{"name":"Physical Attack"},
+				"#1#":{"name":"Magic Attack"},
+				"#2#":{"name":"Healing Magic"},
+				"#3#":{"name":"Physical magic"},
+				"#4#":{"name":"Attack Item"},
+				"#5#":{"name":"Recovery Item"},
+				"#6#":{"name":"Debuff application"}
 			},
 			"elem":{
-				"0":{"name":"Zan"},
-				"1":{"name":"Tsu"},
-				"10":{"name":"Lightning"},
-				"11":{"name":"Curse"},
-				"2":{"name":"hit"},
-				"3":{"name":"Fire"},
-				"4":{"name":"water"},
-				"5":{"name":"Kaze"},
-				"6":{"name":"Tsuchi"},
-				"7":{"name":"light"},
-				"8":{"name":"Darkness"},
-				"9":{"name":"grass"}
+				"#0#":{"name":"Zan"},
+				"#1#":{"name":"Tsu"},
+				"#2#":{"name":"hit"},
+				"#3#":{"name":"Fire"},
+				"#4#":{"name":"water"},
+				"#5#":{"name":"Kaze"},
+				"#6#":{"name":"Tsuchi"},
+				"#7#":{"name":"light"},
+				"#8#":{"name":"Darkness"},
+				"#9#":{"name":"grass"},
+				"#10#":{"name":"Lightning"},
+				"#11#":{"name":"Curse"}
 			},
 			"eqflag":{
-				"0":{"name":"Hero's Equipment"},
-				"1":{"name":"Female Equipment"},
-				"2":{"name":"Elf Equipment"}
+				"#0#":{"name":"Hero's Equipment"},
+				"#1#":{"name":"Female Equipment"},
+				"#2#":{"name":"Elf Equipment"},
+				"#3#":{"name":"Heavy Equipment"}
 			},
 			"eqslot":{
-				"0":{"name":"weapon"},
-				"1":{"name":"shield"},
-				"2":{"name":"head"},
-				"3":{"name":"body"},
-				"4":{"name":"Decoration"}
+				"#0#":{"name":"weapon"},
+				"#1#":{"name":"shield"},
+				"#2#":{"name":"head"},
+				"#3#":{"name":"body"},
+				"#4#":{"name":"Decoration"}
 			},
 			"eqtype":{
-				"0":{"name":"Bare Hands"},
-				"1":{"name":"Sword"},
-				"10":{"name":"hat"},
-				"11":{"name":"Kabuto"},
-				"12":{"name":"Hair ornament"},
-				"13":{"name":"clothing"},
-				"14":{"name":"light armor"},
-				"15":{"name":"heavy armor"},
-				"16":{"name":"Decoration"},
-				"17":{"name":"Decoration"},
-				"2":{"name":"Greatsword"},
-				"3":{"name":"spear"},
-				"4":{"name":"Axe"},
-				"5":{"name":"Cane"},
-				"6":{"name":"Bow"},
-				"7":{"name":"mallet"},
-				"8":{"name":"light shield"},
-				"9":{"name":"heavy shield"}
+				"#0#":{"name":"Bare Hands"},
+				"#1#":{"name":"Dagger"},
+				"#2#":{"name":"Sword"},
+				"#3#":{"name":"spear"},
+				"#4#":{"name":"Axe"},
+				"#5#":{"name":"Cane"},
+				"#6#":{"name":"Bow"},
+				"#7#":{"name":"mallet"},
+				"#8#":{"name":"light shield"},
+				"#9#":{"name":"heavy shield"},
+				"#10#":{"name":"hat"},
+				"#11#":{"name":"Kabuto"},
+				"#12#":{"name":"Hair ornament"},
+				"#13#":{"name":"clothing"},
+				"#14#":{"name":"light armor"},
+				"#15#":{"name":"heavy armor"},
+				"#16#":{"name":"Decoration"},
+				"#17#":{"name":"Decoration"}
 			},
 			"jobflag":{
-				"0":{"name":"Hero's Qualification"},
-				"1":{"name":"Royal bloodline"}
+				"#0#":{"name":"Hero's Qualification"},
+				"#1#":{"name":"Royal bloodline"}
 			},
 			"jobslot":{
-				"0":{"name":"Occupation"},
-				"1":{"name":"characteristic"}
+				"#0#":{"name":"Occupation"},
+				"#1#":{"name":"characteristic"}
 			},
 			"resistg":{
-				"0":{"name":"Death resistance"},
-				"1":{"name":"Poison Resistance"},
-				"2":{"name":"Sleep Tolerance"},
-				"3":{"name":"Paralysis Resistance"},
-				"4":{"name":"mental resistance"},
-				"5":{"name":"Curse Resistance"},
-				"6":{"name":"Collapse Tolerance"},
-				"7":{"name":"Concentration resistance"}
+				"#0#":{"name":"Death resistance"},
+				"#1#":{"name":"Poison Resistance"},
+				"#2#":{"name":"Sleep Tolerance"},
+				"#3#":{"name":"Paralysis Resistance"},
+				"#4#":{"name":"mental resistance"},
+				"#5#":{"name":"Curse Resistance"},
+				"#6#":{"name":"Collapse Tolerance"},
+				"#7#":{"name":"Concentration resistance"}
 			},
 			"tribe":{
-				"0":{"name":"Human"},
-				"1":{"name":"Male"},
-				"10":{"name":"Ryu"},
-				"11":{"name":"Aquatic"},
-				"2":{"name":"female"},
-				"3":{"name":"Flight"},
-				"4":{"name":"machine"},
-				"5":{"name":"immortality"},
-				"6":{"name":"insect"},
-				"7":{"name":"Demon"},
-				"8":{"name":"Beast"},
-				"9":{"name":"Fairy"}
+				"#0#":{"name":"Human"},
+				"#1#":{"name":"Male"},
+				"#2#":{"name":"female"},
+				"#3#":{"name":"Flight"},
+				"#4#":{"name":"machine"},
+				"#5#":{"name":"immortality"},
+				"#6#":{"name":"insect"},
+				"#7#":{"name":"Demon"},
+				"#8#":{"name":"Beast"},
+				"#9#":{"name":"Fairy"},
+				"#10#":{"name":"Ryu"},
+				"#11#":{"name":"Aquatic"}
 			}
 		},
 		"weapon":{
 			"W000":{"desc":"A fruit knife. It can also be used for self-defense.","name":"Knife"},
-			"W001":{"desc":"An easy-to-handle sword sold to the general public for self-defense.","name":"Short Sword"},
-			"W002":{"name":"Soldier's Spear"},
-			"W003":{"name":"Woodcutter's Axe"},
-			"W004":{"name":"Wooden Bow"}
+			"W001":{"desc":"A fruit knife. It can also be used for self-defense.","name":"Dagger"},
+			"W002":{"desc":"A fruit knife. It can also be used for self-defense.","name":"Hunter Knife"},
+			"W003":{"desc":"A fruit knife. It can also be used for self-defense.","name":"Damascus"},
+			"W004":{"desc":"A fruit knife. It can also be used for self-defense.","name":"Poison Dagger"},
+			"W005":{"desc":"A fruit knife. It can also be used for self-defense.","name":"Assassin Dagger"},
+			"W006":{"desc":"A fruit knife. It can also be used for self-defense.","name":"Orichalcum"},
+			"W010":{"desc":"An easy-to-handle sword sold to the general public for self-defense.","name":"Short Sword"},
+			"W011":{"desc":"An easy-to-handle sword sold to the general public for self-defense.","name":"Longsword"},
+			"W012":{"desc":"An easy-to-handle sword sold to the general public for self-defense.","name":"Saber"},
+			"W013":{"desc":"An easy-to-handle sword sold to the general public for self-defense.","name":"Broadsword"},
+			"W014":{"desc":"An easy-to-handle sword sold to the general public for self-defense.","name":"Cross Sword"},
+			"W015":{"desc":"An easy-to-handle sword sold to the general public for self-defense.","name":"Dark Sword"},
+			"W016":{"desc":"An easy-to-handle sword sold to the general public for self-defense.","name":"Falchion"},
+			"W017":{"desc":"An easy-to-handle sword sold to the general public for self-defense.","name":"Thunder Sword"},
+			"W018":{"desc":"An easy-to-handle sword sold to the general public for self-defense.","name":"Claymore"},
+			"W019":{"desc":"An easy-to-handle sword sold to the general public for self-defense.","name":"Rune Sword"},
+			"W020":{"desc":"An easy-to-handle sword sold to the general public for self-defense.","name":"Bastard Sword"},
+			"W021":{"desc":"An easy-to-handle sword sold to the general public for self-defense.","name":"Dragon Slayer"},
+			"W022":{"desc":"An easy-to-handle sword sold to the general public for self-defense.","name":"Master Sword"},
+			"W023":{"desc":"An easy-to-handle sword sold to the general public for self-defense.","name":"Soul Eater"},
+			"W024":{"desc":"An easy-to-handle sword sold to the general public for self-defense.","name":"Zanbato"},
+			"W025":{"desc":"An easy-to-handle sword sold to the general public for self-defense.","name":"Force Blade"},
+			"W030":{"name":"bamboo spear"},
+			"W031":{"name":"Soldier's Spear"},
+			"W032":{"name":"Long Spear"},
+			"W033":{"name":"Halberd"},
+			"W034":{"name":"Silver Lance"},
+			"W035":{"name":"Wraith Brave"},
+			"W036":{"name":"Trident"},
+			"W037":{"name":"Longinus"},
+			"W040":{"name":"Woodcutter's Axe"},
+			"W041":{"name":"Broadaxe"},
+			"W042":{"name":"Tomahawk"},
+			"W043":{"name":"Viking Axe"},
+			"W044":{"name":"Battle Axe"},
+			"W045":{"name":"Dwarf Axe"},
+			"W046":{"name":"Deathbringer"},
+			"W047":{"name":"Giant's Axe"},
+			"W050":{"desc":"An easy-to-handle sword sold to the general public for self-defense.","name":"Oak Staff"},
+			"W051":{"desc":"An easy-to-handle sword sold to the general public for self-defense.","name":"Mace"},
+			"W052":{"desc":"An easy-to-handle sword sold to the general public for self-defense.","name":"Flame Staff"},
+			"W053":{"desc":"An easy-to-handle sword sold to the general public for self-defense.","name":"Ice Staff"},
+			"W054":{"desc":"An easy-to-handle sword sold to the general public for self-defense.","name":"Thunder Staff"},
+			"W055":{"desc":"An easy-to-handle sword sold to the general public for self-defense.","name":"Sleeping Wand"},
+			"W056":{"desc":"An easy-to-handle sword sold to the general public for self-defense.","name":"Sorcerer's Staff"},
+			"W057":{"desc":"An easy-to-handle sword sold to the general public for self-defense.","name":"Rune Staff"},
+			"W058":{"desc":"An easy-to-handle sword sold to the general public for self-defense.","name":"World Tree Staff"},
+			"W060":{"name":"Wooden Bow"},
+			"W061":{"name":"Iron Bow"},
+			"W062":{"name":"Silver Bow"},
+			"W063":{"name":"Shadow-Stitching Bow"},
+			"W064":{"name":"Elf Bow"},
+			"W065":{"name":"Windbow"},
+			"W066":{"name":"Magic bow"},
+			"W067":{"name":"Angel's Bow"}
 		}
 	}
 }

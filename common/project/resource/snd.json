@@ -188,7 +188,7 @@
 	},
 	"SE017":{
 		"detune":0.0,
-		"gain":0.9,
+		"gain":0.6,
 		"info":{"ch":2,"format":"adpcm","freq":44100,"length":43072},
 		"memcache":2,
 		"muteg":4,

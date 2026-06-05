@@ -202,6 +202,21 @@
 				"mapid":"M800",
 				"name":"グループ01",
 				"rate":81
+			},
+			{
+				"area":"GgAIAAj/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAA==",
+				"bgmid":"MU019",
+				"enemies":[
+					{"id":"E027","x":-1.527273,"z":-0.254546},
+					{"id":"E001","x":0.8,"z":-0.218182},
+					{"id":"E019","x":-0.436364,"z":-1.672727},
+					{"id":"E021","x":-0.436364,"z":1.418182}
+				],
+				"escape":true,
+				"filterbits":127,
+				"gid":2,
+				"mapid":"M804",
+				"rate":50
 			}
 		],
 		"event":{
@@ -247,6 +262,148 @@
 				"role":"pdoor",
 				"spawndist":1,
 				"wipe":2
+			},
+			"#1000004#":{
+				"col":0,
+				"flags":1,
+				"itemid":"N000",
+				"mdlid":"CV036",
+				"name":"*itemchest-4",
+				"num":1000,
+				"pos":[35,5,59,2],
+				"role":"itemchest",
+				"spawndist":1
+			},
+			"#1000005#":{
+				"col":0,
+				"flags":1,
+				"itemid":"I010",
+				"mdlid":"CV036",
+				"name":"*itemchest-5",
+				"num":5,
+				"pos":[29,5,73,2],
+				"role":"itemchest",
+				"spawndist":1
+			},
+			"#1000006#":{
+				"col":0,
+				"flags":1,
+				"itemid":"I000",
+				"mdlid":"FX109",
+				"name":"*itemchest-6",
+				"num":3,
+				"pos":[105,5,71,2],
+				"role":"itemchest",
+				"spawndist":1
+			},
+			"#1000007#":{
+				"col":0,
+				"flags":1,
+				"mdlid":"CV034",
+				"name":"*custom-7",
+				"page":[
+					{
+						"cmdblock":[
+							{
+								"blink":10,
+								"cmd":"cmd_screenfxon",
+								"color":95,
+								"dirty":10,
+								"ghost":10,
+								"grain":10,
+								"num":1,
+								"scan":25,
+								"sfxid":"raster3",
+								"strip":10,
+								"time":400,
+								"ybug":10
+							},
+							{"cmd":"cmd_wait","time":2000},
+							{
+								"cmd":"cmd_showmsg",
+								"key":"message_talk",
+								"name":"",
+								"text":"ホラーな演出だって出来ちゃうよ～～～",
+								"uiclose":2
+							},
+							{"cmd":"cmd_screenfxoff","sfxbits":7,"time":400}
+						],
+						"memo":"",
+						"moveaction":"stop",
+						"movespd":4,
+						"pararun":false,
+						"reqs":null,
+						"standani":{"id":"stand"},
+						"trigger":2
+					}
+				],
+				"pos":[117,12,85,2],
+				"role":"custom",
+				"spawndist":1
+			},
+			"#1000008#":{
+				"col":0,
+				"flags":1,
+				"gid":2,
+				"mdlid":"CV033",
+				"moveaction":"stop",
+				"movespd":2,
+				"movespd1":3,
+				"name":"*enemy-8",
+				"pos":[147,9,105,2],
+				"reqs0":null,
+				"role":"enemy",
+				"searchrad":5,
+				"spawndist":1,
+				"standani":null
+			},
+			"#1000009#":{
+				"col":0,
+				"flags":1,
+				"mdlid":"CV009",
+				"name":"*custom-9",
+				"page":[
+					{
+						"cmdblock":[
+							{"cmd":"cmd_facetoface","who":4},
+							{
+								"cmd":"cmd_showmsg",
+								"key":"message_talk",
+								"name":"",
+								"text":"この先の敵は強い。わしが力になろう！",
+								"uiclose":1
+							},
+							{
+								"backenable":false,
+								"cmd":"cmd_choices",
+								"cmdblocks":[
+									[
+										{"cmd":"cmd_showmsg","key":"message_talk","name":"","text":"[B][+4]任せてもらおう！","uiclose":2},
+										{"cmd":"cmd_memberop","op":0,"playerid":"P008","slot":-1},
+										{"cmd":"cmd_compute","lvar":"A","op":"=","rvar":true}
+									],
+									[
+										{"cmd":"cmd_showmsg","key":"message_talk","name":"","text":"無茶はやめるのだ！","uiclose":2}
+									]
+								],
+								"text0":"$T.yes",
+								"text1":"$T.no"
+							}
+						],
+						"memo":"",
+						"moveaction":"stop",
+						"movespd":4,
+						"pararun":false,
+						"reqs":[
+							{"lvar":"A","op":"==","rvar":false}
+						],
+						"standani":{"id":"stand","mdlid":"CV000","part":0,"spd":1.0},
+						"trigger":2
+					}
+				],
+				"pos":[145,5,77,2],
+				"role":"custom",
+				"spawndist":1
 			}
 		},
 		"exitmap":{"dest":null},
@@ -458,7 +615,7 @@
 	"M006":{
 		"bg":{"col":255,"type":"col"},
 		"bgmid":null,
-		"camwork":{"fovy":25,"hpb":[0,34,0],"viewport":11.0,"yoffs":1.0},
+		"camwork":{"fovy":30,"hpb":[0,30,0],"viewport":13.0,"yoffs":1.0},
 		"encntrate":0.0,
 		"encount":null,
 		"event":{
@@ -528,15 +685,16 @@
 			"#1000006#":{
 				"col":0,
 				"flags":1,
-				"mdlid":"CV022",
+				"mdlid":"CV008",
 				"moveaction":"stop",
-				"name":"*hotel-6",
-				"pos":[109,3,17,2],
-				"price":10,
+				"name":"*clerk-6",
+				"pos":[109,3,18,2],
 				"reqs0":null,
-				"role":"hotel",
+				"role":"clerk",
+				"sell":true,
 				"spawndist":1,
-				"standani":null
+				"standani":null,
+				"storeid":"R000"
 			}
 		},
 		"exitmap":{"dest":null},
@@ -1591,7 +1749,7 @@
 	"_meta":{
 		"camworks":[
 			{"fovy":30,"hpb":[0,38,0],"name":"Field Map","viewport":15.0,"yoffs":0.5},
-			{"fovy":30,"hpb":[0,30,0],"name":"Indoor Map","viewport":11.0,"yoffs":1.0}
+			{"fovy":30,"hpb":[0,30,0],"name":"Indoor Map","viewport":13.0,"yoffs":1.0}
 		],
 		"caps":1000,
 		"groups":[
