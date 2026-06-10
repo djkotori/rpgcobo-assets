@@ -99,6 +99,43 @@
 		"spdrate":1.0,
 		"useact":{"eefx":"FX099","id":"use_normal","scp":null}
 	},
+	"S004":{
+		"HACT":null,
+		"acttest":null,
+		"addlist":true,
+		"aimani":{"id":"aimp","mdlid":"CV000","part":0,"spd":1.0},
+		"atkact":{"id":"noop","scp":null},
+		"atkform":"",
+		"atknum":[1,1],
+		"cmdtgt":1,
+		"consume":[0,0],
+		"desc":"",
+		"dmgform":0,
+		"dmgrate":[0.9,1.1],
+		"dmgtype":0,
+		"elembits":1,
+		"endact":{"id":"noop","scp":null},
+		"enemyuse":false,
+		"eqtypebits":255,
+		"flags":14,
+		"hitact":{"id":"noop","scp":null},
+		"hitrate":1.0,
+		"icon":"",
+		"name":"ぬすむ",
+		"occasion":1,
+		"option":[
+			{"opttype":"opt_steal","successrate":1.0}
+		],
+		"skilltype":"attack",
+		"spdrate":1.0,
+		"useact":{
+			"id":"use_charge",
+			"scp":"anime( useani);\nsnd( usesnd);\nefx( useefx);\nwait( EFX);\nsleep( 500);",
+			"useani":{"id":"blast1","mdlid":"CV000","part":0,"spd":1.0},
+			"useefx":null,
+			"usesnd":null
+		}
+	},
 	"S010":{
 		"H1":null,
 		"addlist":false,

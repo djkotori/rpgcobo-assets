@@ -29,6 +29,7 @@
 		"cntpos":[0.5,0.0,0.5],
 		"eventuse":false,
 		"group":0,
+		"mapcol":false,
 		"name":{"ja":"横長の家"}
 	},
 	"MA005":{
@@ -59,12 +60,18 @@
 	},
 	"MA010":{
 		"bw64":"KLUv/WADACUDALQDrgwACQAEAAYAAAACAAMDAwMAAQMDAAABAAKDAgMAwgHDAAODAKpAqgAAAwODAAAIQgBCAAAAAAMDAwMSINACw8YB4GAx4MnFB+sCN2JxPzVzVviCc6YHIYzjXnTvWi9R24c=",
+		"cntpos":[0.5,0.0,0.5],
+		"eventuse":false,
 		"group":1,
+		"mapcol":false,
 		"name":{"ja":"石橋"}
 	},
 	"MA011":{
-		"bw64":"KLUv/SChNQIABAOuDAAEAAIABQAAAAEAERsRGwAAABsAowAIAKMAAAAIAAAEIwbCowQDwwAAAAMDAwMIIPACe1/FyHhhP/chsk2i7G0ZAg==",
+		"bw64":"KLUv/SCZ3QEANAKuDAAEAAIABQAAAAEAGwAbERsRAKMEIwCjBAPDAAAAAwMDAwkAL1UAgaxI3GEsXIiVHilrgIcEMAQ=",
+		"cntpos":[0.5,0.0,0.5],
+		"eventuse":false,
 		"group":1,
+		"mapcol":false,
 		"name":{"ja":"木橋"}
 	},
 	"MA012":{
@@ -79,6 +86,7 @@
 		"cntpos":[0.5,0.0,0.5],
 		"eventuse":true,
 		"group":1,
+		"mapcol":true,
 		"name":{"ja":"出窓2"}
 	},
 	"MA015":{

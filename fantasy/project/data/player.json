@@ -28,7 +28,7 @@
 			{"LV":1,"opttype":"opt_getskill","skillid":"S035"},
 			{"LV":1,"opttype":"opt_getskill","skillid":"S105"},
 			{"LV":1,"opttype":"opt_getskill","skillid":"S106"},
-			{"LV":2,"opttype":"opt_getskill","skillid":"S038"}
+			{"LV":1,"battlecmd":"S004","opttype":"opt_battlecmd","replace":"attack","slot":4}
 		],
 		"mdlid":"CV000",
 		"name":"シレン",
