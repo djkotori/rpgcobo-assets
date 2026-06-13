@@ -28,12 +28,26 @@
 			{"LV":1,"opttype":"opt_getskill","skillid":"S035"},
 			{"LV":1,"opttype":"opt_getskill","skillid":"S105"},
 			{"LV":1,"opttype":"opt_getskill","skillid":"S106"},
-			{"LV":1,"battlecmd":"S004","opttype":"opt_battlecmd","replace":"attack","slot":4}
+			{"LV":1,"battlecmd":"S004","opttype":"opt_battlecmd","replace":"attack","slot":4},
+			{
+				"LV":1,
+				"attack1":"BTL_ATTACK*",
+				"attack2":"BTL_SPATTACK*",
+				"buff":"BTL_BUFF*",
+				"damage":"BTL_DAMAGE*",
+				"die":"BTL_DIE*",
+				"miss":"",
+				"opttype":"opt_voice",
+				"pinch":"",
+				"prebattle":"BTL_BEGIN*",
+				"victory1":"BTL_WIN*",
+				"victory2":""
+			}
 		],
 		"mdlid":"CV000",
 		"name":"シレン",
 		"picid":"",
-		"voiceid":null
+		"voiceid":"VA000"
 	},
 	"P001":{
 		"INILV":1,
@@ -186,12 +200,26 @@
 			{"LV":1,"opttype":"opt_getskill","skillid":"S035"},
 			{"LV":1,"opttype":"opt_getskill","skillid":"S073"},
 			{"LV":1,"opttype":"opt_getskill","skillid":"S076"},
-			{"LV":2,"opttype":"opt_getskill","skillid":"S074"}
+			{"LV":2,"opttype":"opt_getskill","skillid":"S074"},
+			{
+				"LV":1,
+				"attack1":"BTL_ATTACK*",
+				"attack2":"BTL_SPATTACK*",
+				"buff":"BTL_BUFF*",
+				"damage":"BTL_DAMAGE*",
+				"die":"BTL_DIE*",
+				"miss":"",
+				"opttype":"opt_voice",
+				"pinch":"",
+				"prebattle":"BTL_BEGIN*",
+				"victory1":"BTL_WIN*",
+				"victory2":""
+			}
 		],
 		"mdlid":"CV013",
 		"name":"リーファ",
 		"picid":"",
-		"voiceid":null
+		"voiceid":"VA001"
 	},
 	"P006":{
 		"INILV":1,
