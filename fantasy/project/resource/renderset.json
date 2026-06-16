@@ -214,7 +214,7 @@
 					"head":-30,
 					"pitch":50,
 					"power":7,
-					"shadow":{"shadowdens":0.3,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.5,"shadowtype":3},
+					"shadow":{"shadowdens":0.3,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.5,"shadowtype":0},
 					"type":1
 				}
 			],
@@ -340,7 +340,7 @@
 					"head":30,
 					"pitch":50,
 					"power":6,
-					"shadow":{"shadowdens":0.3,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.5,"shadowtype":3},
+					"shadow":{"shadowdens":0.3,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.5,"shadowtype":0},
 					"type":1
 				}
 			],
@@ -361,7 +361,7 @@
 					"head":-30,
 					"pitch":50,
 					"power":7,
-					"shadow":{"shadowdens":0.3,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.5,"shadowtype":3},
+					"shadow":{"shadowdens":0.3,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.5,"shadowtype":0},
 					"type":1
 				}
 			],
@@ -382,7 +382,7 @@
 					"head":30,
 					"pitch":50,
 					"power":3,
-					"shadow":{"shadowdens":0.4,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.5,"shadowtype":3},
+					"shadow":{"shadowdens":0.4,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.5,"shadowtype":0},
 					"type":1
 				}
 			],
