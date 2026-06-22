@@ -219,6 +219,17 @@
 		"tags":1,
 		"wav":"/resource/snd/ui_savepoint.ogg"
 	},
+	"SE020":{
+		"detune":0.0,
+		"gain":0.55,
+		"info":{"ch":2,"format":"adpcm","freq":44100,"length":50156},
+		"memcache":2,
+		"muteg":0,
+		"name":{"ja":"UI-バトルターン"},
+		"src3d":"3D_OFF",
+		"tags":1,
+		"wav":"/resource/snd/ui_turn.wav"
+	},
 	"SE100":{
 		"detune":0.3,
 		"gain":1.0,
