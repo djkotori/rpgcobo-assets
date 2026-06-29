@@ -123,24 +123,29 @@
 			"uilist":[]
 		},
 		"#4#":{
-			"baseui":"/resource/ui/rpgroot.ui",
-			"ja":{"desc":"","name":"ゲームルートUI","useidx":-1},
-			"uilist":[]
-		},
-		"#5#":{
-			"baseui":"/resource/ui/stage.ui",
-			"ja":{"desc":"","name":"ステージUI","useidx":-1},
-			"uilist":[]
-		},
-		"#6#":{
 			"baseui":"/resource/ui/battleui.ui",
 			"ja":{"desc":"","name":"ターンバトルUI","useidx":-1},
 			"uilist":[]
 		},
-		"#8#":{
+		"#6#":{
+			"baseui":"/resource/ui/stage.ui",
+			"ja":{"desc":"","name":"ステージUI","useidx":-1},
+			"uilist":[]
+		},
+		"#7#":{
 			"baseui":"/resource/ui/virtualpad.ui",
 			"en":{"desc":"","name":"","useidx":-1},
 			"ja":{"desc":"","name":"バーチャルパッド","useidx":-1},
+			"uilist":[]
+		},
+		"#8#":{
+			"baseui":"/resource/ui/rpgroot.ui",
+			"ja":{"desc":"","name":"ゲームルートUI","useidx":-1},
+			"uilist":[]
+		},
+		"#9#":{
+			"baseui":"/resource/ui/rpgroot_deck.ui",
+			"ja":{"desc":"","name":"ゲームルートUI(SteamDeckl)","useidx":-1},
 			"uilist":[]
 		}
 	}

@@ -235,6 +235,7 @@ def replaceCharaVox( colname):
 	# 2: バインド
 	for obj in cols.all_objects:
 		pname, pidx = _parseparts( obj.name)
+		if pname not in arma.pose.bones: continue
 		bone = arma.pose.bones[pname]
 		print( "object %s(%s,%i) bone %s" % ( obj, pname, pidx, bone))
 		# reset origin
@@ -254,6 +255,8 @@ def replaceCharaVox( colname):
 	# 3: 仮アニメパターン。1~2
 	nnn = 0
 	for obj in cols.all_objects:
+		print( 'cols.all_objectscols.all_objectscols.all_objects "%s"' % ( obj))
+		if not obj or not obj.name : continue
 		pname, pidx = _parseparts( obj.name)
 		if pidx == 0 and nnn == 0:
 			for lidx in range( 1, 3):
