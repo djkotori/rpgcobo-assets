@@ -1,0 +1,655 @@
+{
+  "name": "Sakana",
+  "scopeName": "source.sk",
+  "patterns": [
+    { "include": "#all" }
+  ],
+  "repository": {
+    "all": {
+      "patterns": [
+        { "include": "#comments" },
+        { "include": "#class" },
+        { "include": "#enum" },
+        { "include": "#block" },
+        { "include": "#block-contents" }
+      ]
+    },
+
+    "global": {
+      "patterns": [
+        { "include": "#comments" }
+      ]
+    },
+
+    "block": {
+      "begin": "\\{",
+      "beginCaptures": { "0": { "name": "punctuation.definition.block.begin.sakana" } },
+      "end": "\\}",
+      "endCaptures": { "0": { "name": "punctuation.definition.block.end.sakana" } },
+      "patterns": [
+        { "include": "#block" },
+        { "include": "#block-contents" }
+      ]
+    },
+
+    "block-contents": {
+      "patterns": [
+        { "include": "#global" },
+        { "include": "#array" },
+        { "include": "#constants" },
+        { "include": "#strings" },
+        { "include": "#method" },
+        { "include": "#variable" },
+        { "include": "#modifiers" },
+        { "include": "#for-loop" },
+        { "include": "#keywords" },
+        { "include": "#method-call" },
+        { "include": "#lambda-expression" },
+        { "include": "#punctuation-braces" },
+        { "include": "#operators" },
+        { "include": "#operator-assignment" },
+        { "include": "#punctuation-terminator" },
+        { "include": "#punctuation-comma" },
+        { "include": "#punctuation-accessor" },
+        { "include": "#identifiers" }
+      ]
+    },
+
+    "identifiers": {
+      "patterns": [
+        { "include": "#constant-name" },
+        { "include": "#global-name" }
+      ]
+    },
+
+    "class": {
+      "begin": "(?=class)",
+      "end": "(?<=\\})|(;)",
+      "endCaptures": { "1": { "name": "punctuation.terminator.sakana" } },
+      "name": "meta.class.sakana",
+      "patterns": [
+        { "include": "#class-name" },
+        { "include": "#class-name-post" },
+        { "include": "#class-block" }
+      ]
+    },
+
+    "class-name": {
+      "begin": "\\b(class)\\b",
+      "beginCaptures": { "1": { "name": "storage.type.class.sakana" } },
+      "end": "([_A-Za-z][\\w\\.]*)",
+      "endCaptures": { "1": { "name": "entity.name.type.class.sakana" } },
+      "name": "meta.class.identifier.sakana",
+      "patterns": [
+        { "include": "#global" }
+      ]
+    },
+
+    "class-name-post": {
+      "begin": "(?<=\\w)",
+      "end": "(\\{)",
+      "endCaptures": { "1": { "name": "punctuation.definition.block.begin.sakana" } },
+      "patterns": [
+        { "include": "#modifiers-inheritance" },
+        {
+          "match": "\\b([_A-Za-z][\\w\\.]*)\\b",
+          "name": "entity.name.type.class.sakana"
+        }
+      ]
+    },
+
+    "class-block": {
+      "begin": "(?<=\\{)",
+      "end": "(\\})",
+      "endCaptures": { "1": { "name": "punctuation.definition.block.end.sakana" } },
+      "name": "meta.block.sakana",
+      "patterns": [
+        { "include": "#method" },
+        { "include": "#modifiers" },
+        { "include": "#variable" },
+        { "include": "#block" },
+        { "include": "#block-contents" }
+      ]
+    },
+
+    "enum": {
+      "begin": "(?=enum)",
+      "end": "(?<=\\})|(;)",
+      "endCaptures": { "1": { "name": "punctuation.terminator.sakana" } },
+      "name": "meta.enum.sakana",
+      "patterns": [
+        { "include": "#enum-name" },
+        { "include": "#enum-name-post" },
+        { "include": "#enum-block" }
+      ]
+    },
+
+    "enum-name": {
+      "begin": "\\b(enum)\\b",
+      "beginCaptures": { "1": { "name": "storage.type.class.sakana" } },
+      "end": "([_A-Za-z][\\w]*)",
+      "endCaptures": { "1": { "name": "entity.name.type.class.sakana" } },
+      "patterns": [
+        { "include": "#global" }
+      ]
+    },
+
+    "enum-block": {
+      "begin": "(?<=\\{)",
+      "end": "(\\})",
+      "endCaptures": { "1": { "name": "punctuation.definition.block.end.sakana" } },
+      "name": "meta.block.sakana",
+      "patterns": [
+        { "include": "#global" },
+        { "include": "#parameters" },
+        { "include": "#identifiers" }
+      ]
+    },
+
+    "lambda-expression": {
+      "patterns": [
+        {
+          "match": "@()",
+          "name": "storage.type.function.lambda.sakana"
+        }
+      ]
+    },
+
+    "array": {
+      "begin": "\\[",
+      "beginCaptures": { "0": { "name": "punctuation.definition.array.begin.sakana" } },
+      "end": "\\]",
+      "endCaptures": { "0": { "name": "punctuation.definition.array.end.sakana" } },
+      "name": "meta.array.literal.sakana",
+      "patterns": [
+        { "include": "#block" },
+        { "include": "#block-contents" }
+      ]
+    },
+
+    "constants": {
+      "patterns": [
+        {
+          "match": "\\btrue\\b",
+          "name": "constant.language.boolean.true.sakana"
+        },
+        {
+          "match": "\\bfalse\\b",
+          "name": "constant.language.boolean.false.sakana"
+        },
+        {
+          "match": "\\bnull\\b",
+          "name": "constant.language.null.sakana"
+        },
+        {
+          "match": "\\bundefined\\b",
+          "name": "constant.language.undefined.sakana"
+        },
+        {
+          "match": "\\b[-]?[0-9][_0-9]*(\\.)[0-9][_0-9]*(?:[eE][+-]?[0-9]+)?\\b",
+          "captures": {
+            "0": { "name": "constant.numeric.float.sakana" },
+            "1": { "name": "meta.delimiter.decimal.period.sakana" }
+          }
+        },
+        {
+          "match": "\\b0[0-9][_0-9]*\\b",
+          "name": "constant.numeric.integer.octal.sakana"
+        },
+        {
+          "match": "\\b(0|[1-9][_0-9]*)\\b",
+          "name": "constant.numeric.integer.decimal.sakana"
+        },
+        {
+          "match": "\\b0(x|X)[\\h]+\\b",
+          "name": "constant.numeric.integer.hexadecimal.sakana"
+        },
+        {
+          "match": "\\b0(x|X)[\\w]*\\b",
+          "name": "invalid.illegal.integer.hexadecimal.sakana"
+        },
+        {
+          "match": "(\\')(?:[^'\\\\]|(\\\\.|\\\\x[\\h]{2}))(\\')",
+          "name": "constant.numeric.integer.other.sakana",
+          "captures": {
+            "1": { "name": "punctuation.definition.string.begin.sakana" },
+            "2": {
+              "patterns": [
+                { "include": "#string-escape-sequences" }
+              ]
+            },
+            "3": { "name": "punctuation.definition.string.end.sakana" }
+          }
+        },
+        {
+          "match": "\\'.{2,}\\'",
+          "name": "invalid.illegal.integer.other.sakana"
+        }
+      ]
+    },
+
+    "comments": {
+      "patterns": [
+        {
+          "begin": "(\\/\\/).*",
+          "beginCaptures": { "1": { "name": "punctuation.definition.comment.sakana" } },
+          "end": "(?=$)",
+          "name": "comment.line.double-slash.sakana"
+        },
+        {
+          "begin": "/\\*(?!/)",
+          "beginCaptures": { "1": { "name": "punctuation.definition.comment.sakana" } },
+          "end": "\\*/",
+          "endCaptures": { "1": { "name": "punctuation.definition.comment.sakana" } },
+          "name": "comment.block.sakana"
+        }
+      ]
+    },
+
+    "strings": {
+      "patterns": [
+        {
+          "begin": "@\\\"",
+          "beginCaptures": { "0": { "name": "punctuation.definition.string.begin.sakana" } },
+          "end": "\\\"",
+          "endCaptures": { "0": { "name": "punctuation.definition.string.end.sakana" } },
+          "name": "constant.numeric.sakana",
+          "patterns": [
+            { "include": "#string-escape-sequences" }
+          ]
+        },
+        {
+          "begin": "(`)",
+          "beginCaptures": {
+            "0": { "name": "string.quoted.double.sakana" },
+            "1": { "name": "punctuation.definition.string.begin.sakana" }
+          },
+          "end": "(`)",
+          "name": "constant.numeric.sakana",
+          "endCaptures": {
+            "0": { "name": "string.quoted.double.sakana" },
+            "1": { "name": "punctuation.definition.string.end.sakana" }
+          },
+          "patterns": [
+            { "include": "#string-escape-sequences" }
+          ]
+        },
+        {
+          "match": "(\\\")((?:[^\"\\\\]|\\\\.)*)(\\\")",
+          "name": "string.quoted.double.sakana",
+          "captures": {
+            "1": { "name": "punctuation.definition.string.begin.sakana" },
+            "2": {
+              "patterns": [
+                { "include": "#string-escape-sequences" }
+              ]
+            },
+            "3": { "name": "punctuation.definition.string.end.sakana" }
+          }
+        }
+      ]
+    },
+
+    "string-escape-sequences": {
+      "patterns": [
+        {
+          "match": "\\\\x[\\h]{2}",
+          "name": "constant.character.escape.sakana"
+        },
+        {
+          "match": "\\\\u[\\h]{4}",
+          "name": "constant.character.escape.sakana"
+        },
+        {
+          "match": "\\\\U[\\h]{8}",
+          "name": "constant.character.escape.sakana"
+        },
+        {
+          "match": "\\\\[0tabnrvf\\\"\\'\\\\]",
+          "name": "constant.character.escape.sakana"
+        },
+        {
+          "match": "\\\\.",
+          "name": "invalid.illegal.escape.sakana"
+        }
+      ]
+    },
+
+    "method": {
+      "begin": "(?=\\bfunction\\b)",
+      "end": "(?<=[\\}])",
+      "name": "meta.method.sakana",
+      "patterns": [
+        { "include": "#method-name" },
+        { "include": "#method-name-post" },
+        { "include": "#method-block" }
+      ]
+    },
+
+    "method-name": {
+      "begin": "\\b(function)\\b\\s*\\b(?:(constructor)|([_A-Za-z][\\w]*))?\\b",
+      "beginCaptures": {
+        "1": { "name": "storage.type.function.sakana" },
+        "2": { "name": "storage.type.sakana" },
+        "3": { "name": "entity.name.function.sakana" }
+      },
+      "end": "(?=$|\\()"
+    },
+
+    "method-name-post": {
+      "begin": "(?<=[\\w\\s])",
+      "end": "(\\{)",
+      "endCaptures": { "1": { "name": "punctuation.definition.block.begin.sakana" } },
+      "patterns": [
+        { "include": "#parameters" },
+        { "include": "#block" },
+        { "include": "#block-contents" }
+      ]
+    },
+
+    "method-block": {
+      "begin": "(?<=\\{)",
+      "beginCaptures": { "1": { "name": "punctuation.definition.block.begin.sakana" } },
+      "end": "(\\})",
+      "endCaptures": { "1": { "name": "punctuation.definition.block.end.sakana" } },
+      "name": "meta.method.block.sakana",
+      "patterns": [
+        { "include": "#block" },
+        { "include": "#block-contents" }
+      ]
+    },
+
+    "parameters": {
+      "begin": "\\(",
+      "beginCaptures": { "0": { "name": "punctuation.definition.parameters.begin.sakana" } },
+      "end": "\\s*(\\))",
+      "endCaptures": { "1": { "name": "punctuation.definition.parameters.end.sakana" } },
+      "name": "meta.parameters.sakana",
+      "patterns": [
+        { "include": "#parameter" }
+      ]
+    },
+
+    "parameter": {
+      "begin": "(?<=\\(|,)",
+      "end": "(?=\\)|,)",
+      "patterns": [
+        { "include": "#parameter-name" },
+        { "include": "#parameter-assign" },
+        { "include": "#punctuation-comma" },
+        { "include": "#global" }
+      ]
+    },
+
+    "parameter-name": {
+      "begin": "(?<=\\(|,)",
+      "end": "([_a-zA-Z][\\w]*)",
+      "endCaptures": { "1": { "name": "variable.parameter.sakana" } },
+      "patterns": [
+        { "include": "#global" },
+        { "include": "#metadata" },
+        { "include": "#operator-optional" }
+      ]
+    },
+
+    "parameter-assign": {
+      "begin": "=",
+      "beginCaptures": { "0": { "name": "keyword.operator.assignment.sakana" } },
+      "end": "(?=\\)|,)",
+      "patterns": [
+        { "include": "#block" },
+        { "include": "#block-contents" }
+      ]
+    },
+
+    "operator-optional": {
+      "match": "(\\?)(?!\\s)",
+      "name": "keyword.operator.optional.sakana"
+    },
+
+    "modifiers": {
+      "patterns": [
+        {
+          "match": "\\b(enum|class)\\b",
+          "name": "storage.type.class.sakana"
+        },
+        {
+          "match": "\\b(local|static|const)\\b",
+          "name": "storage.modifier.sakana"
+        },
+        {
+          "match": "^\\s*(::)",
+          "name": "storage.modifier.global"
+        }
+      ]
+    },
+
+    "for-loop": {
+      "patterns": [
+        {
+          "begin": "\\b(for)\\b[\\s]*(\\()",
+          "beginCaptures": {
+            "1": { "name": "keyword.control.flow-control.sakana" },
+            "2": { "name": "meta.brace.round.sakana" }
+          },
+          "end": "(\\))",
+          "endCaptures": { "1": { "name": "meta.brace.round.sakana" } },
+          "patterns": [
+            { "include": "#block" },
+            { "include": "#block-contents" }
+          ]
+        },
+        {
+          "begin": "\\b(foreach)\\b[\\s]*(\\()",
+          "beginCaptures": {
+            "1": { "name": "keyword.control.flow-control.sakana" },
+            "2": { "name": "meta.brace.round.sakana" }
+          },
+          "end": "(\\))",
+          "endCaptures": { "1": { "name": "meta.brace.round.sakana" } },
+          "patterns": [
+            {
+              "match": "\\b(in)\\b",
+              "name": "keyword.other.in.sakana"
+            },
+            { "include": "#block" },
+            { "include": "#block-contents" }
+          ]
+        }
+      ]
+    },
+
+    "keywords": {
+      "patterns": [
+        {
+          "begin": "(?<=if|while|for|foreach|)\\s*(\\()",
+          "beginCaptures": { "2": { "name": "meta.brace.round.sakana" } },
+          "end": "\\)",
+          "endCaptures": { "0": { "name": "meta.brace.round.sakana" } },
+          "patterns": [
+            { "include": "#block-contents" }
+          ]
+        },
+        {
+          "begin": "(?<=catch)\\s*(\\()",
+          "beginCaptures": { "2": { "name": "meta.brace.round.sakana" } },
+          "end": "\\)",
+          "endCaptures": { "0": { "name": "meta.brace.round.sakana" } },
+          "patterns": [
+            { "include": "#block-contents" }
+          ]
+        },
+        {
+          "match": "\\b(try|catch|throw)\\b",
+          "name": "keyword.control.catch-exception.sakana"
+        },
+        {
+          "begin": "\\b(case|default)\\b",
+          "beginCaptures": { "1": { "name": "keyword.control.flow-control.sakana" } },
+          "end": ":|$",
+          "patterns": [
+            { "include": "#global" },
+            { "include": "#metadata" },
+            { "include": "#array" },
+            { "include": "#constants" },
+            { "include": "#strings" },
+            {
+              "match": "\\(",
+              "name": "meta.brace.round.sakana"
+            },
+            {
+              "match": "\\)",
+              "name": "meta.brace.round.sakana"
+            },
+            { "include": "#operator-assignment" },
+            { "include": "#punctuation-comma" },
+            { "include": "#keywords" },
+            { "include": "#method-call" },
+            { "include": "#identifiers" }
+          ]
+        },
+        {
+          "match": "\\b(if|else|while|do|switch|case|break|for|foreach|return|continue|default|goto|with)\\b",
+          "name": "keyword.control.flow-control.sakana"
+        },
+        {
+          "match": "\\b(super|this)\\b",
+          "name": "variable.language.sakana"
+        },
+        {
+          "match": "\\bconstructor\\b",
+          "name": "keyword.operator.new.sakana"
+        },
+        {
+          "match": "\\b(class|enum)\\b",
+          "name": "storage.type.variable.sakana"
+        },
+        {
+          "match": "\\b(delete|clone)\\b",
+          "name": "keyword.operator.assignment.sakana"
+        },
+        {
+          "match": "\\b(in|instanceof|typeof)\\b",
+          "name": "keyword.operator.logical.sakana"
+        },
+        {
+          "match": "\\b(__LINE__|__FILE__)\\b",
+          "name": "keyword.other.sakana"
+        },
+        { "include": "#modifiers" },
+        { "include": "#modifiers-inheritance" }
+      ]
+    },
+
+    "punctuation-braces": {
+      "begin": "\\(",
+      "beginCaptures": { "0": { "name": "meta.brace.round.sakana" } },
+      "end": "\\)",
+      "endCaptures": { "0": { "name": "meta.brace.round.sakana" } },
+      "patterns": [
+        { "include": "#keywords" },
+        {
+          "match": "\\bis\\b(?!\\()",
+          "name": "keyword.other.sakana"
+        },
+        { "include": "#block" },
+        { "include": "#block-contents" }
+      ]
+    },
+
+    "modifiers-inheritance": {
+      "match": "\\b(extends)\\b",
+      "name": "storage.modifier.sakana"
+    },
+
+    "method-call": {
+      "begin": "\\b([_A-Za-z][\\w]*)\\s*(\\()",
+      "beginCaptures": {
+        "1": { "name": "entity.name.function.sakana" },
+        "2": { "name": "meta.brace.round.sakana" }
+      },
+      "end": "(\\))",
+      "endCaptures": { "1": { "name": "meta.brace.round.sakana" } },
+      "patterns": [
+        { "include": "#block" },
+        { "include": "#block-contents" }
+      ]
+    },
+
+    "operator-assignment": {
+      "match": "(=)",
+      "name": "keyword.operator.assignment.sakana"
+    },
+
+    "operators": {
+      "patterns": [
+        {
+          "match": "(&&|\\|\\|)",
+          "name": "keyword.operator.logical.sakana"
+        },
+        {
+          "match": "(~|&|\\||\\^|>>>|<<|>>)",
+          "name": "keyword.operator.bitwise.sakana"
+        },
+        {
+          "match": "(==|!=|<=|>=|<=>|<|>)",
+          "name": "keyword.operator.comparison.sakana"
+        },
+        {
+          "match": "(!)",
+          "name": "keyword.operator.logical.sakana"
+        },
+        {
+          "match": "(\\-\\-|\\+\\+)",
+          "name": "keyword.operator.increment-decrement.sakana"
+        },
+        {
+          "match": "(\\-|\\+|\\*|\\/|%)",
+          "name": "keyword.operator.arithmetic.sakana"
+        },
+        {
+          "match": "(\\+=|\\-=|\\*=|/=|%=)",
+          "name": "keyword.operator.assignment.sakana"
+        },
+        {
+          "match": "\\?\\?",
+          "name": "keyword.operator.null-operator.sakana"
+        },
+        {
+          "begin": "\\?",
+          "beginCaptures": { "0": { "name": "keyword.operator.ternary.sakana" } },
+          "end": ":",
+          "endCaptures": { "0": { "name": "keyword.operator.ternary.sakana" } },
+          "patterns": [
+            { "include": "#block-contents" }
+          ]
+        }
+      ]
+    },
+
+    "punctuation-comma": {
+      "match": ",",
+      "name": "punctuation.separator.comma.sakana"
+    },
+
+    "punctuation-accessor": {
+      "match": "(\\.|<-)",
+      "name": "punctuation.accessor.sakana"
+    },
+
+    "punctuation-terminator": {
+      "match": ";",
+      "name": "punctuation.terminator.sakana"
+    },
+
+    "constant-name": {
+      "match": "\\b([_A-Z][_A-Z0-9]*)\\b",
+      "name": "variable.other.sakana"
+    },
+
+    "global-name": {
+      "match": "\\b([_A-Z][_A-Z0-9a-z]*)\\b",
+      "name": "entity.name.function.sakana"
+    }
+  }
+}

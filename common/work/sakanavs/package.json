@@ -1,0 +1,78 @@
+{
+	"name": "sakanavs",
+	"version": "0.0.1",
+    "publisher": "kotori",
+    "icon": "sakana.png",
+	"license": "MIT",
+	"engines": {"vscode": "^1.33.1"},
+	"categories": ["Programming Languages"],
+	"keywords": ["sakana","sk"],
+	"activationEvents": [
+		"onLanguage:sakana",
+		"onDebugResolve:sakana",
+		"onDebugDynamicConfigurations:sakana"
+	],
+	"main": "./extension.js",
+	"contributes": {
+        "languages": [{
+            "id": "sakana",
+            "aliases": ["Sakana", "sakana"],
+            "extensions": ["sk","sk3","skconf","plugsk"],
+            "configuration": "./syntaxes/sakana.language-configuration.json",
+			"icon": {
+				"light": "./sakana.svg",
+				"dark": "./sakana.svg"
+			}
+		}],
+        "grammars": [{
+            "language": "sakana",
+            "scopeName": "source.sk",
+            "path": "./syntaxes/sakana.tmLanguage.json"
+        }],
+		"commands": [{
+			"command": "sakana.helloWorld",
+			"title": "sakana: say hello world"
+		}],
+		"breakpoints": [{
+			"language": "sakana"
+		}],
+		"debuggers": [{
+			"type": "sakana",
+			"languages": [ "sakana" ],
+			"label": "Sakana Debug",
+			"program": "${workspaceFolder}/bin/sakana.exe",
+			"configurationAttributes": {
+				"launch": {
+					"required": [ "args", "cwd"],
+					"properties": {
+						"args": {
+							"type": "string",
+							"description": "arguments.",
+							"default": "-main project#main.sk"
+						},
+						"cwd": {
+							"type": "string",
+							"description": "working directory.",
+							"default": "${workspaceFolder}"
+						},
+						"port": {
+							"type": "integer",
+							"description": "sakana port.",
+							"default": 9945
+						}
+					}
+				}
+			},
+			"configurationSnippets": [{
+				"label": "Sakana Debug: Launch",
+				"body": {
+					"type": "sakana",
+					"name": "Sakana Debug",
+					"request": "launch",
+					"cwd": "^\"\\${workspaceFolder}\"",
+					"args": "-main project#main.sk"
+				}
+			}]
+		}]
+	}
+}

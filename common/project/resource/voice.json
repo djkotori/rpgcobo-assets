@@ -17,7 +17,7 @@
 				{"key":"BTL_DAMAGE1","style":"RPGのバトルでダメージを食らった","text":"ぐはっ！"},
 				{"key":"BTL_BUFF1","style":"RPGのバトルで味方を元気づける","text":"頑張ろう！"},
 				{"key":"BTL_DIE1","style":"RPGのバトルで致命的なダメージを食らった","text":"ぐはあっ！"},
-				{"key":"VOICE","style":"RPGのバトルで敵の攻撃を素早く避けた","text":"あまいっ！"}
+				{"key":"BTL_AVOID1","style":"RPGのバトルで敵の攻撃を素早く避けた","text":"あまいっ！"}
 			],
 			"model":"Rasalgethi"
 		},
