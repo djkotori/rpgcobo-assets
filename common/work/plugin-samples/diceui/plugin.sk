@@ -1,0 +1,82 @@
+//	
+//	ダイスダイアログ追加プラグイン
+//	
+//	このサンプルプラグインは、ダイスを振って1～6のいずれかをランダムで表示するダイアログのUIを追加します。
+//	このプラグインはフォルダ構造のプラグインです。プログラムの他に、リソースとしてdialog_dice.uiを含みます。
+//	
+//	追加されたUIは、イベントコマンドの「プリセットUI」で表示させることが出来ます。
+//	ダイス値は RESULT変数 に格納されます。1～6のいずれかの値が入ります。
+//	
+import PropertyType;
+
+local lbl_dice = { "ja":"ダイスダイアログ","en":"Dice Dialog"};
+
+pluginfo <- {
+	name : lbl_dice
+	author : "djkotori"
+	ver : "0.0.1"
+	desc : { "ja":"ダイスを振って数値をランダムに表示します。","en":"Roll a dice and display a random number."}
+	props : []
+}
+
+local srcdir = dirname( callee().getSourceName());	//	このソースのフォルダパス
+
+//	プラグインのロード時に呼ばれる関数。ここで、RPGSystem.uiに新しいUI定義を追加する。
+function loadPlugin( args, opt){
+	//	UI定義を追加する
+	RPGSystem.ui ..
+	{
+		key = "dialog_dice"
+		lbl = lbl_dice
+		type = "dialog"					//	mainmanu, submenu, choose, dialog, message, info, debug, misc, 
+		icon = ("\ue8ef",0xffcc00ff)	//	プラグインで追加したことを強調するために色を変えている
+		
+		props = [	//	「プリセットUI」で指定するパラメータ
+			{ pid="minval", lbl="MIN VAL", type=SCALAR, range=(0,9999), }
+			{ pid="maxval", lbl="MAX VAL", type=SCALAR, range=(0,9999), }
+		]
+
+		defval = { minval = 1, maxval = 6 }	//	デフォルト値。ダイスは1～6の範囲
+
+		//	UI表示の実行関数。
+		uifunc = @( prms){
+			local minval = prms["minval"] ?? defval["minval"], maxval = (prms["maxval"] ?? defval["maxval"]);
+			local rndval(){
+				return ::rnd( minval, maxval+1);
+			}
+			local oldc = gpui.backupCursor();	//	ダイアログ表示時には必要。元のカーソルを保存
+			playSound( "SE005");
+			local val = ptr( rndval());			//	valはダイスの値をptrでラップ。
+			local view = RPGMain.showView({
+				...defval,
+				uipath = srcdir.."/dialog_dice.ui"	//	プラグインフォルダ内の dialog_dice.ui を指定する
+				layer = "message"				//	ダイスを振るUIはメッセージレイヤーに表示する
+				action = "show"					//	表示時に"show"アクションを実行する
+				modal = true,					//	modalじゃない場合は、背後のUIのボタンなども押すことが出来る
+				// focus = "btn"				//	初期カーソルフォーカス。これには不要
+				...prms,
+				binds = {	//	bindsで、ui内のビュー名とそれに対応する値を紐づける。 @() で式を与えると値が同期される
+					num = @() string( ~val)		//	numビューのテキストに、valの値を文字列化して表示する
+				},
+			});
+			//	ダイスを回すUIイベントループを開始する。
+			local x = RPGMain.uiLoop( {
+				"click" : @( e){				//	クリック、ボタン押下時のイベントハンドラ
+					playSound( "SE001");
+					sleep( 500);
+					return "owari";				//	returnで値を返すことでuiLoopは終了する
+				}
+				"idle" : @( e){					//	毎フレーム呼ばれるイベントハンドラ
+					val << rndval();
+				}
+			});
+			//	終了処理。UIを閉じて、元のカーソルに戻す。システム変数RESULTにダイスの値を格納する。
+			view.actionAndDie( "hide");
+			view.waitAction();
+			gpui.restoreCursor( oldc);			//	元のカーソルに戻す。これしないとカーソルが迷子になる
+			rpgvar.RESULT = ~val;				//	システム変数RESULTにダイスの値を格納する
+			return rpgvar.RESULT;
+		}
+	};
+	return true;
+}

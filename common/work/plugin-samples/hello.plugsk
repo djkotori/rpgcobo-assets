@@ -5,7 +5,7 @@
 
 pluginfo <- {
 	name : { "ja":"こんにちはプラグイン","en":"Hello Plugin"}
-	auther : "djkotori"
+	author : "djkotori"
 	ver : "0.0.1"
 	desc : { "ja":"最も簡単なプラグインの例です。","en":"The simplest plugin example."}
 	props : [

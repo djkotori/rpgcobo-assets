@@ -1,24 +1,30 @@
-
+//	
+//	イベントコマンド「ランダムコマンド」追加プラグイン
+//	
+//	このサンプルプラグインは、複数のコマンドの中からランダムで1つを実行するイベントコマンドを追加します。
+//	
 pluginfo <- {
 	name : { "ja":"ランダムコマンド","en":"Random Command"}
-	auther : "djkotori"
+	author : "djkotori"
 	ver : "0.0.1"
 	desc : { "ja":"このコマンド以下のどれか一つのコマンドを実行","en":"Execute one of the following commands."}
 	props : []
 }
 
+//	プラグインのロード時に呼ばれる関数。ここで、RPGSystem.eventcmdに新しいイベントコマンド定義を追加する。
 function loadPlugin( args, opt){
 	RPGSystem.eventcmd .. {
-		category = 0
-		key = "excmd_randomcmd"
+		category = 0							//	基本カテゴリ。条件分岐やループなどと同じカテゴリに入る
+		key = "excmd_randomcmd"					//	※イベントコマンドで同じキーが存在してはいけない
 		name = { "ja":"ランダムコマンド","en":"Random Command"}
 		tips = { "ja":"中にあるコマンドのいずれか1つをランダムで実行します。","en":"Randomly executes one of the commands inside."}
 		icon = "\ue043"
 		color = (0x00A3D9ff, 0x73DCFFff)
-		subblocks = true
-		props = []
-		defval = { cmdblocks = [[]] }
+		props = []								//	コマンドに対するパラメータは無し。子コマンドのブロックだけ。
+		defval = { cmdblocks = [[]] }			//	cmdblocksは、子コマンドのブロックの配列。ここでは1つの空のブロックをデフォルト値として入れている。
 		
+		//	このコマンドをプログラムとして展開する。
+		//	詳しくは、 RPGEventCompiler.parsecmd( cmd) を参照。ここで、コマンドの実行時に呼ばれるコードを生成する。
 		parsecode = @( cmd){
 			local n = length( cmd["cmdblocks"][0]);
 			push( "{ local rndi = rnd( %d);" % n).indent( 1).lf(); 

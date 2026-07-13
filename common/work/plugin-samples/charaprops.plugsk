@@ -1,0 +1,87 @@
+//	
+//	サンプルプロパティ追加プラグイン
+//	
+//	このサンプルプラグインは、キャラクターにプロパティを追加するためのサンプルです。
+//	また、プラグインのプロパティによって、どのプロパティを追加するかを切り替えることができます。
+//	
+import PropertyType;
+
+local luklbl = { "ja":"幸運","en":"Luck"};
+local foodlbl = { "ja":"満腹度","en":"Satiety"}
+
+pluginfo <- {
+	name : { "ja":"サンプルプロパティ追加","en":"Sample Properties Addition"}
+	author : "djkotori"
+	ver : "0.0.1"
+	desc : { "ja":"キャラにサンプルプロパティを追加します。","en":"Adds sample properties to chara."}
+	//	プラグインのプロパティを定義する。プラグインマネージャーで設定可能。
+	props : [
+		{ pid : "LUK", lbl : luklbl, type : BOOL, defval : true },		//	幸運スコアプロパティを追加するかどうか
+		{ pid : "FOOD", lbl : foodlbl, type : BOOL, defval : true },	//	満腹度ステータスプロパティを追加するかどうか
+	]
+	order : 50	//	読み込み順。>=1 なら何でも良し
+}
+
+function loadPlugin( args, opt){
+	//	LUK定義。プラグインでLUKがtrueなら追加する
+	if( opt["LUK"]){
+		local prop = {
+			proptype = "score"
+			pid = "LUK"
+			lbl = luklbl
+			lvcurve = true		//	レベルに応じて変化するパラメータ。
+			//	プロパティ定義。lvcurveの編集でも参照
+			type = SCALAR
+			range = (1,9999)
+			defval = 100
+		};
+		//	プレイヤー、エネミーのプロパティに追加。※バトルでLUKを使用するためには必ずプレイヤー、エネミーの両方に追加する必要がある。
+		RPGSystem.playerprops .. prop;
+		RPGSystem.enemyprops .. prop;
+		//	ジョブ画面、レベルアップ時の表示に追加。装備画面ではLUKを表示させない
+		//::equipmenu_showpids .. "LUK";
+		::jobmenu_showpids .. "LUK";
+		::levelup_showpids .. "LUK";
+	}
+	//	FOOD定義。プラグインでFOODがtrueなら追加する
+	//	満腹度はキャラ固有のステータス値で、時間で減っていき0になるとHPが減るような仕様にすることもできる。
+	if( opt["FOOD"]){
+		local prop = {
+			proptype = "status"
+			pid = "FOOD"
+			lbl = foodlbl
+			type = SCALAR
+			range = (1,100)
+			defval = 100
+		};
+		//	満腹度はプレイヤーのみのプロパティ
+		RPGSystem.playerprops .. prop;
+		RPGPlayer.addStatusProp( "FOOD", 100);
+		//	満足度オプションをプレイヤーにつける。walkで減る、0で空腹状態を付けてHPを減らすなどの処理を追加できる。
+		RPGSystem.option .. {
+			category = -1,		//	カテゴリ-1で追加不能に。
+			key = "opt_food",
+			name = foodlbl,
+			icon = "\ue000",
+			order = 99,
+			desc = "",
+			//	オプションの効果実行
+			action = @( opd, id, arg, self){
+				switch( id){
+				case "walk":	//	1m歩行ごとに呼ばれる。
+					self.FOOD = Math.max( self.FOOD-0.1, 0);	//	歩行距離の10%減少。1kmで100減少する。
+					break;
+				}
+			}
+		}
+		//	プレイヤーのgetBaseOptionsをフックして、満腹度オプションを追加する。※スパゲッティ化するのでより良い方法を検討！！
+		local opd = { opttype = "opt_food", };
+		local _getBaseOptions = RPGPlayer.getBaseOptions;
+		RPGPlayer.getBaseOptions <- @(){		//	インスタンス関数を入れ替える。"<-"演算子を使う必要あり
+			local opts = _getBaseOptions();		//	元々のgetBaseOptionsを呼ぶ
+			opts .. RPGOption( opd);			//	満腹度オプションを追加する。これで全てのプレイヤーが満腹度オプションを持つことになる。
+			return opts;
+		}
+	}
+	return true;
+}

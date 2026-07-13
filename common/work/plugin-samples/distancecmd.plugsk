@@ -1,0 +1,53 @@
+//	
+//	イベントコマンド「距離取得」追加プラグイン
+//	
+//	このサンプルプラグインは、イベントとプレイヤーの距離を取得するイベントコマンドを追加します。
+//	取得した距離は、指定した変数に格納されます。
+//	
+import PropertyType;
+import RPGPropertyType;
+
+pluginfo <- {
+	name : { "ja":"距離取得","en":"Get Distance"}
+	author : "djkotori"
+	ver : "0.0.1"
+	desc : { "ja":"距離を取得するイベントコマンドを追加します。","en":"Adds an event command to get the distance."}
+	props : []
+}
+
+//	プラグインのロード時に呼ばれる関数。ここで、RPGSystem.eventcmdに新しいイベントコマンド定義を追加する。
+function loadPlugin( args, opt){
+
+	//	距離取得コマンドの定義を追加する
+	local who2list = [
+		{ lbl="$T.who_player", val=1 }
+		{ lbl="$T.who_event", val=2 }
+	];
+
+	RPGSystem.eventcmd .. {
+		category = 1							//	変数カテゴリ。変数の設定や配列処理などと同じカテゴリに入る
+		key = "excmd_distance"					//	※イベントコマンドで同じキーが存在してはいけない
+		name = { "ja":"距離取得","en":"Get Distance"}
+		tips = { "ja":"2つの対象間の距離を取得します。","en":"Get the distance between two targets."}
+		icon = "\ue41c"
+		color = (0xFF9326ff, 0xFFB973ff)
+		props = [
+			{ pid="from", lbl="$T.lbl_target 1", type=LIST, list=who2list, variable=1, }
+			{ pid="to", lbl="$T.lbl_target 2", type=LIST, list=who2list, variable=1, }
+			{ pid="retvar", lbl="$T.cmd_macro_retvar", type=VARIABLE, varbits=1|2, constbits=0 },
+		]
+		defval = { from=1, to=2, retvar="W" }
+		//	ツールのコマンドリストで表示される情報を返す関数
+		cmdinfo = @( cmd){
+			local info = sprintf( "%S ～ %S => %S", propstr( props, cmd, "from"), propstr( props, cmd, "to"), propstr( props, cmd, "retvar"));
+			return { info = info, };
+		}
+		//	このコマンドを実行する関数
+		exec = @( runner, cmd){
+			local t0 = runner.getWho3D( cmd.from), t1 = runner.getWho3D( cmd.to);	//	対象のそれぞれの3Dオブジェクトを取得。
+			local dist = t0.pos.hypot( t1.pos);		//	距離を計算する。hypotは2つのベクトルの距離を返す。
+			runner[cmd.retvar] = dist;	//	戻り値を指定された変数に格納する
+		}
+	}
+	return true;
+}
