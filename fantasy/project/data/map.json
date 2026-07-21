@@ -34,16 +34,24 @@
 							{"cmd":"cmd_cammot","easing":1,"hpb":[0,-10,0],"playtype":1,"pos":[0.0,8.0,0.0],"time":5938,"type":2,"zoom":0},
 							{"cmd":"cmd_compute","lvar":"X","op":"=","rvar":"\tRPGMain.hasAnySaveData()"},
 							{"avar":"W","cmd":"cmd_arrayop","idx":0,"op":"new","rvar":true,"tvar":"X"},
-							{"avar":"W","cmd":"cmd_arrayop","idx":0,"op":"add","rvar":"\t({_name=\"m1\",lbl=\"$T.newgame\"})","tvar":"X"},
+							{"avar":"W","cmd":"cmd_arrayop","idx":0,"op":"add","rvar":"\t({_name=\"m1\",lbl=\"$T.newgame\"})","tvar":"X"},
 							{
 								"avar":"W",
 								"cmd":"cmd_arrayop",
 								"idx":0,
 								"op":"add",
-								"rvar":"\t({_name=\"m2\",lbl=\"$T.loadgame\",grayout=X?\"off\":\"on\"})",
+								"rvar":"\t({_name=\"m2\",lbl=\"$T.loadgame\",grayout=X?\"off\":\"on\"})",
 								"tvar":"X"
 							},
-							{"avar":"W","cmd":"cmd_arrayop","idx":0,"op":"add","rvar":"\t({_name=\"m3\",lbl=\"$T.config\"})","tvar":"X"},
+							{"avar":"W","cmd":"cmd_arrayop","idx":0,"op":"add","rvar":"\t({_name=\"m3\",lbl=\"$T.config\"})","tvar":"X"},
+							{
+								"avar":"W",
+								"cmd":"cmd_arrayop",
+								"idx":0,
+								"op":"add",
+								"rvar":"\t({_name=\"m4\",lbl=\"$T.exitgame\"})",
+								"tvar":"X"
+							},
 							{
 								"action":"show",
 								"cmd":"cmd_customui",
@@ -131,6 +139,28 @@
 														],
 														"reqs":[
 															{"key":"varcmp","lvar":"X","op":"==","rvar":"'m3"}
+														]
+													},
+													{
+														"cmd":"cmd_if",
+														"cmdblocks":[
+															[
+																{"ch":0,"cmd":"cmd_snd","sndid":"SE011","vol":100,"who":0},
+																{"bgmid":"MU000","cmd":"cmd_bgm","fadetime":1000,"restore":false},
+																{"cmd":"cmd_wait","time":500},
+																{
+																	"cmd":"cmd_showui",
+																	"key":"wipe",
+																	"op":null,
+																	"pos":{"bottom":0,"left":0,"right":0,"top":0},
+																	"uipath":"wipe_blackout.ui",
+																	"wait":true
+																},
+																{"cmd":"cmd_script","code":"skExit( 0);","desc":"SCRIPT"}
+															]
+														],
+														"reqs":[
+															{"key":"varcmp","lvar":"X","op":"==","rvar":"'m4"}
 														]
 													}
 												]
