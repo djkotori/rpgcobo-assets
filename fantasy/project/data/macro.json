@@ -21,7 +21,6 @@
 		],
 		"desc":"",
 		"name":"ゲームオーバー",
-		"runatmenu":false,
 		"runmode":0,
 		"runreqs":[]
 	},
@@ -42,7 +41,6 @@
 		],
 		"desc":"",
 		"name":"グループエンカウント",
-		"runatmenu":false,
 		"runmode":0,
 		"runreqs":[]
 	},
@@ -119,7 +117,6 @@
 		],
 		"desc":"",
 		"name":"逃げるスキル",
-		"runatmenu":false,
 		"runmode":0,
 		"runreqs":[]
 	},
@@ -145,7 +142,6 @@
 		],
 		"desc":"",
 		"name":"宝箱を開ける",
-		"runatmenu":false,
 		"runmode":0,
 		"runreqs":[]
 	},
@@ -166,7 +162,6 @@
 		],
 		"desc":"",
 		"name":"村人と会話",
-		"runatmenu":false,
 		"runmode":0,
 		"runreqs":[]
 	},
@@ -283,7 +278,6 @@
 		],
 		"desc":"",
 		"name":"ショップ店員",
-		"runatmenu":false,
 		"runmode":0,
 		"runreqs":[]
 	},
@@ -388,7 +382,6 @@
 		],
 		"desc":"",
 		"name":"宿屋店員",
-		"runatmenu":false,
 		"runmode":0,
 		"runreqs":[]
 	},
@@ -516,7 +509,6 @@
 		],
 		"desc":"",
 		"name":"医者",
-		"runatmenu":false,
 		"runmode":0,
 		"runreqs":[]
 	},
@@ -568,7 +560,6 @@
 		],
 		"desc":"",
 		"name":"テント使用",
-		"runatmenu":false,
 		"runmode":0,
 		"runreqs":[]
 	},
