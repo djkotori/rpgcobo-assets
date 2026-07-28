@@ -17,11 +17,15 @@
 			{"bgmid":"MU017","cmd":"cmd_bgm","fadetime":0,"restore":false},
 			{"cmd":"cmd_wait","time":1800},
 			{"cmd":"cmd_showui","key":"misc_waitclick"},
+			{"bgmid":"MU000","cmd":"cmd_bgm","fadetime":1000,"restore":false},
+			{"action":"blackout","cmd":"cmd_customui","idx":0,"op":"action","wait":true},
+			{"cmd":"cmd_wait","time":800},
 			{"cmd":"cmd_gotitle"}
 		],
 		"desc":"",
 		"name":"ゲームオーバー",
 		"runmode":0,
+		"runrepeat":false,
 		"runreqs":[]
 	},
 	"X003":{
