@@ -40,7 +40,7 @@
 		"DEF":100,
 		"LV":1,
 		"MATK":10,
-		"MAXHP":10,
+		"MAXHP":"\t10+LV*10",
 		"MAXMP":100,
 		"MDEF":10,
 		"MDF":100,

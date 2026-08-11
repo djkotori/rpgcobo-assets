@@ -215,6 +215,8 @@
 		"bg":{"type":"skybox"},
 		"bgmid":"MU006",
 		"camwork":{"fovy":30,"hpb":[0,38,0],"viewport":15.0,"yoffs":0.5},
+		"canenter_hole":false,
+		"canenter_water":false,
 		"encntrate":0.0,
 		"encount":[
 			{
@@ -434,6 +436,29 @@
 				"pos":[145,5,77,2],
 				"role":"custom",
 				"spawndist":1
+			},
+			"#1000010#":{
+				"col":0,
+				"flags":1,
+				"mdlid":"CV000",
+				"name":"*custom-10",
+				"page":[
+					{
+						"cmdblock":[
+							{"cmd":"cmd_showui","key":"store_choices","storeid":"R010"}
+						],
+						"memo":"",
+						"moveaction":"stop",
+						"movespd":4,
+						"pararun":false,
+						"reqs":null,
+						"standani":{"id":"stand"},
+						"trigger":1
+					}
+				],
+				"pos":[59,5,55,2],
+				"role":"custom",
+				"spawndist":1
 			}
 		},
 		"exitmap":{"dest":null},
@@ -451,6 +476,8 @@
 		"bg":{"type":"skybox"},
 		"bgmid":null,
 		"camwork":{"fovy":30,"hpb":[0,38,0],"viewport":15.0,"yoffs":0.5},
+		"canenter_hole":false,
+		"canenter_water":false,
 		"encntrate":0.0,
 		"encount":null,
 		"event":{},
@@ -469,6 +496,8 @@
 		"bg":{"type":"skybox"},
 		"bgmid":null,
 		"camwork":{"fovy":30,"hpb":[0,38,0],"viewport":15.0,"yoffs":0.5},
+		"canenter_hole":false,
+		"canenter_water":false,
 		"encntrate":0.0,
 		"encount":null,
 		"event":{
@@ -578,6 +607,8 @@
 		"bg":{"col":255,"type":"col"},
 		"bgmid":null,
 		"camwork":{"fovy":30,"hpb":[0,38,0],"viewport":15.0,"yoffs":0.5},
+		"canenter_hole":false,
+		"canenter_water":false,
 		"encntrate":0.0,
 		"encount":null,
 		"event":{},
@@ -646,6 +677,8 @@
 		"bg":{"col":255,"type":"col"},
 		"bgmid":null,
 		"camwork":{"fovy":30,"hpb":[0,30,0],"viewport":13.0,"yoffs":1.0},
+		"canenter_hole":false,
+		"canenter_water":false,
 		"encntrate":0.0,
 		"encount":null,
 		"event":{
@@ -742,6 +775,8 @@
 		"bg":{"type":"skybox"},
 		"bgmid":null,
 		"camwork":{"fovy":30,"hpb":[0,38,0],"viewport":15.0,"yoffs":0.5},
+		"canenter_hole":false,
+		"canenter_water":false,
 		"encntrate":0.0,
 		"encount":null,
 		"event":{},

@@ -1,147 +1,288 @@
 {
 	"MA000":{
-		"bw64":"KLUv/WBLBX0JAMILIB6gJUkH/8g7t2CwH04ALP7hUAiHG51rS9ttE0Lk3ilt+wHIcDFe0M93MUEnLhgIABiuzfj59D6Xq7Z7uReXYZmImKOUCl2MOVfr1SO2RW8YYxAxM3PMxBPx+tPhkAqllCRJMoGIDPsBMwxBEKSKMcdxHGXt3V3ZXZ1+2oknTDgIUqBBGkpTSpLKtAZwAlNFtG17JEz5wgOcqj4vfD2jNvw6YRFLrdSv2UUytQwvHcZ4h8VD1txjMiqyWCZAMuIRUzjJ6xCT96ZkRtge5E628GQJ3bHVKLobHouMVFt5L45BLoY3eXDI8CIx8J2wMEXzSIJ6fYQ2dzEMFJcOMmgg4XcMkE2ewWUUh4U7hE/vyKM4qNEnCg8KOZoq1pHFSwRsYLp4lpqMvp2Su0XgZg==",
+		"bw64":"KLUv/WBLBZ0JAPKLIB6QJ0kH/xd9vq0+2kTd9UJ8VHT1CoWwNW23TQiRe6dtWy9Q1s93sUEnBkAgCDBcm/Hz6X0uA8hwMX5Qtd3LvbgMy0TEHKVU6GLMuVqvHrEtesMYg4iZmWMmnojXnw6HVCilJEmSCURk2BeYYQiCIFWMOY7jKGvv7sru6vTTTnzhQkJSoEEaSlNKksq0BmACUzW1ebVYJwy5BQWA6k8NX0FmNLWhLnkIhWmxdKFukKllePEwxXsXD1lzj8mwCGOZgGSMI8ZwzPsQo/cmM+O2B7ujLTxaQgfsMIroZsfikWqS9+YY5HZ484NDwxvE4Hfiw1SbQRLU6x8auWvjAHDpaAYNTfqOBzLLM7pMcUC4Rfj0jjyKwxt9auGpUo5GxThS0RICNjRdXEttjNzOklOLAMw=",
 		"cntpos":[0.5,0.0,0.5],
 		"eventuse":false,
 		"group":0,
 		"mapcol":false,
-		"name":{"ja":"広い家"}
+		"name":{"ja":"広い家"},
+		"plcair":false,
+		"plcoffs":[0,0,0]
 	},
 	"MA001":{
-		"bw64":"KLUv/WBlBfUJALIMIyKAS9IYSJlCB0XHYAZmb9FxEZ8hB2QT4Kg4apZIIrfcUsoUZmbfcJKRc4U/4RcYwM0LEQ4IyfSdmxmIvqgRi4o/4AkKaIq6DGHGkR/s44Tog+2yjWzwqp9dOjeq3BmkzzSzc92dquqpmmfm9O/u0tnNzPzIPPU36u6Oyp1EmSEiUiFS2WX2McCMGRMBVaDhpYNTQZJiYQ6QgioTbQfBEnigvsLCxEoKHESFq9R5F0gyjldfz8s3Wb1drZvPgD6Gy8qq7tMh5dSCF45ztHWhkOU1hhNDEsQHCliyPDxsmzvuFyU7wqbgZ1tD2xWwMTb3hU27IP6ftOr8YHprlbCIDK8WT4SUD0m0J4XLb3iOA2A1pDgTNApySNwucnxV5rk5pMeb5iB4By+wHSwSQViFJTq2uPh+G6RzlvaWAQ==",
+		"bw64":"KLUv/WBlBQ0KANKMIyOAS9IYSJlCB0XHYAZmb9GPV3yGHJBNgKPiSNKIJJLILaVMAWZm33CWk/MEhR/hD8CPBSIcDpbpOz9eIPqiTiwqfoAfIKApGKg2QxzjyQ828kK0wbbZTi541c8unRtl7g6kzzSzc92dquqpmmfm9O/u0tnNzBzJPPU36u6OzJ1EmSEiUiFS2WU2MmNlZSJVoMEhhKYkTbEwB6ACKhNtB8EymEgdq+58Yc0HXlrL5nQ0qi+5zKvF8pnVufJoZok8x0Qx3VQvv2WHlKkFXDhO4eaFYtfXGJcYkmA+UMKSheFx27zjdlGyI+wDepYraLkAE9dqW9+0C+Lf6WsOD7aH1g2KyPBq4UQI6ZhUe6Jw/Q1PMQqmXeoToTbhzAnTFY5ZlXnuCpHRpjkV/sGWGA2ViSKswic6tzgsfI/zmm3LnQ==",
 		"cntpos":[0.5,0.0,0.5],
 		"eventuse":false,
 		"group":0,
-		"name":{"ja":"レンガの家1"}
+		"name":{"ja":"レンガの家1"},
+		"plcair":false,
+		"plcoffs":[0,0,0]
 	},
 	"MA002":{
-		"bw64":"KLUv/WDDBUUKAGKLICWARUkHM8MQ4iGKCAM+ksRIjMQGcsBd1ZTqWVu8tYb22yZzb5kCiIjtkWWCPIc80I42unC+0YTTAz0v6COujBs+6KOcmwsUnfeAewFA5kkf8QkF3iV9ptqdurp2PVP2Q6Z+ZC/G1mutdvdnPM/NSnV/uyYzEcqm7GX28ENcufBhxiBfoNCsZgsKaQyQgqohGjdJRnrNEr2b9VxlQRh40v4FxAOY6821UJPbuUDkkyh+7bAX1PWFSR/kQLI1Oo2sq6DJBiJ7SyBSZtDlA4SoVjw21KohXQ6tLJc2s0ctuGSNum40t4PJ2JAtswq0kdzP8dgPfGX7kS0hmh1OfAL3JqlYJsclmtG5KLtafGxGDSMzKbCQTZ1jzOkGxvaRRSP5VfwXAI1tUHSikSVfQ/N1+86FsPEEAhQ2ivNGWPDkwj1OtxYt0AE=",
+		"bw64":"KLUv/WDDBVUKALILISSAKUkHMzOJEajHIzAMzMAMrJEDuKugqj3riI/RULNtkym3TAFty5EFM8J9KyQ0+PdEP6ABY9u8+BzBIkvw2497wBVcEGPeEDTf/MFGHJrcwB94goLOGfgKLftwZMv4neNWhf6qk1LplNKy+TeWZSUdsn+ZcnfGHM/R7mjd2o8BFjihCF6g4IxmCwppDLACKiEaN0nM0+sJ35Aet5FZyRcEQO56893EFpce7njBlgaweDXbYS+o6wuTH+R4svX6hqmn3mRDk70lHGkGYGQHCLFWLEamRVe2HFpZlDa7B9i4ZIm6bjQXA8nYnp04D7YR2d8pMB/lyuQhW0JodpD4RO5mr1o29xOYYcNRvFp9bECMTZwWKEBrRxR7eQtj+8igkexV8GvQxjYoOtHIkq+hP7B9MxJvOlqAwp3ivBEUbDD3Gkw2hm0ZAQ==",
+		"cntpos":[0.5,0.0,0.5],
+		"eventuse":false,
 		"group":0,
-		"name":{"ja":"レンガの家2"}
+		"name":{"ja":"レンガの家2"},
+		"plcair":false,
+		"plcoffs":[0,0,0]
 	},
 	"MA003":{
-		"bw64":"KLUv/WCxBMUGAELIFx+QKen/j7rwyr/daOAf20Xu7oJQaFgr2DpZIttIbpkCbdsbHCESi2GZ2+fAjvp8mDM6F//gCYVrdEcrfsGfPndMzAAzftv0zf/ubsldaobcPLOZGSNmD1av9jNaWZkEM6DhsZOyVtoNsIIiERI9SRVYZtxq9i0dpDVCBG4uvsFVVq/wW8sBpAsetCN7yKzPyDsP45q9ejBQWZaG801ukeVkUlZ7YM4yKTwNVsnKv9j/zMoMSgmLi4nG5uyNZRLC59DnMUj4D5+T6Ii3d/19neXjTK0rAw==",
+		"bw64":"KLUv/WCxBMUGAGIIGB+QKen/j7rwyr/daOAf20XurqKEQsNaQdLJEtndJJEpbdsbPCESS2GZ22jADgPP6MOc0bn4BT8gfE73tOIP/Gt0x8WsmPHbrm/+d3dL7lYz5OaZzcwYMXvw9NOOTqvVJDOg0TGUslbaDbCCIpESD8kILGWoavYtHWrVMfnm4htcZfUKu9UcQLrggXZmDonlGb/TOC7Zi8fDkmVlAM9AFlluJrvYH3uKWelRsEpW/nX/MyvTSEpYXAwUmbI3nZkIDgQ6j0ECfPhERUe8vevr6ywbZ2pdGQ==",
+		"cntpos":[0.5,0.0,0.5],
+		"eventuse":false,
 		"group":0,
-		"name":{"ja":"木の家"}
+		"name":{"ja":"木の家"},
+		"plcair":false,
+		"plcoffs":[0,0,0]
 	},
 	"MA004":{
-		"bw64":"KLUv/WBjBb0JAOLMJSZgS9QY6zdJgeJayZBSB0EQBMHUgUPAyiobOaZcVqvh2mxJmtwyBaqqzwwQDwXSa2NlgBf+5ngZWkFPQBh5IpEl8g2KRSIpOyf6sbHABr/zD8EKfcB2rshmh//4VU9uWDMv/oDfaGWbfrcdp4WiqH13IYTwhXBlO/OPO828qlyLcTr6oyv3nntPc6kyxtiLsZV/mXlgJiJMoJG9YkSSghjLAZACg0LVBnnsLNiqZFJi10EbkeHCRzIslz6+nFjn9Nz36oJ2Cjmt8AvHMkVnGRzm1mHC1wkBXbfm34r52Qu6sO1E9DrrYUPrJYuQmyVp4UweWWgK4l+fzlrk3rcTwi07Nunh4Z+ZRrn0MvrgMc0FhTT2rOHhbN0yU8BsZYgVte3XbzZ2c3GpLY6OAIEteoIisQVP",
+		"bw64":"KLUv/WBjBdUJAPIMJiZgS9QY6zdJgeJayZBSB0EQBMHUoQBaCC+aOaZcVqvh2mxJmtwyBaqqzwwQDwWL18bKAC/8zfEytIKegDDyRCJL5BsUUrJQdk70Y2OBDX7nH4IV+oDtXJHNDv/xq57cIK2ZpT/gN1rZpt9tx2mhKGrfXQghfCFc2c78404zryrXYpyO/ujKvefe01yqjDH2YmzlX2YemIkITKCBwWJEkoIYywGAAoNCpQ157CzYymVSatdFPCizq8/kskBOHGHD1tVRm4st2qnk1AVhykCWGjrN4gC3zpO+zojosp1/K2Zn7ujCthPRy69BZvdbS4CLpW13JhvyENRyb58OW3Zd7mFkWnfdpLeDTxMd5ZrrKIPFNEoGlhhyBqbztYuNgbeWQVYU2y4eby3NxVNbGJ0CBLZgit/Edj4B",
 		"cntpos":[0.5,0.0,0.5],
 		"eventuse":false,
 		"group":0,
 		"mapcol":false,
-		"name":{"ja":"横長の家"}
+		"name":{"ja":"横長の家"},
+		"plcair":false,
+		"plcoffs":[0,0,0]
 	},
 	"MA005":{
-		"bw64":"KLUv/WAXDNUPAMIPLChgS5MOMGxYAoIUpBSk3Orbtm0DAEaCOAjuVwPQQB3+Z1X4Tywhm8gUiIiOEwBGOMAogFbLBo6bI9bLbIiGRELRmyuiCwHodGPIbIumlx+aHZh0b8gBBlx53TzxP/7hmWPT+da5llqKYknP3ubb2WktnXOg1hYyHSLr+zF3I37KnyMTpPZfy9m9VsvafH/kJ3q8LOltc1xrCqcTIp7/dv8TfRVLEBFXLJn5ITMHrGQEgKGgkJRNkkphOJACohKi6W1wUad7nJytYCH3BVt9/PyHTWxPuNaUuArV8rf1E4I55Dtq/64HrTO+rYd9C4v/mnZFeEldf4zGx2z4zc0Tb+QeqodKye1rZOByCS3xEeVWNWoPrFQm6HrOk5kJwdYz5gSpmUkMmKzq5scj/MKw9LoasQKy6si8nwUTHiuc2ymAaIz1Q3NwSTJ8yqCQbKEmCf3JvfS5eY2P7CQ2VfJqfnEsODWAu7GC3VSYWY9PthJl3XYZi3XULXIL0ZWDb6MODPe0FYys2PU2rJ1YhhY5GJVwG/ik8UKA1Wb9cM0aGkwzwYBsx/74tZgS55UDfDJyHEH78VMpVb3NB+PHZIKlHWbBdWMZUKdGwW7mZozQ/O4+jlvcXHdMuBwKPkYJGU7YDDEcTc3iHhAEMlMGxcJoN4AxY4h9Uuti",
-		"group":0,
-		"name":{"ja":"大きな屋敷"}
-	},
-	"MA006":{
-		"bw64":"KLUv/WAJCG0IAFJLHiGgJ2kN//OegwDcPxvqjg/AdK4v1tj2OMrvZvfehDS5dwp3d4cKP5jGAaNxRBP3REQucBEJLhgULFGAaMKV2lpTI4wxxVoLpZSUery7+z19FfXCMJjW2iRJWhshWc4YY2VkrbXKipRSKiP1gVmY8nHOOT+iqwHVREM8oCGWYjhS0GRjDnCCYjIj1ANLcTSguAz9QWsqpQSkcirS0qdd8ipLZNeX/E0xBzYBmRAdOEm8JMFv6rCQqd64kjodClDwDxzAMWWvedxktLEcMIDNHBZi1RdCwumAYMg/DQQ1+3p+i7u8l67h7IUHoSCAdIhksnUBnGBnSl8iXsoGDAwr54M5h1Sfef6cC2AM",
-		"group":0,
-		"name":{"ja":"ショップ1"}
-	},
-	"MA007":{
-		"bw64":"KLUv/WCtCq0KAMILICKAp0kHMzAXMMJ0BuEuoxFGRIQdPNrs2yX27Sf/L7F/y50Cd3d2WnpSNuUVAL47nifICa14Q9oY4ZfDdwL5AG2AvgtuAvTAbyAzPwIX6DcekPlSeWOWuWpNrXjOyVS/es1f6q5vmfBm9jc955xcVb/K9BAR7aLd+97Hn5wvPhYCYqCwUJUWKs0BsIIqEZnaBuavS326qrr8wbilNuU7PLXLWKMnS8Ko24Bt7bDDj+4QbuUtPk0PtijSybpKnYUmAxXD9YWmBTEtJVUMGl2045RjJU4SclCyM+x0L2J8NW0hHigqZ/eN2liINkal27zkCFHaSMMnE/LKmkQcm0NGt+k43+w1agdk/XRpvDHNgGOk4y5CC0u64tck7KVzOHnW13V1jO3VvC9N+uKYceHVzCPD4kH8rB9CdlO44sf6AW9eZGrICH8Viin9cauLwmW7CVMH",
-		"group":0,
-		"name":{"ja":"アパート1"}
-	},
-	"MA008":{
-		"bw64":"KLUv/WDnClUNAGZRMSdgVZPGMAzDBWcQ9Y6vdYunfjTBz36lYOENZhv7B7Ovo5a0m9xyyxQmACMAJgA3jLHIDWH3Yru7t1pV1VvRzMxHqdpM+/E28yLdC/wCJNjggRkBArf+R8x81d1dNYPMbfzxD7Ysy/IJ7H49Oe2fnPY3S5rmltwdEXiOZgzxNx4zVXfVYmwNiSymVlGU6uCtTNVd9W3VImxRpsKDiCqIiI7ccfohYIdzGt1wxtPLWTnNAOAA4VsXOL2gUDAq0go3Gn1PNCQ0b6BhuXUzW5BCht2wAiPStg3IVrVdszgqz1DrQhyT6IV2xCqRsp05NQywLqhMKt56Q1vxaWtj+6wV8J7Y28BjNVyQVUjQQDZ8wi4FxoeOGHs40yhJO8kCWTuGT4HlMOtZjo7MOBURVL+UpCWRKJszKp6y/9apYy44sSAdZUE36tYwAZBcajSJmOxAYplOv4txtcqb6tM8Fr1bSU2ZQTR5DtE7NmOXvBQ9micrurxsfdPC5fdyhRmPak0pJD4AeG2Tz94JzF9Tl/0Wv+WPjkLsQi9Fh5opuZJsfbH3YN+RJXe5Jw==",
-		"group":0,
-		"name":{"ja":"教会1"}
-	},
-	"MA009":{
-		"bw64":"KLUv/WDhA4UGAHIHFh6wJekMcEnBDgfwTzJLyk7yAv0QQsNIbIQ0IpskJAUkWajP7QnxM08bhQW4C340MiCge6Dc1TTzborVTb+MUY4sf9daa4wxdkhseCVf8vO7fPiHd+RjhQg3oPBqagtpDoCCciXaDnnqxMJW2B0uoU4397Dk6zlZ/razIj/UEqXJ6hTZF7Xi50c4MJJKe3SUwUuSK8nTUpIvsbGksKvOmF1+4T61U4AJOyTISAkTFpK10eIFNnvg/xtB5Md+sM8Jv5qU3mQZp1wG3P264HQ=",
+		"bw64":"KLUv/WAXDNUPAPKPLChgS5MOMGxYAoIUpBSk3Orbtm0DAEaCOAjuVwPQQB3+Z1X4Tywhm8gUiIiOEwBGOMAogFbLBtGFAHS6MWS2hVKR3JsplIl1swTe2HFzxHqZDRE1vfzQ7MCke0MOMPyPf3jm2HS+da6llqJY0rO3+XZ2WkvnHKi1hUyHyPp+zN2In/LnyASp/ddydq/VsjbfH/mJHi9Letsc15rC6YSI57/d/0RfxRJExBVLZn7IzAErGQGAoaCQlE2SQoYxoAKikqHpf3BR0O2YfKxgK+5ftt64WrSymKoAyrG5zM6vLKQG05PO+HD9LgYtP56sh3QLNftXWGm4/0iNj9zwS5sTb+U++gZLkfunmIHMJkSCYwpa0aY5kEIW0vTc5zJb4q0VpgRJP484ILOrmx2PYFcDaM/dhAOeVYfm/SgA4XHh3E4BROOuH5qBy5HhSwaFJAsFidKf76Hf9Wt8ZCexqZJX84tjoagBvBsH2E2FmfH4RCtRxG2XsTgH3JpbqK4cfht1YDikbeDJilwfw+akZShRgtEI2qDnjQ8arLbvhytrbDDtBOOyHfu712JKnFcO8MnmOJL2w0+VVHWbz42fCQdLPMyU68YyoE7dgp3MzRig+ct9JLeoudyxcLkUfIQyspzZDGc4Tc3GPSYI5KEMicVoL4BnxghJbnt1",
+		"cntpos":[0.5,0.0,0.5],
 		"eventuse":false,
 		"group":0,
-		"name":{"ja":"アセット0"}
+		"name":{"ja":"大きな屋敷"},
+		"plcair":false,
+		"plcoffs":[0,0,0]
+	},
+	"MA006":{
+		"bw64":"KLUv/WAJCG0IAJLLHiGgJ2kN//OegwDcPxvqjq+6nhfBiWPb4yi/m917E9Lk3il3d4gMR3xQTOOA0TiiinsmIhe4iQQbDAqWKEB04UptrakRxthirYVSSko93t39nr6KWsE4mNbaJElaOyFZzhhjZWSttcqLlFIqIzWCUTDl45xzfkRXA6qKhzygMZZiOCVNNuaAgmIiI9QDS0x5K/m0d2wpyg1HwVSkoU+75FWWyK4vaZkjDjYBURgWOVG8RAJtflxIVG986TseCkjUDxrCP2GvCdw8+lgOJIDNDwuJ+gsvcTwi2PKPQ0HO/D+/xRPeS9dw9sKD6A84nSWcspAAEe5S6U3EkKDBImHl5AjPGYVmnp9zQZEB",
+		"cntpos":[0.5,0.0,0.5],
+		"eventuse":false,
+		"group":0,
+		"name":{"ja":"ショップ1"},
+		"plcair":false,
+		"plcoffs":[0,0,0]
+	},
+	"MA007":{
+		"bw64":"KLUv/WCtCsUKAMJLICKAp0kHMzAXMMJ0BoFbO40wIiLs4NE2ZJfYt5/8v8T+LXcKd3d2WnpSNuUXAr47nifICb34Q9o44RfEtwIZAX2Avg3uAjTBbyAzfwIfYLAbF8h8qbwxy1y1plY852SqX73mL3XXt1R4M/ubnnNOrqpfZXqIiHbR7n3v40/OAT4aAmKgsFCVFirNAbCCIhGZ4gbmr0t9vL66zsG4pTZ1Ojy+y2qjJ0vC8NsAbXe4w0fpkGt1LD5OD28xilmZOt7HrqHtYEU4H+i0J6qlpRdNc4s4SD1a9qQlByEnw2D3osZXtS3Fg0XlyL4RjYVqY1J6z0uOEKWNNHwSIa++SVRjI8joNh3nm71G7YCsH5fGDdMMOEY67iK0sKQrfk3CnnROJ8/4sK6Osb2a961Jnx4zLF6duWSweBS/64eQ3RSu+LF+wJsXmRoyhLsKxYb+vNVBcVncBKcD",
+		"cntpos":[0.5,0.0,0.5],
+		"eventuse":false,
+		"group":0,
+		"name":{"ja":"アパート1"},
+		"plcair":false,
+		"plcoffs":[0,0,0]
+	},
+	"MA008":{
+		"bw64":"KLUv/WDnCl0NAGaRMSdgVZPGMAzDBWcQ9Y6vdYunfjTBz36lYOENZhv7B7Ovo5a0m9xyyxQmACMAJgA3jLHIDWH3Yru7t1pV1VvRzMxHqdpM+/E28yLdC/wCJNjggRkBArf+R8x81d1dNYPMbfzxD7Ysy/IJ7H49Oe2fnPY3S5rmltwdEXiOZgzxNx4zVXfVYmwNiSymVlGU6uCtTNVd9W3VImxRpsKDiCqIiI7ccfohYAfI4enlnEY3nJXTDAAOEL51gdMLaQVGhUJxo9H3RENCA3CgYbl1Q1OQQobdwAIj0qYNNbId7crNKJ4sG8fIS9u4mpP1WbdaSamDWIKtd7645Q22Yqetje1zK+I90fcBx2C4MKuVoIFs+IQtRYyGjBhjKNMsSTvJwlk/hkwBW2FWWY+O+DiVEFS/lCQlkSibcyqesv/mtCMXOakgnWRBF+rWNgFMLjWaQkx2wLFMp6eLGbWKTZ1pHoveraSmzCCaPIfoPTbTl7yAHl0nK7o8b32LArvv4K4zHcGaUEh0APDaJpW9C5heUy+7ljTLHzQK6Qu9gA51U/Il2fpi72fX0ZC7whM=",
+		"cntpos":[0.5,0.0,0.5],
+		"eventuse":false,
+		"group":0,
+		"name":{"ja":"教会1"},
+		"plcair":false,
+		"plcoffs":[0,0,0]
+	},
+	"MA009":{
+		"bw64":"KLUv/WDhA6UGAGIHFh6gJ+k/qv99fTVO+YdVwYeHGHOMkMbRtYS0vZskOwVta6DxPqbj/XwcUuB78JsRQsF8C+wbXYPd72KMvvOpHJatfeZaaymlVGIx4pScyd9zG/vYb2TASBE4oOBqapM0B5ACutI2D3nUYBIEB2dttllLyNMVPSzxek0Wu/asUB6dP3EZbtL8C1oT58c4WMulNjDqoVfSK5KtiSxfQmOZ4h41tnThguv0nAJQ2JckRESA3AlGJotLvN0F/d8InEOLtQ1M+NWn9CfLOuX16G5WhFkD",
+		"cntpos":[0.5,0.0,0.5],
+		"eventuse":false,
+		"group":0,
+		"name":{"ja":"アセット0"},
+		"plcair":false,
+		"plcoffs":[0,0,0]
 	},
 	"MA010":{
-		"bw64":"KLUv/WADACUDALQDrgwACQAEAAYAAAACAAMDAwMAAQMDAAABAAKDAgMAwgHDAAODAKpAqgAAAwODAAAIQgBCAAAAAAMDAwMSINACw8YB4GAx4MnFB+sCN2JxPzVzVviCc6YHIYzjXnTvWi9R24c=",
+		"bw64":"KLUv/WB1BSULALLOJiWgJUkHn2AAIAZRAPCg2KbVFz130oUde8h4/xv59reW7Satyb1TbYsB94dUDmCFuzF+GLk3/AXfxXHfjhsrozPoho8X8nOxQk5GaLFxwo98O7p/18c8PXTDdcOmt23HiycS6NWwDa5XPz3D/B3DpJTu+5SXZUl3BMv9DdvguuH61w3T2PRzzmmeo9RAqkzFGGMITAQ7/+NkgZODYqAhScxoJEkKwxqAgoJCtDqQXVW5fIVpiSsEvoyWvzom0hFXHu1hkCV4V3bm6XXfrHVePMjsrjG/xtRsFS/r1ud4uu/ekh+Y79TKnI04DzM3IPi52VgqHwiBGQdYeIRnPTtislOIxhEM28P58rlxDUacG6u7fO99eWglIYrsSF8bXPDqdByUZIj+SRslLWMbikWatkfhruhALqu0LjPbBgj4okMPYzoGigcEI6vcSquz4ScHhlcnxREYpNTeQrvJ6P+ZLYcC",
+		"cntpos":[0.5,0.0,0.5],
+		"eventuse":false,
+		"group":0,
+		"name":{"ja":"倉庫"},
+		"plcair":false,
+		"plcoffs":[0,0,0]
+	},
+	"MA027":{
+		"bw64":"KLUv/WCBAE0CAGQCrgwABgADAAkAAAACAGMAA4MCAwHDAgMAqgAAQKoAEGMDgwMDAwMOIPAC3NoE4BUET8zqddKwkMKbWAMEeMXyAVGyVXRIUEM=",
 		"cntpos":[0.5,0.0,0.5],
 		"eventuse":false,
 		"group":1,
 		"mapcol":false,
-		"name":{"ja":"石橋"}
+		"name":{"ja":"石橋"},
+		"plcair":false,
+		"plcoffs":[0,0,0]
 	},
-	"MA011":{
+	"MA028":{
 		"bw64":"KLUv/SCZ3QEANAKuDAAEAAIABQAAAAEAGwAbERsRAKMEIwCjBAPDAAAAAwMDAwkAL1UAgaxI3GEsXIiVHilrgIcEMAQ=",
 		"cntpos":[0.5,0.0,0.5],
 		"eventuse":false,
 		"group":1,
 		"mapcol":false,
-		"name":{"ja":"木橋"}
+		"name":{"ja":"木橋"},
+		"plcair":false,
+		"plcoffs":[0,0,0]
 	},
-	"MA012":{
-		"bw64":"KLUv/SDFdQIAVAOuDAAGAAUABgAAAAEAIiIiFBQUFABDAAACAAAAcgADAAEDcwADAAQAAgABADIQQQAAAwMDAwkAIUuRMa1zJzEcNsD6irQqbgCHBDAE",
-		"cntpos":[0.5,0.0,0.5],
-		"eventuse":false,
-		"group":1,
-		"name":{"ja":"出窓1"}
-	},
-	"MA013":{
+	"MA030":{
 		"bw64":"KLUv/WDJAAUDACJEDRmwJWkMTLGsTrFbCpeUzY6mWAxNNYI1SUgK20YGhIBgSTS3sJO7hmkFTEdTtM5TtbxoNI9DEiAAg7K1Bo/pky2wcHcwYjLwwmmIHaPwJ8BOZALEA9wWbgGrcEgQQw==",
 		"cntpos":[0.5,0.0,0.5],
 		"eventuse":true,
 		"group":1,
 		"mapcol":true,
-		"name":{"ja":"出窓2"}
+		"name":{"ja":"出窓2"},
+		"plcair":false,
+		"plcoffs":[0,0,0]
 	},
-	"MA015":{
-		"bw64":"KLUv/WB5APUCAOQCrgwAFgAFAAIAAAADAAEBBQUAAgNAagEBFBUAFEBqQGoCAEFQUVAAAAAAAwMDAxigkJi6HTAD0aADBBThBhc7rySBPdM3sHd6tSzkpxSLyVoavUdfkXhZI8mLwFs=",
+	"MA031":{
+		"bw64":"KLUv/SDFdQIAVAOuDAAGAAUABgAAAAEAIiIiFBQUFABDAAACAAAAcgADAAEDcwADAAQAAgABADIQQQAAAwMDAwkAIUuRMa1zJzEcNsD6irQqbgCHBDAE",
 		"cntpos":[0.5,0.0,0.5],
 		"eventuse":false,
 		"group":1,
-		"name":{"ja":"石垣1"}
+		"name":{"ja":"出窓1"},
+		"plcair":false,
+		"plcoffs":[0,0,0]
 	},
-	"MA016":{
-		"bw64":"KLUv/SDznQIA1AKuDAAJAAMABgAAAAIAAwMDAwABAwMAAAEAA4MCwwODAKpAqgODAAAAAAMDAwMQINCCyu1TkE8MDrIBoAfTFTzBCUZ3DE6+X2t+4N6xnkStGQI=",
+	"MA033":{
+		"bw64":"KLUv/SDrvQIAdAOuDAAGAAUABwAAAAEAQUFBQWNjY2MAAEFjAAPDAMoAAEDKA6MTAAMAAwAGAAAABAAAAAIDAwMDDABHk2FHgJ8y8YpTdgrivFiRF5QLK89TFgEOCWAI",
 		"cntpos":[0.5,0.0,0.5],
-		"eventuse":false,
+		"eventuse":true,
 		"group":0,
-		"mapcol":false,
-		"name":{"ja":"石橋"}
+		"mapcol":true,
+		"name":{"ja":"動く足場テスト"},
+		"plcair":false,
+		"plcoffs":[0,0,0]
 	},
-	"MA018":{
+	"MA034":{
+		"bw64":"KLUv/WC9AeUGACIJGyGQKen/x9DI/8wT2nyk0F1v1029h3+VemBE6iaNbCI3SQFtuyao1YfDeyE5rRYwqxMcLRA/M1yP+TEIQFoRYcqmNQrzXM9M9pjIMpvof8XyvV7kp+fc/aK/ToLRSG3/ZrWIiGil/cvpNRvgCDKgQTlVeUHhfgdggnMkZBuHsZ2SObR9bw5zrxKnCZuqzI3JGOopb9z4DPtnmZHb/Nw1j4W9B7dbyxRljyDNWE8csTaMVMNrkthaxSu8pURUHAvUYOZgabABzY85NWcdm8PQj3YA+lVyG2uFkgc=",
+		"cntpos":[0.5,0.0,0.5],
+		"eventuse":true,
+		"group":2,
+		"name":{"ja":"動く足場2"},
+		"plcair":false,
+		"plcoffs":[0,0,0]
+	},
+	"MA035":{
 		"bw64":"KLUv/WCDAgUFABJIGB6wJ40BjDgMwySXVHNSWyqG2Sr1JW2T7teEbJOS7RRmZoETOOIVP+DzffjtDxH/Ljkz8zN1dx8taXcZJqWllGqatUa8ewST9cXLZobj/GeEUlURMxt3V0CK8vEjCyY8YAQZILACMyHqgBvFHvY2Ri+2+JwnBGxeKiYCwsBajGXHOylgACgQ6N1/F1+JgEGZ8GN6D5kR5NotvHRIAEM=",
 		"cntpos":[0.5,0.0,0.5],
 		"eventuse":false,
 		"group":2,
-		"name":{"ja":"自然の入口"}
+		"name":{"ja":"自然の入口"},
+		"plcair":false,
+		"plcoffs":[0,0,0]
 	},
-	"MA019":{
+	"MA036":{
 		"bw64":"KLUv/SC5dQEA2K4MABAAAQAIAAAAAgABAQACwwEDAsMAAwMDAwcANwUCQ4gLwCFYkRMXELrAEA==",
 		"cntpos":[0.5,0.0,0.5],
 		"eventuse":false,
 		"group":2,
-		"name":{"ja":"街道1"}
+		"name":{"ja":"街道1"},
+		"plcair":false,
+		"plcoffs":[0,-1,0]
 	},
-	"MA021":{
+	"MA037":{
+		"bw64":"KLUv/WB5APUCAOQCrgwAFgAFAAIAAAADAAEBBQUAAgNAagEBFBUAFEBqQGoCAEFQUVAAAAAAAwMDAxigkJi6HTAD0aADBBThBhc7rySBPdM3sHd6tSzkpxSLyVoavUdfkXhZI8mLwFs=",
+		"cntpos":[0.5,0.0,0.5],
+		"eventuse":false,
+		"group":1,
+		"name":{"ja":"石垣1"},
+		"plcair":false,
+		"plcoffs":[0,0,0]
+	},
+	"MA038":{
 		"bw64":"KLUv/WA1Ak0EACJFDhfAJa0B////xoHb3LnNFDjeyCY0EXLLFFVVdfARlKXhhBJNwm8io3ahfZG7u3cDVmQ60+JGE/A4BCGgoE6pFIYDsIKjUc0DZzAzpp3iJoN+XJ17OR7J+20SLMRcgpwhsYDGA+zNsgRpIgc7/STbDnkrmQ/+tapzCOY83/0FuDrkWdlwCY8F",
+		"cntpos":[0.5,0.0,0.5],
+		"eventuse":false,
 		"group":1,
-		"name":{"ja":"城壁：横"}
+		"name":{"ja":"城壁：横"},
+		"plcair":false,
+		"plcoffs":[0,0,0]
 	},
-	"MA022":{
+	"MA039":{
 		"bw64":"KLUv/WChAqUEAOJFDxawF9IYzAoYGtBhGAbodNgb27bN5N4p20azVsSGwqU18HDasQomPoQczSSP/Kiq6tUYY/yiDBlNCXiQoAgjoHFFZZUWVssBcIJUMtUNlWVSOJkKt5OVz0+AF9jWmOW0Y3o/yyUuXfMJ198uBKRHCk1D0N7QZYqwA5v6TREFC+GgQpxbdl2wvejCHEdZ7Ubh7gE=",
+		"cntpos":[0.5,0.0,0.5],
+		"eventuse":false,
 		"group":1,
-		"name":{"ja":"城壁：角"}
+		"name":{"ja":"城壁：角"},
+		"plcair":false,
+		"plcoffs":[0,0,0]
 	},
-	"MA023":{
-		"bw64":"KLUv/WDjAsUEAKLGEhqwJ60B2BxJBm8YMtko7CAgmRPLSKDGu0kiU2Zma6Ja5OHKBUJ7NAcVV929l1RlGIEQetLiCqVa0jn1GxtjTIAFtsPMkiTyq7wCRh6g8IqonRrNAcCCohniATA6uwq0ty8yadlGY0Vl7AqakxLLLM3Zm5I0mVcsVLhpfa5JqqV1fH3zvVqzTDkcWQvzpRqKwY1241Vi",
+	"MA040":{
+		"bw64":"KLUv/WDjAs0EAKIGExqwJ60B2BxJhmIYKi1+7gggmRPLSKDGu0kiU2ZmK2IpizxcuUBoj+Zg4qq7tyJVGV4QQk9aXKFUinRO/cbGGBNgge0wsySJ/CqvgBEeIMCCohniATDi7I4qDr7FtbTQRpkVScYuBA1MSgzMEnP2hpI0yQRisYX7tIZck5RaGhhfZPOlak2QAQ4LWWvNl5qhmHAj2dBVhg==",
+		"cntpos":[0.5,0.0,0.5],
+		"eventuse":false,
 		"group":1,
-		"name":{"ja":"城壁：門"}
+		"name":{"ja":"城壁：門"},
+		"plcair":false,
+		"plcoffs":[0,0,0]
 	},
-	"MA024":{
+	"MA041":{
 		"bw64":"KLUv/WAvBKUFAIKHFBuQKWkM/5/5vxm+sN05t7tSq0oIoN9aa7tJQlLbhk460OYy2dham4xlXZxTgTKJMREPTBjU87AzXUgIkipK+qGq2q3ObxtOQ5A90DIHDAQURAIpoJDQFC1tDrCCqhHqHPEQUBmwylbVYRt/i8m6X+Le+n3qlS+Lv9FIbsLZGhBHk2RQWpAV2oMJa764dFnKNCP0AhKw5TrCssLv2U1FpzNY7yaAZUkrtCdNdLQ4QrpeDQ==",
+		"cntpos":[0.5,0.0,0.5],
+		"eventuse":false,
 		"group":1,
-		"name":{"ja":"城壁：塔1"}
+		"name":{"ja":"城壁：塔1"},
+		"plcair":false,
+		"plcoffs":[0,0,0]
 	},
-	"MA025":{
+	"MA042":{
 		"bw64":"KLUv/WDNAOUCAEQDrgwABgAQAAYAAAACADY2IiIUNgIDAAAAABA2AADsAAMABQAEAAAAHijrAAMADQAUAwMDAw8AuwBFQ6Fi5OXKoOAE8OiOjeOJlY3gjmhmO4AxVkyorAEcEsAQ",
-		"group":0,
-		"name":{"ja":"城壁：塔2"}
+		"cntpos":[0.5,0.0,0.5],
+		"eventuse":false,
+		"group":1,
+		"name":{"ja":"城壁：塔2"},
+		"plcair":false,
+		"plcoffs":[0,0,0]
+	},
+	"MA043":{
+		"bw64":"KLUv/WAZA60JAGJNKCdgTdMYMAzDILYEwcOqAh6yT/y6Oqc/3zqdY6Dz2KyxdruLkL2l3CmZmeoIc2YoX4bAlR+W08sOaaXhZ5YZ8AVUmJ3wN34gcs5e4wg7VXUKEXAIHj8/llRSazVRwG8gQQE9zvcSJfgRbHXVOfeMAuy63V2LAVHdAgvnP/E9Eky8+B8mJj77n5tqLKdpXq2mtfbpqE0cTCYRB1WsfsfMjltGQqAhQUjRhAljrHGAgqmaqRslvCPVw5Zafb0Wx5czF+VvwMdZlXKR11f7I1ns0PzySha8PSgDPcn8vhtnxmstIxqPfJwTUbEuNHia0QpiEHfKvneIrGfRDhqRouSz6QxPw3+zkatkA20s/84oiGK0xvL06yh7JrGhl1tcAyc9ai2aTn90b0HQTb+e50AVqlyrnA==",
+		"cntpos":[0.5,0.0,0.5],
+		"eventuse":false,
+		"group":1,
+		"name":{"ja":"遺跡1"},
+		"plcair":false,
+		"plcoffs":[0,0,0]
+	},
+	"MA044":{
+		"bw64":"KLUv/WBjAaUFAKLHFh6gJ+k/+GdV1yEAwJz8APEyhDDsvsnskwnZS77cOwVtm9C22WB3NGJC4Q/cjw8/Iom8MZlJXe+s7tq7iq2GnSSWlRjqIOImMx/xV+feyiXX7TfFWgb8g3HBxyImoJAQEQVpIR1wgnOk4gF1+Vftz0u2uvuS8BNrTteE5YOXfGJHZKhC4g0HisUUMAbGVgdmNIrwY49ieHjphAVDFRe1Lnb69j3vCudAewxYaoEljVepAQ==",
+		"cntpos":[0.5,0.0,0.5],
+		"eventuse":false,
+		"group":1,
+		"name":{"ja":"遺跡2"},
+		"plcair":false,
+		"plcoffs":[0,-1,0]
+	},
+	"MA060":{
+		"bw64":"KLUv/SCPlQEA2K4MAAQABgADAAAAAQAREQIDAwACAAIKAwMDAwkAuwCtq2vIws5GnBwz5VvBDGhvwRA=",
+		"cntpos":[0.5,0.0,0.5],
+		"eventuse":false,
+		"group":1,
+		"name":{"en":"Dungeon Door","ja":"ダンジョン扉"},
+		"plcair":false,
+		"plcoffs":[0,0,0]
+	},
+	"MA061":{
+		"bw64":"KLUv/SCPnQEA8K4MAAQABgADAAAAAQAREQIDAQACAAKAAAAKAwMDAwgAraFryMLORpwcM+VbwQxob8EQ",
+		"cntpos":[0.5,0.0,0.5],
+		"eventuse":false,
+		"group":1,
+		"name":{"en":"Dungeon Door(Open)","ja":"ダンジョン扉(開)"},
+		"plcair":false,
+		"plcoffs":[0,0,0]
+	},
+	"MA063":{
+		"bw64":"KLUv/WDDAA0CAHQCrgwABgAGAAcAAAABAGNjY2MAYwACAwMCAwYAAwAAKBhAAAADAwMDCQC5mM+VgYut1OEuQlzHV4gFuIBELRgC",
+		"cntpos":[0.5,0.0,0.5],
+		"eventuse":false,
+		"group":1,
+		"name":{"en":"Up Stair","ja":"登り階段"},
+		"plcair":true,
+		"plcoffs":[0,0,4]
+	},
+	"MA064":{
+		"bw64":"KLUv/WATATUDAFIEDRbAJa0BwP9/4D/dwi4asLcIIZtIKXcKVVW2lGTtxQMrJXMAbskSNoJnRe/OubvkxGFpDAIUINACMmNs8FFh0xuANb0XDKQ2vyrC6D/gClznxvAkKrwbfitCZxmyFrxlorYPAQ==",
+		"cntpos":[0.5,0.0,0.5],
+		"eventuse":false,
+		"group":1,
+		"name":{"en":"Down Stair","ja":"下り階段"},
+		"plcair":true,
+		"plcoffs":[0,-4,0]
 	},
 	"_meta":{
 		"caps":400,
