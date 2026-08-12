@@ -436,29 +436,6 @@
 				"pos":[145,5,77,2],
 				"role":"custom",
 				"spawndist":1
-			},
-			"#1000010#":{
-				"col":0,
-				"flags":1,
-				"mdlid":"CV000",
-				"name":"*custom-10",
-				"page":[
-					{
-						"cmdblock":[
-							{"cmd":"cmd_showui","key":"store_choices","storeid":"R010"}
-						],
-						"memo":"",
-						"moveaction":"stop",
-						"movespd":4,
-						"pararun":false,
-						"reqs":null,
-						"standani":{"id":"stand"},
-						"trigger":1
-					}
-				],
-				"pos":[59,5,55,2],
-				"role":"custom",
-				"spawndist":1
 			}
 		},
 		"exitmap":{"dest":null},
