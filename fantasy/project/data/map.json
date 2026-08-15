@@ -284,6 +284,7 @@
 				"standani":null
 			},
 			"#1000003#":{
+				"back":false,
 				"col":0,
 				"dest":{"evid":1000005,"mapid":"M006"},
 				"flags":1,
@@ -711,16 +712,17 @@
 				"standani":null
 			},
 			"#1000005#":{
+				"back":true,
 				"col":0,
 				"dest":{"evid":1000003,"mapid":"M001"},
 				"flags":1,
 				"mdl":{"r":[0,1.0,0,1.0,1.0,0.5]},
 				"name":"*portal-5",
 				"pos":[109,1,5,2],
-				"remap":true,
+				"remap":false,
 				"role":"portal",
 				"spawndist":1,
-				"wipe":1
+				"wipe":2
 			},
 			"#1000006#":{
 				"col":0,
