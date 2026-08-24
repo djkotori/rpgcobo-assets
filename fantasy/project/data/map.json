@@ -59,7 +59,7 @@
 								"layer":"menu",
 								"op":"show",
 								"pos":{"down":0,"left":0,"right":0,"up":0},
-								"uipath":"/resource/ui/title.ui",
+								"uipath":"/presetui/title.ui",
 								"wait":false
 							},
 							{"cmd":"cmd_customui","idx":0,"op":"value","rvar":"W","target":"titlemenu","val":"W","valtype":2},

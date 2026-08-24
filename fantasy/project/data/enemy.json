@@ -42,6 +42,7 @@
 		"MATK":10,
 		"MAXHP":"\t10+LV*10",
 		"MAXMP":100,
+		"MAXTP":9999,
 		"MDEF":10,
 		"MDF":100,
 		"MEVA":1.0,

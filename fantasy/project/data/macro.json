@@ -10,7 +10,7 @@
 				"layer":"menu",
 				"op":"show",
 				"pos":{"down":0,"left":0,"right":0,"up":0},
-				"uipath":"/resource/ui/gameover.ui",
+				"uipath":"/presetui/gameover.ui",
 				"wait":true
 			},
 			{"cmd":"cmd_wait","time":1200},
