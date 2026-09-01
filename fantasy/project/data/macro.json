@@ -127,7 +127,7 @@
 	"X011":{
 		"cmdblock":[
 			{
-				"_var":{"itemid":"W","num":"X"},
+				"_var":{"LV":"Y","itemid":"W","num":"X"},
 				"cmd":"cmd_itemop",
 				"itemid":"I000",
 				"num":1,
@@ -147,6 +147,7 @@
 		"desc":"",
 		"name":"宝箱を開ける",
 		"runmode":0,
+		"runrepeat":false,
 		"runreqs":[]
 	},
 	"X012":{
