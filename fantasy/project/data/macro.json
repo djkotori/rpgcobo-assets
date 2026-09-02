@@ -133,7 +133,7 @@
 				"num":1,
 				"op":0
 			},
-			{"cmd":"cmd_script","code":"W = tmpl(::T[X>1?\"gotitem_n\":\"gotitem\"],{v=dataname(W), n=commanum(X)})"},
+			{"cmd":"cmd_script","code":"W = tmpl(::T[X>1?\"gotitem_n\":\"gotitem\"],{v=dataname(W,Y), n=commanum(X)})"},
 			{
 				"_var":{"text":"W"},
 				"cmd":"cmd_showmsg",
