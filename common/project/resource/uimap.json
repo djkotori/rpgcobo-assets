@@ -112,13 +112,25 @@
 	"message":{
 		"#0#":{
 			"baseui":"/presetui/message_talk.ui",
-			"en":{"desc":"","name":"Talk message","useidx":-1},
+			"en":{"desc":"","name":"Talk Message","useidx":-1},
 			"ja":{"desc":"","name":"会話メッセージ","useidx":-1},
 			"uilist":[]
 		},
 		"#1#":{
+			"baseui":"/presetui/message_talk_pic.ui",
+			"en":{"desc":"","name":"Talk Message(Pic)","useidx":-1},
+			"ja":{"desc":"","name":"会話メッセージ(ピクチャ)","useidx":-1},
+			"uilist":[]
+		},
+		"#2#":{
+			"baseui":"/presetui/message_big.ui",
+			"en":{"desc":"","name":"Big Message","useidx":-1},
+			"ja":{"desc":"","name":"大画面メッセージ","useidx":-1},
+			"uilist":[]
+		},
+		"#3#":{
 			"baseui":"/presetui/message_log.ui",
-			"en":{"desc":"","name":"Log message","useidx":-1},
+			"en":{"desc":"","name":"Log Message","useidx":-1},
 			"ja":{"desc":"","name":"ログメッセージ","useidx":-1},
 			"uilist":[]
 		}
