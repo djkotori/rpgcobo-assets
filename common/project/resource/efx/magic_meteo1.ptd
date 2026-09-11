@@ -3,7 +3,7 @@
 ////////////////////////////////////////////////////////
 parentcoord <- false
 currentgroup <- 2
-prof <- {"showbnd":[-0.079345,3.136355,0.114404,2.496032,3.28673,2.481174],"maxbnd":[0.822369,1.119416,-0.534803,3.983381,4.834085,3.715159],"showtime":1144,"wholebnd":[0.036431,1.383206,-0.180594,5.059163,5.687835,4.979778]}
+prof <- {"showbnd":[-0.272158,2.099901,-0.087546,3.525588,4.625489,3.525588],"maxbnd":[-0.193902,1.840247,-0.114961,4.036176,4.876424,4.036176],"showtime":1632,"wholebnd":[0.023631,1.502849,0.04142,4.363035,5.621253,4.390224]}
 groups <- [
 	with ParticleGroupData(){
 		name = "smoke"
@@ -59,7 +59,7 @@ groups <- [
 		color = 0xffffffff
 		blendmode = 5
 		blend = 1
-		tec = "shading.basic"
+		tec = "decal.def"
 		Ka = 0x808080ff
 		Ks = 0x00000000
 		mod = [
@@ -118,15 +118,15 @@ groups <- [
 		shapedata = {"axis":0,"r":0.0,"w":0.04,"h":0.04}
 		texture = "/resource/efx/tex/rock1.webp"
 		color = 0xffffffff
-		blendmode = 5
+		blendmode = 2
 		blend = 1
-		tec = "shading.basic"
+		tec = "pbr.basic"
 		Ka = 0x808080ff
 		Ks = 0x00000000
 		mod = [
 		{"vel":3.5,"classid":"ptcmod_vel","vel_spr":3.0},
 		{"axisid":1,"classid":"ptcmod_acc","acc":-0.5,"coord":1,"acc_spr":0.0},
-		{"color":[-10789889,-844518913,-843732225,-843732396,-843732480],"classid":"ptcmod_color"},
+		{"color":[-13631233,-855637761,-1889118977,1783447636,1649824000],"classid":"ptcmod_color"},
 		{"axisid":2,"classid":"ptcmod_rot","rot":[-1.0,1.0],"scale":3.1416},
 		{"color":0,"scale":4.0,"classid":"ptcmod_rnd","b":0.0,"h":0.0,"p":0.0},
 		]

@@ -70,7 +70,7 @@
 					"head":-30,
 					"pitch":50,
 					"power":1000,
-					"shadow":{"shadowdens":0.5,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.5,"shadowtype":3},
+					"shadow":{"shadowdens":0.5,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.5,"shadowtype":2},
 					"type":1
 				}
 			],
@@ -91,7 +91,7 @@
 					"head":-30,
 					"pitch":50,
 					"power":1000,
-					"shadow":{"shadowdens":0.5,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.5,"shadowtype":3},
+					"shadow":{"shadowdens":0.5,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.5,"shadowtype":2},
 					"type":1
 				}
 			],
@@ -112,44 +112,44 @@
 					"head":-37,
 					"pitch":42,
 					"power":700,
-					"shadow":{"shadowdens":0.42,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.5,"shadowtype":3},
+					"shadow":{"shadowdens":0.42,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.5,"shadowtype":2},
 					"type":1
 				}
 			],
-			"exposure":{"autoexposure":false,"ev100":9.3,"evrange":[-4.0,14.0]},
+			"exposure":{"autoexposure":false,"ev100":9.2,"evrange":[-4.0,14.0]},
 			"fog":{"type":0},
 			"ibl":{
 				"iblcolor":-1,
-				"ibldiff":1900,
+				"ibldiff":1600,
 				"ibldir":180,
-				"iblspec":1700,
+				"iblspec":1900,
 				"ibltex":"/resource/ibltex/wildflower_field_2k_ibl.ktx"
 			},
 			"id":"pbr_df-4",
 			"lock":true,
 			"name":{"en":"PBR Deferred+","ja":"朝"},
-			"postfx":{"bloomblur":3.2,"bloompow":0.12,"bloomthrs":0.9,"dofblur":0.5,"dofrange":80,"dofz":4.0},
+			"postfx":{"bloomblur":3.2,"bloompow":0.12,"bloomthrs":0.9,"dofblur":0.8,"dofrange":30,"dofz":4.0},
 			"renderpass":2,
-			"ss":{"aobias":0.6,"aoexp":1.0,"aopow":0.78,"aoradius":4.0,"gipow":1.0,"gitype":0}
+			"ss":{"aobias":0.6,"aoexp":1.0,"aopow":0.78,"aoradius":4.6,"gipow":1.0,"gitype":0}
 		},
 		{
 			"envlights":[
 				{
-					"color":-81409,
+					"color":-206337,
 					"head":34,
 					"pitch":57,
-					"power":800,
-					"shadow":{"shadowdens":0.55,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.5,"shadowtype":3},
+					"power":900,
+					"shadow":{"shadowdens":0.6,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.5,"shadowtype":2},
 					"type":1
 				}
 			],
-			"exposure":{"autoexposure":false,"ev100":9.7,"evrange":[-4.0,14.0]},
+			"exposure":{"autoexposure":false,"ev100":9.5,"evrange":[-4.0,14.0]},
 			"fog":{"type":0},
 			"ibl":{
-				"iblcolor":-905970177,
-				"ibldiff":2500,
+				"iblcolor":-957022209,
+				"ibldiff":1400,
 				"ibldir":0,
-				"iblspec":2400,
+				"iblspec":2000,
 				"ibltex":"/resource/ibltex/blouberg_sunrise_2_2k_ibl.ktx"
 			},
 			"id":"pbr_df-4-1-1",
@@ -166,7 +166,7 @@
 					"head":32,
 					"pitch":42,
 					"power":500,
-					"shadow":{"shadowdens":0.52,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.5,"shadowtype":3},
+					"shadow":{"shadowdens":0.52,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.5,"shadowtype":2},
 					"type":1
 				}
 			],
@@ -187,7 +187,7 @@
 					"head":36,
 					"pitch":43,
 					"power":140,
-					"shadow":{"shadowdens":0.44,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.35,"shadowtype":3},
+					"shadow":{"shadowdens":0.44,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.35,"shadowtype":2},
 					"type":1
 				}
 			],
@@ -205,7 +205,7 @@
 			"name":{"en":"PBR Deferred++","ja":"夕暮れ"},
 			"postfx":{"bloomblur":3.2,"bloompow":0.12,"bloomthrs":0.9,"dofblur":0.5,"dofrange":80,"dofz":4.0},
 			"renderpass":2,
-			"ss":{"aobias":0.45,"aoexp":1.0,"aopow":0.9,"aoradius":4.9,"gipow":1.0,"gitype":0}
+			"ss":{"aobias":0.45,"aoexp":1.1,"aopow":0.9,"aoradius":5.4,"gipow":1.0,"gitype":0}
 		},
 		{
 			"envlights":[
@@ -220,13 +220,13 @@
 			],
 			"exposure":{"autoexposure":false,"ev100":4.0,"evrange":[-4.0,14.0]},
 			"fog":{"type":0},
-			"ibl":{"iblcolor":-1,"ibldiff":6,"ibldir":110,"iblspec":7,"ibltex":"/resource/ibltex/narrow_moonlit_road_2k_ibl.ktx"},
+			"ibl":{"iblcolor":-1,"ibldiff":6,"ibldir":110,"iblspec":8,"ibltex":"/resource/ibltex/narrow_moonlit_road_2k_ibl.ktx"},
 			"id":"pbr_df-1",
 			"lock":true,
 			"name":{"en":"PBR Deferred+","ja":"夜"},
 			"postfx":{"bloomblur":3.7,"bloompow":0.12,"bloomthrs":0.9,"dofblur":0.5,"dofrange":80,"dofz":4.0},
 			"renderpass":2,
-			"ss":{"aobias":0.4,"aoexp":1.0,"aopow":0.9,"aoradius":4.5,"gipow":1.0,"gitype":0}
+			"ss":{"aobias":0.4,"aoexp":1.0,"aopow":0.75,"aoradius":5.2,"gipow":1.0,"gitype":0}
 		},
 		{
 			"envlights":[
@@ -235,7 +235,7 @@
 					"head":24,
 					"pitch":48,
 					"power":200,
-					"shadow":{"shadowdens":0.36,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.5,"shadowtype":3},
+					"shadow":{"shadowdens":0.36,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.5,"shadowtype":2},
 					"type":1
 				}
 			],
@@ -255,14 +255,14 @@
 					"color":2013252351,
 					"head":27,
 					"pitch":40,
-					"power":200,
-					"shadow":{"shadowdens":0.4,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.35,"shadowtype":3},
+					"power":220,
+					"shadow":{"shadowdens":0.45,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.35,"shadowtype":2},
 					"type":1
 				}
 			],
-			"exposure":{"autoexposure":false,"ev100":7.4,"evrange":[-4.0,14.0]},
+			"exposure":{"autoexposure":false,"ev100":7.25,"evrange":[-4.0,14.0]},
 			"fog":{"type":0},
-			"ibl":{"iblcolor":-1,"ibldiff":300,"ibldir":180,"iblspec":300,"ibltex":"/resource/ibltex/meadow_2k_ibl.ktx"},
+			"ibl":{"iblcolor":-1,"ibldiff":280,"ibldir":180,"iblspec":350,"ibltex":"/resource/ibltex/meadow_2k_ibl.ktx"},
 			"id":"pbr_df-3-3",
 			"lock":true,
 			"name":{"en":"PBR Deferred++","ja":"森"},
@@ -276,12 +276,12 @@
 					"color":-1427243009,
 					"head":-43,
 					"pitch":34,
-					"power":90,
-					"shadow":{"shadowdens":0.42,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.5,"shadowtype":3},
+					"power":100,
+					"shadow":{"shadowdens":0.42,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.5,"shadowtype":2},
 					"type":1
 				}
 			],
-			"exposure":{"autoexposure":false,"ev100":5.8,"evrange":[-4.0,14.0]},
+			"exposure":{"autoexposure":false,"ev100":5.6,"evrange":[-4.0,14.0]},
 			"fog":{"type":0},
 			"ibl":{"iblcolor":-1,"ibldiff":40,"ibldir":180,"iblspec":210,"ibltex":"/resource/ibltex/cave_wall_2k_ibl.ktx"},
 			"id":"pbr_df-4-1",
@@ -298,7 +298,7 @@
 					"head":-26,
 					"pitch":53,
 					"power":800,
-					"shadow":{"shadowdens":0.36,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.5,"shadowtype":3},
+					"shadow":{"shadowdens":0.36,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.5,"shadowtype":2},
 					"type":1
 				}
 			],
@@ -319,7 +319,7 @@
 					"head":30,
 					"pitch":50,
 					"power":20,
-					"shadow":{"shadowdens":0.3,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.35,"shadowtype":3},
+					"shadow":{"shadowdens":0.3,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.35,"shadowtype":2},
 					"type":1
 				}
 			],
@@ -424,7 +424,7 @@
 					"head":30,
 					"pitch":50,
 					"power":6,
-					"shadow":{"shadowdens":0.3,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.5,"shadowtype":3},
+					"shadow":{"shadowdens":0.3,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.5,"shadowtype":2},
 					"type":1
 				}
 			],
@@ -543,7 +543,7 @@
 			"mtype":0,
 			"name":{"en":"Stone Floor","ja":"石畳"},
 			"ptn":["stonefloor0",0.7],
-			"rough":0.8
+			"rough":0.77
 		},
 		"#13#":{
 			"metal":0.24,
@@ -551,7 +551,7 @@
 			"mtype":0,
 			"name":{"en":"Brick","ja":"レンガ"},
 			"ptn":["block3",0.55],
-			"rough":0.9
+			"rough":0.87
 		},
 		"#14#":{
 			"metal":0.0,
@@ -575,7 +575,7 @@
 			"mtype":0,
 			"name":{"en":"Wood1","ja":"木材1"},
 			"ptn":["wood0",0.6],
-			"rough":0.92
+			"rough":0.9
 		},
 		"#17#":{
 			"metal":0.0,
@@ -583,7 +583,7 @@
 			"mtype":0,
 			"name":{"en":"Wood2","ja":"木材2"},
 			"ptn":["wood1",0.8],
-			"rough":0.88
+			"rough":0.86
 		},
 		"#18#":{
 			"metal":0.0,
@@ -591,7 +591,7 @@
 			"mtype":0,
 			"name":{"en":"FloorBoard","ja":"床板"},
 			"ptn":["block6",0.5],
-			"rough":0.9
+			"rough":0.88
 		},
 		"#19#":{
 			"metal":0.1,
@@ -615,7 +615,7 @@
 			"mtype":0,
 			"name":{"en":"Dirt1","ja":"土1"},
 			"ptn":["block6",0.7],
-			"rough":0.98
+			"rough":0.87
 		},
 		"#22#":{
 			"metal":0.0,
@@ -623,7 +623,7 @@
 			"mtype":0,
 			"name":{"en":"Dirt2","ja":"土2"},
 			"ptn":["block8",0.5],
-			"rough":0.98
+			"rough":0.81
 		},
 		"#23#":{
 			"metal":0.0,
@@ -631,7 +631,7 @@
 			"mtype":0,
 			"name":{"en":"Dirt3","ja":"土3"},
 			"ptn":["block4",0.9],
-			"rough":0.98
+			"rough":0.85
 		},
 		"#24#":{
 			"metal":0.0,
@@ -639,7 +639,7 @@
 			"mtype":0,
 			"name":{"en":"Wasteland","ja":"荒地"},
 			"ptn":["block10",0.7],
-			"rough":0.99
+			"rough":0.91
 		},
 		"#25#":{
 			"metal":0.0,
@@ -647,7 +647,7 @@
 			"mtype":0,
 			"name":{"en":"Sand","ja":"砂"},
 			"ptn":["sandfloor",0.6],
-			"rough":0.94
+			"rough":0.87
 		},
 		"#31#":{
 			"metal":0.3,
@@ -655,7 +655,7 @@
 			"mtype":0,
 			"name":{"en":"Grass1","ja":"草原1"},
 			"ptn":["grassfloor0",1.0],
-			"rough":0.88
+			"rough":0.81
 		},
 		"#32#":{
 			"metal":0.5,
@@ -735,7 +735,7 @@
 			"mtype":0,
 			"name":{"en":"Stained Glass","ja":"ステンドグラス"},
 			"ptn":null,
-			"rough":0.8
+			"rough":0.77
 		},
 		"#55#":{
 			"metal":0.5,
@@ -759,7 +759,7 @@
 			"mtype":0,
 			"name":{"en":"Water","ja":"水"},
 			"ptn":null,
-			"rough":0.2
+			"rough":0.27
 		},
 		"#81#":{
 			"anime":{"r":[0,0,0,0,0,0,0,0,0,0,1,1,1,2,2,2,3,3,3,4,4,4,5,5,5,6,6,6,7,7,7,7,7,7,7,7,7,7,6,6,6,5,5,5,4,4,4,3,3,3,2,2,2,1,1,1]},
@@ -768,7 +768,7 @@
 			"mtype":0,
 			"name":{"en":"Water Top","ja":"水面"},
 			"ptn":["watertop0",1.0],
-			"rough":0.12
+			"rough":0.2
 		},
 		"#82#":{
 			"anime":{"r":[0,0,0,2,2,2,4,4,4,6,6,6]},
@@ -785,7 +785,7 @@
 			"mtype":0,
 			"name":{"en":"Laba","ja":"溶岩"},
 			"ptn":null,
-			"rough":0.2
+			"rough":0.25
 		},
 		"#84#":{
 			"anime":{"r":[0,0,0,0,0,0,1,1,1,1,1,1,2,2,2,2,2,2,3,3,3,3,3,3]},
@@ -794,7 +794,7 @@
 			"mtype":0,
 			"name":{"en":"Laba Top","ja":"溶岩面1"},
 			"ptn":["watertop0",1.0],
-			"rough":0.12
+			"rough":0.2
 		},
 		"#85#":{
 			"anime":{"r":[0,0,0,2,2,2,4,4,4,6,6,6]},

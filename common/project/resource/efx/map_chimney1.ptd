@@ -3,7 +3,7 @@
 ////////////////////////////////////////////////////////
 parentcoord <- false
 currentgroup <- 0
-prof <- {"showbnd":[0.336709,0.700172,0.000125,1.433263,1.592958,1.09127],"maxbnd":[0.524572,1.091986,0.011367,1.520109,1.850931,1.078399],"showtime":2184,"wholebnd":[0.47584,0.92414,0.005518,1.568841,2.018777,1.091187]}
+prof <- {"showbnd":[0.463707,1.059654,0.035284,1.113304,1.400848,0.880064],"maxbnd":[0.591449,1.080595,-0.070578,1.190735,1.567979,0.867367],"showtime":4992,"wholebnd":[0.559714,0.999035,-0.001059,1.22247,1.649538,0.936885]}
 groups <- [
 	with ParticleGroupData(){
 		name = "smoke"
@@ -11,7 +11,7 @@ groups <- [
 		aimtype = 1
 		localcoord = true
 		emitter = with ParticleEmitter(){
-			num = 16
+			num = 8
 			start = 0, start_spr = 1800
 			life = 1500, life_spr = 750
 			posx = 0.0, posy = 0.0, posz = 0.0
@@ -22,7 +22,7 @@ groups <- [
 		},
 		shapetype = 0
 		shapedata = {"axis":0,"r":0.77,"w":0.5,"h":0.5}
-		texture = "/resource/efx/tex/smoke2.webp"
+		texture = "/resource/efx/tex/smoke1.webp"
 		color = 0xffffffff
 		blendmode = 2
 		blend = 1
@@ -32,10 +32,10 @@ groups <- [
 		mod = [
 		{"vel":0.7,"classid":"ptcmod_vel","vel_spr":0.2},
 		{"xyz":7,"scale":[0.794118,1.294118],"classid":"ptcmod_scale"},
-		{"color":[-256,-1,-136,-196,-256],"classid":"ptcmod_color"},
-		{"axisid":0,"classid":"ptcmod_acc","acc_spr":0.0,"coord":1,"acc":0.02},
-		{"color":0,"scale":0.0,"classid":"ptcmod_rnd","b":10.0,"h":0.0,"p":0.0},
-		{"scale":0.174533,"classid":"ptcmod_rot","rot":[-1.0,1.0],"axisid":2},
+		{"color":[-256,-1,-117,-155,-189],"classid":"ptcmod_color"},
+		{"axisid":0,"classid":"ptcmod_acc","acc":0.02,"coord":1,"acc_spr":0.0},
+		{"color":0,"scale":0.2,"classid":"ptcmod_rnd","b":10.0,"p":0.0,"h":0.0},
+		{"classid":"ptcmod_texanime","frame":[0.0,7.023809]},
 		]
 	},
 ]

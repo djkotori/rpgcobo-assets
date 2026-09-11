@@ -3,7 +3,7 @@
 ////////////////////////////////////////////////////////
 parentcoord <- false
 currentgroup <- 0
-prof <- {"showbnd":[-0.057287,0.019998,-0.176712,1.8664,1.326978,1.176712],"maxbnd":[-0.013357,0.14799,0.13492,1.839361,1.422457,1.563176],"showtime":568,"wholebnd":[0.019535,0.008392,0.041973,1.899156,1.562055,1.905861]}
+prof <- {"showbnd":[-0.081493,0.077375,0.107312,1.408587,1.53232,1.460537],"maxbnd":[0.028962,-0.303269,-0.043993,1.573018,1.690731,1.573018],"showtime":752,"wholebnd":[0.028962,-0.151837,-0.043993,1.573018,1.842163,1.573018]}
 groups <- [
 	with ParticleGroupData(){
 		name = "cut"
@@ -14,7 +14,7 @@ groups <- [
 			num = 4
 			start = 0, start_spr = 800
 			life = 800, life_spr = 0
-			posx = 0.0, posy = 0.0, posz = 0.0
+			posx = 0.0, posy = 0.3, posz = 0.3
 			pos_sprx = 0.0, pos_spry = 0.0, pos_sprz = 0.0
 			dirx = 0.0, diry = 0.0, dirz = 0.0
 			dir_sprx = 1.884956, dir_spry = 3.141593, dir_sprz = 0.0
@@ -38,29 +38,29 @@ groups <- [
 	with ParticleGroupData(){
 		name = "ptc"
 		enabled = true
-		aimtype = 1
+		aimtype = 2
 		localcoord = true
 		emitter = with ParticleEmitter(){
-			num = 12
-			start = 100, start_spr = 800
+			num = 16
+			start = 400, start_spr = 400
 			life = 300, life_spr = 0
-			posx = 0.0, posy = 0.2, posz = 0.0
-			pos_sprx = 0.0, pos_spry = 0.0, pos_sprz = 0.0
-			dirx = 0.0, diry = 1.570796, dirz = 0.0
-			dir_sprx = 6.283185, dir_spry = 0.698132, dir_sprz = 0.0
+			posx = 0.0, posy = 0.4, posz = 0.4
+			pos_sprx = 0.04, pos_spry = 0.0, pos_sprz = 0.0
+			dirx = 0.0, diry = 0.0, dirz = 1.396263
+			dir_sprx = 6.283185, dir_spry = 0.0, dir_sprz = 0.174533
 			linearbits = 1
 		},
 		shapetype = 0
-		shapedata = {"axis":0,"r":0.0,"w":0.02,"h":0.02}
-		texture = "/resource/efx/tex/circle2.webp"
+		shapedata = {"axis":0,"r":0.0,"w":0.1,"h":0.025}
+		texture = "/resource/efx/tex/sting1.webp"
 		color = 0xffffffff
 		blendmode = 5
 		blend = 5
 		Ka = 0x808080ff
 		Ks = 0x00000000
 		mod = [
-		{"color":[-256,16760831,14690910,79888384],"classid":"ptcmod_color"},
-		{"xyz":7,"scale":[0.211538,1.25,1.75,1.884615,2.0],"classid":"ptcmod_scale"},
+		{"color":[-256,16760831,14690910,79888459,79888384],"classid":"ptcmod_color"},
+		{"xyz":7,"scale":[1.205882,1.852941,1.352941,0.735294,0.735294],"classid":"ptcmod_scale"},
 		{"color":0,"scale":0.5,"classid":"ptcmod_rnd","b":0.0,"p":0.0,"h":0.0},
 		{"vel":5.0,"classid":"ptcmod_vel","vel_spr":0.0},
 		{"axisid":1,"classid":"ptcmod_acc","acc_spr":0.0,"coord":0,"acc":-0.7},

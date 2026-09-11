@@ -3,7 +3,7 @@
 ////////////////////////////////////////////////////////
 parentcoord <- false
 currentgroup <- 1
-prof <- {"showbnd":[0.000151,0.5,0.051985,2.315014,2.015966,2.067952],"maxbnd":[0.0,0.5,0.0,2.675328,2.675328,2.675328],"showtime":240,"wholebnd":[-0.539347,0.547366,0.291566,3.478071,2.722694,3.004572]}
+prof <- {"showbnd":[0.027627,0.556286,-0.13853,2.453411,1.943177,2.025421],"maxbnd":[0.09251,0.692144,0.531581,3.359161,2.289836,2.629273],"showtime":192,"wholebnd":[0.30574,0.702132,-0.128341,3.859457,2.877459,3.726851]}
 groups <- [
 	with ParticleGroupData(){
 		name = "shockwave"
@@ -50,7 +50,7 @@ groups <- [
 			linearbits = 0
 		},
 		shapetype = 0
-		shapedata = {"axis":0,"r":0.0,"w":0.3,"h":0.3}
+		shapedata = {"axis":0,"r":0.0,"w":1.0,"h":0.3}
 		texture = "/resource/efx/tex/rectangle1.webp"
 		color = 0xffffffff
 		blendmode = 5
@@ -64,7 +64,7 @@ groups <- [
 		{"xyz":1,"scale":[0.0,1.0,0.538462,0.235294,0.0],"classid":"ptcmod_scale"},
 		{"xyz":6,"scale":[1.0,1.0,1.0,0.588235,0.0],"classid":"ptcmod_scale"},
 		{"color":[285155583,285155583,285155583,285155328],"classid":"ptcmod_color"},
-		{"axisid":1,"classid":"ptcmod_acc","acc_spr":0.0,"coord":0,"acc":-0.81},
+		{"axisid":1,"classid":"ptcmod_acc","acc":-0.81,"coord":0,"acc_spr":0.0},
 		]
 	},
 	with ParticleGroupData(){
@@ -83,7 +83,7 @@ groups <- [
 			linearbits = 0
 		},
 		shapetype = 0
-		shapedata = {"axis":0,"r":0.0,"w":0.3,"h":0.3}
+		shapedata = {"axis":0,"r":0.0,"w":0.7,"h":0.3}
 		texture = "/resource/efx/tex/rectangle1.webp"
 		color = 0xffffffff
 		blendmode = 5
@@ -97,7 +97,7 @@ groups <- [
 		{"xyz":1,"scale":[0.0,1.0,0.538462,0.235294,0.0],"classid":"ptcmod_scale"},
 		{"xyz":6,"scale":[1.0,1.0,1.0,0.588235,0.0],"classid":"ptcmod_scale"},
 		{"color":[-1291845633,-2130706433,11730943,0],"classid":"ptcmod_color"},
-		{"axisid":1,"classid":"ptcmod_acc","acc":-0.81,"coord":0,"acc_spr":0.0},
+		{"axisid":1,"classid":"ptcmod_acc","acc_spr":0.0,"coord":0,"acc":-0.81},
 		]
 	},
 	with ParticleGroupData(){
@@ -128,9 +128,9 @@ groups <- [
 		mod = [
 		{"vel":2.7,"classid":"ptcmod_vel","vel_spr":0.36},
 		{"xyz":7,"scale":[1.0,1.653846,1.307692],"classid":"ptcmod_scale"},
-		{"axisid":1,"classid":"ptcmod_acc","acc":-0.05,"coord":1,"acc_spr":0.0},
+		{"axisid":1,"classid":"ptcmod_acc","acc_spr":0.0,"coord":1,"acc":-0.05},
 		{"color":[-1291859713,-1291859713,-2130720513,1090504704],"classid":"ptcmod_color"},
-		{"axisid":2,"classid":"ptcmod_rot","rot":[-1.0,0.153846],"scale":3.141593},
+		{"scale":3.141593,"classid":"ptcmod_rot","rot":[-1.0,0.153846],"axisid":2},
 		]
 	},
 	with ParticleGroupData(){
@@ -161,9 +161,9 @@ groups <- [
 		mod = [
 		{"vel":2.7,"classid":"ptcmod_vel","vel_spr":0.36},
 		{"xyz":7,"scale":[1.0,1.653846,1.307692],"classid":"ptcmod_scale"},
-		{"axisid":1,"classid":"ptcmod_acc","acc":0.243,"coord":1,"acc_spr":0.0},
+		{"axisid":1,"classid":"ptcmod_acc","acc_spr":0.0,"coord":1,"acc":0.243},
 		{"color":[-1297678081,-1297678081,-1297678081,-1719074816],"classid":"ptcmod_color"},
-		{"axisid":2,"classid":"ptcmod_rot","rot":[-1.0,0.153846],"scale":3.141593},
+		{"scale":3.141593,"classid":"ptcmod_rot","rot":[-1.0,0.153846],"axisid":2},
 		]
 	},
 	with ParticleGroupData(){
@@ -252,9 +252,9 @@ groups <- [
 		mod = [
 		{"vel":1.2,"classid":"ptcmod_vel","vel_spr":0.5},
 		{"xyz":7,"scale":[1.0,1.653846,1.307692],"classid":"ptcmod_scale"},
-		{"axisid":1,"classid":"ptcmod_acc","acc_spr":0.0,"coord":1,"acc":0.03},
+		{"axisid":1,"classid":"ptcmod_acc","acc":0.03,"coord":1,"acc_spr":0.0},
 		{"color":[-1291859713,-1291859713,-2130720513,1090504704],"classid":"ptcmod_color"},
-		{"scale":3.141593,"classid":"ptcmod_rot","rot":[-1.0,-1.0],"axisid":2},
+		{"axisid":2,"classid":"ptcmod_rot","rot":[-1.0,-1.0],"scale":3.141593},
 		]
 	},
 ]

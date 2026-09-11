@@ -3,7 +3,7 @@
 ////////////////////////////////////////////////////////
 parentcoord <- false
 currentgroup <- 2
-prof <- {"showbnd":[0.097584,1.103012,0.245539,2.587511,2.672197,2.383279],"maxbnd":[-0.478288,0.735226,-0.251922,2.819165,3.182409,2.892644],"showtime":456,"wholebnd":[-0.183166,0.970987,-0.273075,3.154378,3.41817,3.171248]}
+prof <- {"showbnd":[-0.237591,1.0,-0.017782,4.001886,3.679908,3.679909],"maxbnd":[-0.014959,1.0,0.590539,5.586045,5.586045,5.939718],"showtime":992,"wholebnd":[-0.179173,1.0,0.194339,5.86806,5.586045,6.335919]}
 groups <- [
 	with ParticleGroupData(){
 		name = "lightning"
@@ -183,6 +183,37 @@ groups <- [
 		{"xyz":7,"scale":[0.326923,1.529412,1.852941,1.970588,2.0],"classid":"ptcmod_scale"},
 		{"color":[-37,-190,-231,-241,-246,-251,-256],"classid":"ptcmod_color"},
 		{"color":0,"scale":0.5,"classid":"ptcmod_rnd","b":10.0,"p":0.0,"h":0.0},
+		]
+	},
+	with ParticleGroupData(){
+		name = "elec"
+		enabled = true
+		aimtype = 1
+		localcoord = false
+		emitter = with ParticleEmitter(){
+			num = 24
+			start = 0, start_spr = 1000
+			life = 400, life_spr = 0
+			posx = 0.0, posy = 0.0, posz = 0.0
+			pos_sprx = 0.6, pos_spry = 0.3, pos_sprz = 0.6
+			dirx = 0.0, diry = 0.0, dirz = 0.0
+			dir_sprx = 0.0, dir_spry = 0.0, dir_sprz = 0.0
+			linearbits = 0
+		},
+		shapetype = 0
+		shapedata = {"d":0.0,"axis":0,"r":0.0,"w":0.18,"h":0.24}
+		texture = "/resource/efx/tex/elec1.webp"
+		color = 0xffffffff
+		blendmode = 5
+		blend = 5
+		overlay = 0.4
+		Ka = 0x808080ff
+		Ks = 0x00000000
+		mod = [
+		{"xyz":3,"scale":[1.0,2.0],"classid":"ptcmod_scale"},
+		{"color":[-254977,469172223,-254977,15728639],"classid":"ptcmod_color"},
+		{"color":0,"scale":1.0,"classid":"ptcmod_rnd","b":10.0,"p":0.0,"h":0.0},
+		{"classid":"ptcmod_texanime","frame":[0.0,10.0]},
 		]
 	},
 ]

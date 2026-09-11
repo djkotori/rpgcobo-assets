@@ -3,7 +3,7 @@
 ////////////////////////////////////////////////////////
 parentcoord <- false
 currentgroup <- 1
-prof <- {"showbnd":[-0.019432,1.0,0.0,0.623432,0.604,0.604],"maxbnd":[0.0,1.0,0.0,0.872412,0.872412,0.872412],"showtime":112,"wholebnd":[0.0,1.0,0.0,0.872412,0.872412,0.872412]}
+prof <- {"showbnd":[0.0,1.007357,0.0,0.604,0.611357,0.604],"maxbnd":[0.0,1.0,0.0,0.872412,0.872412,0.872412],"showtime":112,"wholebnd":[0.0,1.0,0.0,0.872412,0.872412,0.872412]}
 groups <- [
 	with ParticleGroupData(){
 		name = "thorn"
@@ -33,7 +33,7 @@ groups <- [
 		{"vel":0.7,"classid":"ptcmod_vel","vel_spr":0.0},
 		{"color":[-704708609,-836097,-5563393,-4587520],"classid":"ptcmod_color"},
 		{"xyz":1,"scale":[1.0,1.029412,0.0],"classid":"ptcmod_scale"},
-		{"color":842150400,"scale":2.0,"classid":"ptcmod_rnd","b":0.0,"p":0.0,"h":0.0},
+		{"color":842150400,"scale":2.0,"classid":"ptcmod_rnd","b":0.0,"h":0.0,"p":0.0},
 		]
 	},
 	with ParticleGroupData(){
@@ -64,7 +64,7 @@ groups <- [
 		{"vel":0.7,"classid":"ptcmod_vel","vel_spr":0.0},
 		{"color":[-704708609,-836097,-5563393,-4587520],"classid":"ptcmod_color"},
 		{"xyz":1,"scale":[1.0,0.970588,0.0],"classid":"ptcmod_scale"},
-		{"color":842150400,"scale":2.0,"classid":"ptcmod_rnd","b":0.0,"p":0.0,"h":0.0},
+		{"color":842150400,"scale":2.0,"classid":"ptcmod_rnd","b":0.0,"h":0.0,"p":0.0},
 		]
 	},
 	with ParticleGroupData(){
@@ -170,8 +170,8 @@ groups <- [
 			linearbits = 0
 		},
 		shapetype = 0
-		shapedata = {"axis":0,"r":0.0,"w":0.07,"h":0.05}
-		texture = "/resource/efx/tex/circle2.webp"
+		shapedata = {"axis":0,"r":0.0,"w":0.07,"h":0.03}
+		texture = "/resource/efx/tex/sting1.webp"
 		color = 0xffffffff
 		blendmode = 5
 		blend = 5
@@ -183,8 +183,8 @@ groups <- [
 		{"xyz":1,"scale":[0.5,0.961538],"classid":"ptcmod_scale"},
 		{"color":[-704708609,-836097,-5563393,-4587520],"classid":"ptcmod_color"},
 		{"xyz":2,"scale":[0.538462,0.153846],"classid":"ptcmod_scale"},
-		{"axisid":1,"classid":"ptcmod_acc","acc_spr":0.0,"coord":0,"acc":-0.15},
-		{"color":0,"scale":1.0,"classid":"ptcmod_rnd","b":0.0,"p":0.0,"h":0.0},
+		{"axisid":1,"classid":"ptcmod_acc","acc":-0.15,"coord":0,"acc_spr":0.0},
+		{"color":0,"scale":1.0,"classid":"ptcmod_rnd","b":0.0,"h":0.0,"p":0.0},
 		]
 	},
 ]

@@ -80,6 +80,7 @@
 		"pbrsprite.extractbloom":[[0]],
 		"pbrsprite.firsthiz":[[0]],
 		"pbrsprite.pbrmix":[[3584]],
+		"pbrsprite.repairhole":[[0]],
 		"pbrsprite.ssao_normal":[[0]],
 		"pbrsprite.ssao_quality":[[0]],
 		"pbrsprite.ssaoblur":[[0]],
@@ -95,7 +96,7 @@
 		"spritefx.tvnoise":[[0]],
 		"spritefx.wave":[[0]],
 		"spritefx.zoomblur":[[256]],
-		"vox.basic":[[768,1792],[],[9984],[1792],[0,2048],[],[0]],
+		"vox.basic":[[768,1792],[9984,42752],[9984],[1792],[0,2048],[],[0]],
 		"weather.mist":[[0]],
 		"weather.rain":[[0]],
 		"weather.snow":[[0]]

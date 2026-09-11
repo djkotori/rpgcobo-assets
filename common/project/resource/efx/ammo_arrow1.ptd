@@ -21,16 +21,16 @@ groups <- [
 			linearbits = 0
 		},
 		shapetype = 4
-		shapedata = {"usemtl":true,"d":0.063,"path":"/resource/vox/efx/arrow1.vox","w":0.063,"h":0.063}
+		shapedata = {"usemtl":true,"d":0.063,"w":0.063,"path":"/resource/vox/efx/arrow1.vox","h":0.063}
 		texture = "/resource/efx/mdl/tex/swish_cut.webp"
 		color = 0xffffffff
-		blendmode = 0
-		blend = 0
+		blendmode = 2
+		blend = 1
 		tec = "pbr.basic"
 		Ka = 0x808080ff
 		Ks = 0x00000000
 		mod = [
-		{"color":[-1,-128,128],"classid":"ptcmod_color"},
+		{"color":[-1,-1,-256],"classid":"ptcmod_color"},
 		]
 	},
 ]

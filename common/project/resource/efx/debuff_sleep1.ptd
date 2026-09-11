@@ -3,7 +3,7 @@
 ////////////////////////////////////////////////////////
 parentcoord <- false
 currentgroup <- 0
-prof <- {"showbnd":[0.0,0.0,0.0,0.944236,0.944236,0.944236],"maxbnd":[0.0,0.106949,0.0,0.925412,1.032361,0.925412],"showtime":1488,"wholebnd":[0.0,0.104155,0.0,0.944236,1.04839,0.944236]}
+prof <- {"showbnd":[0.0,0.0,0.0,0.944236,0.944236,0.944236],"maxbnd":[0.0,0.060666,0.0,0.944236,1.004901,0.944236],"showtime":1488,"wholebnd":[0.0,0.079883,0.0,0.944236,1.024119,0.944236]}
 groups <- [
 	with ParticleGroupData(){
 		name = "aura"
@@ -63,7 +63,7 @@ groups <- [
 		{"vel":0.5,"classid":"ptcmod_vel","vel_spr":0.1},
 		{"color":[-1207976042,-1207976042,1811905686,1069501957],"classid":"ptcmod_color"},
 		{"xyz":7,"scale":[0.970588,1.205882,1.676471],"classid":"ptcmod_scale"},
-		{"classid":"ptcmod_texanime","frame":[0.0,10.0]},
+		{"classid":"ptcmod_texanime","frame":[0.0,7.619048]},
 		]
 	},
 ]

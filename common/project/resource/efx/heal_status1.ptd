@@ -3,7 +3,7 @@
 ////////////////////////////////////////////////////////
 parentcoord <- false
 currentgroup <- 1
-prof <- {"showbnd":[0.0,0.113656,-0.086654,1.166118,1.179774,1.166118],"maxbnd":[0.0,0.466929,0.0,1.492785,1.521855,1.492785],"showtime":496,"wholebnd":[0.002084,0.3947,0.0,1.494869,1.594084,1.492785]}
+prof <- {"showbnd":[0.0,0.120307,-0.110362,1.152817,1.173124,1.155793],"maxbnd":[0.0,0.410216,0.0,1.492785,1.578568,1.492785],"showtime":496,"wholebnd":[0.002338,0.395332,0.0,1.495122,1.593452,1.492785]}
 groups <- [
 	with ParticleGroupData(){
 		name = "bubble"
@@ -33,9 +33,8 @@ groups <- [
 		{"vel":0.8,"classid":"ptcmod_vel","vel_spr":0.4},
 		{"color":[1778384895,5505023,2948864],"classid":"ptcmod_color"},
 		{"xyz":7,"scale":[0.711538,1.192308,0.673077,1.019231,0.769231,1.980769],"classid":"ptcmod_scale"},
-		{"color":0,"scale":5.0,"classid":"ptcmod_rnd","b":0.0,"h":0.0,"p":0.0},
-		{"classid":"ptcmod_texanime","frame":[0.0,10.0]},
-		{"axisid":1,"classid":"ptcmod_acc","acc":-0.02,"coord":0,"acc_spr":0.0},
+		{"color":0,"scale":5.0,"classid":"ptcmod_rnd","b":0.0,"p":0.0,"h":0.0},
+		{"axisid":1,"classid":"ptcmod_acc","acc_spr":0.0,"coord":0,"acc":-0.02},
 		]
 	},
 	with ParticleGroupData(){

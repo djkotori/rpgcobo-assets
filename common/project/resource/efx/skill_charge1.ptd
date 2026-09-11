@@ -3,7 +3,7 @@
 ////////////////////////////////////////////////////////
 parentcoord <- false
 currentgroup <- 0
-prof <- {"showbnd":[0.1738,1.274809,0.0,2.703383,2.259424,1.984615],"maxbnd":[-0.063405,1.248632,0.0,3.14004,3.139691,2.891059],"showtime":720,"wholebnd":[-0.052386,1.055648,0.0,3.362367,3.332676,2.891059]}
+prof <- {"showbnd":[-0.248979,1.002975,0.0,2.887857,2.835287,2.079294],"maxbnd":[-0.047249,1.082572,0.0,3.196759,3.397628,2.858589],"showtime":656,"wholebnd":[-0.062972,0.972145,0.0,3.584637,3.781215,2.891059]}
 groups <- [
 	with ParticleGroupData(){
 		name = "core1"
@@ -31,7 +31,7 @@ groups <- [
 		Ks = 0x00000000
 		mod = [
 		{"color":[-252706815,-6933947,-261881757,-261881736,-261881856],"classid":"ptcmod_color"},
-		{"axisid":2,"classid":"ptcmod_rot","rot":[-0.411765,0.647059,0.882353,1.0],"scale":2.181662},
+		{"scale":2.181662,"classid":"ptcmod_rot","rot":[-0.411765,0.647059,0.882353,1.0],"axisid":2},
 		{"xyz":7,"scale":[0.0,1.038462,2.0],"classid":"ptcmod_scale"},
 		]
 	},
@@ -41,7 +41,7 @@ groups <- [
 		aimtype = 2
 		localcoord = false
 		emitter = with ParticleEmitter(){
-			num = 50
+			num = 40
 			start = 0, start_spr = 700
 			life = 280, life_spr = 50
 			posx = 0.0, posy = 2.5, posz = 0.0
@@ -51,8 +51,8 @@ groups <- [
 			linearbits = 0
 		},
 		shapetype = 0
-		shapedata = {"axis":0,"r":0.3,"w":0.35,"h":0.075}
-		texture = "/resource/efx/tex/circle2.webp"
+		shapedata = {"axis":0,"r":0.3,"w":0.5,"h":0.075}
+		texture = "/resource/efx/tex/sting1.webp"
 		color = 0xffffffff
 		blendmode = 5
 		blend = 5

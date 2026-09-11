@@ -3,7 +3,7 @@
 ////////////////////////////////////////////////////////
 parentcoord <- false
 currentgroup <- 0
-prof <- {"showbnd":[0.159079,0.160197,-0.085368,1.262234,1.484213,1.379667],"maxbnd":[0.110887,-0.212235,-0.085397,1.731711,1.810184,1.765872],"showtime":528,"wholebnd":[0.053771,-0.116112,-0.142514,1.788828,2.020541,1.822989]}
+prof <- {"showbnd":[-0.03388,0.179035,-0.117173,1.283642,1.530793,1.350855],"maxbnd":[-0.136284,0.026596,-0.055003,1.458448,1.92075,1.609338],"showtime":864,"wholebnd":[0.001946,-0.016369,-0.064079,1.68261,1.963716,1.704345]}
 groups <- [
 	with ParticleGroupData(){
 		name = "smoke"
@@ -11,9 +11,9 @@ groups <- [
 		aimtype = 1
 		localcoord = true
 		emitter = with ParticleEmitter(){
-			num = 8
+			num = 10
 			start = 0, start_spr = 300
-			life = 1200, life_spr = 500
+			life = 700, life_spr = 200
 			posx = 0.0, posy = 0.35, posz = 0.0
 			pos_sprx = 0.0, pos_spry = 0.3, pos_sprz = 0.0
 			dirx = 0.0, diry = 0.0, dirz = 0.0
@@ -21,20 +21,20 @@ groups <- [
 			linearbits = 0
 		},
 		shapetype = 0
-		shapedata = {"axis":0,"r":0.0,"w":0.3,"h":0.3}
-		texture = "/resource/efx/tex/smoke2.webp"
+		shapedata = {"axis":0,"r":0.0,"w":0.4,"h":0.4}
+		texture = "/resource/efx/tex/smoke1.webp"
 		color = 0xffffffff
 		blendmode = 5
 		blend = 1
 		tec = "decal.softptc"
-		overlay = 0.17
+		overlay = 0.12
 		Ka = 0x808080ff
 		Ks = 0x00000000
 		mod = [
-		{"color":[1169425151,128717823,5836318,5836288],"classid":"ptcmod_color"},
-		{"xyz":7,"scale":[1.264706,1.5,1.617647,1.705882,2.0],"classid":"ptcmod_scale"},
+		{"color":[1169425015,128717685,8525164,5836374],"classid":"ptcmod_color"},
 		{"vel":0.5,"classid":"ptcmod_vel","vel_spr":0.1},
 		{"axisid":1,"classid":"ptcmod_acc","acc_spr":0.0,"coord":0,"acc":-0.03},
+		{"classid":"ptcmod_texanime","frame":[0.0,7.738095]},
 		]
 	},
 	with ParticleGroupData(){

@@ -33,7 +33,6 @@ groups <- [
 		{"vel":0.05,"classid":"ptcmod_vel","vel_spr":0.0},
 		{"xyz":7,"scale":[1.058824,1.176471,1.441176],"classid":"ptcmod_scale"},
 		{"color":[-256,-173,-236,-256],"classid":"ptcmod_color"},
-		{"classid":"ptcmod_texanime","frame":[0.0,10.0]},
 		]
 	},
 ]
