@@ -771,9 +771,11 @@
 		"weather":{"type":null}
 	},
 	"M008":{
-		"bg":{"type":"skybox"},
+		"bg":{"col":255,"type":"col"},
 		"bgmid":null,
-		"camwork":{"fovy":32,"hpb":[45,26,0],"viewport":10.3,"yoffs":0.5},
+		"camwork":{"fovy":32,"hpb":[0,26,0],"viewport":6.7,"yoffs":0.5},
+		"canenter_hole":false,
+		"canenter_water":false,
 		"encntrate":0.0,
 		"encount":[
 			{
@@ -804,7 +806,7 @@
 				"reqs0":null,
 				"role":"villager",
 				"spawndist":1,
-				"standani":{"id":"doubt","mdlid":"CV000","part":0,"spd":1.0}
+				"standani":null
 			},
 			"#1000003#":{
 				"col":0,
@@ -819,7 +821,7 @@
 				"reqs0":null,
 				"role":"villager",
 				"spawndist":1,
-				"standani":{"id":"happy","mdlid":"CV000","part":0,"spd":1.0}
+				"standani":null
 			},
 			"#1000004#":{
 				"col":0,
@@ -834,7 +836,7 @@
 				"reqs0":null,
 				"role":"villager",
 				"spawndist":1,
-				"standani":{"id":"aim","mdlid":"CV000","part":0,"spd":1.0}
+				"standani":null
 			},
 			"#1000005#":{
 				"col":0,
@@ -940,7 +942,7 @@
 				"mdlid":"CV036",
 				"name":"*itemchest-13",
 				"num":1,
-				"pos":[210,1,16,2],
+				"pos":[233,1,24,2],
 				"role":"itemchest",
 				"spawndist":1
 			},
@@ -968,7 +970,7 @@
 				"movespd":2,
 				"movespd1":5,
 				"name":"*enemy-15",
-				"pos":[217,1,16,2],
+				"pos":[231,1,19,2],
 				"reqs0":null,
 				"role":"enemy",
 				"searchrad":5,
@@ -983,7 +985,7 @@
 				"movespd":2,
 				"movespd1":5,
 				"name":"*enemy-16",
-				"pos":[228,1,16,2],
+				"pos":[232,1,17,2],
 				"reqs0":null,
 				"role":"enemy",
 				"searchrad":5,

@@ -239,7 +239,7 @@
 													"_var":{"storeid":"X"},
 													"cmd":"cmd_showui",
 													"key":"store_item",
-													"showmoney":true,
+													"showmoney":false,
 													"storeid":"R000"
 												},
 												{"cmd":"cmd_screenfxoff","sfxbits":7,"time":400}
@@ -284,6 +284,7 @@
 		"desc":"",
 		"name":"ショップ店員",
 		"runmode":0,
+		"runrepeat":false,
 		"runreqs":[]
 	},
 	"X014":{

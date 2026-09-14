@@ -450,12 +450,12 @@
 			"rough":0.0
 		},
 		"#1#":{
-			"metal":0.0,
+			"metal":0.1,
 			"mparams":[1.0,0.0,1.0,1.0],
 			"mtype":0,
 			"name":{"en":"CLAY","ja":"クレイ"},
-			"ptn":["block0",0.2],
-			"rough":0.99
+			"ptn":["block0",0.13],
+			"rough":0.89
 		},
 		"#2#":{
 			"metal":0.0,

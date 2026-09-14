@@ -3,7 +3,7 @@
 ////////////////////////////////////////////////////////
 parentcoord <- false
 currentgroup <- 2
-prof <- {"showbnd":[-0.272158,2.099901,-0.087546,3.525588,4.625489,3.525588],"maxbnd":[-0.193902,1.840247,-0.114961,4.036176,4.876424,4.036176],"showtime":1632,"wholebnd":[0.023631,1.502849,0.04142,4.363035,5.621253,4.390224]}
+prof <- {"showbnd":[0.011238,1.85981,0.098866,3.817353,4.677163,3.817353],"maxbnd":[-0.21911,1.88116,-0.380897,4.036176,4.917336,4.036176],"showtime":1376,"wholebnd":[-0.010563,2.143598,-0.148894,4.268147,5.179773,4.284903]}
 groups <- [
 	with ParticleGroupData(){
 		name = "smoke"
@@ -30,12 +30,12 @@ groups <- [
 		Ks = 0x00000000
 		mod = [
 		{"xyz":7,"scale":[0.411765,1.235294,1.411765],"classid":"ptcmod_scale"},
-		{"color":0,"scale":0.5,"classid":"ptcmod_rnd","b":0.0,"p":0.0,"h":0.0},
+		{"color":0,"scale":0.5,"classid":"ptcmod_rnd","b":0.0,"h":0.0,"p":0.0},
 		{"vel":1.0,"classid":"ptcmod_vel","vel_spr":0.5},
 		{"color":[-11848909,672075158,672799382,673390948,404034560],"classid":"ptcmod_color"},
 		{"classid":"ptcmod_texanime","frame":[0.0,10.0]},
 		{"vel":-2.0,"classid":"ptcmod_vel","vel_spr":0.0},
-		{"axisid":1,"classid":"ptcmod_acc","acc_spr":0.0,"coord":0,"acc":0.2},
+		{"axisid":1,"classid":"ptcmod_acc","acc":0.2,"coord":0,"acc_spr":0.0},
 		]
 	},
 	with ParticleGroupData(){
@@ -54,7 +54,7 @@ groups <- [
 			linearbits = 0
 		},
 		shapetype = 4
-		shapedata = {"usemtl":false,"d":0.1,"w":0.1,"path":"/resource/efx/mdl/rock1.pm","h":0.1}
+		shapedata = {"usemtl":false,"d":0.1,"path":"/resource/efx/mdl/rock1.pm","w":0.1,"h":0.1}
 		texture = ""
 		color = 0xffffffff
 		blendmode = 5
@@ -64,7 +64,7 @@ groups <- [
 		Ks = 0x00000000
 		mod = [
 		{"vel":-10.0,"classid":"ptcmod_vel","vel_spr":0.0},
-		{"axisid":1,"classid":"ptcmod_rot","rot":[-1.0,1.0],"scale":0.872665},
+		{"scale":0.872665,"classid":"ptcmod_rot","rot":[-1.0,1.0],"axisid":1},
 		{"xyz":7,"scale":[1.0,1.470588],"classid":"ptcmod_scale"},
 		{"color":[-5345537,-8026625,2116824319,-10789889,-1708775681,-10789889,-1875955713,-10789889,-1959710209,-10789889,-10789889],"classid":"ptcmod_color"},
 		]
@@ -94,7 +94,7 @@ groups <- [
 		Ks = 0x00000000
 		mod = [
 		{"xyz":7,"scale":[0.411765,1.235294,1.411765],"classid":"ptcmod_scale"},
-		{"color":0,"scale":2.0,"classid":"ptcmod_rnd","b":10.0,"p":0.0,"h":0.0},
+		{"color":0,"scale":2.0,"classid":"ptcmod_rnd","b":10.0,"h":0.0,"p":0.0},
 		{"vel":1.0,"classid":"ptcmod_vel","vel_spr":0.2},
 		{"color":[404034611,404034711,1767593728],"classid":"ptcmod_color"},
 		]
@@ -118,17 +118,17 @@ groups <- [
 		shapedata = {"axis":0,"r":0.0,"w":0.04,"h":0.04}
 		texture = "/resource/efx/tex/rock1.webp"
 		color = 0xffffffff
-		blendmode = 2
+		blendmode = 5
 		blend = 1
-		tec = "pbr.basic"
+		tec = "decal.def"
 		Ka = 0x808080ff
 		Ks = 0x00000000
 		mod = [
 		{"vel":3.5,"classid":"ptcmod_vel","vel_spr":3.0},
-		{"axisid":1,"classid":"ptcmod_acc","acc":-0.5,"coord":1,"acc_spr":0.0},
+		{"axisid":1,"classid":"ptcmod_acc","acc_spr":0.0,"coord":1,"acc":-0.5},
 		{"color":[-13631233,-855637761,-1889118977,1783447636,1649824000],"classid":"ptcmod_color"},
-		{"axisid":2,"classid":"ptcmod_rot","rot":[-1.0,1.0],"scale":3.1416},
-		{"color":0,"scale":4.0,"classid":"ptcmod_rnd","b":0.0,"h":0.0,"p":0.0},
+		{"scale":3.1416,"classid":"ptcmod_rot","rot":[-1.0,1.0],"axisid":2},
+		{"color":0,"scale":4.0,"classid":"ptcmod_rnd","b":0.0,"p":0.0,"h":0.0},
 		]
 	},
 	with ParticleGroupData(){

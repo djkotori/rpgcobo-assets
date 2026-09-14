@@ -3,7 +3,7 @@
 ////////////////////////////////////////////////////////
 parentcoord <- false
 currentgroup <- 2
-prof <- {"showbnd":[0.068491,1.0,0.095681,7.243241,7.24324,7.243241],"maxbnd":[0.061729,1.0,-0.006585,6.025792,6.025792,6.025792],"showtime":2176,"wholebnd":[0.061729,1.098733,-0.006585,6.025792,6.124526,6.025792]}
+prof <- {"showbnd":[0.137344,3.149404,0.270802,1.969295,1.949231,2.204808],"maxbnd":[-0.069847,1.0,-0.044245,7.342313,7.342313,7.342313],"showtime":448,"wholebnd":[-0.069847,1.0,-0.044245,7.342313,7.342313,7.342313]}
 groups <- [
 	with ParticleGroupData(){
 		name = "rock"
@@ -118,8 +118,8 @@ groups <- [
 		shapedata = {"axis":0,"r":0.0,"w":0.05,"h":0.05}
 		texture = "/resource/efx/tex/rock1.webp"
 		color = 0xffffffff
-		blendmode = 1
-		blend = 0
+		blendmode = 2
+		blend = 1
 		tec = "pbr.basic"
 		Ka = 0x808080ff
 		Ks = 0x00000000
@@ -150,8 +150,9 @@ groups <- [
 		shapedata = {"axis":0,"r":0.0,"w":0.3,"h":0.3}
 		texture = "/resource/efx/tex/smoke2.webp"
 		color = 0xffffffff
-		blendmode = 5
+		blendmode = 2
 		blend = 1
+		tec = "pbr.basic"
 		Ka = 0x808080ff
 		Ks = 0x00000000
 		mod = [
@@ -212,8 +213,9 @@ groups <- [
 		shapedata = {"axis":1,"r":0.0,"w":2.0,"h":2.0}
 		texture = "/resource/efx/tex/shockwave1.webp"
 		color = 0xffffffff
-		blendmode = 5
+		blendmode = 2
 		blend = 5
+		tec = "pbr.basic"
 		Ka = 0x808080ff
 		Ks = 0x00000000
 		mod = [

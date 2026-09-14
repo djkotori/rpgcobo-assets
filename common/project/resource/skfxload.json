@@ -85,6 +85,7 @@
 		"pbrsprite.ssao_quality":[[0]],
 		"pbrsprite.ssaoblur":[[0]],
 		"pbrsprite.ssshadow_normal":[[0]],
+		"pbrsprite.ssshadow_quality":[[0]],
 		"pbrsprite.sssupsample":[[0]],
 		"sprite.def":[[0,256,33024]],
 		"sprite.strokefont":[[256]],

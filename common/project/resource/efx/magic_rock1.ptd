@@ -3,7 +3,7 @@
 ////////////////////////////////////////////////////////
 parentcoord <- false
 currentgroup <- 2
-prof <- {"showbnd":[0.0,1.0,0.0,2.402437,2.402437,2.402437],"maxbnd":[-0.273499,1.0,-0.081975,3.370978,3.097479,3.179454],"showtime":928,"wholebnd":[-0.613135,0.4467,-0.487692,3.710614,3.650779,3.61284]}
+prof <- {"showbnd":[0.0,1.0,0.0,2.535546,2.535546,2.535546],"maxbnd":[-0.257114,-0.322619,-0.243508,4.066422,2.233138,4.068574],"showtime":976,"wholebnd":[-0.547999,0.770861,-0.307639,4.413578,3.326618,4.132705]}
 groups <- [
 	with ParticleGroupData(){
 		name = "rock"
@@ -86,7 +86,7 @@ groups <- [
 		shapedata = {"axis":0,"r":0.0,"w":0.05,"h":0.05}
 		texture = "/resource/efx/tex/rock1.webp"
 		color = 0xffffffff
-		blendmode = 1
+		blendmode = 2
 		blend = 1
 		tec = "pbr.basic"
 		Ka = 0x808080ff
