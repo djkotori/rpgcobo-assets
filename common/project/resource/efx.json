@@ -2,6 +2,7 @@
 	"FX000":{
 		"billboard":false,
 		"efx":"/resource/efx/a.ptd",
+		"efxani":{},
 		"eventuse":false,
 		"hpb":[0,0,0],
 		"hsv":[0,0,0],
@@ -20,6 +21,7 @@
 		"pos":[0,0,0],
 		"scale":1.0,
 		"speed":1.0,
+		"vibe":{},
 		"waittime":200
 	},
 	"FX001":{
@@ -469,6 +471,20 @@
 		"speed":0.8,
 		"waittime":200
 	},
+	"FX032":{
+		"billboard":false,
+		"efx":null,
+		"eventuse":false,
+		"hpb":[0,0,0],
+		"hsv":[0,0,0],
+		"name":"",
+		"ovfx":{},
+		"place":0,
+		"pos":[0,0,0],
+		"scale":1.0,
+		"speed":1.0,
+		"waittime":500
+	},
 	"FX033":{
 		"billboard":true,
 		"efx":"/resource/efx/hit_misc1.ptd",
@@ -497,6 +513,20 @@
 		"speed":0.9,
 		"waittime":200
 	},
+	"FX035":{
+		"billboard":false,
+		"efx":null,
+		"eventuse":false,
+		"hpb":[0,0,0],
+		"hsv":[0,0,0],
+		"name":"",
+		"ovfx":{},
+		"place":0,
+		"pos":[0,0,0],
+		"scale":1.0,
+		"speed":1.0,
+		"waittime":500
+	},
 	"FX036":{
 		"billboard":true,
 		"efx":"/resource/efx/hit_stab1.ptd",
@@ -524,6 +554,21 @@
 		"scale":2.1,
 		"speed":1.0,
 		"waittime":200
+	},
+	"FX038":{
+		"billboard":false,
+		"efx":null,
+		"eventuse":false,
+		"hpb":[0,0,0],
+		"hsv":[0,0,0],
+		"name":"",
+		"ovfx":{},
+		"place":0,
+		"pos":[0,0,0],
+		"scale":1.0,
+		"speed":1.0,
+		"vibe":{},
+		"waittime":500
 	},
 	"FX039":{
 		"billboard":true,
@@ -604,7 +649,7 @@
 		"name":{"ja":"(魔法)ファイア3"},
 		"ovfx":{},
 		"place":2,
-		"pos":[0.0,-0.8,0.0],
+		"pos":[0.0,0.1,0.0],
 		"scale":1.6,
 		"speed":0.4,
 		"waittime":880
@@ -621,7 +666,8 @@
 		"pos":[0,0,0],
 		"scale":1.7,
 		"speed":1.0,
-		"waittime":500
+		"vibe":{},
+		"waittime":2000
 	},
 	"FX046":{
 		"billboard":true,
@@ -773,7 +819,7 @@
 		"ovfx":{},
 		"place":2,
 		"pos":[0,0,0],
-		"scale":2.5,
+		"scale":2.6,
 		"speed":1.0,
 		"waittime":500
 	},
@@ -1057,16 +1103,17 @@
 	},
 	"FX079":{
 		"billboard":false,
-		"efx":null,
+		"efx":"/resource/efx/hit_die1.ptd",
 		"eventuse":false,
 		"hpb":[0,0,0],
-		"hsv":[0,0,0],
-		"name":"",
+		"hsv":[-76,0,0],
+		"name":{"en":"Die","ja":"死亡"},
 		"ovfx":{},
 		"place":0,
-		"pos":[0,0,0],
-		"scale":1.0,
+		"pos":[0.0,-0.15,0.0],
+		"scale":1.5,
 		"speed":1.0,
+		"vibe":{},
 		"waittime":500
 	},
 	"FX080":{
@@ -1075,7 +1122,7 @@
 		"eventuse":false,
 		"hpb":[0,0,0],
 		"hsv":[-35,-4,24],
-		"name":{"ja":"レベルアップ"},
+		"name":{"en":"Level Up","ja":"レベルアップ"},
 		"ovfx":{
 			"color":{"color":[522133248,-1431655936,0]},
 			"delay":0,
@@ -1183,6 +1230,7 @@
 	"FX100":{
 		"billboard":false,
 		"efx":"/resource/efx/map_chimney1.ptd",
+		"efxani":{},
 		"eventuse":false,
 		"hpb":[0,0,0],
 		"hsv":[0,0,0],
@@ -1192,6 +1240,7 @@
 		"pos":[0,0,0],
 		"scale":1.2,
 		"speed":1.0,
+		"vibe":{},
 		"waittime":500
 	},
 	"FX101":{
@@ -1233,7 +1282,8 @@
 		"place":0,
 		"pos":[0,0,0],
 		"scale":1.2,
-		"speed":1.0
+		"speed":1.0,
+		"waittime":500
 	},
 	"FX104":{
 		"billboard":false,
@@ -1246,7 +1296,9 @@
 		"place":0,
 		"pos":[0,0,0],
 		"scale":1.0,
-		"speed":1.0
+		"speed":1.0,
+		"vibe":{},
+		"waittime":500
 	},
 	"FX105":{
 		"billboard":false,
@@ -1260,6 +1312,7 @@
 		"pos":[0,0,0],
 		"scale":1.0,
 		"speed":1.0,
+		"vibe":{},
 		"waittime":500
 	},
 	"FX106":{
@@ -1326,31 +1379,217 @@
 		"speed":1.0,
 		"waittime":500
 	},
-	"FX110":{
-		"billboard":false,
-		"efx":null,
-		"eventuse":false,
+	"FX200":{
+		"billboard":true,
+		"efx":"/resource/efx/emo_anger.ptd",
+		"efxani":{
+			"ani":{"id":"anger","mdlid":"CV000","part":0,"spd":1.0},
+			"delay":0,
+			"enabled":true,
+			"reset":true
+		},
+		"eventuse":true,
+		"hpb":[0,0,0],
 		"hsv":[0,0,0],
-		"name":"",
+		"name":{"ja":"(エモーション)怒り"},
+		"ovfx":{},
+		"place":1,
+		"pos":[0.54,0.0,0.0],
+		"scale":1.0,
+		"speed":1.0,
+		"vibe":{},
+		"waittime":800
+	},
+	"FX201":{
+		"billboard":false,
+		"efx":"/resource/efx/emo_exclamation.ptd",
+		"efxani":{},
+		"eventuse":true,
+		"hpb":[0,0,0],
+		"hsv":[0,0,0],
+		"name":{"ja":"(エモーション)！"},
+		"ovfx":{},
+		"place":1,
+		"pos":[0.0,0.0,0.0],
+		"scale":1.0,
+		"speed":1.0,
+		"vibe":{},
+		"waittime":500
+	},
+	"FX202":{
+		"billboard":true,
+		"efx":"/resource/efx/emo_fear.ptd",
+		"efxani":{},
+		"eventuse":false,
+		"hpb":[0,0,0],
+		"hsv":[0,0,0],
+		"name":{"ja":"(エモーション)恐怖"},
 		"ovfx":{},
 		"place":0,
-		"pos":[0,0,0],
-		"scale":1.0,
-		"speed":1.0
+		"pos":[0.0,0.0,0.1],
+		"scale":1.3,
+		"speed":1.0,
+		"vibe":{"axis":2,"curv":[0.485294,0.5,0.0],"delay":0,"enabled":true,"mag":0.1,"time":1000},
+		"waittime":500
 	},
-	"FX111":{
+	"FX203":{
 		"billboard":false,
-		"efx":null,
+		"efx":"/resource/efx/emo_fire.ptd",
+		"efxani":{},
 		"eventuse":false,
-		"hsv":[0,0,0],
-		"name":"",
+		"hpb":[0,0,0],
+		"hsv":[100,0,0],
+		"name":{"ja":"(エモーション)恨み"},
 		"ovfx":{},
 		"place":0,
+		"pos":[0.0,0.2,0.0],
+		"scale":1.0,
+		"speed":1.0,
+		"vibe":{},
+		"waittime":500
+	},
+	"FX204":{
+		"billboard":true,
+		"efx":"/resource/efx/emo_heart.ptd",
+		"efxani":{},
+		"eventuse":false,
+		"hpb":[0,0,0],
+		"hsv":[0,0,0],
+		"name":{"ja":"(エモーション)ハート"},
+		"ovfx":{},
+		"place":1,
+		"pos":[0.0,0.0,0.0],
+		"scale":1.0,
+		"speed":1.0,
+		"vibe":{},
+		"waittime":500
+	},
+	"FX205":{
+		"billboard":true,
+		"efx":"/resource/efx/emo_heartbreak.ptd",
+		"efxani":{},
+		"eventuse":false,
+		"hpb":[0,0,0],
+		"hsv":[0,0,0],
+		"name":{"ja":"(エモーション)ハートブレイク"},
+		"ovfx":{},
+		"place":1,
 		"pos":[0,0,0],
 		"scale":1.0,
-		"speed":1.0
+		"speed":1.0,
+		"vibe":{},
+		"waittime":500
 	},
-	"FX120":{
+	"FX206":{
+		"billboard":true,
+		"efx":"/resource/efx/emo_musicnote.ptd",
+		"efxani":{},
+		"eventuse":false,
+		"hpb":[0,0,0],
+		"hsv":[0,0,0],
+		"name":{"ja":"(エモーション)ウキウキ"},
+		"ovfx":{},
+		"place":1,
+		"pos":[0.0,-1.1,0.0],
+		"scale":1.0,
+		"speed":1.0,
+		"vibe":{},
+		"waittime":500
+	},
+	"FX207":{
+		"billboard":false,
+		"efx":"/resource/efx/emo_question.ptd",
+		"efxani":{},
+		"eventuse":false,
+		"hpb":[0,0,0],
+		"hsv":[0,0,0],
+		"name":{"ja":"(エモーション)？"},
+		"ovfx":{},
+		"place":1,
+		"pos":[0.0,-0.1,0.0],
+		"scale":1.0,
+		"speed":1.0,
+		"vibe":{},
+		"waittime":500
+	},
+	"FX208":{
+		"billboard":false,
+		"efx":"/resource/efx/emo_sigh.ptd",
+		"eventuse":false,
+		"hpb":[0,0,0],
+		"hsv":[0,0,0],
+		"name":{"ja":"(エモーション)呆れ"},
+		"ovfx":{},
+		"place":1,
+		"pos":[0.0,-1.4,-0.3],
+		"scale":1.0,
+		"speed":1.0,
+		"waittime":500
+	},
+	"FX209":{
+		"billboard":false,
+		"efx":"/resource/efx/emo_sparkle.ptd",
+		"efxani":{},
+		"eventuse":false,
+		"hpb":[0,0,0],
+		"hsv":[0,0,0],
+		"name":{"ja":"(エモーション)嬉しい"},
+		"ovfx":{},
+		"place":0,
+		"pos":[0.0,0.2,0.0],
+		"scale":1.0,
+		"speed":1.0,
+		"vibe":{},
+		"waittime":500
+	},
+	"FX210":{
+		"billboard":true,
+		"efx":"/resource/efx/emo_sweat.ptd",
+		"efxani":{},
+		"eventuse":false,
+		"hpb":[0,0,0],
+		"hsv":[0,0,0],
+		"name":{"ja":"(エモーション)焦り"},
+		"ovfx":{},
+		"place":1,
+		"pos":[0.0,-0.2,0.0],
+		"scale":1.0,
+		"speed":1.0,
+		"vibe":{},
+		"waittime":500
+	},
+	"FX211":{
+		"billboard":true,
+		"efx":"/resource/efx/emo_teardrop.ptd",
+		"efxani":{},
+		"eventuse":false,
+		"hpb":[0,0,0],
+		"hsv":[0,0,0],
+		"name":{"ja":"(エモーション)泣く"},
+		"ovfx":{},
+		"place":1,
+		"pos":[-0.18,-1.0,-0.25],
+		"scale":1.0,
+		"speed":1.0,
+		"vibe":{},
+		"waittime":500
+	},
+	"FX212":{
+		"billboard":true,
+		"efx":"/resource/efx/emo_grudge.ptd",
+		"eventuse":false,
+		"hpb":[0,0,0],
+		"hsv":[0,0,0],
+		"name":{"ja":"(エモーション)恨み（骨）"},
+		"ovfx":{},
+		"place":1,
+		"pos":[0.0,-0.1,0.0],
+		"scale":1.0,
+		"speed":1.0,
+		"vibe":{},
+		"waittime":500
+	},
+	"FX213":{
 		"billboard":false,
 		"efx":null,
 		"eventuse":false,
@@ -1364,5 +1603,5 @@
 		"speed":1.0,
 		"waittime":500
 	},
-	"_meta":{"caps":200}
+	"_meta":{"caps":300}
 }

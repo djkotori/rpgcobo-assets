@@ -72,8 +72,8 @@
 		"decal.def":[[258,33026],[258],[]],
 		"decal.softptc":[[33026],[],[]],
 		"defaults.zblur":[[256]],
-		"enemy.def":[[196608],[205056,1253632],[],[65536,67584],[],[]],
-		"pbr.deferlighting":[[12544,1060864,1061120]],
+		"enemy.def":[[196608],[205056,1253376,1253632,1255424],[],[65536,67584],[],[]],
+		"pbr.deferlighting":[[12544,1060864,1061120,1062912]],
 		"pbr.gblur":[[0]],
 		"pbrsprite.coc":[[0]],
 		"pbrsprite.dofblur":[[0]],
@@ -98,8 +98,11 @@
 		"spritefx.wave":[[0]],
 		"spritefx.zoomblur":[[256]],
 		"vox.basic":[[768,1792],[9984,42752],[9984],[1792],[0,2048],[],[0]],
+		"weather.heat_haze":[[0]],
 		"weather.mist":[[0]],
 		"weather.rain":[[0]],
-		"weather.snow":[[0]]
+		"weather.snow":[[0]],
+		"weather.sunshine":[[0]],
+		"weather.testptc":[[0]]
 	}
 }

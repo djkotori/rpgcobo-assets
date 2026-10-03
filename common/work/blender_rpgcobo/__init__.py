@@ -9,6 +9,7 @@ from math import radians
 from math import sqrt
 import json
 import math
+import base64
 
 import bpy
 import mathutils
@@ -50,6 +51,7 @@ def write( context, scn, obj, params):
 	dirpath = os.path.dirname( params["filename"])
 	fpath = dirpath+"\\"+obj.name
 	mdlname = obj.name
+	mdl64 = None
 	motname = None
 	pm = convertToPM( scn, obj, params)
 	os.makedirs( dirpath, exist_ok=True)
@@ -57,7 +59,12 @@ def write( context, scn, obj, params):
 	#	convert & save mdl file!!!!
 	#
 	if params["export_mesh"]:
-		saveModelData( pm, fpath+".mdl")
+		mdlpath = fpath+".mdl"
+		saveModelData( pm, mdlpath)
+		if params["embed_modeldata"]:
+			with open( mdlpath, "rb") as file:
+				mdl64 = base64.b64encode(file.read()).decode("utf-8")
+			os.remove( mdlpath)
 	#
 	#	convert & save mot file!!!!
 	#
@@ -71,7 +78,7 @@ def write( context, scn, obj, params):
 	# SAVE pm!!!!!!!
 	#
 	if params["export_mesh"]:
-		savePolygonMesh( pm, fpath+".pm", mdlname, motname)
+		savePolygonMesh( pm, fpath+".pm", mdlname, motname, mdl64)
 		print( 'PolygonMesh exported "%s"' % ( fpath+".pm"))
 	frame = scn.frame_set( frame)
 
@@ -126,12 +133,19 @@ class sakana_pm_exporter(bpy.types.Operator):
 	def setmasktree( self, val):
 		bpy.context.scene["sakanapm_export_tree"] = val
 	
+	def getembed( self):
+		return bpy.context.scene.get( "sakanapm_embed_modeldata", False)
+
+	def setembed( self, val):
+		bpy.context.scene["sakanapm_embed_modeldata"] = val
+
 	filepath : StringProperty(subtype='FILE_PATH')
 	
 	SCALE : FloatProperty(name="Scale", description="", get=getscale, set=setscale)
 	MASKMESH : BoolProperty(name="Export Mesh", description="", get=getmaskmesh, set=setmaskmesh)
 	MASKANIME : BoolProperty(name="Export Anime", description="", get=getmaskanime, set=setmaskanime)
 	MASKTREE : BoolProperty(name="Export Model Tree", description="", get=getmasktree, set=setmasktree)
+	MASKEMBED : BoolProperty(name="Embed Model Data", description="", get=getembed, set=setembed)
 	TEXFORMAT: EnumProperty(
 		name="Texture Format", 
 		items=(('nochange', "NoChange", ""), 
@@ -143,7 +157,7 @@ class sakana_pm_exporter(bpy.types.Operator):
 
 	#
 	def execute(self, context):
-		params = { 'filename':self.filepath, 'scale':self.SCALE, 'export_mesh':self.MASKMESH, 'export_anime':self.MASKANIME, 'export_tree':self.MASKTREE, 'tex_format':self.TEXFORMAT}
+		params = { 'filename':self.filepath, 'scale':self.SCALE, 'export_mesh':self.MASKMESH, 'export_anime':self.MASKANIME, 'export_tree':self.MASKTREE, 'embed_modeldata':self.MASKEMBED, 'tex_format':self.TEXFORMAT}
 		setTextureFormat( params["tex_format"])
 		doexport( self.filepath, context, params )
 		exportTextures( os.path.dirname(context.blend_data.filepath), os.path.dirname( params["filename"])+"\\tex")
@@ -372,12 +386,15 @@ def saveModelData( pm, filename):
 	out.puti( 0)
 	file.close()
 
-def savePolygonMesh( pm, pmfilename, mdlname, motname):
+def savePolygonMesh( pm, pmfilename, mdlname, motname, mdl64):
 	global filename
 	file = codecs.open( pmfilename, "w", "utf_8")
 	file.write("///  PolygonMesh converted by Blender.\n/// \n")
 	file.write("return {\n")
-	file.write("modeldata = \"%s.mdl\"\n" % mdlname)
+	if mdl64 :
+		file.write("model64 = \"%s\"\n" % mdl64)
+	else:
+		file.write("modeldata = \"%s.mdl\"\n" % mdlname)
 	if motname : file.write("motiondata = \"%s.mot\"\n" % motname)
 	b = pm.aabb
 	file.write("bnd = [%f,%f,%f,%f,%f,%f]\n" % ( (b[0]+b[3])*0.5, (b[1]+b[4])*0.5, (b[2]+b[5])*0.5, (b[3]-b[0])*0.5, (b[4]-b[1])*0.5, (b[5]-b[2])*0.5))
@@ -387,6 +404,7 @@ def savePolygonMesh( pm, pmfilename, mdlname, motname):
 	for l in range( len( pm.face)):
 		writeMaterial( pm.face[l].mate, file)
 	file.write("]\n}\n")
+	file.close()
 
 def saveMotionData( mot, filename):
 	file = open( filename, "wb")

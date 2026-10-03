@@ -1,0 +1,110 @@
+////////////////////////////////////////////////////////
+//   ParticleData
+////////////////////////////////////////////////////////
+parentcoord <- false
+currentgroup <- 0
+prof <- {"showbnd":[0.105569,1.380285,-0.067166,1.308724,0.906938,0.57526],"maxbnd":[-0.139648,1.179104,-0.000515,1.321358,0.788703,0.690609],"showtime":1472,"wholebnd":[-0.116825,1.254888,-0.01002,1.647802,1.013937,0.743143]}
+groups <- [
+	with ParticleGroupData(){
+		name = "musicnote"
+		enabled = true
+		aimtype = 0
+		localcoord = true
+		emitter = with ParticleEmitter(){
+			num = 2
+			start = 0, start_spr = 1000
+			life = 1000, life_spr = 0
+			posx = 0.0, posy = 1.0, posz = 0.0
+			pos_sprx = 0.0, pos_spry = 0.2, pos_sprz = 0.4
+			dirx = 0.0, diry = 0.0, dirz = 0.0
+			dir_sprx = 0.0, dir_spry = 0.0, dir_sprz = 1.047198
+			linearbits = 1
+		},
+		shapetype = 4
+		shapedata = {"usemtl":false,"d":0.1,"w":0.1,"path":"/resource/vox/efx/emo_musicnote.vox","h":0.1}
+		texture = ""
+		color = 0xeb0606ff
+		blendmode = 5
+		blend = 1
+		Ka = 0x808080ff
+		Ks = 0x00000000
+		mod = [
+		{"vel":1.3,"classid":"ptcmod_vel","vel_spr":0.0},
+		{"axisid":1,"classid":"ptcmod_acc","acc":-0.05,"coord":0,"acc_spr":0.0},
+		{"xyz":2,"scale":[0.352941,1.411765,0.882353,1.029412,0.970588,0.970588,0.970588,0.970588],"classid":"ptcmod_scale"},
+		{"xyz":5,"scale":[0.941176,0.411765,1.176471,0.970588,0.970588,0.970588,0.970588,0.970588],"classid":"ptcmod_scale"},
+		{"scale":0.174533,"classid":"ptcmod_rot","rot":[0.411765,-0.323529],"axisid":2},
+		{"color":0,"scale":0.0,"classid":"ptcmod_rnd","b":0.2,"h":0.0,"p":0.0},
+		{"axisid":1,"classid":"ptcmod_acc","acc":0.01,"coord":1,"acc_spr":0.0},
+		]
+	},
+	with ParticleGroupData(){
+		name = "musicnote"
+		enabled = true
+		aimtype = 0
+		localcoord = true
+		emitter = with ParticleEmitter(){
+			num = 3
+			start = 100, start_spr = 1000
+			life = 1000, life_spr = 0
+			posx = 0.0, posy = 1.0, posz = 0.0
+			pos_sprx = 0.0, pos_spry = 0.2, pos_sprz = 0.4
+			dirx = 0.0, diry = 0.0, dirz = 0.0
+			dir_sprx = 0.0, dir_spry = 0.0, dir_sprz = 1.047198
+			linearbits = 1
+		},
+		shapetype = 4
+		shapedata = {"usemtl":false,"d":0.1,"path":"/resource/vox/efx/emo_musicnote.vox","w":0.1,"h":0.1}
+		texture = ""
+		color = 0xffff00ff
+		blendmode = 5
+		blend = 1
+		Ka = 0x808080ff
+		Ks = 0x00000000
+		mod = [
+		{"vel":1.3,"classid":"ptcmod_vel","vel_spr":0.0},
+		{"axisid":1,"classid":"ptcmod_acc","acc_spr":0.0,"coord":0,"acc":-0.05},
+		{"xyz":2,"scale":[0.352941,1.411765,0.882353,1.029412,0.970588,0.970588,0.970588,0.970588],"classid":"ptcmod_scale"},
+		{"xyz":5,"scale":[0.941176,0.411765,1.176471,0.970588,0.970588,0.970588,0.970588,0.970588],"classid":"ptcmod_scale"},
+		{"axisid":2,"classid":"ptcmod_rot","rot":[0.411765,-0.323529],"scale":0.174533},
+		{"color":0,"scale":0.0,"classid":"ptcmod_rnd","b":0.2,"p":0.0,"h":0.0},
+		{"axisid":1,"classid":"ptcmod_acc","acc_spr":0.0,"coord":1,"acc":0.01},
+		]
+	},
+	with ParticleGroupData(){
+		name = "musicnote"
+		enabled = true
+		aimtype = 0
+		localcoord = true
+		emitter = with ParticleEmitter(){
+			num = 3
+			start = 500, start_spr = 1000
+			life = 1000, life_spr = 0
+			posx = 0.0, posy = 1.0, posz = 0.0
+			pos_sprx = 0.0, pos_spry = 0.2, pos_sprz = 0.4
+			dirx = 0.0, diry = 0.0, dirz = 0.0
+			dir_sprx = 0.0, dir_spry = 0.0, dir_sprz = 1.047198
+			linearbits = 1
+		},
+		shapetype = 4
+		shapedata = {"usemtl":false,"d":0.1,"w":0.1,"path":"/resource/vox/efx/emo_musicnote.vox","h":0.1}
+		texture = ""
+		color = 0x6cc06ff
+		blendmode = 5
+		blend = 1
+		Ka = 0x808080ff
+		Ks = 0x00000000
+		mod = [
+		{"vel":1.3,"classid":"ptcmod_vel","vel_spr":0.0},
+		{"axisid":1,"classid":"ptcmod_acc","acc":-0.05,"coord":0,"acc_spr":0.0},
+		{"xyz":2,"scale":[0.352941,1.411765,0.882353,1.029412,0.970588,0.970588,0.970588,0.970588],"classid":"ptcmod_scale"},
+		{"xyz":5,"scale":[0.941176,0.411765,1.176471,0.970588,0.970588,0.970588,0.970588,0.970588],"classid":"ptcmod_scale"},
+		{"scale":0.174533,"classid":"ptcmod_rot","rot":[0.411765,-0.323529],"axisid":2},
+		{"color":0,"scale":0.0,"classid":"ptcmod_rnd","b":0.2,"h":0.0,"p":0.0},
+		{"axisid":1,"classid":"ptcmod_acc","acc":0.01,"coord":1,"acc_spr":0.0},
+		]
+	},
+]
+actions <- [
+	{"acttype":"emitall","time":0}
+]

@@ -127,7 +127,7 @@
 			},
 			"id":"pbr_df-4",
 			"lock":true,
-			"name":{"en":"PBR Deferred+","ja":"朝"},
+			"name":{"en":"Morning","ja":"朝"},
 			"postfx":{"bloomblur":3.2,"bloompow":0.12,"bloomthrs":0.9,"dofblur":0.8,"dofrange":30,"dofz":4.0},
 			"renderpass":2,
 			"ss":{"aobias":0.6,"aoexp":1.0,"aopow":0.78,"aoradius":4.6,"gipow":1.0,"gitype":0}
@@ -154,7 +154,7 @@
 			},
 			"id":"pbr_df-4-1-1",
 			"lock":true,
-			"name":{"en":"PBR Deferred+++","ja":"昼"},
+			"name":{"en":"Afternoon","ja":"昼"},
 			"postfx":{"bloomblur":3.2,"bloompow":0.08,"bloomthrs":0.9,"dofblur":0.8,"dofrange":30,"dofz":4.0},
 			"renderpass":2,
 			"ss":{"aobias":0.6,"aoexp":1.2,"aopow":0.75,"aoradius":5.0,"gipow":1.0,"gitype":0}
@@ -175,7 +175,7 @@
 			"ibl":{"iblcolor":-1,"ibldiff":1320,"ibldir":156,"iblspec":1700,"ibltex":"/resource/ibltex/meadow_2k_ibl.ktx"},
 			"id":"pbr_df-4-1-2",
 			"lock":true,
-			"name":{"en":"PBR Deferred+++","ja":"夕方"},
+			"name":{"en":"Evening","ja":"夕方"},
 			"postfx":{"bloomblur":3.2,"bloompow":0.08,"bloomthrs":0.9,"dofblur":1.0,"dofrange":30,"dofz":4.0},
 			"renderpass":2,
 			"ss":{"aobias":0.6,"aoexp":1.0,"aopow":0.8,"aoradius":4.8,"gipow":1.0,"gitype":0}
@@ -202,7 +202,7 @@
 			},
 			"id":"pbr_df-3-2",
 			"lock":true,
-			"name":{"en":"PBR Deferred++","ja":"夕暮れ"},
+			"name":{"en":"Dusk","ja":"夕暮れ"},
 			"postfx":{"bloomblur":3.2,"bloompow":0.12,"bloomthrs":0.9,"dofblur":0.5,"dofrange":80,"dofz":4.0},
 			"renderpass":2,
 			"ss":{"aobias":0.45,"aoexp":1.1,"aopow":0.9,"aoradius":5.4,"gipow":1.0,"gitype":0}
@@ -223,7 +223,7 @@
 			"ibl":{"iblcolor":-1,"ibldiff":6,"ibldir":110,"iblspec":8,"ibltex":"/resource/ibltex/narrow_moonlit_road_2k_ibl.ktx"},
 			"id":"pbr_df-1",
 			"lock":true,
-			"name":{"en":"PBR Deferred+","ja":"夜"},
+			"name":{"en":"Night","ja":"夜"},
 			"postfx":{"bloomblur":3.7,"bloompow":0.12,"bloomthrs":0.9,"dofblur":0.5,"dofrange":80,"dofz":4.0},
 			"renderpass":2,
 			"ss":{"aobias":0.4,"aoexp":1.0,"aopow":0.75,"aoradius":5.2,"gipow":1.0,"gitype":0}
@@ -244,7 +244,7 @@
 			"ibl":{"iblcolor":-1108803585,"ibldiff":620,"ibldir":12,"iblspec":650,"ibltex":"/resource/ibltex/cave_wall_2k_ibl.ktx"},
 			"id":"pbr_df-4-1-1-1",
 			"lock":true,
-			"name":{"en":"PBR Deferred++++","ja":"暗がり"},
+			"name":{"en":"Dark Corner","ja":"暗がり"},
 			"postfx":{"bloomblur":3.2,"bloompow":0.08,"bloomthrs":0.9,"dofblur":1.0,"dofrange":30,"dofz":4.0},
 			"renderpass":2,
 			"ss":{"aobias":0.3,"aoexp":1.0,"aopow":0.9,"aoradius":5.0,"gipow":1.0,"gitype":0}
@@ -265,7 +265,7 @@
 			"ibl":{"iblcolor":-1,"ibldiff":280,"ibldir":180,"iblspec":350,"ibltex":"/resource/ibltex/meadow_2k_ibl.ktx"},
 			"id":"pbr_df-3-3",
 			"lock":true,
-			"name":{"en":"PBR Deferred++","ja":"森"},
+			"name":{"en":"Forest","ja":"森"},
 			"postfx":{"bloomblur":3.2,"bloompow":0.12,"bloomthrs":0.9,"dofblur":1.0,"dofrange":30,"dofz":4.0},
 			"renderpass":2,
 			"ss":{"aobias":0.45,"aoexp":1.0,"aopow":0.8,"aoradius":4.8,"gipow":1.0,"gitype":0}
@@ -286,7 +286,7 @@
 			"ibl":{"iblcolor":-1,"ibldiff":40,"ibldir":180,"iblspec":210,"ibltex":"/resource/ibltex/cave_wall_2k_ibl.ktx"},
 			"id":"pbr_df-4-1",
 			"lock":true,
-			"name":{"en":"PBR Deferred++","ja":"朝霧"},
+			"name":{"en":"Morning Mist","ja":"朝霧"},
 			"postfx":{"bloomblur":3.2,"bloompow":0.08,"bloomthrs":0.9,"dofblur":0.5,"dofrange":80,"dofz":4.0},
 			"renderpass":2,
 			"ss":{"aobias":0.6,"aoexp":1.0,"aopow":0.78,"aoradius":4.0,"gipow":1.0,"gitype":0}
@@ -307,7 +307,7 @@
 			"ibl":{"iblcolor":-1,"ibldiff":1600,"ibldir":-160,"iblspec":1800,"ibltex":"/resource/ibltex/snowy_park_01_2k_ibl.ktx"},
 			"id":"pbr_df-4-1-2-1",
 			"lock":true,
-			"name":{"en":"PBR Deferred++++","ja":"雪国"},
+			"name":{"en":"Snow Country","ja":"雪国"},
 			"postfx":{"bloomblur":3.2,"bloompow":0.08,"bloomthrs":0.9,"dofblur":0.5,"dofrange":80,"dofz":4.0},
 			"renderpass":2,
 			"ss":{"aobias":0.6,"aoexp":1.0,"aopow":0.8,"aoradius":4.8,"gipow":1.0,"gitype":0}
@@ -318,17 +318,17 @@
 					"color":-537001985,
 					"head":30,
 					"pitch":50,
-					"power":20,
+					"power":18,
 					"shadow":{"shadowdens":0.3,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.35,"shadowtype":2},
 					"type":1
 				}
 			],
 			"exposure":{"autoexposure":false,"ev100":4.1,"evrange":[-4.0,14.0]},
 			"fog":{"type":0},
-			"ibl":{"iblcolor":-1,"ibldiff":40,"ibldir":180,"iblspec":26,"ibltex":"/resource/ibltex/ballroom_2k_ibl.ktx"},
+			"ibl":{"iblcolor":-1,"ibldiff":29,"ibldir":180,"iblspec":32,"ibltex":"/resource/ibltex/ballroom_2k_ibl.ktx"},
 			"id":"pbr_df-3-1",
 			"lock":true,
-			"name":{"en":"PBR Deferred++","ja":"屋内・昼"},
+			"name":{"en":"Indoor Day","ja":"屋内・昼"},
 			"postfx":{"bloomblur":3.2,"bloompow":0.08,"bloomthrs":0.9,"dofblur":0.5,"dofrange":80,"dofz":4.0},
 			"renderpass":2,
 			"ss":{"aobias":0.45,"aoexp":1.0,"aopow":0.76,"aoradius":4.7,"gipow":1.0,"gitype":0}
@@ -339,17 +339,17 @@
 					"color":-1,
 					"head":30,
 					"pitch":50,
-					"power":6,
+					"power":7,
 					"shadow":{"shadowdens":0.3,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.5,"shadowtype":0},
 					"type":1
 				}
 			],
 			"exposure":{"autoexposure":false,"ev100":3.5,"evrange":[-4.0,14.0]},
 			"fog":{"type":0},
-			"ibl":{"iblcolor":-1,"ibldiff":9,"ibldir":180,"iblspec":7,"ibltex":"/resource/ibltex/ballroom_2k_ibl.ktx"},
+			"ibl":{"iblcolor":-1,"ibldiff":7,"ibldir":180,"iblspec":9,"ibltex":"/resource/ibltex/ballroom_2k_ibl.ktx"},
 			"id":"pbr_df-1-1",
 			"lock":true,
-			"name":{"en":"PBR Deferred++","ja":"屋内・夜"},
+			"name":{"en":"Indoor Night","ja":"屋内・夜"},
 			"postfx":{"bloomblur":3.2,"bloompow":0.12,"bloomthrs":0.9,"dofblur":0.5,"dofrange":80,"dofz":4.0},
 			"renderpass":2,
 			"ss":{"aobias":0.4,"aoexp":1.0,"aopow":1.0,"aoradius":5.0,"gipow":1.0,"gitype":0}
@@ -370,7 +370,7 @@
 			"ibl":{"iblcolor":-1,"ibldiff":6,"ibldir":180,"iblspec":9,"ibltex":"/resource/ibltex/narrow_moonlit_road_2k_ibl.ktx"},
 			"id":"pbr_df-1-2",
 			"lock":true,
-			"name":{"en":"PBR Deferred++","ja":"神殿"},
+			"name":{"en":"Temple","ja":"神殿"},
 			"postfx":{"bloomblur":3.7,"bloompow":0.12,"bloomthrs":0.9,"dofblur":0.7,"dofrange":30,"dofz":4.0},
 			"renderpass":2,
 			"ss":{"aobias":0.4,"aoexp":1.0,"aopow":0.9,"aoradius":4.5,"gipow":1.0,"gitype":0}
@@ -391,7 +391,7 @@
 			"ibl":{"iblcolor":-1,"ibldiff":3,"ibldir":0,"iblspec":3,"ibltex":"/resource/ibltex/cave_wall_2k_ibl.ktx"},
 			"id":"pbr_df-1-1-1",
 			"lock":true,
-			"name":{"en":"PBR Deferred+++","ja":"洞窟"},
+			"name":{"en":"Cave","ja":"洞窟"},
 			"postfx":{"bloomblur":3.2,"bloompow":0.07,"bloomthrs":1.0,"dofblur":0.5,"dofrange":20,"dofz":4.0},
 			"renderpass":2,
 			"ss":{"aobias":0.4,"aoexp":1.0,"aopow":1.0,"aoradius":5.0,"gipow":1.0,"gitype":0}
@@ -412,7 +412,7 @@
 			"ibl":{"iblcolor":-1,"ibldiff":10000.0,"ibldir":180,"iblspec":8000,"ibltex":"/system/asset/defibl.ktx"},
 			"id":"pbr_df-2",
 			"lock":true,
-			"name":{"en":"PBR Deferred+","ja":"AOテスト"},
+			"name":{"en":"AO Test","ja":"AOテスト"},
 			"postfx":{"bloomblur":3.2,"bloompow":0.12,"bloomthrs":0.9,"dofblur":0.5,"dofrange":40,"dofz":4.0},
 			"renderpass":2,
 			"ss":{"aobias":0.3,"aoexp":0.5,"aopow":2.0,"aoradius":5.0,"gipow":1.0,"gitype":0}
@@ -433,7 +433,7 @@
 			"ibl":{"iblcolor":-1,"ibldiff":9,"ibldir":180,"iblspec":7,"ibltex":"/resource/ibltex/ballroom_2k_ibl.ktx"},
 			"id":"pbr_df-1-1-2",
 			"lock":true,
-			"name":{"en":"PBR Deferred+++","ja":"GIテスト"},
+			"name":{"en":"GI Test","ja":"GIテスト"},
 			"postfx":{"bloomblur":3.2,"bloompow":0.0,"bloomthrs":0.9,"dofblur":0.0,"dofrange":80,"dofz":4.0},
 			"renderpass":2,
 			"ss":{"aobias":0.4,"aoexp":1.0,"aopow":1.0,"aoradius":8.0,"gipow":1.0,"gitype":1}
@@ -482,12 +482,12 @@
 			"rough":0.3
 		},
 		"#5#":{
-			"metal":0.0,
-			"mparams":[1.0,0.0,0.0,0.8],
-			"mtype":2,
-			"name":{"en":"Vinyl","ja":"ビニール"},
-			"ptn":null,
-			"rough":0.85
+			"metal":1.0,
+			"mparams":[1.0,0.0,1.0,1.0],
+			"mtype":0,
+			"name":{"en":"Rough Metal","ja":"ラフメタル"},
+			"ptn":["block3",0.55],
+			"rough":0.68
 		},
 		"#6#":{
 			"metal":1.0,
@@ -543,7 +543,7 @@
 			"mtype":0,
 			"name":{"en":"Stone Floor","ja":"石畳"},
 			"ptn":["stonefloor0",0.7],
-			"rough":0.77
+			"rough":0.68
 		},
 		"#13#":{
 			"metal":0.24,
@@ -551,7 +551,7 @@
 			"mtype":0,
 			"name":{"en":"Brick","ja":"レンガ"},
 			"ptn":["block3",0.55],
-			"rough":0.87
+			"rough":0.72
 		},
 		"#14#":{
 			"metal":0.0,
@@ -559,7 +559,7 @@
 			"mtype":0,
 			"name":{"en":"Concrete","ja":"コンクリート"},
 			"ptn":["block5",1.0],
-			"rough":0.67
+			"rough":0.64
 		},
 		"#15#":{
 			"metal":0.0,
@@ -575,7 +575,7 @@
 			"mtype":0,
 			"name":{"en":"Wood1","ja":"木材1"},
 			"ptn":["wood0",0.6],
-			"rough":0.9
+			"rough":0.83
 		},
 		"#17#":{
 			"metal":0.0,
@@ -586,12 +586,12 @@
 			"rough":0.86
 		},
 		"#18#":{
-			"metal":0.0,
+			"metal":0.1,
 			"mparams":[1.0,0.0,1.0,1.0],
 			"mtype":0,
 			"name":{"en":"FloorBoard","ja":"床板"},
 			"ptn":["block6",0.5],
-			"rough":0.88
+			"rough":0.75
 		},
 		"#19#":{
 			"metal":0.1,
@@ -607,7 +607,7 @@
 			"mtype":0,
 			"name":{"en":"Rough Floor","ja":"荒床"},
 			"ptn":["block10",0.2],
-			"rough":1.0
+			"rough":0.91
 		},
 		"#21#":{
 			"metal":0.0,
@@ -646,7 +646,7 @@
 			"mparams":[0.92,0.0,1.0,1.0],
 			"mtype":0,
 			"name":{"en":"Sand","ja":"砂"},
-			"ptn":["sandfloor",0.6],
+			"ptn":["sandfloor",0.69],
 			"rough":0.87
 		},
 		"#31#":{
@@ -667,11 +667,11 @@
 		},
 		"#37#":{
 			"metal":0.5,
-			"mparams":[1.0,0.01,1.0,1.0],
+			"mparams":[1.0,0.005,1.0,1.0],
 			"mtype":0,
 			"name":{"en":"Snow1","ja":"雪原1"},
 			"ptn":["block10",0.4],
-			"rough":0.49
+			"rough":0.51
 		},
 		"#41#":{
 			"metal":0.92,
@@ -721,6 +721,14 @@
 			"ptn":["block3",0.6],
 			"rough":1.0
 		},
+		"#49#":{
+			"metal":0.0,
+			"mparams":[1.0,0.0,0.0,0.8],
+			"mtype":2,
+			"name":{"en":"Vinyl","ja":"ビニール"},
+			"ptn":null,
+			"rough":0.85
+		},
 		"#50#":{
 			"metal":0.7,
 			"mparams":[1.0,0.0,1.0,1.0],
@@ -753,6 +761,15 @@
 			"ptn":null,
 			"rough":0.9
 		},
+		"#57#":{
+			"anime":{"r":[14,14,12,12,10,10,8,8,6,6,4,4,2,2,0,0,14,14,14,12,12,12,10,10,10,8,8,8,6,6,6,4,4,4,2,2,2,0,0,0]},
+			"metal":0.5,
+			"mparams":[0.7,0.2,1.0,1.0],
+			"mtype":0,
+			"name":{"en":"Torch","ja":"松明"},
+			"ptn":["torch0",0.28],
+			"rough":0.9
+		},
 		"#80#":{
 			"metal":0.3,
 			"mparams":[1.0,0.01,1.0,1.0],
@@ -780,30 +797,39 @@
 			"rough":0.7
 		},
 		"#83#":{
-			"metal":0.5,
-			"mparams":[0.7,0.35,1.0,1.0],
+			"metal":0.4,
+			"mparams":[0.7,0.26,1.0,1.0],
 			"mtype":0,
 			"name":{"en":"Laba","ja":"溶岩"},
 			"ptn":null,
 			"rough":0.25
 		},
 		"#84#":{
-			"anime":{"r":[0,0,0,0,0,0,1,1,1,1,1,1,2,2,2,2,2,2,3,3,3,3,3,3]},
-			"metal":0.5,
-			"mparams":[0.7,0.35,1.0,1.0],
+			"anime":{"r":[0,0,0,0,0,1,1,1,1,1,2,2,2,2,2,3,3,3,3,3,4,4,4,4,4,5,5,5,5,5,6,6,6,6,6,7,7,7,7,7,8,8,8,8,8,9,9,9,9,9,10,10,10,10,10,11,11,11,11,11]},
+			"metal":0.4,
+			"mparams":[0.7,0.23,1.0,1.0],
 			"mtype":0,
 			"name":{"en":"Laba Top","ja":"溶岩面1"},
-			"ptn":["watertop0",1.0],
-			"rough":0.2
+			"ptn":["magmatop0",0.72],
+			"rough":0.25
 		},
 		"#85#":{
 			"anime":{"r":[0,0,0,2,2,2,4,4,4,6,6,6]},
-			"metal":0.5,
-			"mparams":[0.7,0.35,1.0,1.0],
+			"metal":0.4,
+			"mparams":[0.7,0.25,1.0,1.0],
 			"mtype":0,
 			"name":{"en":"Laba Fall","ja":"溶岩滝1"},
 			"ptn":["waterfall0",0.7],
 			"rough":0.7
+		},
+		"#86#":{
+			"anime":{"r":[0,0,0,0,0,1,1,1,1,1,2,2,2,2,2,3,3,3,3,3,4,4,4,4,4,5,5,5,5,5,6,6,6,6,6,7,7,7,7,7,8,8,8,8,8,9,9,9,9,9,10,10,10,10,10,11,11,11,11,11]},
+			"metal":0.3,
+			"mparams":[1.0,0.01,1.0,1.0],
+			"mtype":0,
+			"name":{"en":"Poison Top","ja":"毒水面"},
+			"ptn":["magmatop0",0.63],
+			"rough":0.2
 		},
 		"#127#":{
 			"metal":0.0,

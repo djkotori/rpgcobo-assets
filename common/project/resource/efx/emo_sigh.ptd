@@ -1,0 +1,42 @@
+////////////////////////////////////////////////////////
+//   ParticleData
+////////////////////////////////////////////////////////
+parentcoord <- false
+currentgroup <- 0
+prof <- {"showbnd":[0.00751,-0.16824,-0.20032,0.411919,0.314431,0.317815],"maxbnd":[-0.003696,-0.256645,-0.306969,0.565648,0.389118,0.392165],"showtime":416,"wholebnd":[-0.002629,-0.218708,-0.246161,0.566715,0.427054,0.452974]}
+groups <- [
+	with ParticleGroupData(){
+		name = "sigh"
+		enabled = true
+		aimtype = 0
+		localcoord = true
+		emitter = with ParticleEmitter(){
+			num = 3
+			start = 0, start_spr = 0
+			life = 900, life_spr = 150
+			posx = 0.0, posy = 0.0, posz = 0.0
+			pos_sprx = 0.0, pos_spry = 0.0, pos_sprz = 0.0
+			dirx = 0.0, diry = 0.872665, dirz = -0.436332
+			dir_sprx = 0.0, dir_spry = 0.0, dir_sprz = 0.436332
+			linearbits = 128
+		},
+		shapetype = 4
+		shapedata = {"usemtl":false,"d":0.1,"path":"/resource/vox/efx/emo_sigh.vox","w":0.1,"h":0.1}
+		texture = ""
+		color = 0xffffffff
+		blendmode = 5
+		blend = 1
+		Ka = 0x808080ff
+		Ks = 0x00000000
+		mod = [
+		{"vel":-0.8,"classid":"ptcmod_vel","vel_spr":0.1},
+		{"color":[-1,-256],"classid":"ptcmod_color"},
+		{"axisid":1,"classid":"ptcmod_acc","acc_spr":0.0,"coord":0,"acc":0.04},
+		{"xyz":7,"scale":[0.705882,0.705882,0.941176,1.352941,1.588235,1.676471,1.705882],"classid":"ptcmod_scale"},
+		{"color":0,"scale":0.1,"classid":"ptcmod_rnd","b":0.1,"p":0.0,"h":0.0},
+		]
+	},
+]
+actions <- [
+	{"acttype":"emitall","time":0}
+]

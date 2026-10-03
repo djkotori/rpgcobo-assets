@@ -1,0 +1,135 @@
+////////////////////////////////////////////////////////
+//   ParticleData
+////////////////////////////////////////////////////////
+parentcoord <- false
+currentgroup <- 0
+prof <- {"showbnd":[-0.508164,0.926412,0.367108,0.54294,0.296179,0.276943],"maxbnd":[-0.5691,0.714041,-0.006588,0.31674,0.418272,0.461149],"showtime":800,"wholebnd":[-0.533166,0.677938,0.026817,0.352674,0.454375,0.495712]}
+groups <- [
+	with ParticleGroupData(){
+		name = "l_sparkle1"
+		enabled = true
+		aimtype = 0
+		localcoord = true
+		emitter = with ParticleEmitter(){
+			num = 1
+			start = 0, start_spr = 1000
+			life = 700, life_spr = 0
+			posx = 0.0, posy = 1.0, posz = 0.0
+			pos_sprx = 0.0, pos_spry = 0.3, pos_sprz = 0.4
+			dirx = 0.0, diry = 0.0, dirz = 1.22173
+			dir_sprx = 0.0, dir_spry = 0.0, dir_sprz = 1.047198
+			linearbits = 0
+		},
+		shapetype = 4
+		shapedata = {"usemtl":false,"d":0.07,"w":0.07,"path":"/resource/vox/efx/emo_sparkle1.vox","h":0.07}
+		texture = ""
+		color = 0xffffffff
+		blendmode = 5
+		blend = 1
+		Ka = 0x808080ff
+		Ks = 0x00000000
+		mod = [
+		{"vel":0.13,"classid":"ptcmod_vel","vel_spr":0.06},
+		{"axisid":1,"classid":"ptcmod_acc","acc":-0.02,"coord":0,"acc_spr":0.0},
+		{"color":[-1,-256,-1,-256,-1,-256,-1,-256,-1,-256],"classid":"ptcmod_color"},
+		{"color":0,"scale":10.0,"classid":"ptcmod_rnd","b":0.0,"h":0.0,"p":0.0},
+		{"xyz":7,"scale":[1.088235,0.617647,1.235294,0.794118,1.411765,0.764706,1.441176,0.794118,1.294118,0.794118],"classid":"ptcmod_scale"},
+		]
+	},
+	with ParticleGroupData(){
+		name = "l_sparkle2"
+		enabled = true
+		aimtype = 0
+		localcoord = true
+		emitter = with ParticleEmitter(){
+			num = 2
+			start = 0, start_spr = 1000
+			life = 700, life_spr = 0
+			posx = 0.0, posy = 1.0, posz = 0.0
+			pos_sprx = 0.0, pos_spry = 0.3, pos_sprz = 0.4
+			dirx = 0.0, diry = 0.0, dirz = 1.22173
+			dir_sprx = 0.0, dir_spry = 0.0, dir_sprz = 1.047198
+			linearbits = 0
+		},
+		shapetype = 4
+		shapedata = {"usemtl":false,"d":0.07,"path":"/resource/vox/efx/emo_sparkle2.vox","w":0.07,"h":0.07}
+		texture = ""
+		color = 0xffffffff
+		blendmode = 5
+		blend = 1
+		Ka = 0x808080ff
+		Ks = 0x00000000
+		mod = [
+		{"vel":0.13,"classid":"ptcmod_vel","vel_spr":0.06},
+		{"axisid":1,"classid":"ptcmod_acc","acc_spr":0.0,"coord":0,"acc":-0.02},
+		{"color":[-1,-256,-1,-256,-1,-256,-1,-256,-1,-256],"classid":"ptcmod_color"},
+		{"color":0,"scale":10.0,"classid":"ptcmod_rnd","b":0.0,"p":0.0,"h":0.0},
+		{"xyz":7,"scale":[1.088235,0.617647,1.235294,0.794118,1.411765,0.764706,1.441176,0.794118,1.294118,0.794118],"classid":"ptcmod_scale"},
+		]
+	},
+	with ParticleGroupData(){
+		name = "r_sparkle1"
+		enabled = true
+		aimtype = 0
+		localcoord = true
+		emitter = with ParticleEmitter(){
+			num = 1
+			start = 0, start_spr = 1000
+			life = 700, life_spr = 0
+			posx = 0.0, posy = 1.0, posz = 0.0
+			pos_sprx = 0.0, pos_spry = 0.3, pos_sprz = 0.4
+			dirx = 0.0, diry = 0.0, dirz = -1.22173
+			dir_sprx = 0.0, dir_spry = 0.0, dir_sprz = 1.047198
+			linearbits = 0
+		},
+		shapetype = 4
+		shapedata = {"usemtl":false,"d":0.07,"path":"/resource/vox/efx/emo_sparkle1.vox","w":0.07,"h":0.07}
+		texture = ""
+		color = 0xffffffff
+		blendmode = 5
+		blend = 1
+		Ka = 0x808080ff
+		Ks = 0x00000000
+		mod = [
+		{"vel":0.13,"classid":"ptcmod_vel","vel_spr":0.06},
+		{"axisid":1,"classid":"ptcmod_acc","acc_spr":0.0,"coord":0,"acc":-0.02},
+		{"color":[-1,-256,-1,-256,-1,-256,-1,-256,-1,-256],"classid":"ptcmod_color"},
+		{"color":0,"scale":10.0,"classid":"ptcmod_rnd","b":0.0,"p":0.0,"h":0.0},
+		{"xyz":7,"scale":[1.088235,0.617647,1.235294,0.794118,1.411765,0.764706,1.441176,0.794118,1.294118,0.794118],"classid":"ptcmod_scale"},
+		]
+	},
+	with ParticleGroupData(){
+		name = "r_sparkle2"
+		enabled = true
+		aimtype = 0
+		localcoord = true
+		emitter = with ParticleEmitter(){
+			num = 2
+			start = 0, start_spr = 1000
+			life = 700, life_spr = 0
+			posx = 0.0, posy = 1.0, posz = 0.0
+			pos_sprx = 0.0, pos_spry = 0.3, pos_sprz = 0.4
+			dirx = 0.0, diry = 0.0, dirz = -1.22173
+			dir_sprx = 0.0, dir_spry = 0.0, dir_sprz = 1.047198
+			linearbits = 0
+		},
+		shapetype = 4
+		shapedata = {"usemtl":false,"d":0.07,"w":0.07,"path":"/resource/vox/efx/emo_sparkle2.vox","h":0.07}
+		texture = ""
+		color = 0xffffffff
+		blendmode = 5
+		blend = 1
+		Ka = 0x808080ff
+		Ks = 0x00000000
+		mod = [
+		{"vel":0.13,"classid":"ptcmod_vel","vel_spr":0.06},
+		{"axisid":1,"classid":"ptcmod_acc","acc":-0.02,"coord":0,"acc_spr":0.0},
+		{"color":[-1,-256,-1,-256,-1,-256,-1,-256,-1,-256],"classid":"ptcmod_color"},
+		{"color":0,"scale":10.0,"classid":"ptcmod_rnd","b":0.0,"h":0.0,"p":0.0},
+		{"xyz":7,"scale":[1.088235,0.617647,1.235294,0.794118,1.411765,0.764706,1.441176,0.794118,1.294118,0.794118],"classid":"ptcmod_scale"},
+		]
+	},
+]
+actions <- [
+	{"acttype":"emitall","time":0}
+]
