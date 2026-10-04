@@ -1075,7 +1075,7 @@
 				"yoffs":-0.9
 			},
 			"#2000002#":{"col":0,"dir":-100,"flags":1,"icon":"","name":"*memberloc","pos":[75,1,64,2],"type":"route"},
-			"#2000003#":{"col":0,"dir":90,"flags":1,"name":"*enemyloc","pos":[57,1,64,2],"type":"route"},
+			"#2000003#":{"col":0,"dir":100,"flags":1,"icon":"","name":"*enemyloc","pos":[56,1,64,2],"type":"route"},
 			"#2000004#":{
 				"col":0,
 				"flags":1,
@@ -1099,6 +1099,8 @@
 		"bg":{"type":"skybox"},
 		"bgmid":null,
 		"camwork":{"fovy":40,"hpb":[45,45,0],"viewport":6.0,"yoffs":1.5},
+		"canenter_hole":false,
+		"canenter_water":false,
 		"encntrate":0.0,
 		"encount":null,
 		"event":{
@@ -1167,7 +1169,7 @@
 				"yoffs":-0.9
 			},
 			"#2000002#":{"col":0,"dir":-100,"flags":1,"icon":"","name":"*memberloc","pos":[75,1,64,2],"type":"route"},
-			"#2000003#":{"col":0,"dir":90,"flags":1,"name":"*enemyloc","pos":[57,1,64,2],"type":"route"},
+			"#2000003#":{"col":0,"dir":100,"flags":1,"icon":"","name":"*enemyloc","pos":[56,1,64,2],"type":"route"},
 			"#2000004#":{
 				"col":0,
 				"flags":1,
@@ -1191,6 +1193,8 @@
 		"bg":{"type":"skybox"},
 		"bgmid":null,
 		"camwork":{"fovy":40,"hpb":[45,45,0],"viewport":6.0,"yoffs":1.5},
+		"canenter_hole":false,
+		"canenter_water":false,
 		"encntrate":0.0,
 		"encount":null,
 		"event":{
@@ -1259,7 +1263,7 @@
 				"yoffs":-0.9
 			},
 			"#2000002#":{"col":0,"dir":-100,"flags":1,"icon":"","name":"*memberloc","pos":[75,1,64,2],"type":"route"},
-			"#2000003#":{"col":0,"dir":90,"flags":1,"name":"*enemyloc","pos":[57,1,64,2],"type":"route"},
+			"#2000003#":{"col":0,"dir":100,"flags":1,"icon":"","name":"*enemyloc","pos":[56,1,64,2],"type":"route"},
 			"#2000004#":{
 				"col":0,
 				"flags":1,
@@ -1283,6 +1287,8 @@
 		"bg":{"col":255,"type":"col"},
 		"bgmid":null,
 		"camwork":{"fovy":40,"hpb":[45,45,0],"viewport":6.0,"yoffs":1.5},
+		"canenter_hole":false,
+		"canenter_water":false,
 		"encntrate":0.0,
 		"encount":null,
 		"event":{
@@ -1378,7 +1384,7 @@
 				"yoffs":-0.9
 			},
 			"#2000002#":{"col":0,"dir":-100,"flags":1,"icon":"","name":"*memberloc","pos":[75,1,64,2],"type":"route"},
-			"#2000003#":{"col":0,"dir":90,"flags":1,"name":"*enemyloc","pos":[57,1,64,2],"type":"route"},
+			"#2000003#":{"col":0,"dir":100,"flags":1,"icon":"","name":"*enemyloc","pos":[56,1,64,2],"type":"route"},
 			"#2000004#":{
 				"col":0,
 				"flags":1,
@@ -1402,6 +1408,8 @@
 		"bg":{"col":255,"type":"col"},
 		"bgmid":null,
 		"camwork":{"fovy":40,"hpb":[45,45,0],"viewport":6.0,"yoffs":1.5},
+		"canenter_hole":false,
+		"canenter_water":false,
 		"encntrate":0.0,
 		"encount":null,
 		"event":{
@@ -1482,7 +1490,7 @@
 				"yoffs":-0.9
 			},
 			"#2000002#":{"col":0,"dir":-100,"flags":1,"icon":"","name":"*memberloc","pos":[75,1,64,2],"type":"route"},
-			"#2000003#":{"col":0,"dir":90,"flags":1,"name":"*enemyloc","pos":[57,1,64,2],"type":"route"},
+			"#2000003#":{"col":0,"dir":100,"flags":1,"icon":"","name":"*enemyloc","pos":[56,1,64,2],"type":"route"},
 			"#2000004#":{
 				"col":0,
 				"flags":1,
@@ -1506,6 +1514,8 @@
 		"bg":{"col":255,"type":"col"},
 		"bgmid":null,
 		"camwork":{"fovy":40,"hpb":[45,45,0],"viewport":6.0,"yoffs":1.5},
+		"canenter_hole":false,
+		"canenter_water":false,
 		"encntrate":0.0,
 		"encount":null,
 		"event":{
@@ -1573,7 +1583,7 @@
 				"yoffs":-0.9
 			},
 			"#2000002#":{"col":0,"dir":-100,"flags":1,"icon":"","name":"*memberloc","pos":[75,1,64,2],"type":"route"},
-			"#2000003#":{"col":0,"dir":90,"flags":1,"name":"*enemyloc","pos":[57,1,64,2],"type":"route"},
+			"#2000003#":{"col":0,"dir":100,"flags":1,"icon":"","name":"*enemyloc","pos":[56,1,64,2],"type":"route"},
 			"#2000004#":{
 				"col":0,
 				"flags":1,

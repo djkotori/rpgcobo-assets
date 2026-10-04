@@ -1,5 +1,36 @@
 {
-	"X000":{"cmdblock":[],"desc":"","name":"何もしない","runatmenu":false,"runmode":0,"runreqs":[]},
+	"X000":{
+		"cmdblock":[],
+		"desc":"何も実行しない",
+		"name":"何もしない",
+		"runatmenu":false,
+		"runmode":0,
+		"runrepeat":false,
+		"runreqs":[]
+	},
+	"X001":{
+		"cmdblock":[
+			{
+				"cmd":"cmd_if",
+				"cmdblocks":[
+					[
+						{"cmd":"cmd_screenfxon","color":-1431655681,"num":1,"pow":6,"sfxid":"raster0","time":200}
+					],
+					[
+						{"cmd":"cmd_screenfxoff","sfxbits":2,"time":400}
+					]
+				],
+				"reqs":[
+					{"key":"varcmp","lvar":"W","op":"==","rvar":true}
+				]
+			}
+		],
+		"desc":"メインメニューを開く／閉じるときに呼び出されます。\nW=ON : 開く\nW=OFF : 閉じる",
+		"name":"メニュー開閉",
+		"runmode":0,
+		"runrepeat":false,
+		"runreqs":[]
+	},
 	"X002":{
 		"cmdblock":[
 			{"bgmid":"MU000","cmd":"cmd_bgm","fadetime":1500,"restore":false},
@@ -22,7 +53,7 @@
 			{"cmd":"cmd_wait","time":1000},
 			{"cmd":"cmd_gotitle"}
 		],
-		"desc":"",
+		"desc":"バトルで全滅した際に呼ばれる。\nゲームオーバーにしたり、回復してワープしたり処理を書くことが出来る。",
 		"name":"ゲームオーバー",
 		"runmode":0,
 		"runrepeat":false,
@@ -43,9 +74,10 @@
 			},
 			{"cmd":"cmd_screenfxoff","sfxbits":2,"time":0}
 		],
-		"desc":"",
+		"desc":"ランダムエンカウント、シンボルエンカウントからバトルを開始したときに呼ばれる。",
 		"name":"グループエンカウント",
 		"runmode":0,
+		"runrepeat":false,
 		"runreqs":[]
 	},
 	"X004":{
@@ -119,9 +151,71 @@
 			},
 			{"cmd":"cmd_battleend","result":0}
 		],
-		"desc":"",
+		"desc":"「逃げる」のスキルを使用したときに呼ばれる。成功したらバトルは引分けで終了。",
 		"name":"逃げるスキル",
 		"runmode":0,
+		"runrepeat":false,
+		"runreqs":[]
+	},
+	"X005":{
+		"cmdblock":[
+			{"cmd":"cmd_compute","lvar":"X","op":"=","rvar":"\tW[\"rp3d\"]"},
+			{"cmd":"cmd_compute","lvar":"Y","op":"=","rvar":"\tW[\"type\"]==\"enemy\""},
+			{
+				"_var":{"who":"W"},
+				"ani":{"id":"die","part":0,"spd":1.0},
+				"cmd":"cmd_anime",
+				"who":1
+			},
+			{
+				"cmd":"cmd_if",
+				"cmdblocks":[
+					[
+						{"cmd":"cmd_screenfxon","color":-1,"disable":1,"freq":40,"num":1,"pow":3,"sfxid":"quake1","time":0,"vert":false},
+						{"cmd":"cmd_script","code":"X.picfx( \"die\");","desc":"SCRIPT"},
+						{"cmd":"cmd_wait","disable":1,"time":1000},
+						{"cmd":"cmd_screenfxoff","disable":1,"sfxbits":4,"time":400}
+					],
+					[
+						{
+							"cmd":"cmd_if",
+							"cmdblocks":[
+								[
+									{"cmd":"cmd_wait","time":300},
+									{
+										"_var":{"who":"W"},
+										"cmd":"cmd_opacity",
+										"fade":400,
+										"loop":false,
+										"opacity":[1.0,0.5,0.0],
+										"wait":false,
+										"who":1
+									},
+									{
+										"_var":{"who":"W"},
+										"cmd":"cmd_efx",
+										"efxid":"FX079",
+										"pos":[0.0,0.0,0.0],
+										"wait":true,
+										"who":2
+									}
+								]
+							],
+							"reqs":[
+								{"key":"varcmp","lvar":"Y","op":"==","rvar":true}
+							]
+						}
+					]
+				],
+				"reqs":[
+					{"key":"script","rvar":"\tX instanceof RPG3DPicture"}
+				]
+			}
+		],
+		"desc":"バトルで死亡した際のアニメーションやエフェクト表示を行う。\nWには死亡演出を行うキャラの参照を渡す。",
+		"name":"死亡演出",
+		"runmode":0,
+		"runrepeat":false,
 		"runreqs":[]
 	},
 	"X011":{
@@ -141,10 +235,10 @@
 				"key":"message_log",
 				"text":"*message_log*"
 			},
-			{"cmd":"cmd_compute","lvar":"W","op":"=","rvar":true},
-			{"ch":0,"cmd":"cmd_snd","sndid":"SE017","vol":100,"who":0}
+			{"ch":0,"cmd":"cmd_snd","sndid":"SE017","vol":100,"who":0},
+			{"cmd":"cmd_compute","lvar":"W","op":"=","rvar":true}
 		],
-		"desc":"",
+		"desc":"宝箱のイベントロールを調べたときに呼ばれる。",
 		"name":"宝箱を開ける",
 		"runmode":0,
 		"runrepeat":false,
@@ -165,9 +259,10 @@
 				"who":""
 			}
 		],
-		"desc":"",
+		"desc":"村人のイベントロールに話しかけた時に呼ばれる。",
 		"name":"村人と会話",
 		"runmode":0,
+		"runrepeat":false,
 		"runreqs":[]
 	},
 	"X013":{
@@ -281,7 +376,7 @@
 			{"cmd":"cmd_label","label":"END"},
 			{"cmd":"cmd_showmsg","key":"message_talk","name":"","text":"また来ておくれよ！","uiclose":1}
 		],
-		"desc":"",
+		"desc":"店員のイベントロールに話しかけた時に呼ばれる。",
 		"name":"ショップ店員",
 		"runmode":0,
 		"runrepeat":false,
@@ -386,9 +481,10 @@
 				"text1":"$T.no"
 			}
 		],
-		"desc":"",
+		"desc":"宿屋店員に話しかけた時に呼ばれる。",
 		"name":"宿屋店員",
 		"runmode":0,
+		"runrepeat":false,
 		"runreqs":[]
 	},
 	"X015":{
@@ -513,9 +609,10 @@
 			{"charaid":"P000","cmd":"cmd_hpmp","cmdtgt":11,"hp1":true,"op":1,"pid":"HP","val":100},
 			{"charaid":"P000","cmd":"cmd_hpmp","cmdtgt":11,"hp1":true,"op":1,"pid":"MP","val":100}
 		],
-		"desc":"",
+		"desc":"医者のイベントロールに話しかけた時に呼ばれる。",
 		"name":"医者",
 		"runmode":0,
+		"runrepeat":false,
 		"runreqs":[]
 	},
 	"X017":{
@@ -564,9 +661,10 @@
 				"uiclose":2
 			}
 		],
-		"desc":"",
+		"desc":"テントのアイテムをメニューで使用したときに呼ばれる。",
 		"name":"テント使用",
 		"runmode":0,
+		"runrepeat":false,
 		"runreqs":[]
 	},
 	"_meta":{"caps":100,"version":1}
