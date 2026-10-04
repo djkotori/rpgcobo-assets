@@ -3,7 +3,7 @@
 ////////////////////////////////////////////////////////
 parentcoord <- false
 currentgroup <- 6
-prof <- {"showbnd":[-0.651102,1.688216,-0.270803,4.638662,4.668667,4.220194],"maxbnd":[-0.724888,1.457401,-0.004973,4.953953,6.111581,5.074686],"showtime":80,"wholebnd":[-0.769474,1.457401,-0.492647,5.784227,6.111581,6.43018]}
+prof <- {"showbnd":[0.0,1.0,0.0,7.084614,7.084614,7.084614],"maxbnd":[0.0,1.05,0.0,9.911539,9.911539,9.911539],"showtime":160,"wholebnd":[0.539313,1.05,-0.752452,10.758052,9.911539,10.663991]}
 groups <- [
 	with ParticleGroupData(){
 		name = "fire"
@@ -33,9 +33,9 @@ groups <- [
 		{"vel":10.0,"classid":"ptcmod_vel","vel_spr":0.4},
 		{"xyz":7,"scale":[0.884615,2.0,1.865385,1.153846,0.5,0.307692,0.192308],"classid":"ptcmod_scale"},
 		{"color":[-487425,-5766913,-1388511083,-1778384896],"classid":"ptcmod_color"},
-		{"axisid":1,"classid":"ptcmod_acc","acc_spr":0.0,"coord":0,"acc":-1.0},
-		{"scale":0.523599,"classid":"ptcmod_rot","rot":[1.0,-1.0],"axisid":2},
-		{"color":1310720,"scale":2.0,"classid":"ptcmod_rnd","b":10.0,"h":0.0,"p":0.0},
+		{"axisid":1,"classid":"ptcmod_acc","acc":-1.0,"coord":0,"acc_spr":0.0},
+		{"axisid":2,"classid":"ptcmod_rot","rot":[1.0,-1.0],"scale":0.523599},
+		{"color":1310720,"scale":2.0,"classid":"ptcmod_rnd","b":10.0,"p":0.0,"h":0.0},
 		]
 	},
 	with ParticleGroupData(){
@@ -92,11 +92,11 @@ groups <- [
 		Ks = 0x00000000
 		mod = [
 		{"vel":10.0,"classid":"ptcmod_vel","vel_spr":3.0},
-		{"axisid":1,"classid":"ptcmod_acc","acc_spr":0.0,"coord":1,"acc":-1.0},
+		{"axisid":1,"classid":"ptcmod_acc","acc":-1.0,"coord":1,"acc_spr":0.0},
 		{"color":[-1773141761,1948647679],"classid":"ptcmod_color"},
 		{"xyz":7,"scale":[0.25,1.0,0.826923,0.0],"classid":"ptcmod_scale"},
-		{"scale":3.1416,"classid":"ptcmod_rot","rot":[-1.0,1.0],"axisid":2},
-		{"color":1010580480,"scale":1.0,"classid":"ptcmod_rnd","b":10.0,"h":0.0,"p":0.0},
+		{"axisid":2,"classid":"ptcmod_rot","rot":[-1.0,1.0],"scale":3.1416},
+		{"color":1010580480,"scale":1.0,"classid":"ptcmod_rnd","b":10.0,"p":0.0,"h":0.0},
 		]
 	},
 	with ParticleGroupData(){
@@ -144,7 +144,7 @@ groups <- [
 			linearbits = 0
 		},
 		shapetype = 0
-		shapedata = {"axis":0,"r":0.0,"w":1.0,"h":1.0}
+		shapedata = {"axis":0,"r":0.0,"w":1.0,"h":0.4}
 		texture = "/resource/efx/tex/thorn1.webp"
 		color = 0xffffffff
 		blendmode = 5
@@ -155,7 +155,7 @@ groups <- [
 		{"vel":5.0,"classid":"ptcmod_vel","vel_spr":0.0},
 		{"color":[-704708609,-4587265,-8126209,-1707278336],"classid":"ptcmod_color"},
 		{"xyz":1,"scale":[1.0,1.029412,0.0],"classid":"ptcmod_scale"},
-		{"color":842150400,"scale":2.0,"classid":"ptcmod_rnd","b":0.0,"h":0.0,"p":0.0},
+		{"color":842150400,"scale":2.0,"classid":"ptcmod_rnd","b":0.0,"p":0.0,"h":0.0},
 		]
 	},
 	with ParticleGroupData(){
@@ -215,8 +215,8 @@ groups <- [
 		{"xyz":1,"scale":[0.5,0.961538],"classid":"ptcmod_scale"},
 		{"color":[-704708609,-836097,-5563393,-4587520],"classid":"ptcmod_color"},
 		{"xyz":2,"scale":[1.941176,1.705882,0.264706,0.0],"classid":"ptcmod_scale"},
-		{"axisid":1,"classid":"ptcmod_acc","acc_spr":0.0,"coord":0,"acc":-0.15},
-		{"color":0,"scale":1.0,"classid":"ptcmod_rnd","b":0.0,"p":0.0,"h":0.0},
+		{"axisid":1,"classid":"ptcmod_acc","acc":-0.15,"coord":0,"acc_spr":0.0},
+		{"color":0,"scale":1.0,"classid":"ptcmod_rnd","b":0.0,"h":0.0,"p":0.0},
 		]
 	},
 ]

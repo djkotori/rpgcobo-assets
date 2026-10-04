@@ -3,7 +3,7 @@
 ////////////////////////////////////////////////////////
 parentcoord <- false
 currentgroup <- 6
-prof <- {"showbnd":[-0.126363,1.020101,0.0,1.126363,1.251126,1.0],"maxbnd":[-0.003424,1.04291,0.0,1.318854,1.537071,1.0],"showtime":16,"wholebnd":[-0.012575,1.028879,0.0,1.328005,1.551103,1.0]}
+prof <- {"showbnd":[0.056314,0.964961,0.0,0.643315,0.668038,0.51149],"maxbnd":[0.0,1.0,0.0,0.795059,0.795059,0.795059],"showtime":32,"wholebnd":[0.0,1.0,0.0,0.795059,0.795059,0.795059]}
 groups <- [
 	with ParticleGroupData(){
 		name = "ptc"
@@ -22,7 +22,7 @@ groups <- [
 		},
 		shapetype = 0
 		shapedata = {"axis":0,"r":0.0,"w":0.3,"h":0.03}
-		texture = "/resource/efx/tex/circle2.webp"
+		texture = "/resource/efx/tex/sting1.webp"
 		color = 0xffffffff
 		blendmode = 5
 		blend = 5

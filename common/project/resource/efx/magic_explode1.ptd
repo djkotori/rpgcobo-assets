@@ -3,7 +3,7 @@
 ////////////////////////////////////////////////////////
 parentcoord <- false
 currentgroup <- 6
-prof <- {"showbnd":[0.4474,2.075187,0.635324,2.537575,4.167309,3.199],"maxbnd":[2.294145,1.436988,0.581863,4.827702,5.128965,6.53635],"showtime":72,"wholebnd":[1.947977,0.855485,0.253504,5.830386,6.040057,7.005089]}
+prof <- {"showbnd":[0.0,1.0,0.0,4.98923,4.98923,4.98923],"maxbnd":[0.0,1.049999,0.0,6.968077,6.968077,6.968077],"showtime":160,"wholebnd":[0.762766,1.049999,0.158295,7.730843,6.968077,7.126371]}
 groups <- [
 	with ParticleGroupData(){
 		name = "fire"
@@ -33,9 +33,9 @@ groups <- [
 		{"vel":10.0,"classid":"ptcmod_vel","vel_spr":0.4},
 		{"xyz":7,"scale":[0.884615,2.0,1.865385,1.153846,0.5,0.307692,0.192308],"classid":"ptcmod_scale"},
 		{"color":[-487425,-5766913,-1388511083,-1778384896],"classid":"ptcmod_color"},
-		{"axisid":1,"classid":"ptcmod_acc","acc":-1.0,"coord":0,"acc_spr":0.0},
-		{"axisid":2,"classid":"ptcmod_rot","rot":[1.0,-1.0],"scale":0.523599},
-		{"color":1310720,"scale":2.0,"classid":"ptcmod_rnd","b":10.0,"p":0.0,"h":0.0},
+		{"axisid":1,"classid":"ptcmod_acc","acc_spr":0.0,"coord":0,"acc":-1.0},
+		{"scale":0.523599,"classid":"ptcmod_rot","rot":[1.0,-1.0],"axisid":2},
+		{"color":1310720,"scale":2.0,"classid":"ptcmod_rnd","b":10.0,"h":0.0,"p":0.0},
 		]
 	},
 	with ParticleGroupData(){
@@ -54,7 +54,7 @@ groups <- [
 			linearbits = 0
 		},
 		shapetype = 0
-		shapedata = {"axis":0,"r":0.0,"w":0.7,"h":0.7}
+		shapedata = {"axis":0,"r":0.0,"w":0.7,"h":0.2}
 		texture = "/resource/efx/tex/thorn1.webp"
 		color = 0xffffffff
 		blendmode = 5
@@ -65,7 +65,7 @@ groups <- [
 		{"vel":5.0,"classid":"ptcmod_vel","vel_spr":0.0},
 		{"color":[-704708609,-4587265,-8126209,-1707278336],"classid":"ptcmod_color"},
 		{"xyz":1,"scale":[1.0,1.029412,0.0],"classid":"ptcmod_scale"},
-		{"color":842150400,"scale":2.0,"classid":"ptcmod_rnd","b":0.0,"p":0.0,"h":0.0},
+		{"color":842150400,"scale":2.0,"classid":"ptcmod_rnd","b":0.0,"h":0.0,"p":0.0},
 		]
 	},
 	with ParticleGroupData(){
@@ -93,11 +93,11 @@ groups <- [
 		Ks = 0x00000000
 		mod = [
 		{"vel":10.0,"classid":"ptcmod_vel","vel_spr":3.0},
-		{"axisid":1,"classid":"ptcmod_acc","acc":-1.0,"coord":1,"acc_spr":0.0},
+		{"axisid":1,"classid":"ptcmod_acc","acc_spr":0.0,"coord":1,"acc":-1.0},
 		{"color":[-1773141761,1948647679],"classid":"ptcmod_color"},
 		{"xyz":7,"scale":[0.25,1.0,0.826923,0.0],"classid":"ptcmod_scale"},
-		{"axisid":2,"classid":"ptcmod_rot","rot":[-1.0,1.0],"scale":3.1416},
-		{"color":1010580480,"scale":0.4,"classid":"ptcmod_rnd","b":10.0,"p":0.0,"h":0.0},
+		{"scale":3.1416,"classid":"ptcmod_rot","rot":[-1.0,1.0],"axisid":2},
+		{"color":1010580480,"scale":0.4,"classid":"ptcmod_rnd","b":10.0,"h":0.0,"p":0.0},
 		]
 	},
 	with ParticleGroupData(){

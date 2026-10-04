@@ -3,7 +3,7 @@
 ////////////////////////////////////////////////////////
 parentcoord <- false
 currentgroup <- 2
-prof <- {"showbnd":[0.0,1.578769,0.0,1.044713,1.623482,1.044713],"maxbnd":[0.0,1.05,0.0,2.14172,2.19172,2.14172],"showtime":240,"wholebnd":[0.0,1.061996,0.0,2.14172,2.203715,2.14172]}
+prof <- {"showbnd":[0.0,1.60211,0.0,1.008366,1.610476,1.008366],"maxbnd":[0.0,1.05,0.0,2.14172,2.19172,2.14172],"showtime":224,"wholebnd":[0.0,1.05,0.0,2.14172,2.19172,2.14172]}
 groups <- [
 	with ParticleGroupData(){
 		name = "star"
@@ -26,14 +26,15 @@ groups <- [
 		color = 0xffffffff
 		blendmode = 5
 		blend = 5
+		hsv = [108,0,0]
 		overlay = 0.51
 		Ka = 0x808080ff
 		Ks = 0x00000000
 		mod = [
-		{"color":[-1,-16711681,-262145,-939458816],"classid":"ptcmod_color"},
+		{"color":[-1,-261889,-262145,-50397184],"classid":"ptcmod_color"},
 		{"xyz":7,"scale":[0.0,0.735294,0.382353,1.205882,0.323529,0.882353,0.0],"classid":"ptcmod_scale"},
-		{"axisid":2,"classid":"ptcmod_rot","rot":[-1.0,1.0],"scale":0.349066},
-		{"color":0,"scale":1.5,"classid":"ptcmod_rnd","b":10.0,"p":0.0,"h":0.0},
+		{"scale":0.349066,"classid":"ptcmod_rot","rot":[-1.0,1.0],"axisid":2},
+		{"color":0,"scale":1.5,"classid":"ptcmod_rnd","b":10.0,"h":0.0,"p":0.0},
 		]
 	},
 	with ParticleGroupData(){
@@ -86,16 +87,17 @@ groups <- [
 		color = 0xffffffff
 		blendmode = 5
 		blend = 5
+		hsv = [108,0,0]
 		overlay = 0.57
 		Ka = 0x808080ff
 		Ks = 0x00000000
 		mod = [
-		{"color":[-1,-16711681,-262145,-939458816],"classid":"ptcmod_color"},
+		{"color":[-1,-655105,-262145,-268500992],"classid":"ptcmod_color"},
 		{"xyz":7,"scale":[0.0,1.961538,0.0,1.961538,0.0,0.653846,0.0],"classid":"ptcmod_scale"},
-		{"scale":3.1416,"classid":"ptcmod_rot","rot":[-1.0,1.0],"axisid":2},
+		{"axisid":2,"classid":"ptcmod_rot","rot":[-1.0,1.0],"scale":3.1416},
 		{"vel":3.0,"classid":"ptcmod_vel","vel_spr":0.0},
-		{"color":0,"scale":2.0,"classid":"ptcmod_rnd","b":10.0,"h":0.0,"p":0.0},
-		{"axisid":1,"classid":"ptcmod_acc","acc":-0.2,"coord":1,"acc_spr":0.0},
+		{"color":0,"scale":2.0,"classid":"ptcmod_rnd","b":10.0,"p":0.0,"h":0.0},
+		{"axisid":1,"classid":"ptcmod_acc","acc_spr":0.0,"coord":1,"acc":-0.2},
 		]
 	},
 	with ParticleGroupData(){

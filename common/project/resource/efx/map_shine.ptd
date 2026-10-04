@@ -3,7 +3,7 @@
 ////////////////////////////////////////////////////////
 parentcoord <- false
 currentgroup <- 0
-prof <- {"showbnd":[-0.190205,1.281381,0.08647,0.553333,0.427086,0.427086],"maxbnd":[0.015428,1.273208,-0.043887,0.602859,0.495647,0.747101],"showtime":2416,"wholebnd":[-0.003585,1.275641,0.006515,0.783743,0.49808,0.797503]}
+prof <- {"showbnd":[0.055468,1.256092,0.087173,0.707969,0.458162,0.514273],"maxbnd":[-0.087887,1.247853,-0.143912,0.629011,0.470924,0.597224],"showtime":544,"wholebnd":[-0.00272,1.272495,-0.009032,0.726175,0.500713,0.793116]}
 groups <- [
 	with ParticleGroupData(){
 		name = "star"
@@ -22,7 +22,7 @@ groups <- [
 		},
 		shapetype = 0
 		shapedata = {"axis":0,"r":0.0,"w":0.18,"h":0.18}
-		texture = "/resource/efx/tex/star1.webp"
+		texture = "/resource/efx/tex/star2.webp"
 		color = 0xffffffff
 		blendmode = 5
 		blend = 5
@@ -31,8 +31,8 @@ groups <- [
 		Ks = 0x00000000
 		mod = [
 		{"color":[-1,-33587201,-262259,-360704],"classid":"ptcmod_color"},
-		{"axisid":2,"classid":"ptcmod_rot","rot":[-1.0,-0.205882],"scale":3.141593},
-		{"color":0,"scale":2.0,"classid":"ptcmod_rnd","b":2.0,"p":0.0,"h":0.0},
+		{"scale":3.141593,"classid":"ptcmod_rot","rot":[-1.0,-0.205882],"axisid":2},
+		{"color":0,"scale":2.0,"classid":"ptcmod_rnd","b":2.0,"h":0.0,"p":0.0},
 		{"vel":0.1,"classid":"ptcmod_vel","vel_spr":0.0},
 		{"xyz":7,"scale":[0.470588,2.0,1.147059,0.558824,0.352941],"classid":"ptcmod_scale"},
 		]

@@ -3,7 +3,7 @@
 ////////////////////////////////////////////////////////
 parentcoord <- false
 currentgroup <- 0
-prof <- {"showbnd":[0.077782,1.077782,0.0,0.6,0.6,0.6],"maxbnd":[0.078509,1.061655,0.0,0.813033,0.861249,0.477623],"showtime":48,"wholebnd":[0.065397,1.061655,0.0,0.826145,0.861249,0.6]}
+prof <- {"showbnd":[0.077782,1.077782,0.0,0.6,0.6,0.6],"maxbnd":[0.190919,1.190919,0.0,0.6,0.6,0.6],"showtime":48,"wholebnd":[0.015086,0.946886,0.0,0.775833,0.844033,0.6]}
 groups <- [
 	with ParticleGroupData(){
 		name = "cut"
@@ -66,8 +66,8 @@ groups <- [
 		{"xyz":1,"scale":[0.5,0.961538],"classid":"ptcmod_scale"},
 		{"color":[-704708609,2027421695,799670271,5504768],"classid":"ptcmod_color"},
 		{"xyz":2,"scale":[1.0,0.0],"classid":"ptcmod_scale"},
-		{"axisid":1,"classid":"ptcmod_acc","acc_spr":0.0,"coord":0,"acc":-0.432},
-		{"color":842150400,"scale":2.0,"classid":"ptcmod_rnd","b":0.0,"p":0.0,"h":0.0},
+		{"axisid":1,"classid":"ptcmod_acc","acc":-0.432,"coord":0,"acc_spr":0.0},
+		{"color":842150400,"scale":2.0,"classid":"ptcmod_rnd","b":0.0,"h":0.0,"p":0.0},
 		]
 	},
 	with ParticleGroupData(){
@@ -145,7 +145,7 @@ groups <- [
 		},
 		shapetype = 0
 		shapedata = {"axis":0,"r":0.0,"w":0.14,"h":0.03}
-		texture = "/resource/efx/tex/circle2.webp"
+		texture = "/resource/efx/tex/sting1.webp"
 		color = 0xffffffff
 		blendmode = 5
 		blend = 5
@@ -157,8 +157,8 @@ groups <- [
 		{"xyz":1,"scale":[0.5,0.961538],"classid":"ptcmod_scale"},
 		{"color":[-2130706433,1082163455,255],"classid":"ptcmod_color"},
 		{"xyz":2,"scale":[0.538462,0.153846],"classid":"ptcmod_scale"},
-		{"axisid":1,"classid":"ptcmod_acc","acc_spr":0.0,"coord":0,"acc":-0.2},
-		{"color":0,"scale":1.0,"classid":"ptcmod_rnd","b":0.0,"p":0.0,"h":0.0},
+		{"axisid":1,"classid":"ptcmod_acc","acc":-0.2,"coord":0,"acc_spr":0.0},
+		{"color":0,"scale":1.0,"classid":"ptcmod_rnd","b":0.0,"h":0.0,"p":0.0},
 		]
 	},
 ]

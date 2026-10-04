@@ -3,7 +3,7 @@
 ////////////////////////////////////////////////////////
 parentcoord <- false
 currentgroup <- 5
-prof <- {"showbnd":[0.0,-0.045868,0.0,1.978054,2.432186,1.978054],"maxbnd":[0.0,-0.066677,0.0,1.951563,2.384885,1.951563],"showtime":816,"wholebnd":[0.0,0.005629,0.0,1.951563,2.457191,1.951563]}
+prof <- {"showbnd":[0.0,0.009502,0.0,1.856316,2.365819,1.856316],"maxbnd":[0.0,-0.298758,0.0,2.137783,2.339025,2.137783],"showtime":816,"wholebnd":[0.0,-0.08645,0.0,2.137783,2.551333,2.137783]}
 groups <- [
 	with ParticleGroupData(){
 		name = "glow"
@@ -110,11 +110,12 @@ groups <- [
 			seed = 77268
 		},
 		shapetype = 0
-		shapedata = {"axis":0,"r":0.0,"w":0.04,"h":0.04}
+		shapedata = {"axis":0,"r":0.0,"w":0.03,"h":0.03}
 		texture = "/resource/efx/tex/star1.webp"
 		color = 0xffffffff
 		blendmode = 5
 		blend = 5
+		hsv = [-24,0,0]
 		overlay = 0.57
 		Ka = 0x808080ff
 		Ks = 0x00000000
@@ -123,7 +124,7 @@ groups <- [
 		{"xyz":7,"scale":[0.0,1.961538,0.0,1.961538,0.0,0.653846,0.0],"classid":"ptcmod_scale"},
 		{"axisid":2,"classid":"ptcmod_rot","rot":[-1.0,1.0],"scale":3.1416},
 		{"vel":2.34,"classid":"ptcmod_vel","vel_spr":0.0},
-		{"color":0,"scale":2.0,"classid":"ptcmod_rnd","b":0.0,"p":0.0,"h":0.0},
+		{"color":0,"scale":2.0,"classid":"ptcmod_rnd","b":10.0,"p":0.0,"h":0.0},
 		{"axisid":1,"classid":"ptcmod_acc","acc_spr":0.0,"coord":0,"acc":-0.15},
 		]
 	},

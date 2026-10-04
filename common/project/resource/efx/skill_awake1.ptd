@@ -3,7 +3,7 @@
 ////////////////////////////////////////////////////////
 parentcoord <- false
 currentgroup <- 0
-prof <- {"showbnd":[0.04538,1.022507,0.0,0.654388,0.683335,0.544144],"maxbnd":[0.0,1.0,0.0,1.079176,1.079176,1.079176],"showtime":48,"wholebnd":[0.0,1.0,0.0,1.079176,1.079176,1.079176]}
+prof <- {"showbnd":[0.054046,1.01938,0.0,0.762638,0.738998,0.635824],"maxbnd":[0.0,1.0,0.0,1.079176,1.079176,1.079176],"showtime":48,"wholebnd":[0.0,1.0,0.0,1.079176,1.079176,1.079176]}
 groups <- [
 	with ParticleGroupData(){
 		name = "flare"
@@ -32,8 +32,8 @@ groups <- [
 		mod = [
 		{"color":[-1,1358757887,5504768],"classid":"ptcmod_color"},
 		{"xyz":7,"scale":[0.558824,1.441176],"classid":"ptcmod_scale"},
-		{"scale":0.174533,"classid":"ptcmod_rot","rot":[-1.0,0.088235],"axisid":2},
-		{"color":0,"scale":0.0,"classid":"ptcmod_rnd","b":10.0,"h":0.0,"p":0.0},
+		{"axisid":2,"classid":"ptcmod_rot","rot":[-1.0,0.088235],"scale":0.174533},
+		{"color":0,"scale":0.0,"classid":"ptcmod_rnd","b":10.0,"p":0.0,"h":0.0},
 		]
 	},
 	with ParticleGroupData(){
@@ -111,7 +111,7 @@ groups <- [
 		},
 		shapetype = 0
 		shapedata = {"axis":0,"r":0.0,"w":0.2,"h":0.02}
-		texture = "/resource/efx/tex/circle2.webp"
+		texture = "/resource/efx/tex/sting1.webp"
 		color = 0xffffffff
 		blendmode = 5
 		blend = 5
@@ -122,9 +122,9 @@ groups <- [
 		{"vel":2.0,"classid":"ptcmod_vel","vel_spr":0.0},
 		{"xyz":1,"scale":[2.0,0.0],"classid":"ptcmod_scale"},
 		{"color":[1191162623,1191162623,11796479,1572863],"classid":"ptcmod_color"},
-		{"axisid":1,"classid":"ptcmod_acc","acc_spr":0.0,"coord":0,"acc":-0.2},
-		{"color":0,"scale":1.0,"classid":"ptcmod_rnd","b":0.0,"p":0.0,"h":0.0},
-		{"xyz":6,"scale":[0.0,2.0],"classid":"ptcmod_scale"},
+		{"axisid":1,"classid":"ptcmod_acc","acc":-0.2,"coord":0,"acc_spr":0.0},
+		{"color":0,"scale":1.0,"classid":"ptcmod_rnd","b":0.0,"h":0.0,"p":0.0},
+		{"xyz":6,"scale":[0.323529,2.0],"classid":"ptcmod_scale"},
 		]
 	},
 ]

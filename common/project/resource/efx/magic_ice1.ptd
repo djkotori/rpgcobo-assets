@@ -3,7 +3,7 @@
 ////////////////////////////////////////////////////////
 parentcoord <- false
 currentgroup <- 7
-prof <- {"showbnd":[0.0,0.0,0.0,2.362213,2.362213,2.362213],"maxbnd":[0.0,0.0,0.0,3.062059,3.062059,3.062059],"showtime":1088,"wholebnd":[0.0,0.0,0.0,3.062059,3.062059,3.062059]}
+prof <- {"showbnd":[0.0,0.0,0.0,2.430541,2.430541,2.430541],"maxbnd":[0.0,0.0,0.0,3.062059,3.062059,3.062059],"showtime":1136,"wholebnd":[0.0,0.0,0.0,3.062059,3.062059,3.062059]}
 groups <- [
 	with ParticleGroupData(){
 		name = "charge_ptc1"
@@ -33,7 +33,7 @@ groups <- [
 		{"xyz":7,"scale":[1.558824,2.0,1.294118,1.264706,0.676471,0.676471,0.235294],"classid":"ptcmod_scale"},
 		{"color":[3315250,-1,3315300,-1,3315300,-1,3315201],"classid":"ptcmod_color"},
 		{"vel":0.5,"classid":"ptcmod_vel","vel_spr":0.0},
-		{"axisid":1,"classid":"ptcmod_acc","acc_spr":0.0,"coord":0,"acc":0.1},
+		{"axisid":1,"classid":"ptcmod_acc","acc":0.1,"coord":0,"acc_spr":0.0},
 		]
 	},
 	with ParticleGroupData(){
@@ -64,7 +64,7 @@ groups <- [
 		{"xyz":7,"scale":[1.558824,2.0,1.294118,1.264706,0.676471,0.676471,0.235294],"classid":"ptcmod_scale"},
 		{"color":[3315250,-1,3315300,-1,3315300,-1,3315201],"classid":"ptcmod_color"},
 		{"vel":0.5,"classid":"ptcmod_vel","vel_spr":0.0},
-		{"axisid":1,"classid":"ptcmod_acc","acc_spr":0.0,"coord":0,"acc":0.1},
+		{"axisid":1,"classid":"ptcmod_acc","acc":0.1,"coord":0,"acc_spr":0.0},
 		]
 	},
 	with ParticleGroupData(){
@@ -117,14 +117,16 @@ groups <- [
 		color = 0xffffffff
 		blendmode = 5
 		blend = 5
+		hsv = [-158,0,0]
 		overlay = 0.29
 		Ka = 0x808080ff
 		Ks = 0x00000000
 		mod = [
 		{"xyz":7,"scale":[0.384615,0.153846,0.75,0.25,0.615385,0.0],"classid":"ptcmod_scale"},
-		{"color":[16777215,-1,11862015,-1,11862015,-1],"classid":"ptcmod_color"},
+		{"color":[-50396929,-1,-261889,-1,-268500737,-1],"classid":"ptcmod_color"},
 		{"vel":0.5,"classid":"ptcmod_vel","vel_spr":0.0},
-		{"axisid":1,"classid":"ptcmod_acc","acc":-0.01,"coord":0,"acc_spr":0.0},
+		{"axisid":1,"classid":"ptcmod_acc","acc_spr":0.0,"coord":0,"acc":-0.01},
+		{"color":0,"scale":0.0,"classid":"ptcmod_rnd","b":3.0,"h":0.0,"p":0.0},
 		]
 	},
 	with ParticleGroupData(){
@@ -155,7 +157,7 @@ groups <- [
 		{"xyz":7,"scale":[0.676471,1.088235,1.264706],"classid":"ptcmod_scale"},
 		{"color":[2095382527,3315455,950271999,3315455,2060189695,3116800],"classid":"ptcmod_color"},
 		{"vel":0.1,"classid":"ptcmod_vel","vel_spr":0.0},
-		{"color":0,"scale":1.0,"classid":"ptcmod_rnd","b":10.0,"p":0.0,"h":0.0},
+		{"color":0,"scale":1.0,"classid":"ptcmod_rnd","b":10.0,"h":0.0,"p":0.0},
 		]
 	},
 	with ParticleGroupData(){
