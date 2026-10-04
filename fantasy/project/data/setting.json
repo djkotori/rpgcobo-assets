@@ -29,7 +29,7 @@
 	"maxmembers":4,
 	"menu_config":3,
 	"menu_equip":3,
-	"menu_exitgame":3,
+	"menu_exitgame":0,
 	"menu_formation":3,
 	"menu_item":3,
 	"menu_job":3,

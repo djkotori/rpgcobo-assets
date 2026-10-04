@@ -167,14 +167,52 @@
 				"cmd":"cmd_anime",
 				"who":1
 			},
+			{"cmd":"cmd_compute","lvar":"Z","op":"=","rvar":"\tW[\"data\"][\"dietype\"]||0"},
 			{
 				"cmd":"cmd_if",
 				"cmdblocks":[
 					[
-						{"cmd":"cmd_screenfxon","color":-1,"disable":1,"freq":40,"num":1,"pow":3,"sfxid":"quake1","time":0,"vert":false},
-						{"cmd":"cmd_script","code":"X.picfx( \"die\");","desc":"SCRIPT"},
-						{"cmd":"cmd_wait","disable":1,"time":1000},
-						{"cmd":"cmd_screenfxoff","disable":1,"sfxbits":4,"time":400}
+						{
+							"cmd":"cmd_if",
+							"cmdblocks":[
+								[
+									{"cmd":"cmd_screenfxon","color":-1,"freq":40,"num":1,"pow":3,"sfxid":"flash0","time":400,"vert":false},
+									{
+										"_var":{"who":"W"},
+										"ch":0,
+										"cmd":"cmd_snd",
+										"sndid":"SE111",
+										"vol":100,
+										"who":2
+									},
+									{
+										"_var":{"who":"W"},
+										"cmd":"cmd_efx",
+										"efxid":"FX078",
+										"pos":[0.0,0.0,0.0],
+										"wait":false,
+										"who":1
+									},
+									{"cmd":"cmd_wait","time":400},
+									{"cmd":"cmd_script","code":"X.picfx( \"die\");","desc":"SCRIPT"},
+									{"cmd":"cmd_wait","time":1000}
+								],
+								[
+									{
+										"_var":{"who":"W"},
+										"ch":0,
+										"cmd":"cmd_snd",
+										"sndid":"SE111",
+										"vol":100,
+										"who":2
+									},
+									{"cmd":"cmd_script","code":"X.picfx( \"die\");","desc":"SCRIPT"}
+								]
+							],
+							"reqs":[
+								{"key":"varcmp","lvar":"Z","op":">=","rvar":1}
+							]
+						}
 					],
 					[
 						{
@@ -252,6 +290,7 @@
 				"_var":{"text":"W"},
 				"cmd":"cmd_showui",
 				"key":"message_talk",
+				"op":null,
 				"pos":{"bottom":40},
 				"text":"*message_talk*",
 				"uiclose":2,
