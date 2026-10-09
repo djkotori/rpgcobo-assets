@@ -295,7 +295,7 @@
 				"text":"*message_talk*",
 				"uiclose":2,
 				"uipath":"message_talk.ui",
-				"who":""
+				"name":""
 			}
 		],
 		"desc":"村人のイベントロールに話しかけた時に呼ばれる。",

@@ -13,27 +13,39 @@
 			"uilist":[]
 		},
 		"#2#":{
+			"baseui":"/presetui/dialog_choices3.ui",
+			"en":{"desc":"","name":"Choice dialog(3cols)","useidx":-1},
+			"ja":{"desc":"","name":"選択ダイアログ(3列)","useidx":-1},
+			"uilist":[]
+		},
+		"#3#":{
 			"baseui":"/presetui/dialog_confirm.ui",
 			"en":{"desc":"","name":"Confirm dialog","useidx":-1},
 			"ja":{"desc":"","name":"確認ダイアログ","useidx":-1},
 			"uilist":[]
 		},
-		"#3#":{
+		"#4#":{
 			"baseui":"/presetui/dialog_selchara.ui",
 			"en":{"desc":"","name":"Chara select dialog","useidx":-1},
 			"ja":{"desc":"","name":"キャラ選択ダイアログ","useidx":-1},
 			"uilist":[]
 		},
-		"#4#":{
-			"baseui":"/presetui/dialog_buyitem.ui",
-			"en":{"desc":"","name":"Item buy / sell popup","useidx":-1},
-			"ja":{"desc":"","name":"アイテム売買ポップアップ","useidx":-1},
+		"#5#":{
+			"baseui":"/presetui/store_item.ui",
+			"en":{"desc":"","name":"Item shop dialog","useidx":-1},
+			"ja":{"desc":"","name":"アイテム購入ダイアログ","useidx":-1},
 			"uilist":[]
 		},
-		"#5#":{
+		"#6#":{
 			"baseui":"/presetui/misc_levelup.ui",
 			"en":{"desc":"","name":"Level-up dialog","useidx":-1},
 			"ja":{"desc":"","name":"レベルアップダイアログ","useidx":-1},
+			"uilist":[]
+		},
+		"#7#":{
+			"baseui":"/presetui/dialog_buyitem.ui",
+			"en":{"desc":"","name":"Item buy / sell popup","useidx":-1},
+			"ja":{"desc":"","name":"アイテム売買ポップアップ","useidx":-1},
 			"uilist":[]
 		}
 	},
@@ -68,6 +80,18 @@
 			"baseui":"/presetui/pop_search.ui",
 			"en":{"desc":"","name":"Search popup","useidx":-1},
 			"ja":{"desc":"","name":"調べる表示","useidx":-1},
+			"uilist":[]
+		},
+		"#4#":{
+			"baseui":"/presetui/parts/popstr.ui",
+			"en":{"desc":"","name":"Damage pop","useidx":-1},
+			"ja":{"desc":"","name":"ダメージ表示","useidx":-1},
+			"uilist":[]
+		},
+		"#5#":{
+			"baseui":"/presetui/parts/popstr2.ui",
+			"en":{"desc":"","name":"Damage pop(big)","useidx":-1},
+			"ja":{"desc":"","name":"ダメージ表示(強)","useidx":-1},
 			"uilist":[]
 		}
 	},
