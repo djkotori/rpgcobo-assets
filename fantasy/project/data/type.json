@@ -25,11 +25,11 @@
 		{"icon":"","name":"水"},
 		{"icon":"","name":"風"},
 		{"icon":"","name":"土"},
-		{"icon":"","name":"光"},
+		{"icon":"","name":"光"},
 		{"icon":"","name":"闇"},
-		{"icon":"","name":"草"},
-		{"icon":"","name":"雷"},
-		{"icon":"","name":"呪"}
+		{"icon":"","name":"草"},
+		{"icon":"","name":"雷"},
+		{"icon":"","name":"呪"}
 	],
 	"eqflag":[
 		{"icon":"","name":"勇者装備"},

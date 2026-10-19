@@ -100,7 +100,7 @@
 			"ibl":{"iblcolor":-1,"ibldiff":2000,"ibldir":180,"iblspec":2000,"ibltex":"/system/asset/defibl.ktx"},
 			"id":"pbr_mapedit",
 			"lock":true,
-			"name":{"en":"PBRデフォルト","ja":"PBRデフォルト"},
+			"name":{"en":"Editor View","ja":"エディター表示"},
 			"postfx":{"bloomblur":0.0,"bloompow":0.0,"bloomthrs":0.9,"dofblur":0.0,"dofrange":80,"dofz":4.0},
 			"renderpass":2,
 			"ss":{"aobias":0.6,"aoexp":1.0,"aopow":0.0,"aoradius":4.0,"gipow":1.0,"gitype":0}
@@ -116,7 +116,7 @@
 					"type":1
 				}
 			],
-			"exposure":{"autoexposure":false,"ev100":9.2,"evrange":[-4.0,14.0]},
+			"exposure":{"autoexposure":false,"ev100":9.25,"evrange":[-4.0,14.0]},
 			"fog":{"type":0},
 			"ibl":{
 				"iblcolor":-1,
@@ -143,7 +143,7 @@
 					"type":1
 				}
 			],
-			"exposure":{"autoexposure":false,"ev100":9.5,"evrange":[-4.0,14.0]},
+			"exposure":{"autoexposure":false,"ev100":9.45,"evrange":[-4.0,14.0]},
 			"fog":{"type":0},
 			"ibl":{
 				"iblcolor":-957022209,
@@ -170,9 +170,9 @@
 					"type":1
 				}
 			],
-			"exposure":{"autoexposure":false,"ev100":9.0,"evrange":[-4.0,14.0]},
+			"exposure":{"autoexposure":false,"ev100":9.25,"evrange":[-4.0,14.0]},
 			"fog":{"type":0},
-			"ibl":{"iblcolor":-1,"ibldiff":1320,"ibldir":156,"iblspec":1700,"ibltex":"/resource/ibltex/meadow_2k_ibl.ktx"},
+			"ibl":{"iblcolor":-924161,"ibldiff":1320,"ibldir":156,"iblspec":1700,"ibltex":"/resource/ibltex/meadow_2k_ibl.ktx"},
 			"id":"pbr_df-4-1-2",
 			"lock":true,
 			"name":{"en":"Evening","ja":"夕方"},
@@ -255,12 +255,12 @@
 					"color":2013252351,
 					"head":27,
 					"pitch":40,
-					"power":220,
+					"power":200,
 					"shadow":{"shadowdens":0.45,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.35,"shadowtype":2},
 					"type":1
 				}
 			],
-			"exposure":{"autoexposure":false,"ev100":7.25,"evrange":[-4.0,14.0]},
+			"exposure":{"autoexposure":false,"ev100":7.45,"evrange":[-4.0,14.0]},
 			"fog":{"type":0},
 			"ibl":{"iblcolor":-1,"ibldiff":280,"ibldir":180,"iblspec":350,"ibltex":"/resource/ibltex/meadow_2k_ibl.ktx"},
 			"id":"pbr_df-3-3",
@@ -268,7 +268,7 @@
 			"name":{"en":"Forest","ja":"森"},
 			"postfx":{"bloomblur":3.2,"bloompow":0.12,"bloomthrs":0.9,"dofblur":1.0,"dofrange":30,"dofz":4.0},
 			"renderpass":2,
-			"ss":{"aobias":0.45,"aoexp":1.0,"aopow":0.8,"aoradius":4.8,"gipow":1.0,"gitype":0}
+			"ss":{"aobias":0.54,"aoexp":1.1,"aopow":0.8,"aoradius":5.0,"gipow":1.0,"gitype":0}
 		},
 		{
 			"envlights":[
@@ -281,9 +281,9 @@
 					"type":1
 				}
 			],
-			"exposure":{"autoexposure":false,"ev100":5.6,"evrange":[-4.0,14.0]},
+			"exposure":{"autoexposure":false,"ev100":5.9,"evrange":[-4.0,14.0]},
 			"fog":{"type":0},
-			"ibl":{"iblcolor":-1,"ibldiff":40,"ibldir":180,"iblspec":210,"ibltex":"/resource/ibltex/cave_wall_2k_ibl.ktx"},
+			"ibl":{"iblcolor":2111766527,"ibldiff":50,"ibldir":180,"iblspec":230,"ibltex":"/resource/ibltex/cave_wall_2k_ibl.ktx"},
 			"id":"pbr_df-4-1",
 			"lock":true,
 			"name":{"en":"Morning Mist","ja":"朝霧"},
@@ -302,7 +302,7 @@
 					"type":1
 				}
 			],
-			"exposure":{"autoexposure":false,"ev100":9.2,"evrange":[-4.0,14.0]},
+			"exposure":{"autoexposure":false,"ev100":9.3,"evrange":[-4.0,14.0]},
 			"fog":{"type":0},
 			"ibl":{"iblcolor":-1,"ibldiff":1600,"ibldir":-160,"iblspec":1800,"ibltex":"/resource/ibltex/snowy_park_01_2k_ibl.ktx"},
 			"id":"pbr_df-4-1-2-1",
@@ -650,12 +650,12 @@
 			"rough":0.87
 		},
 		"#31#":{
-			"metal":0.3,
+			"metal":0.55,
 			"mparams":[1.0,0.0,1.0,1.0],
 			"mtype":0,
 			"name":{"en":"Grass1","ja":"草原1"},
 			"ptn":["grassfloor0",1.0],
-			"rough":0.81
+			"rough":0.78
 		},
 		"#32#":{
 			"metal":0.5,

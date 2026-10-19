@@ -46,7 +46,7 @@
 		"endact":{"id":"noop","scp":null},
 		"enemyuse":true,
 		"eqtypebits":2047,
-		"icon":"",
+		"icon":"",
 		"macroid_battle":"X004",
 		"macroid_menu":null,
 		"name":"逃げる",
@@ -120,7 +120,7 @@
 		"flags":14,
 		"hitact":{"id":"noop","scp":null},
 		"hitrate":1.0,
-		"icon":"",
+		"icon":"",
 		"name":"ぬすむ",
 		"occasion":1,
 		"option":[
@@ -382,7 +382,7 @@
 			"scp":null
 		},
 		"hitrate":1.0,
-		"icon":"",
+		"icon":"",
 		"name":"引っかき",
 		"occasion":1,
 		"option":[],
@@ -424,7 +424,7 @@
 			"scp":null
 		},
 		"hitrate":1.0,
-		"icon":"",
+		"icon":"",
 		"name":"吸血",
 		"occasion":1,
 		"option":[
@@ -602,7 +602,7 @@
 		"eqtypebits":2047,
 		"flags":126,
 		"hitact":{"hitani":null,"hitdelay":100,"hitefx":"FX002","hitsnd":"SE234","id":"hit_normal","scp":null},
-		"icon":"",
+		"icon":"",
 		"name":"ガードアップ",
 		"occasion":3,
 		"option":[],
@@ -630,7 +630,7 @@
 		"eqtypebits":2047,
 		"flags":126,
 		"hitact":{"hitani":null,"hitdelay":100,"hitefx":"FX002","hitsnd":"SE234","id":"hit_normal","scp":null},
-		"icon":"",
+		"icon":"",
 		"name":"ガードアップオール",
 		"occasion":3,
 		"option":[],
@@ -657,7 +657,7 @@
 		"eqtypebits":255,
 		"flags":124,
 		"hitact":{"hitani":null,"hitdelay":100,"hitefx":"FX003","hitsnd":"SE232","id":"hit_normal","scp":null},
-		"icon":"",
+		"icon":"",
 		"name":"アタックアップ",
 		"occasion":1,
 		"option":[],
@@ -699,7 +699,7 @@
 			"scp":null
 		},
 		"hitrate":1.0,
-		"icon":"",
+		"icon":"",
 		"name":"ファイアA",
 		"occasion":1,
 		"option":[],
@@ -740,7 +740,7 @@
 			"scp":null
 		},
 		"hitrate":1.0,
-		"icon":"",
+		"icon":"",
 		"name":"ファイアS",
 		"occasion":1,
 		"option":[],
@@ -781,7 +781,7 @@
 			"scp":null
 		},
 		"hitrate":1.0,
-		"icon":"",
+		"icon":"",
 		"name":"アイスA",
 		"occasion":1,
 		"option":[],
@@ -822,7 +822,7 @@
 			"scp":null
 		},
 		"hitrate":1.0,
-		"icon":"",
+		"icon":"",
 		"name":"アイスS",
 		"occasion":1,
 		"option":[],
@@ -845,7 +845,7 @@
 		"desc":"",
 		"enemyuse":true,
 		"eqtypebits":255,
-		"icon":"",
+		"icon":"",
 		"name":"強撃",
 		"occasion":1,
 		"option":[
@@ -898,7 +898,7 @@
 			"scp":null
 		},
 		"hitrate":0.6,
-		"icon":"",
+		"icon":"",
 		"name":"みね打ち",
 		"occasion":1,
 		"option":[
@@ -916,7 +916,7 @@
 		"desc":"",
 		"enemyuse":true,
 		"eqtypebits":1,
-		"icon":"",
+		"icon":"",
 		"name":"カウンター",
 		"occasion":1,
 		"option":[
@@ -946,7 +946,7 @@
 		"desc":"",
 		"enemyuse":true,
 		"eqtypebits":74,
-		"icon":"",
+		"icon":"",
 		"name":"電光石火",
 		"occasion":1,
 		"option":[],
@@ -996,7 +996,7 @@
 			"scp":null
 		},
 		"hitrate":1.0,
-		"icon":"",
+		"icon":"",
 		"name":"兜割り",
 		"occasion":1,
 		"option":[
@@ -1058,7 +1058,7 @@
 		"desc":"",
 		"enemyuse":true,
 		"eqtypebits":159,
-		"icon":"",
+		"icon":"",
 		"name":"魔神撃",
 		"occasion":1,
 		"option":[
