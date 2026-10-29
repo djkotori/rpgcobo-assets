@@ -3,7 +3,7 @@
 ////////////////////////////////////////////////////////
 parentcoord <- false
 currentgroup <- 5
-prof <- {"showbnd":[0.086573,0.740331,-0.084913,1.086573,1.540331,1.163972],"maxbnd":[-0.033185,0.726112,-0.011698,1.237976,1.526112,1.177739],"showtime":1768,"wholebnd":[0.004195,0.747152,-0.021256,1.288975,1.547152,1.187297]}
+prof <- {"showbnd":[0.0,0.653106,0.0,0.706211,1.053106,0.706211],"maxbnd":[0.0,0.653106,0.0,0.706211,1.053106,0.706211],"showtime":1712,"wholebnd":[0.0,0.653106,0.0,0.706211,1.053106,0.706211]}
 groups <- [
 	with ParticleGroupData(){
 		name = "cube1"
@@ -21,17 +21,18 @@ groups <- [
 			linearbits = 0
 		},
 		shapetype = 4
-		shapedata = {"usemtl":false,"d":0.065,"path":"/resource/efx/mdl/cube1.pm","w":0.065,"h":0.065}
+		shapedata = {"usemtl":false,"d":0.065,"w":0.065,"path":"/resource/efx/mdl/cube1.pm","h":0.065}
 		texture = ""
 		color = 0xffffffff
 		blendmode = 5
 		blend = 5
+		overlay = 0.21
 		Ka = 0x808080ff
 		Ks = 0x00000000
 		mod = [
-		{"scale":1.0,"classid":"ptcmod_uv2","scroll":[-1.0,1.0],"uv":2},
-		{"scale":1.570796,"classid":"ptcmod_rot","rot":[-1.0,1.0],"axisid":1},
-		{"color":[1207927552,-1795180677,1207927807,-1795180545,1207927807,-1795180677,1207927552],"classid":"ptcmod_color"},
+		{"classid":"ptcmod_uv2","scale":1.0,"scroll":[-1.0,1.0],"uv":2},
+		{"axisid":1,"classid":"ptcmod_rot","rot":[-1.0,1.0],"scale":1.570796},
+		{"classid":"ptcmod_color","color":[1207927552,-1795180677,1207927807,-1795180545,1207927807,-1795180677,1207927552]},
 		]
 	},
 	with ParticleGroupData(){
@@ -50,17 +51,18 @@ groups <- [
 			linearbits = 0
 		},
 		shapetype = 4
-		shapedata = {"usemtl":false,"d":0.07,"w":0.07,"path":"/resource/efx/mdl/cube1.pm","h":0.07}
+		shapedata = {"usemtl":false,"d":0.07,"path":"/resource/efx/mdl/cube1.pm","w":0.07,"h":0.07}
 		texture = ""
 		color = 0xffffffff
 		blendmode = 5
 		blend = 5
+		overlay = 0.21
 		Ka = 0x808080ff
 		Ks = 0x00000000
 		mod = [
-		{"scale":1.0,"classid":"ptcmod_uv2","scroll":[-1.0,1.0],"uv":2},
+		{"classid":"ptcmod_uv2","scale":1.0,"scroll":[-1.0,1.0],"uv":2},
 		{"axisid":1,"classid":"ptcmod_rot","rot":[-1.0,1.0],"scale":1.570796},
-		{"color":[1207927552,-1795180677,1207927807,-1795180545,1207927807,-1795180677,1207927552],"classid":"ptcmod_color"},
+		{"classid":"ptcmod_color","color":[1207927552,-1795180677,1207927807,-1795180545,1207927807,-1795180677,1207927552]},
 		]
 	},
 	with ParticleGroupData(){
@@ -79,17 +81,18 @@ groups <- [
 			linearbits = 0
 		},
 		shapetype = 4
-		shapedata = {"usemtl":false,"d":0.04,"w":0.04,"path":"/resource/efx/mdl/cube1.pm","h":0.04}
+		shapedata = {"usemtl":false,"d":0.04,"path":"/resource/efx/mdl/cube1.pm","w":0.04,"h":0.04}
 		texture = ""
 		color = 0xffffffff
 		blendmode = 5
 		blend = 5
+		overlay = 0.21
 		Ka = 0x808080ff
 		Ks = 0x00000000
 		mod = [
-		{"scale":1.0,"classid":"ptcmod_uv2","scroll":[-1.0,1.0],"uv":2},
+		{"classid":"ptcmod_uv2","scale":1.0,"scroll":[-1.0,1.0],"uv":2},
 		{"axisid":1,"classid":"ptcmod_rot","rot":[-1.0,1.0],"scale":1.570796},
-		{"color":[973044224,-1392523397,973044479,-1392523265,973044479,-1392523397,973044224],"classid":"ptcmod_color"},
+		{"classid":"ptcmod_color","color":[973044224,-1392523397,973044479,-1392523265,973044479,-1392523397,973044224]},
 		]
 	},
 	with ParticleGroupData(){
@@ -108,16 +111,17 @@ groups <- [
 			linearbits = 0
 		},
 		shapetype = 4
-		shapedata = {"usemtl":false,"d":0.04,"path":"/resource/efx/mdl/wave_cube1.pm","w":0.04,"h":0.12}
+		shapedata = {"usemtl":false,"d":0.04,"w":0.04,"path":"/resource/efx/mdl/wave_cube1.pm","h":0.12}
 		texture = ""
 		color = 0xffffffff
 		blendmode = 5
 		blend = 5
+		overlay = 0.35
 		Ka = 0x808080ff
 		Ks = 0x00000000
 		mod = [
-		{"color":[1392478720,-1392523397,1392478975,-1392523265,1392478975,-1392523397,1392478720],"classid":"ptcmod_color"},
-		{"scale":1.0,"classid":"ptcmod_uv2","scroll":[-1.0,1.0],"uv":2},
+		{"classid":"ptcmod_color","color":[1392478720,-1392523397,1392478975,-1392523265,1392478975,-1392523397,1392478720]},
+		{"classid":"ptcmod_uv2","scale":1.0,"scroll":[-1.0,1.0],"uv":2},
 		]
 	},
 	with ParticleGroupData(){
@@ -136,16 +140,17 @@ groups <- [
 			linearbits = 0
 		},
 		shapetype = 4
-		shapedata = {"usemtl":false,"d":0.05,"w":0.05,"path":"/resource/efx/mdl/wave_cube1.pm","h":0.07}
+		shapedata = {"usemtl":false,"d":0.05,"path":"/resource/efx/mdl/wave_cube1.pm","w":0.05,"h":0.07}
 		texture = ""
 		color = 0xffffffff
 		blendmode = 5
 		blend = 5
+		overlay = 0.35
 		Ka = 0x808080ff
 		Ks = 0x00000000
 		mod = [
-		{"color":[1392478720,-1392523397,1392478975,-1392523265,1392478975,-1392523397,1392478720],"classid":"ptcmod_color"},
-		{"scale":1.0,"classid":"ptcmod_uv2","scroll":[-1.0,1.0],"uv":2},
+		{"classid":"ptcmod_color","color":[1392478720,-1392523397,1392478975,-1392523265,1392478975,-1392523397,1392478720]},
+		{"classid":"ptcmod_uv2","scale":1.0,"scroll":[-1.0,1.0],"uv":2},
 		]
 	},
 	with ParticleGroupData(){
@@ -173,9 +178,9 @@ groups <- [
 		Ka = 0x808080ff
 		Ks = 0x00000000
 		mod = [
-		{"vel":0.0,"classid":"ptcmod_vel","vel_spr":0.1},
-		{"color":[1392478975,-1392523265,1392478975,-1392523265,1392478820,-1392523490,1392478720],"classid":"ptcmod_color"},
-		{"color":0,"scale":0.2,"classid":"ptcmod_rnd","b":0.0,"p":0.0,"h":0.0},
+		{"classid":"ptcmod_vel","vel":0.0,"vel_spr":0.1},
+		{"classid":"ptcmod_color","color":[1392478975,-1392523265,1392478975,-1392523265,1392478820,-1392523490,1392478720]},
+		{"b":0.0,"classid":"ptcmod_rnd","color":0,"h":0.0,"p":0.0,"scale":0.2},
 		]
 	},
 ]

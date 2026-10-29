@@ -170,7 +170,7 @@
 					"type":1
 				}
 			],
-			"exposure":{"autoexposure":false,"ev100":9.25,"evrange":[-4.0,14.0]},
+			"exposure":{"autoexposure":false,"ev100":9.2,"evrange":[-4.0,14.0]},
 			"fog":{"type":0},
 			"ibl":{"iblcolor":-924161,"ibldiff":1320,"ibldir":156,"iblspec":1700,"ibltex":"/resource/ibltex/meadow_2k_ibl.ktx"},
 			"id":"pbr_df-4-1-2",

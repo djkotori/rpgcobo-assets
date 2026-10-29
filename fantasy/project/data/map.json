@@ -445,10 +445,11 @@
 		"marker":{},
 		"name":"最初のマップ",
 		"reverbid":"plain",
-		"rsetid":"pbr_df-4-1-1",
+		"rsetid":"pbr_df-4",
+		"showmap":{"bigmap":true,"explor":false,"minimap":true},
 		"size":[160,64,128],
 		"vs":23,
-		"weather":{"type":null}
+		"weather":{}
 	},
 	"M002":{
 		"bg":{"type":"skybox"},
@@ -466,6 +467,7 @@
 		"name":"草原1",
 		"reverbid":"plain",
 		"rsetid":"pbr_df-4-1-1",
+		"showmap":{"bigmap":false,"explor":false,"minimap":false},
 		"size":[128,64,128],
 		"vs":23,
 		"weather":{"type":null}
@@ -577,6 +579,7 @@
 		"name":"街1",
 		"reverbid":"plain",
 		"rsetid":"pbr_df-4-1-1",
+		"showmap":{"bigmap":false,"explor":false,"minimap":false},
 		"size":[128,64,128],
 		"vs":23,
 		"weather":{"type":null}
@@ -669,7 +672,7 @@
 				"msg":"MESSAGE",
 				"name":"*villager-2",
 				"pop":null,
-				"pos":[205,2,20,2],
+				"pos":[223,2,28,2],
 				"reqs0":null,
 				"role":"villager",
 				"spawndist":1,
@@ -692,7 +695,7 @@
 						"trigger":1
 					}
 				],
-				"pos":[199,3,22,1],
+				"pos":[217,3,30,1],
 				"role":"custom",
 				"spawndist":1
 			},
@@ -705,7 +708,7 @@
 				"msg":"MESSAGE",
 				"name":"*villager-4",
 				"pop":null,
-				"pos":[196,2,16,3],
+				"pos":[214,2,24,3],
 				"reqs0":null,
 				"role":"villager",
 				"spawndist":1,
@@ -718,7 +721,7 @@
 				"flags":1,
 				"mdl":{"r":[0,1.0,0,1.0,1.0,0.5]},
 				"name":"*portal-5",
-				"pos":[109,1,5,2],
+				"pos":[109,1,13,2],
 				"remap":false,
 				"role":"portal",
 				"spawndist":1,
@@ -730,7 +733,7 @@
 				"mdlid":"CV008",
 				"moveaction":"stop",
 				"name":"*clerk-6",
-				"pos":[109,3,18,2],
+				"pos":[109,3,26,2],
 				"reqs0":null,
 				"role":"clerk",
 				"sell":true,
@@ -746,6 +749,7 @@
 		"name":"ルーム",
 		"reverbid":"plain",
 		"rsetid":"pbr_df-3-1",
+		"showmap":{"bigmap":false,"explor":false,"minimap":true},
 		"size":[256,64,48],
 		"vs":23,
 		"weather":{"type":null}
@@ -766,6 +770,7 @@
 		"name":"ラクガキマップ",
 		"reverbid":"plain",
 		"rsetid":"pbr_df",
+		"showmap":{"bigmap":false,"explor":false,"minimap":false},
 		"size":[256,64,128],
 		"vs":23,
 		"weather":{"type":null}
@@ -999,6 +1004,7 @@
 		"name":"ウェブ用",
 		"reverbid":"plain",
 		"rsetid":"pbr_df",
+		"showmap":{"bigmap":false,"explor":false,"minimap":false},
 		"size":[256,64,128],
 		"vs":23,
 		"weather":{"type":null}
@@ -1006,7 +1012,9 @@
 	"M800":{
 		"bg":{"type":"skybox"},
 		"bgmid":null,
-		"camwork":{"fovy":40,"hpb":[45,45,0],"viewport":6.0,"yoffs":1.5},
+		"camwork":{"fovy":30,"hpb":[0,38,0],"viewport":15.0,"yoffs":0.5},
+		"canenter_hole":false,
+		"canenter_water":false,
 		"encntrate":0.0,
 		"encount":null,
 		"event":{
@@ -1278,7 +1286,8 @@
 		},
 		"name":"森バトル",
 		"reverbid":"plain",
-		"rsetid":"pbr_df-4-1-1",
+		"rsetid":"pbr_df-3-3",
+		"showmap":{"bigmap":false,"explor":false,"minimap":false},
 		"size":[128,64,128],
 		"vs":31,
 		"weather":{"type":null}
@@ -1599,6 +1608,7 @@
 		"name":"屋内バトル",
 		"reverbid":"plain",
 		"rsetid":"pbr_df-3-1",
+		"showmap":{"bigmap":false,"explor":false,"minimap":false},
 		"size":[128,64,128],
 		"vs":63,
 		"weather":{"type":null}
