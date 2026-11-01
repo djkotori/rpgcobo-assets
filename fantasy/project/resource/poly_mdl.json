@@ -1,0 +1,27 @@
+{
+	"PM000":{
+		"animap":[],
+		"charause":true,
+		"colshp":2,
+		"colsize":[0.6,0.77,0.6],
+		"eventuse":true,
+		"hpb":[103,0,0],
+		"name":{"ja":"Duck"},
+		"pmt":"/resource/poly_mdl/Duck.pmt",
+		"pos":[0.0,-0.08,0.2],
+		"scale":1.0
+	},
+	"PM001":{
+		"animap":[],
+		"charause":false,
+		"colshp":2,
+		"colsize":[2.0,0.3,0.5],
+		"eventuse":true,
+		"hpb":[0,0,0],
+		"name":{"ja":"MorphStressTest"},
+		"pmt":"/resource/poly_mdl/MorphStressTest.pmt",
+		"pos":[0.0,0.0,0.0],
+		"scale":1.0
+	},
+	"_meta":{"caps":100}
+}

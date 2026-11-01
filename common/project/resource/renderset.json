@@ -399,6 +399,27 @@
 		{
 			"envlights":[
 				{
+					"color":-1244463105,
+					"head":30,
+					"pitch":50,
+					"power":0,
+					"shadow":{"shadowdens":0.4,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.5,"shadowtype":0},
+					"type":1
+				}
+			],
+			"exposure":{"autoexposure":false,"ev100":4.0,"evrange":[-4.0,14.0]},
+			"fog":{"type":0},
+			"ibl":{"iblcolor":-1,"ibldiff":1,"ibldir":0,"iblspec":1,"ibltex":"/resource/ibltex/cave_wall_2k_ibl.ktx"},
+			"id":"pbr_df_dark",
+			"lock":true,
+			"name":{"en":"Dark zone","ja":"ダークゾーン"},
+			"postfx":{"bloomblur":3.2,"bloompow":0.07,"bloomthrs":1.0,"dofblur":0.5,"dofrange":20,"dofz":4.0},
+			"renderpass":2,
+			"ss":{"aobias":0.4,"aoexp":1.0,"aopow":1.0,"aoradius":5.0,"gipow":1.0,"gitype":0}
+		},
+		{
+			"envlights":[
+				{
 					"color":-1,
 					"head":-30,
 					"pitch":50,

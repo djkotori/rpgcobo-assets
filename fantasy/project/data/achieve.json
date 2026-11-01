@@ -1,0 +1,15 @@
+{
+	"items":[
+		{
+			"desc":"散歩マスターへの第一歩。20m歩くことで達成。",
+			"enabled":true,
+			"gamecenter_id":"",
+			"icon":"",
+			"name":"散歩の初心者",
+			"reqs":[
+				{"key":"varcmp","lvar":"STEPCNT","op":">=","rvar":20}
+			],
+			"steam_id":""
+		}
+	]
+}
