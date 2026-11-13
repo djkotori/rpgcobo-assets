@@ -3,7 +3,7 @@
 ////////////////////////////////////////////////////////
 parentcoord <- false
 currentgroup <- 0
-prof <- {"showbnd":[0.024662,1.190189,-0.277018,1.676826,2.043673,1.5969],"maxbnd":[0.427706,0.862308,-0.001894,1.932133,2.04626,1.709179],"showtime":936,"wholebnd":[0.270555,0.995861,-0.078923,2.089284,2.281363,1.989725]}
+prof <- {"showbnd":[-0.020153,0.6781,-0.067599,1.192931,1.436072,1.020235],"maxbnd":[0.054152,0.58768,-0.003306,1.229556,1.428628,1.284109],"showtime":1248,"wholebnd":[-0.013517,0.730784,0.029599,1.3647,1.664651,1.355276]}
 groups <- [
 	with ParticleGroupData(){
 		name = "fire"
@@ -14,8 +14,8 @@ groups <- [
 			num = 2
 			start = 0, start_spr = 200
 			life = 600, life_spr = 200
-			posx = 0.0, posy = 0.0, posz = 0.0
-			pos_sprx = 0.5, pos_spry = 0.3, pos_sprz = 0.5
+			posx = 0.0, posy = 0.05, posz = 0.0
+			pos_sprx = 0.5, pos_spry = 0.4, pos_sprz = 0.5
 			dirx = 0.0, diry = 0.0, dirz = 0.0
 			dir_sprx = 0.0, dir_spry = 0.0, dir_sprz = 0.0
 			linearbits = 0
@@ -30,9 +30,9 @@ groups <- [
 		Ka = 0x808080ff
 		Ks = 0x00000000
 		mod = [
-		{"xyz":7,"scale":[0.470588,0.705882,0.764706,1.0],"classid":"ptcmod_scale"},
-		{"color":[-76,-1780993,-3759640,-5672705,-10092298,-11724801,-939524046,-1778384896],"classid":"ptcmod_color"},
-		{"vel":0.5,"classid":"ptcmod_vel","vel_spr":0.0},
+		{"classid":"ptcmod_scale","scale":[0.470588,0.705882,0.764706,1.0],"xyz":7},
+		{"classid":"ptcmod_color","color":[-76,-1780993,-3759640,-5672705,-10092298,-11724801,-939524046,-1778384896]},
+		{"classid":"ptcmod_vel","vel":0.5,"vel_spr":0.0},
 		{"classid":"ptcmod_texanime","frame":[0.0,10.0]},
 		]
 	},
@@ -60,11 +60,11 @@ groups <- [
 		Ka = 0x808080ff
 		Ks = 0x00000000
 		mod = [
-		{"xyz":7,"scale":[0.470588,0.705882,0.764706,0.882353,0.911765,1.147059],"classid":"ptcmod_scale"},
-		{"color":[-13238092,-10944257,-14081,-3644161,-10210561,-2144725249,1377179186,1293293056],"classid":"ptcmod_color"},
+		{"classid":"ptcmod_scale","scale":[0.470588,0.705882,0.764706,0.882353,0.911765,1.147059],"xyz":7},
+		{"classid":"ptcmod_color","color":[-13238092,-10944257,-14081,-3644161,-10210561,-2144725249,1377179186,1293293056]},
 		{"classid":"ptcmod_texanime","frame":[0,10.0]},
-		{"vel":0.7,"classid":"ptcmod_vel","vel_spr":0.3},
-		{"color":0,"scale":1.0,"classid":"ptcmod_rnd","b":0.0,"h":0.0,"p":0.0},
+		{"classid":"ptcmod_vel","vel":0.7,"vel_spr":0.3},
+		{"b":0.0,"classid":"ptcmod_rnd","color":0,"h":0.0,"p":0.0,"scale":1.0},
 		]
 	},
 ]

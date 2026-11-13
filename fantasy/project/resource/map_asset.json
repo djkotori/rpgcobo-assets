@@ -100,6 +100,24 @@
 		"plcair":false,
 		"plcoffs":[0,0,0]
 	},
+	"MA025":{
+		"bw64":"KLUv/WAfAa0EACJGEhmgpemKMuv9////d9V4jO9v980X37SklWenbUv4yZ2sHu3bAjSDRQCt7+6+IymVvveXwr/slx1sgtj+zEy7DPAcRAXmgMdmYwggIJCCc2n43IJdOaCrAmM2ADgjvg/vrayQBjuLoKEBABwSIkHVwwWNgAJ8yKBNIM5DCODghRZGQAz3hTIlJoYfwawM6M2uLIAh",
+		"cntpos":[0.5,0.0,0.5],
+		"eventuse":false,
+		"group":2,
+		"name":{"ja":"小さな噴水"},
+		"plcair":false,
+		"plcoffs":[0,-1,0]
+	},
+	"MA026":{
+		"bw64":"KLUv/SDFlQIAxAOuDAAHAAgABwAAAAEAZmZCAAAAQmYAA4MIAAAAAgAAATYAAwAGAAMAAAAyFEFAAgAAAF8AAwAAGgMDAwMIIPACfaRwRxj1TkAwsiGx7G0YAg==",
+		"cntpos":[0.5,0.0,0.5],
+		"eventuse":false,
+		"group":2,
+		"name":{"en":"Old Well","ja":"古井戸"},
+		"plcair":false,
+		"plcoffs":[0,-2,0]
+	},
 	"MA027":{
 		"bw64":"KLUv/WCBAE0CAGQCrgwABgADAAkAAAACAGMAA4MCAwHDAgMAqgAAQKoAEGMDgwMDAwMOIPAC3NoE4BUET8zqddKwkMKbWAMEeMXyAVGyVXRIUEM=",
 		"cntpos":[0.5,0.0,0.5],
@@ -108,7 +126,7 @@
 		"mapcol":false,
 		"name":{"ja":"石橋"},
 		"plcair":false,
-		"plcoffs":[0,0,0]
+		"plcoffs":[0,-1,0]
 	},
 	"MA028":{
 		"bw64":"KLUv/SCZ3QEANAKuDAAEAAIABQAAAAEAGwAbERsRAKMEIwCjBAPDAAAAAwMDAwkAL1UAgaxI3GEsXIiVHilrgIcEMAQ=",
@@ -118,7 +136,7 @@
 		"mapcol":false,
 		"name":{"ja":"木橋"},
 		"plcair":false,
-		"plcoffs":[0,0,0]
+		"plcoffs":[0,-2,0]
 	},
 	"MA030":{
 		"bw64":"KLUv/WDJAAUDACJEDRmwJWkMTLGsTrFbCpeUzY6mWAxNNYI1SUgK20YGhIBgSTS3sJO7hmkFTEdTtM5TtbxoNI9DEiAAg7K1Bo/pky2wcHcwYjLwwmmIHaPwJ8BOZALEA9wWbgGrcEgQQw==",
@@ -159,7 +177,7 @@
 		"plcoffs":[0,0,0]
 	},
 	"MA035":{
-		"bw64":"KLUv/WCDAgUFABJIGB6wJ40BjDgMwySXVHNSWyqG2Sr1JW2T7teEbJOS7RRmZoETOOIVP+DzffjtDxH/Ljkz8zN1dx8taXcZJqWllGqatUa8ewST9cXLZobj/GeEUlURMxt3V0CK8vEjCyY8YAQZILACMyHqgBvFHvY2Ri+2+JwnBGxeKiYCwsBajGXHOylgACgQ6N1/F1+JgEGZ8GN6D5kR5NotvHRIAEM=",
+		"bw64":"KLUv/WCDAhUFAFIIGR+wJ40BjDgMQ0mESTUntaVimK16B2I36X5NiCWyHDsFd3eAEfnhE//xGTf895iZj5isqvqqanc/LWt3GWatxhhrmtb+TMRHMvkFWvHyXQGd/5ySKqUyVRuISEiKMvqRAw8WMAIYILACMyHqgBvFHvY2Ri+2+JwnBGxeKiYCwsBajGXHa/JFfRHE3X8XX4kwQUPgxxRvMyPItVt46ZAAhg==",
 		"cntpos":[0.5,0.0,0.5],
 		"eventuse":false,
 		"group":2,
@@ -204,7 +222,7 @@
 		"plcoffs":[0,0,0]
 	},
 	"MA040":{
-		"bw64":"KLUv/WDjAs0EAKIGExqwJ60B2BxJhmIYKi1+7gggmRPLSKDGu0kiU2ZmK2IpizxcuUBoj+Zg4qq7tyJVGV4QQk9aXKFUinRO/cbGGBNgge0wsySJ/CqvgBEeIMCCohniATDi7I4qDr7FtbTQRpkVScYuBA1MSgzMEnP2hpI0yQRisYX7tIZck5RaGhhfZPOlak2QAQ4LWWvNl5qhmHAj2dBVhg==",
+		"bw64":"KLUv/WDjAr0EAOJGExqgKa0Bw++qyamqim45rV3Ds72sSQ6t95dEpmZmq+KEapOILxsKLdIcXFx192akqsMJhNCTGlcoFSOdU/+xMcYEWGBDzExRJr/LK3AEHSDAAqMZ8jDi7Jq+yJFWs1GxosvUjZCBSYmBlcScvKGQpptAKLZQH9aQaySldgaGF9l7qToTbABjIW2t+VIzHhNuJBu6yhA=",
 		"cntpos":[0.5,0.0,0.5],
 		"eventuse":false,
 		"group":1,
@@ -248,8 +266,26 @@
 		"plcair":false,
 		"plcoffs":[0,-1,0]
 	},
+	"MA045":{
+		"bw64":"KLUv/WAhAL0CAKQCrgwACgAIAAQAAAACAAMBAQACAwAGAAUABAQAAgABEAYeFAAABwgDAwMDEgDA4KoAavoSX9Max7ovRBypZ7Q8htDiaHzlERxXZdmdgnH0XHkXFLrAEA==",
+		"cntpos":[0.5,0.0,0.5],
+		"eventuse":false,
+		"group":1,
+		"name":{"ja":"牢獄の扉"},
+		"plcair":false,
+		"plcoffs":[0,0,0]
+	},
+	"MA046":{
+		"bw64":"KLUv/WC9BAUJAGKMICOgJ2kN/2eFVNVY33qq+qH4hv3/S8SOZ0Jaa6SRRnYjRMqdAnd3iAxiFV/KVJn4gXJZtEfECQgjlRukiSny8IJlapMTWCtwPDR84IwrIi1yPJRqRkDS0jVMX9Q4AKtZzAf6gaIz1WjcG6fjOGutlf5AZ0dnC5bspVOKOaUeZyaXi0JLoNGhc2qGQVrYDbCCqpJEDzVu5wOQo4gBu6HPYgpm1cVsVEmhmHkItpc2FWr5q9aXQWzRdFnrxkeb5qylKrJ2C91e5cYkF8U3vOTVYtl64XQCdqh4Kg5aJHNAYb408HSwQs6ukuVyuk31VYjrBonBZFRCXlpevpCv9t4SHu1IiB/4WAn4N8SYyaWLTG66uYYIvXCuRqGdZLbTCQ==",
+		"cntpos":[0.5,0.0,0.5],
+		"eventuse":false,
+		"group":1,
+		"name":{"ja":"牢獄の部屋"},
+		"plcair":true,
+		"plcoffs":[0,-1,0]
+	},
 	"MA060":{
-		"bw64":"KLUv/SCPlQEA2K4MAAQABgADAAAAAQAREQIDAwACAAIKAwMDAwkAuwCtq2vIws5GnBwz5VvBDGhvwRA=",
+		"bw64":"KLUv/SCPlQEA2K4MAAQABgADAAAAAQAREQIDAwACAAIOAwMDAwkAuwCtq2vIws5GnBwz5VvBDGhvwRA=",
 		"cntpos":[0.5,0.0,0.5],
 		"eventuse":false,
 		"group":1,
@@ -258,7 +294,7 @@
 		"plcoffs":[0,0,0]
 	},
 	"MA061":{
-		"bw64":"KLUv/SCPnQEA8K4MAAQABgADAAAAAQAREQIDAQACAAKAAAAKAwMDAwgAraFryMLORpwcM+VbwQxob8EQ",
+		"bw64":"KLUv/SCPnQEA8K4MAAQABgADAAAAAQAREQIDAQACAAKAAAAOAwMDAwgAraFryMLORpwcM+VbwQxob8EQ",
 		"cntpos":[0.5,0.0,0.5],
 		"eventuse":false,
 		"group":1,
@@ -283,6 +319,24 @@
 		"name":{"en":"Down Stair","ja":"下り階段"},
 		"plcair":true,
 		"plcoffs":[0,-4,0]
+	},
+	"MA066":{
+		"bw64":"KLUv/WBPAMUCALQCrgwADgAKAAQAAAACAAYFAAYBAgIDMFAAADAhAQAHAAMAARgBABwNAwMDAxKAgExrrgY1uZXGUHjHio6YXMoCAyOBFnDniiklFyF4uxMIwOAVA+BJADY=",
+		"cntpos":[0.5,0.0,0.5],
+		"eventuse":false,
+		"group":1,
+		"name":{"en":"Front Gate","ja":"正面門"},
+		"plcair":false,
+		"plcoffs":[0,0,0]
+	},
+	"MA067":{
+		"bw64":"KLUv/WBLAMUCAMQCrgwACgAIAAYAAAACAAeKAgIDAAAAAQNoAAUAAgACDwEAAx4YAAANCAMDAwMSADUsVmjTNWVW9yZMWsoC7OEEwAAssALhZS5KQL47ESABlLtSMXBIAEM=",
+		"cntpos":[0.5,0.0,0.5],
+		"eventuse":false,
+		"group":1,
+		"name":{"ja":"高貴なドア"},
+		"plcair":false,
+		"plcoffs":[0,0,0]
 	},
 	"_meta":{
 		"caps":400,

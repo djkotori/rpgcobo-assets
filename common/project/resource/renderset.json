@@ -34,7 +34,7 @@
 			],
 			"exposure":{"autoexposure":false,"ev100":4.5,"evrange":[-4.0,14.0]},
 			"fog":{"type":0},
-			"ibl":{"iblcolor":-1,"ibldiff":45.0,"ibldir":180,"iblspec":30,"ibltex":"/system/asset/defibl.ktx"},
+			"ibl":{"iblcolor":-1,"ibldiff":40,"ibldir":180,"iblspec":30,"ibltex":"/system/asset/defibl.ktx"},
 			"id":"pbr_draft",
 			"lock":true,
 			"name":{"en":"PBR Draft","ja":"PBRドラフト"},
@@ -48,14 +48,14 @@
 					"color":-1,
 					"head":-30,
 					"pitch":50,
-					"power":3000,
+					"power":1000,
 					"shadow":{"shadowdens":0.5,"shadowfar":50.0,"shadowray":30.0,"shadowreso":1024,"shadowsoft":0.5,"shadowtype":2},
 					"type":1
 				}
 			],
-			"exposure":{"autoexposure":false,"ev100":12.3,"evrange":[-4.0,14.0]},
+			"exposure":{"autoexposure":false,"ev100":10.0,"evrange":[-4.0,14.0]},
 			"fog":{"type":0},
-			"ibl":{"iblcolor":-1,"ibldiff":10000.0,"ibldir":180,"iblspec":8000,"ibltex":"/system/asset/defibl.ktx"},
+			"ibl":{"iblcolor":-1,"ibldiff":1800,"ibldir":180,"iblspec":1800,"ibltex":"/system/asset/defibl.ktx"},
 			"id":"pbr_fw",
 			"lock":true,
 			"name":{"en":"PBR Forward","ja":"PBRフォワード"},
@@ -76,7 +76,7 @@
 			],
 			"exposure":{"autoexposure":false,"ev100":10.0,"evrange":[-4.0,14.0]},
 			"fog":{"type":0},
-			"ibl":{"iblcolor":-1,"ibldiff":2000,"ibldir":180,"iblspec":2000,"ibltex":"/system/asset/defibl.ktx"},
+			"ibl":{"iblcolor":-1,"ibldiff":1800,"ibldir":180,"iblspec":1800,"ibltex":"/system/asset/defibl.ktx"},
 			"id":"pbr_df",
 			"lock":true,
 			"name":{"en":"PBR Deferred","ja":"PBRディファード"},
@@ -97,7 +97,7 @@
 			],
 			"exposure":{"autoexposure":false,"ev100":10.0,"evrange":[-4.0,14.0]},
 			"fog":{"type":0},
-			"ibl":{"iblcolor":-1,"ibldiff":2000,"ibldir":180,"iblspec":2000,"ibltex":"/system/asset/defibl.ktx"},
+			"ibl":{"iblcolor":-1,"ibldiff":1800,"ibldir":180,"iblspec":1800,"ibltex":"/system/asset/defibl.ktx"},
 			"id":"pbr_mapedit",
 			"lock":true,
 			"name":{"en":"Editor View","ja":"エディター表示"},
@@ -109,7 +109,7 @@
 			"envlights":[
 				{
 					"color":-1,
-					"head":-37,
+					"head":-32,
 					"pitch":42,
 					"power":700,
 					"shadow":{"shadowdens":0.42,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.5,"shadowtype":2},
@@ -128,51 +128,51 @@
 			"id":"pbr_df-4",
 			"lock":true,
 			"name":{"en":"Morning","ja":"朝"},
-			"postfx":{"bloomblur":3.2,"bloompow":0.12,"bloomthrs":0.9,"dofblur":0.8,"dofrange":30,"dofz":4.0},
+			"postfx":{"bloomblur":3.2,"bloompow":0.12,"bloomthrs":1.0,"dofblur":0.8,"dofrange":30,"dofz":4.0},
 			"renderpass":2,
-			"ss":{"aobias":0.6,"aoexp":1.0,"aopow":0.78,"aoradius":4.6,"gipow":1.0,"gitype":0}
+			"ss":{"aobias":0.4,"aoexp":1.0,"aopow":0.72,"aoradius":4.8,"gipow":1.0,"gitype":0}
 		},
 		{
 			"envlights":[
 				{
-					"color":-206337,
-					"head":34,
-					"pitch":57,
-					"power":900,
-					"shadow":{"shadowdens":0.6,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.5,"shadowtype":2},
+					"color":-340993,
+					"head":30,
+					"pitch":60,
+					"power":1500,
+					"shadow":{"shadowdens":0.5,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.5,"shadowtype":3},
 					"type":1
 				}
 			],
-			"exposure":{"autoexposure":false,"ev100":9.45,"evrange":[-4.0,14.0]},
+			"exposure":{"autoexposure":false,"ev100":9.5,"evrange":[-4.0,14.0]},
 			"fog":{"type":0},
-			"ibl":{
-				"iblcolor":-957022209,
-				"ibldiff":1400,
-				"ibldir":0,
-				"iblspec":2000,
-				"ibltex":"/resource/ibltex/blouberg_sunrise_2_2k_ibl.ktx"
-			},
+			"ibl":{"iblcolor":-100688385,"ibldiff":1600,"ibldir":-123,"iblspec":1900,"ibltex":"/resource/ibltex/wildflower_field_2k_ibl.ktx"},
 			"id":"pbr_df-4-1-1",
 			"lock":true,
 			"name":{"en":"Afternoon","ja":"昼"},
-			"postfx":{"bloomblur":3.2,"bloompow":0.08,"bloomthrs":0.9,"dofblur":0.8,"dofrange":30,"dofz":4.0},
+			"postfx":{"bloomblur":3.2,"bloompow":0.08,"bloomthrs":0.95,"dofblur":0.8,"dofrange":30,"dofz":4.0},
 			"renderpass":2,
-			"ss":{"aobias":0.6,"aoexp":1.2,"aopow":0.75,"aoradius":5.0,"gipow":1.0,"gitype":0}
+			"ss":{"aobias":0.4,"aoexp":1.0,"aopow":0.7,"aoradius":4.8,"gipow":1.0,"gitype":0}
 		},
 		{
 			"envlights":[
 				{
 					"color":-1326593,
-					"head":32,
+					"head":44,
 					"pitch":42,
-					"power":500,
-					"shadow":{"shadowdens":0.52,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.5,"shadowtype":2},
+					"power":800,
+					"shadow":{"shadowdens":0.46,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.5,"shadowtype":2},
 					"type":1
 				}
 			],
 			"exposure":{"autoexposure":false,"ev100":9.2,"evrange":[-4.0,14.0]},
 			"fog":{"type":0},
-			"ibl":{"iblcolor":-924161,"ibldiff":1320,"ibldir":156,"iblspec":1700,"ibltex":"/resource/ibltex/meadow_2k_ibl.ktx"},
+			"ibl":{
+				"iblcolor":-529409,
+				"ibldiff":1400,
+				"ibldir":-128,
+				"iblspec":1400,
+				"ibltex":"/resource/ibltex/sunset_in_the_chalk_quarry_2k_ibl.ktx"
+			},
 			"id":"pbr_df-4-1-2",
 			"lock":true,
 			"name":{"en":"Evening","ja":"夕方"},
@@ -184,20 +184,20 @@
 			"envlights":[
 				{
 					"color":-9474049,
-					"head":36,
+					"head":45,
 					"pitch":43,
-					"power":140,
+					"power":170,
 					"shadow":{"shadowdens":0.44,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.35,"shadowtype":2},
 					"type":1
 				}
 			],
-			"exposure":{"autoexposure":false,"ev100":6.5,"evrange":[-4.0,14.0]},
+			"exposure":{"autoexposure":false,"ev100":6.2,"evrange":[-4.0,14.0]},
 			"fog":{"type":0},
 			"ibl":{
-				"iblcolor":-1,
-				"ibldiff":87,
+				"iblcolor":-3757313,
+				"ibldiff":70,
 				"ibldir":-96,
-				"iblspec":120,
+				"iblspec":130,
 				"ibltex":"/resource/ibltex/sunset_in_the_chalk_quarry_2k_ibl.ktx"
 			},
 			"id":"pbr_df-3-2",
@@ -205,14 +205,14 @@
 			"name":{"en":"Dusk","ja":"夕暮れ"},
 			"postfx":{"bloomblur":3.2,"bloompow":0.12,"bloomthrs":0.9,"dofblur":0.5,"dofrange":80,"dofz":4.0},
 			"renderpass":2,
-			"ss":{"aobias":0.45,"aoexp":1.1,"aopow":0.9,"aoradius":5.4,"gipow":1.0,"gitype":0}
+			"ss":{"aobias":0.45,"aoexp":1.0,"aopow":0.9,"aoradius":5.0,"gipow":1.0,"gitype":0}
 		},
 		{
 			"envlights":[
 				{
 					"color":-1764163585,
 					"head":-30,
-					"pitch":50,
+					"pitch":67,
 					"power":7,
 					"shadow":{"shadowdens":0.3,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.5,"shadowtype":0},
 					"type":1
@@ -220,13 +220,13 @@
 			],
 			"exposure":{"autoexposure":false,"ev100":4.0,"evrange":[-4.0,14.0]},
 			"fog":{"type":0},
-			"ibl":{"iblcolor":-1,"ibldiff":6,"ibldir":110,"iblspec":8,"ibltex":"/resource/ibltex/narrow_moonlit_road_2k_ibl.ktx"},
+			"ibl":{"iblcolor":-1,"ibldiff":7,"ibldir":-71,"iblspec":7,"ibltex":"/resource/ibltex/narrow_moonlit_road_2k_ibl.ktx"},
 			"id":"pbr_df-1",
 			"lock":true,
 			"name":{"en":"Night","ja":"夜"},
-			"postfx":{"bloomblur":3.7,"bloompow":0.12,"bloomthrs":0.9,"dofblur":0.5,"dofrange":80,"dofz":4.0},
+			"postfx":{"bloomblur":3.7,"bloompow":0.12,"bloomthrs":0.9,"dofblur":0.5,"dofrange":40,"dofz":4.0},
 			"renderpass":2,
-			"ss":{"aobias":0.4,"aoexp":1.0,"aopow":0.75,"aoradius":5.2,"gipow":1.0,"gitype":0}
+			"ss":{"aobias":0.4,"aoexp":1.0,"aopow":0.75,"aoradius":5.4,"gipow":1.0,"gitype":0}
 		},
 		{
 			"envlights":[
@@ -239,15 +239,15 @@
 					"type":1
 				}
 			],
-			"exposure":{"autoexposure":false,"ev100":8.65,"evrange":[-4.0,14.0]},
-			"fog":{"type":0},
+			"exposure":{"autoexposure":false,"ev100":8.35,"evrange":[-4.0,14.0]},
+			"fog":{"color":-128,"density":0.08,"type":3,"yfalloff":0.2,"yplane":0.0,"zoffs":4.0},
 			"ibl":{"iblcolor":-1108803585,"ibldiff":620,"ibldir":12,"iblspec":650,"ibltex":"/resource/ibltex/cave_wall_2k_ibl.ktx"},
 			"id":"pbr_df-4-1-1-1",
 			"lock":true,
 			"name":{"en":"Dark Corner","ja":"暗がり"},
 			"postfx":{"bloomblur":3.2,"bloompow":0.08,"bloomthrs":0.9,"dofblur":1.0,"dofrange":30,"dofz":4.0},
 			"renderpass":2,
-			"ss":{"aobias":0.3,"aoexp":1.0,"aopow":0.9,"aoradius":5.0,"gipow":1.0,"gitype":0}
+			"ss":{"aobias":0.4,"aoexp":1.0,"aopow":0.9,"aoradius":5.2,"gipow":1.0,"gitype":0}
 		},
 		{
 			"envlights":[
@@ -260,15 +260,15 @@
 					"type":1
 				}
 			],
-			"exposure":{"autoexposure":false,"ev100":7.45,"evrange":[-4.0,14.0]},
-			"fog":{"type":0},
-			"ibl":{"iblcolor":-1,"ibldiff":280,"ibldir":180,"iblspec":350,"ibltex":"/resource/ibltex/meadow_2k_ibl.ktx"},
+			"exposure":{"autoexposure":false,"ev100":7.35,"evrange":[-4.0,14.0]},
+			"fog":{"color":425469096,"density":0.05,"type":3,"yfalloff":0.1,"yplane":0.0,"zoffs":10.0},
+			"ibl":{"iblcolor":-1,"ibldiff":300,"ibldir":180,"iblspec":300,"ibltex":"/resource/ibltex/meadow_2k_ibl.ktx"},
 			"id":"pbr_df-3-3",
 			"lock":true,
 			"name":{"en":"Forest","ja":"森"},
 			"postfx":{"bloomblur":3.2,"bloompow":0.12,"bloomthrs":0.9,"dofblur":1.0,"dofrange":30,"dofz":4.0},
 			"renderpass":2,
-			"ss":{"aobias":0.54,"aoexp":1.1,"aopow":0.8,"aoradius":5.0,"gipow":1.0,"gitype":0}
+			"ss":{"aobias":0.54,"aoexp":1.0,"aopow":0.8,"aoradius":5.0,"gipow":1.0,"gitype":0}
 		},
 		{
 			"envlights":[
@@ -282,14 +282,14 @@
 				}
 			],
 			"exposure":{"autoexposure":false,"ev100":5.9,"evrange":[-4.0,14.0]},
-			"fog":{"type":0},
+			"fog":{"color":-1545871195,"density":0.06,"type":3,"yfalloff":0.24,"yplane":0.0,"zoffs":20.0},
 			"ibl":{"iblcolor":2111766527,"ibldiff":50,"ibldir":180,"iblspec":230,"ibltex":"/resource/ibltex/cave_wall_2k_ibl.ktx"},
 			"id":"pbr_df-4-1",
 			"lock":true,
 			"name":{"en":"Morning Mist","ja":"朝霧"},
 			"postfx":{"bloomblur":3.2,"bloompow":0.08,"bloomthrs":0.9,"dofblur":0.5,"dofrange":80,"dofz":4.0},
 			"renderpass":2,
-			"ss":{"aobias":0.6,"aoexp":1.0,"aopow":0.78,"aoradius":4.0,"gipow":1.0,"gitype":0}
+			"ss":{"aobias":0.6,"aoexp":1.0,"aopow":0.78,"aoradius":4.5,"gipow":1.0,"gitype":0}
 		},
 		{
 			"envlights":[
@@ -302,15 +302,42 @@
 					"type":1
 				}
 			],
-			"exposure":{"autoexposure":false,"ev100":9.3,"evrange":[-4.0,14.0]},
-			"fog":{"type":0},
-			"ibl":{"iblcolor":-1,"ibldiff":1600,"ibldir":-160,"iblspec":1800,"ibltex":"/resource/ibltex/snowy_park_01_2k_ibl.ktx"},
+			"exposure":{"autoexposure":false,"ev100":9.4,"evrange":[-4.0,14.0]},
+			"fog":{"color":-873594943,"density":0.025,"type":3,"yfalloff":0.4,"yplane":0.0,"zoffs":8.0},
+			"ibl":{"iblcolor":-1,"ibldiff":1300,"ibldir":-160,"iblspec":1600,"ibltex":"/resource/ibltex/snowy_park_01_2k_ibl.ktx"},
 			"id":"pbr_df-4-1-2-1",
 			"lock":true,
 			"name":{"en":"Snow Country","ja":"雪国"},
 			"postfx":{"bloomblur":3.2,"bloompow":0.08,"bloomthrs":0.9,"dofblur":0.5,"dofrange":80,"dofz":4.0},
 			"renderpass":2,
-			"ss":{"aobias":0.6,"aoexp":1.0,"aopow":0.8,"aoradius":4.8,"gipow":1.0,"gitype":0}
+			"ss":{"aobias":0.5,"aoexp":1.0,"aopow":0.7,"aoradius":4.8,"gipow":1.0,"gitype":0}
+		},
+		{
+			"envlights":[
+				{
+					"color":-1656577,
+					"head":34,
+					"pitch":65,
+					"power":2600,
+					"shadow":{"shadowdens":0.65,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.5,"shadowtype":2},
+					"type":1
+				}
+			],
+			"exposure":{"autoexposure":false,"ev100":9.5,"evrange":[-4.0,14.0]},
+			"fog":{"color":-944293703,"density":0.1,"type":3,"yfalloff":0.36,"yplane":0.0,"zoffs":1.0},
+			"ibl":{
+				"iblcolor":-167794433,
+				"ibldiff":1100,
+				"ibldir":0,
+				"iblspec":1500,
+				"ibltex":"/resource/ibltex/blouberg_sunrise_2_2k_ibl.ktx"
+			},
+			"id":"pbr_desert",
+			"lock":true,
+			"name":{"en":"Desert","ja":"砂漠"},
+			"postfx":{"bloomblur":3.2,"bloompow":0.08,"bloomthrs":0.9,"dofblur":0.8,"dofrange":30,"dofz":4.0},
+			"renderpass":2,
+			"ss":{"aobias":0.6,"aoexp":1.0,"aopow":0.7,"aoradius":5.0,"gipow":1.0,"gitype":0}
 		},
 		{
 			"envlights":[
@@ -325,13 +352,13 @@
 			],
 			"exposure":{"autoexposure":false,"ev100":4.1,"evrange":[-4.0,14.0]},
 			"fog":{"type":0},
-			"ibl":{"iblcolor":-1,"ibldiff":29,"ibldir":180,"iblspec":32,"ibltex":"/resource/ibltex/ballroom_2k_ibl.ktx"},
+			"ibl":{"iblcolor":-1,"ibldiff":29,"ibldir":53,"iblspec":32,"ibltex":"/resource/ibltex/ballroom_2k_ibl.ktx"},
 			"id":"pbr_df-3-1",
 			"lock":true,
 			"name":{"en":"Indoor Day","ja":"屋内・昼"},
-			"postfx":{"bloomblur":3.2,"bloompow":0.08,"bloomthrs":0.9,"dofblur":0.5,"dofrange":80,"dofz":4.0},
+			"postfx":{"bloomblur":3.2,"bloompow":0.08,"bloomthrs":0.9,"dofblur":0.5,"dofrange":40,"dofz":4.0},
 			"renderpass":2,
-			"ss":{"aobias":0.45,"aoexp":1.0,"aopow":0.76,"aoradius":4.7,"gipow":1.0,"gitype":0}
+			"ss":{"aobias":0.7,"aoexp":1.0,"aopow":0.76,"aoradius":4.7,"gipow":1.0,"gitype":0}
 		},
 		{
 			"envlights":[
@@ -346,34 +373,34 @@
 			],
 			"exposure":{"autoexposure":false,"ev100":3.5,"evrange":[-4.0,14.0]},
 			"fog":{"type":0},
-			"ibl":{"iblcolor":-1,"ibldiff":7,"ibldir":180,"iblspec":9,"ibltex":"/resource/ibltex/ballroom_2k_ibl.ktx"},
+			"ibl":{"iblcolor":-1,"ibldiff":7,"ibldir":58,"iblspec":9,"ibltex":"/resource/ibltex/ballroom_2k_ibl.ktx"},
 			"id":"pbr_df-1-1",
 			"lock":true,
 			"name":{"en":"Indoor Night","ja":"屋内・夜"},
-			"postfx":{"bloomblur":3.2,"bloompow":0.12,"bloomthrs":0.9,"dofblur":0.5,"dofrange":80,"dofz":4.0},
+			"postfx":{"bloomblur":3.2,"bloompow":0.12,"bloomthrs":0.9,"dofblur":0.5,"dofrange":40,"dofz":4.0},
 			"renderpass":2,
-			"ss":{"aobias":0.4,"aoexp":1.0,"aopow":1.0,"aoradius":5.0,"gipow":1.0,"gitype":0}
+			"ss":{"aobias":0.8,"aoexp":1.0,"aopow":0.8,"aoradius":5.0,"gipow":1.0,"gitype":0}
 		},
 		{
 			"envlights":[
 				{
-					"color":-1647449601,
+					"color":2143480319,
 					"head":-30,
 					"pitch":50,
-					"power":7,
+					"power":8,
 					"shadow":{"shadowdens":0.3,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.5,"shadowtype":0},
 					"type":1
 				}
 			],
 			"exposure":{"autoexposure":false,"ev100":3.6,"evrange":[-4.0,14.0]},
 			"fog":{"type":0},
-			"ibl":{"iblcolor":-1,"ibldiff":6,"ibldir":180,"iblspec":9,"ibltex":"/resource/ibltex/narrow_moonlit_road_2k_ibl.ktx"},
+			"ibl":{"iblcolor":-1983452673,"ibldiff":7,"ibldir":180,"iblspec":7,"ibltex":"/resource/ibltex/narrow_moonlit_road_2k_ibl.ktx"},
 			"id":"pbr_df-1-2",
 			"lock":true,
 			"name":{"en":"Temple","ja":"神殿"},
 			"postfx":{"bloomblur":3.7,"bloompow":0.12,"bloomthrs":0.9,"dofblur":0.7,"dofrange":30,"dofz":4.0},
 			"renderpass":2,
-			"ss":{"aobias":0.4,"aoexp":1.0,"aopow":0.9,"aoradius":4.5,"gipow":1.0,"gitype":0}
+			"ss":{"aobias":0.5,"aoexp":1.0,"aopow":0.7,"aoradius":4.8,"gipow":1.0,"gitype":0}
 		},
 		{
 			"envlights":[
@@ -381,20 +408,41 @@
 					"color":-1244463105,
 					"head":30,
 					"pitch":50,
-					"power":3,
+					"power":5,
 					"shadow":{"shadowdens":0.4,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.5,"shadowtype":0},
 					"type":1
 				}
 			],
-			"exposure":{"autoexposure":false,"ev100":3.5,"evrange":[-4.0,14.0]},
-			"fog":{"type":0},
-			"ibl":{"iblcolor":-1,"ibldiff":3,"ibldir":0,"iblspec":3,"ibltex":"/resource/ibltex/cave_wall_2k_ibl.ktx"},
+			"exposure":{"autoexposure":false,"ev100":3.3,"evrange":[-4.0,14.0]},
+			"fog":{"color":64,"density":0.016,"type":3,"yfalloff":0.02,"yplane":0.0,"zoffs":1.0},
+			"ibl":{"iblcolor":-1,"ibldiff":3,"ibldir":0,"iblspec":5,"ibltex":"/resource/ibltex/cave_wall_2k_ibl.ktx"},
 			"id":"pbr_df-1-1-1",
 			"lock":true,
 			"name":{"en":"Cave","ja":"洞窟"},
-			"postfx":{"bloomblur":3.2,"bloompow":0.07,"bloomthrs":1.0,"dofblur":0.5,"dofrange":20,"dofz":4.0},
+			"postfx":{"bloomblur":3.2,"bloompow":0.07,"bloomthrs":1.0,"dofblur":0.6,"dofrange":30,"dofz":4.0},
 			"renderpass":2,
 			"ss":{"aobias":0.4,"aoexp":1.0,"aopow":1.0,"aoradius":5.0,"gipow":1.0,"gitype":0}
+		},
+		{
+			"envlights":[
+				{
+					"color":-8699137,
+					"head":27,
+					"pitch":34,
+					"power":200,
+					"shadow":{"shadowdens":0.45,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.35,"shadowtype":2},
+					"type":1
+				}
+			],
+			"exposure":{"autoexposure":false,"ev100":7.0,"evrange":[-4.0,14.0]},
+			"fog":{"color":1929380015,"density":0.1,"type":3,"yfalloff":0.15,"yplane":0.0,"zoffs":20.0},
+			"ibl":{"iblcolor":-6983425,"ibldiff":50,"ibldir":0,"iblspec":80,"ibltex":"/resource/ibltex/blouberg_sunrise_2_2k_ibl.ktx"},
+			"id":"pbr_volcano",
+			"lock":true,
+			"name":{"en":"Volcano","ja":"火山"},
+			"postfx":{"bloomblur":3.2,"bloompow":0.12,"bloomthrs":0.9,"dofblur":1.0,"dofrange":30,"dofz":4.0},
+			"renderpass":2,
+			"ss":{"aobias":0.54,"aoexp":1.1,"aopow":0.8,"aoradius":5.0,"gipow":1.0,"gitype":0}
 		},
 		{
 			"envlights":[
@@ -416,6 +464,27 @@
 			"postfx":{"bloomblur":3.2,"bloompow":0.07,"bloomthrs":1.0,"dofblur":0.5,"dofrange":20,"dofz":4.0},
 			"renderpass":2,
 			"ss":{"aobias":0.4,"aoexp":1.0,"aopow":1.0,"aoradius":5.0,"gipow":1.0,"gitype":0}
+		},
+		{
+			"envlights":[
+				{
+					"color":-1,
+					"head":-37,
+					"pitch":58,
+					"power":1,
+					"shadow":{"shadowdens":0.3,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.5,"shadowtype":2},
+					"type":1
+				}
+			],
+			"exposure":{"autoexposure":false,"ev100":7.6,"evrange":[-4.0,14.0]},
+			"fog":{"type":0},
+			"ibl":{"iblcolor":-1,"ibldiff":1400,"ibldir":0,"iblspec":1400,"ibltex":"/resource/ibltex/flat_ibl.ktx"},
+			"id":"pbr_flat",
+			"lock":true,
+			"name":{"en":"Flat","ja":"フラット"},
+			"postfx":{"bloomblur":0.0,"bloompow":0.0,"bloomthrs":0.9,"dofblur":0.0,"dofrange":100,"dofz":4.0},
+			"renderpass":2,
+			"ss":{"aobias":0.6,"aoexp":1.0,"aopow":0.4,"aoradius":4.6,"gipow":1.0,"gitype":0}
 		},
 		{
 			"envlights":[
@@ -471,12 +540,12 @@
 			"rough":0.0
 		},
 		"#1#":{
-			"metal":0.1,
+			"metal":0.05,
 			"mparams":[1.0,0.0,1.0,1.0],
 			"mtype":0,
 			"name":{"en":"CLAY","ja":"クレイ"},
 			"ptn":["block0",0.13],
-			"rough":0.89
+			"rough":0.85
 		},
 		"#2#":{
 			"metal":0.0,
@@ -492,7 +561,7 @@
 			"mtype":0,
 			"name":{"en":"Glossy Plastic","ja":"グロスプラスチック"},
 			"ptn":null,
-			"rough":0.26
+			"rough":0.4
 		},
 		"#4#":{
 			"metal":0.1,
@@ -507,8 +576,8 @@
 			"mparams":[1.0,0.0,1.0,1.0],
 			"mtype":0,
 			"name":{"en":"Rough Metal","ja":"ラフメタル"},
-			"ptn":["block3",0.55],
-			"rough":0.68
+			"ptn":["block3",0.6],
+			"rough":0.72
 		},
 		"#6#":{
 			"metal":1.0,
@@ -516,7 +585,7 @@
 			"mtype":0,
 			"name":{"en":"Mat Metal","ja":"マットメタル"},
 			"ptn":["block10",0.05],
-			"rough":0.67
+			"rough":0.69
 		},
 		"#7#":{
 			"metal":1.0,
@@ -524,7 +593,7 @@
 			"mtype":0,
 			"name":{"en":"Glossy Metal","ja":"グロスメタル"},
 			"ptn":null,
-			"rough":0.22
+			"rough":0.24
 		},
 		"#8#":{
 			"metal":1.0,
@@ -532,7 +601,7 @@
 			"mtype":0,
 			"name":{"en":"Plating","ja":"メッキ"},
 			"ptn":null,
-			"rough":0.04
+			"rough":0.08
 		},
 		"#9#":{
 			"metal":0.9,
@@ -540,7 +609,7 @@
 			"mtype":0,
 			"name":{"en":"Plating","ja":"ステンレス"},
 			"ptn":["metal0",0.4],
-			"rough":0.5
+			"rough":0.6
 		},
 		"#10#":{
 			"metal":0.88,
@@ -556,7 +625,7 @@
 			"mtype":0,
 			"name":{"en":"Stone","ja":"石"},
 			"ptn":["block4",0.9],
-			"rough":0.83
+			"rough":0.85
 		},
 		"#12#":{
 			"metal":0.0,
@@ -564,15 +633,15 @@
 			"mtype":0,
 			"name":{"en":"Stone Floor","ja":"石畳"},
 			"ptn":["stonefloor0",0.7],
-			"rough":0.68
+			"rough":0.7
 		},
 		"#13#":{
-			"metal":0.24,
+			"metal":0.2,
 			"mparams":[1.0,0.0,1.0,1.0],
 			"mtype":0,
 			"name":{"en":"Brick","ja":"レンガ"},
 			"ptn":["block3",0.55],
-			"rough":0.72
+			"rough":0.88
 		},
 		"#14#":{
 			"metal":0.0,
@@ -580,7 +649,7 @@
 			"mtype":0,
 			"name":{"en":"Concrete","ja":"コンクリート"},
 			"ptn":["block5",1.0],
-			"rough":0.64
+			"rough":0.66
 		},
 		"#15#":{
 			"metal":0.0,
@@ -588,7 +657,7 @@
 			"mtype":0,
 			"name":{"en":"Marble","ja":"大理石"},
 			"ptn":["block3",0.4],
-			"rough":0.4
+			"rough":0.45
 		},
 		"#16#":{
 			"metal":0.0,
@@ -615,12 +684,12 @@
 			"rough":0.75
 		},
 		"#19#":{
-			"metal":0.1,
+			"metal":0.06,
 			"mparams":[1.0,0.0,1.0,1.0],
 			"mtype":0,
 			"name":{"en":"Tiling","ja":"タイル"},
 			"ptn":["block6",0.7],
-			"rough":0.6
+			"rough":0.64
 		},
 		"#20#":{
 			"metal":0.0,
@@ -628,7 +697,7 @@
 			"mtype":0,
 			"name":{"en":"Rough Floor","ja":"荒床"},
 			"ptn":["block10",0.2],
-			"rough":0.91
+			"rough":0.94
 		},
 		"#21#":{
 			"metal":0.0,
@@ -663,7 +732,7 @@
 			"rough":0.91
 		},
 		"#25#":{
-			"metal":0.0,
+			"metal":0.16,
 			"mparams":[0.92,0.0,1.0,1.0],
 			"mtype":0,
 			"name":{"en":"Sand","ja":"砂"},
@@ -671,15 +740,15 @@
 			"rough":0.87
 		},
 		"#31#":{
-			"metal":0.55,
+			"metal":0.25,
 			"mparams":[1.0,0.0,1.0,1.0],
 			"mtype":0,
 			"name":{"en":"Grass1","ja":"草原1"},
-			"ptn":["grassfloor0",1.0],
+			"ptn":["grassfloor1",0.3],
 			"rough":0.78
 		},
 		"#32#":{
-			"metal":0.5,
+			"metal":0.36,
 			"mparams":[1.0,0.0,1.0,1.0],
 			"mtype":0,
 			"name":{"en":"Moss","ja":"コケ"},
@@ -687,20 +756,20 @@
 			"rough":0.83
 		},
 		"#37#":{
-			"metal":0.5,
+			"metal":0.22,
 			"mparams":[1.0,0.005,1.0,1.0],
 			"mtype":0,
 			"name":{"en":"Snow1","ja":"雪原1"},
-			"ptn":["block10",0.4],
-			"rough":0.51
+			"ptn":["block10",0.5],
+			"rough":0.58
 		},
 		"#41#":{
-			"metal":0.92,
+			"metal":0.36,
 			"mparams":[1.0,0.01,1.0,1.0],
 			"mtype":0,
 			"name":{"en":"Tree grass","ja":"樹草"},
 			"ptn":["block10",0.2],
-			"rough":0.96
+			"rough":0.97
 		},
 		"#42#":{
 			"metal":0.0,
@@ -719,23 +788,23 @@
 			"rough":0.88
 		},
 		"#46#":{
-			"metal":0.43,
+			"metal":0.33,
 			"mparams":[1.0,0.0,1.0,1.0],
 			"mtype":0,
 			"name":{"en":"Silk","ja":"シルク"},
 			"ptn":null,
-			"rough":0.43
+			"rough":0.63
 		},
 		"#47#":{
-			"metal":0.5,
+			"metal":0.1,
 			"mparams":[1.0,0.0,1.0,1.0],
 			"mtype":0,
 			"name":{"en":"Wool","ja":"ウール"},
 			"ptn":["block0",0.23],
-			"rough":0.91
+			"rough":0.93
 		},
 		"#48#":{
-			"metal":0.2,
+			"metal":0.01,
 			"mparams":[1.0,0.0,1.0,1.0],
 			"mtype":0,
 			"name":{"en":"Straw","ja":"干し草"},
@@ -756,7 +825,7 @@
 			"mtype":0,
 			"name":{"en":"Window","ja":"窓ガラス"},
 			"ptn":null,
-			"rough":0.09
+			"rough":0.12
 		},
 		"#51#":{
 			"metal":0.7,
@@ -768,7 +837,7 @@
 		},
 		"#55#":{
 			"metal":0.5,
-			"mparams":[0.9,0.10,1.0,1.0],
+			"mparams":[0.9,0.1,1.0,1.0],
 			"mtype":0,
 			"name":{"en":"Luminous","ja":"蓄光材"},
 			"ptn":null,
