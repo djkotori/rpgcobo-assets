@@ -145,7 +145,7 @@
 			],
 			"exposure":{"autoexposure":false,"ev100":9.5,"evrange":[-4.0,14.0]},
 			"fog":{"type":0},
-			"ibl":{"iblcolor":-100688385,"ibldiff":1600,"ibldir":-123,"iblspec":1900,"ibltex":"/resource/ibltex/wildflower_field_2k_ibl.ktx"},
+			"ibl":{"iblcolor":-100680193,"ibldiff":1600,"ibldir":-123,"iblspec":1900,"ibltex":"/resource/ibltex/wildflower_field_2k_ibl.ktx"},
 			"id":"pbr_df-4-1-1",
 			"lock":true,
 			"name":{"en":"Afternoon","ja":"昼"},
@@ -764,7 +764,7 @@
 			"rough":0.58
 		},
 		"#41#":{
-			"metal":0.36,
+			"metal":0.2,
 			"mparams":[1.0,0.01,1.0,1.0],
 			"mtype":0,
 			"name":{"en":"Tree grass","ja":"樹草"},

@@ -1225,7 +1225,24 @@
 		"weather":{"type":null}
 	},
 	"M802":{
-		"bg":{"type":"skybox"},
+		"bg":{
+			"azimuth":54.0,
+			"blur":4,
+			"cloudDensity":1.01,
+			"cloudDetail":1.08,
+			"cloudHeight":719.0,
+			"cloudScale":2.55,
+			"coverage":0.86,
+			"ground":true,
+			"groundColor":169281535,
+			"haze":1.23,
+			"rot":-109,
+			"seed":0,
+			"skyTone":-0.29,
+			"time":16.75,
+			"type":"physical",
+			"useibl":false
+		},
 		"bgmid":null,
 		"camwork":{"fovy":32,"hpb":[0,35,0],"viewport":16.0,"yoffs":0.4},
 		"canenter_hole":false,
@@ -1673,8 +1690,8 @@
 		"name":"草原テンプレート",
 		"reverbid":"plain",
 		"rsetid":"pbr_df",
-		"vs":63,
 		"size":[128,64,128],
+		"vs":63,
 		"weather":{"type":null}
 	},
 	"M982":{
@@ -1691,8 +1708,8 @@
 		"name":"街テンプレート",
 		"reverbid":"plain",
 		"rsetid":"pbr_df-4",
-		"vs":63,
 		"size":[128,64,128],
+		"vs":63,
 		"weather":{"type":null}
 	},
 	"M983":{
@@ -1745,8 +1762,8 @@
 		"name":"荒野テンプレート",
 		"reverbid":"plain",
 		"rsetid":"pbr_df",
-		"vs":63,
 		"size":[128,64,128],
+		"vs":63,
 		"weather":{"type":null}
 	},
 	"M995":{
