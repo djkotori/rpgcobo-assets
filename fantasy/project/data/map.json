@@ -19,7 +19,7 @@
 			"useibl":false
 		},
 		"bgmid":"MU003",
-		"camwork":{"fovy":32,"hpb":[0,35,0],"viewport":16.0,"yoffs":0.4},
+		"camwork":{"fovy":32,"hpb":[0,36,0],"viewport":15.0,"yoffs":0.4},
 		"canenter_hole":false,
 		"canenter_water":false,
 		"encntrate":0.0,
@@ -234,7 +234,7 @@
 	"M001":{
 		"bg":{"blur":3,"type":"skybox"},
 		"bgmid":"MU006",
-		"camwork":{"fovy":32,"hpb":[0,35,0],"viewport":16.0,"yoffs":0.4},
+		"camwork":{"fovy":32,"hpb":[0,36,0],"viewport":15.0,"yoffs":0.4},
 		"canenter_hole":false,
 		"canenter_water":false,
 		"encntrate":0.0,
@@ -477,7 +477,7 @@
 	"M002":{
 		"bg":{"type":"skybox"},
 		"bgmid":null,
-		"camwork":{"fovy":32,"hpb":[0,35,0],"viewport":16.0,"yoffs":0.4},
+		"camwork":{"fovy":32,"hpb":[0,36,0],"viewport":15.0,"yoffs":0.4},
 		"canenter_hole":false,
 		"canenter_water":false,
 		"encntrate":0.0,
@@ -498,7 +498,7 @@
 	"M003":{
 		"bg":{"type":"skybox"},
 		"bgmid":null,
-		"camwork":{"fovy":32,"hpb":[0,35,0],"viewport":16.0,"yoffs":0.4},
+		"camwork":{"fovy":32,"hpb":[0,36,0],"viewport":15.0,"yoffs":0.4},
 		"canenter_hole":false,
 		"canenter_water":false,
 		"encntrate":0.0,
@@ -610,7 +610,7 @@
 	"M004":{
 		"bg":{"col":255,"type":"col"},
 		"bgmid":null,
-		"camwork":{"fovy":32,"hpb":[0,35,0],"viewport":16.0,"yoffs":0.4},
+		"camwork":{"fovy":32,"hpb":[0,36,0],"viewport":15.0,"yoffs":0.4},
 		"canenter_hole":false,
 		"canenter_water":false,
 		"encntrate":0.0,
@@ -630,9 +630,10 @@
 	"M005":{
 		"bg":{"col":255,"type":"col"},
 		"bgmid":null,
-		"camwork":{"fovy":32,"hpb":[0,35,0],"viewport":16.0,"yoffs":0.4},
+		"camwork":{"fovy":32,"hpb":[0,36,0],"viewport":15.0,"yoffs":0.4},
 		"canenter_hole":false,
 		"canenter_water":false,
+		"ctrmode":1,
 		"encntrate":0.0,
 		"encount":[
 			{
@@ -684,9 +685,10 @@
 	"M006":{
 		"bg":{"col":255,"type":"col"},
 		"bgmid":null,
-		"camwork":{"fovy":28,"hpb":[45,36,0],"viewport":14.0,"yoffs":0.2},
+		"camwork":{"fovy":28,"hpb":[45,36,0],"viewport":14.0,"yoffs":0.4},
 		"canenter_hole":false,
 		"canenter_water":false,
+		"ctrmode":1,
 		"encntrate":0.0,
 		"encount":null,
 		"event":{
@@ -784,7 +786,7 @@
 	"M007":{
 		"bg":{"type":"skybox"},
 		"bgmid":null,
-		"camwork":{"fovy":32,"hpb":[0,35,0],"viewport":16.0,"yoffs":0.4},
+		"camwork":{"fovy":32,"hpb":[0,36,0],"viewport":15.0,"yoffs":0.4},
 		"canenter_hole":false,
 		"canenter_water":false,
 		"encntrate":0.0,
@@ -805,7 +807,7 @@
 	"M008":{
 		"bg":{"col":255,"type":"col"},
 		"bgmid":null,
-		"camwork":{"fovy":32,"hpb":[0,35,0],"viewport":16.0,"yoffs":0.4},
+		"camwork":{"fovy":32,"hpb":[0,36,0],"viewport":15.0,"yoffs":0.4},
 		"canenter_hole":false,
 		"canenter_water":false,
 		"encntrate":0.0,
@@ -1039,7 +1041,7 @@
 	"M800":{
 		"bg":{"type":"skybox"},
 		"bgmid":null,
-		"camwork":{"fovy":32,"hpb":[0,35,0],"viewport":16.0,"yoffs":0.4},
+		"camwork":{"fovy":32,"hpb":[0,36,0],"viewport":15.0,"yoffs":0.4},
 		"canenter_hole":false,
 		"canenter_water":false,
 		"encntrate":0.0,
@@ -1133,7 +1135,7 @@
 	"M801":{
 		"bg":{"type":"skybox"},
 		"bgmid":null,
-		"camwork":{"fovy":32,"hpb":[0,35,0],"viewport":16.0,"yoffs":0.4},
+		"camwork":{"fovy":32,"hpb":[0,36,0],"viewport":15.0,"yoffs":0.4},
 		"canenter_hole":false,
 		"canenter_water":false,
 		"encntrate":0.0,
@@ -1244,7 +1246,7 @@
 			"useibl":false
 		},
 		"bgmid":null,
-		"camwork":{"fovy":32,"hpb":[0,35,0],"viewport":16.0,"yoffs":0.4},
+		"camwork":{"fovy":32,"hpb":[0,36,0],"viewport":15.0,"yoffs":0.4},
 		"canenter_hole":false,
 		"canenter_water":false,
 		"encntrate":0.0,
@@ -1339,7 +1341,7 @@
 	"M803":{
 		"bg":{"col":255,"type":"col"},
 		"bgmid":null,
-		"camwork":{"fovy":32,"hpb":[0,35,0],"viewport":16.0,"yoffs":0.4},
+		"camwork":{"fovy":32,"hpb":[0,36,0],"viewport":15.0,"yoffs":0.4},
 		"canenter_hole":false,
 		"canenter_water":false,
 		"encntrate":0.0,
@@ -1461,7 +1463,7 @@
 	"M804":{
 		"bg":{"col":255,"type":"col"},
 		"bgmid":null,
-		"camwork":{"fovy":32,"hpb":[0,35,0],"viewport":16.0,"yoffs":0.4},
+		"camwork":{"fovy":32,"hpb":[0,36,0],"viewport":15.0,"yoffs":0.4},
 		"canenter_hole":false,
 		"canenter_water":false,
 		"encntrate":0.0,
@@ -1567,7 +1569,7 @@
 	"M805":{
 		"bg":{"col":255,"type":"col"},
 		"bgmid":null,
-		"camwork":{"fovy":32,"hpb":[0,35,0],"viewport":16.0,"yoffs":0.4},
+		"camwork":{"fovy":32,"hpb":[0,36,0],"viewport":15.0,"yoffs":0.4},
 		"canenter_hole":false,
 		"canenter_water":false,
 		"encntrate":0.0,
@@ -1661,7 +1663,10 @@
 	"M980":{
 		"bg":{"type":"skybox"},
 		"bgmid":null,
-		"camwork":{"fovy":32,"hpb":[0,35,0],"viewport":16.0,"yoffs":0.4},
+		"camwork":{"fovy":32,"hpb":[0,36,0],"viewport":15.0,"yoffs":0.4},
+		"canenter_hole":false,
+		"canenter_water":false,
+		"ctrmode":1,
 		"encntrate":0.0,
 		"encount":null,
 		"event":{},
@@ -1672,6 +1677,7 @@
 		"name":"フラットテンプレート",
 		"reverbid":"plain",
 		"rsetid":"pbr_df",
+		"showmap":{"bigmap":false,"explor":false,"minimap":false},
 		"size":[128,64,128],
 		"vs":63,
 		"weather":{"type":null}
@@ -1679,7 +1685,7 @@
 	"M981":{
 		"bg":{"type":"skybox"},
 		"bgmid":null,
-		"camwork":{"fovy":32,"hpb":[0,35,0],"viewport":16.0,"yoffs":0.4},
+		"camwork":{"fovy":32,"hpb":[0,36,0],"viewport":15.0,"yoffs":0.4},
 		"encntrate":0.0,
 		"encount":null,
 		"event":{},
@@ -1697,7 +1703,7 @@
 	"M982":{
 		"bg":{"type":"skybox"},
 		"bgmid":null,
-		"camwork":{"fovy":32,"hpb":[0,35,0],"viewport":16.0,"yoffs":0.4},
+		"camwork":{"fovy":32,"hpb":[0,36,0],"viewport":15.0,"yoffs":0.4},
 		"encntrate":0.0,
 		"encount":null,
 		"event":{},
@@ -1715,7 +1721,7 @@
 	"M983":{
 		"bg":{"col":255,"type":"col"},
 		"bgmid":null,
-		"camwork":{"fovy":32,"hpb":[0,35,0],"viewport":16.0,"yoffs":0.4},
+		"camwork":{"fovy":32,"hpb":[0,36,0],"viewport":15.0,"yoffs":0.4},
 		"encntrate":0.0,
 		"encount":null,
 		"event":{},
@@ -1733,7 +1739,7 @@
 	"M984":{
 		"bg":{"type":"skybox"},
 		"bgmid":null,
-		"camwork":{"fovy":32,"hpb":[0,35,0],"viewport":16.0,"yoffs":0.4},
+		"camwork":{"fovy":32,"hpb":[0,36,0],"viewport":15.0,"yoffs":0.4},
 		"encntrate":0.0,
 		"encount":null,
 		"event":{},
@@ -1751,7 +1757,7 @@
 	"M985":{
 		"bg":{"type":"skybox"},
 		"bgmid":null,
-		"camwork":{"fovy":32,"hpb":[0,35,0],"viewport":16.0,"yoffs":0.4},
+		"camwork":{"fovy":32,"hpb":[0,36,0],"viewport":15.0,"yoffs":0.4},
 		"encntrate":0.0,
 		"encount":null,
 		"event":{},
@@ -1769,7 +1775,7 @@
 	"M995":{
 		"bg":{"type":"skybox"},
 		"bgmid":null,
-		"camwork":{"fovy":32,"hpb":[0,35,0],"viewport":16.0,"yoffs":0.4},
+		"camwork":{"fovy":32,"hpb":[0,36,0],"viewport":15.0,"yoffs":0.4},
 		"encntrate":0.0,
 		"encount":null,
 		"event":{

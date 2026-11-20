@@ -119,7 +119,7 @@
 		"plcoffs":[0,-2,0]
 	},
 	"MA027":{
-		"bw64":"KLUv/WCBAE0CAGQCrgwABgADAAkAAAACAGMAA4MCAwHDAgMAqgAAQKoAEGMDgwMDAwMOIPAC3NoE4BUET8zqddKwkMKbWAMEeMXyAVGyVXRIUEM=",
+		"bw64":"KLUv/WCZANUCADQDrgwABgADAAoAAAACAGMAA4MCAwHDAgMAqgAAQKoAEGNjA4MBw4CqAADAqgAAAAADAwMDDwAzrXYGHualuAesFG4aAguk8CrWEAjwSiy7AYGSgSqAQwIYAg==",
 		"cntpos":[0.5,0.0,0.5],
 		"eventuse":false,
 		"group":1,
@@ -139,21 +139,21 @@
 		"plcoffs":[0,-2,0]
 	},
 	"MA030":{
+		"bw64":"KLUv/SDFdQIAVAOuDAAGAAUABgAAAAEAIiIiFBQUFABDAAACAAAAcgADAAEDcwADAAQAAgABADIQQQAAAwMDAwkAIUuRMa1zJzEcNsD6irQqbgCHBDAE",
+		"cntpos":[0.5,0.0,0.5],
+		"eventuse":false,
+		"group":1,
+		"name":{"ja":"出窓1"},
+		"plcair":false,
+		"plcoffs":[0,0,0]
+	},
+	"MA031":{
 		"bw64":"KLUv/WDJAAUDACJEDRmwJWkMTLGsTrFbCpeUzY6mWAxNNYI1SUgK20YGhIBgSTS3sJO7hmkFTEdTtM5TtbxoNI9DEiAAg7K1Bo/pky2wcHcwYjLwwmmIHaPwJ8BOZALEA9wWbgGrcEgQQw==",
 		"cntpos":[0.5,0.0,0.5],
 		"eventuse":true,
 		"group":1,
 		"mapcol":true,
 		"name":{"ja":"出窓2"},
-		"plcair":false,
-		"plcoffs":[0,0,0]
-	},
-	"MA031":{
-		"bw64":"KLUv/SDFdQIAVAOuDAAGAAUABgAAAAEAIiIiFBQUFABDAAACAAAAcgADAAEDcwADAAQAAgABADIQQQAAAwMDAwkAIUuRMa1zJzEcNsD6irQqbgCHBDAE",
-		"cntpos":[0.5,0.0,0.5],
-		"eventuse":false,
-		"group":1,
-		"name":{"ja":"出窓1"},
 		"plcair":false,
 		"plcoffs":[0,0,0]
 	},
@@ -203,15 +203,6 @@
 		"plcair":false,
 		"plcoffs":[0,0,0]
 	},
-	"MA038":{
-		"bw64":"KLUv/WA1Ak0EACJFDhfAJa0B////xoHb3LnNFDjeyCY0EXLLFFVVdfARlKXhhBJNwm8io3ahfZG7u3cDVmQ60+JGE/A4BCGgoE6pFIYDsIKjUc0DZzAzpp3iJoN+XJ17OR7J+20SLMRcgpwhsYDGA+zNsgRpIgc7/STbDnkrmQ/+tapzCOY83/0FuDrkWdlwCY8F",
-		"cntpos":[0.5,0.0,0.5],
-		"eventuse":false,
-		"group":1,
-		"name":{"ja":"城壁：横"},
-		"plcair":false,
-		"plcoffs":[0,0,0]
-	},
 	"MA039":{
 		"bw64":"KLUv/WChAqUEAOJFDxawF9IYzAoYGtBhGAbodNgb27bN5N4p20azVsSGwqU18HDasQomPoQczSSP/Kiq6tUYY/yiDBlNCXiQoAgjoHFFZZUWVssBcIJUMtUNlWVSOJkKt5OVz0+AF9jWmOW0Y3o/yyUuXfMJ198uBKRHCk1D0N7QZYqwA5v6TREFC+GgQpxbdl2wvejCHEdZ7Ubh7gE=",
 		"cntpos":[0.5,0.0,0.5],
@@ -231,6 +222,24 @@
 		"plcoffs":[0,0,0]
 	},
 	"MA041":{
+		"bw64":"KLUv/WA1Ak0EACJFDhfAJa0B////xoHb3LnNFDjeyCY0EXLLFFVVdfARlKXhhBJNwm8io3ahfZG7u3cDVmQ60+JGE/A4BCGgoE6pFIYDsIKjUc0DZzAzpp3iJoN+XJ17OR7J+20SLMRcgpwhsYDGA+zNsgRpIgc7/STbDnkrmQ/+tapzCOY83/0FuDrkWdlwCY8F",
+		"cntpos":[0.5,0.0,0.5],
+		"eventuse":false,
+		"group":1,
+		"name":{"ja":"城壁：横1"},
+		"plcair":false,
+		"plcoffs":[0,0,0]
+	},
+	"MA042":{
+		"bw64":"KLUv/WCDAq0EAHKFDxmwJ60BDAskSZScdiPY4giiyK3d5BJC5JYpVVV1ccKDQvJknIkbZEX8+LtEllrFnX2HuwVkZTZMlS/PQEAjI6DAzIgKlQ5gAkQjZgcFWdZrW0G72Gylt0JIcpTsG9IrwSxZvjGDqAzUwXYNBaS23oIBHcJ9Abeuc7JI80wZj5m+4QY8rOxcevP3YWGY7SDcCncE",
+		"cntpos":[0.5,0.0,0.5],
+		"eventuse":false,
+		"group":1,
+		"name":{"ja":"城壁：横2"},
+		"plcair":false,
+		"plcoffs":[0,0,0]
+	},
+	"MA043":{
 		"bw64":"KLUv/WAvBKUFAIKHFBuQKWkM/5/5vxm+sN05t7tSq0oIoN9aa7tJQlLbhk460OYy2dham4xlXZxTgTKJMREPTBjU87AzXUgIkipK+qGq2q3ObxtOQ5A90DIHDAQURAIpoJDQFC1tDrCCqhHqHPEQUBmwylbVYRt/i8m6X+Le+n3qlS+Lv9FIbsLZGhBHk2RQWpAV2oMJa764dFnKNCP0AhKw5TrCssLv2U1FpzNY7yaAZUkrtCdNdLQ4QrpeDQ==",
 		"cntpos":[0.5,0.0,0.5],
 		"eventuse":false,
@@ -239,7 +248,7 @@
 		"plcair":false,
 		"plcoffs":[0,0,0]
 	},
-	"MA042":{
+	"MA044":{
 		"bw64":"KLUv/WDNAOUCAEQDrgwABgAQAAYAAAACADY2IiIUNgIDAAAAABA2AADsAAMABQAEAAAAHijrAAMADQAUAwMDAw8AuwBFQ6Fi5OXKoOAE8OiOjeOJlY3gjmhmO4AxVkyorAEcEsAQ",
 		"cntpos":[0.5,0.0,0.5],
 		"eventuse":false,
@@ -248,7 +257,7 @@
 		"plcair":false,
 		"plcoffs":[0,0,0]
 	},
-	"MA043":{
+	"MA045":{
 		"bw64":"KLUv/WAZA60JAGJNKCdgTdMYMAzDILYEwcOqAh6yT/y6Oqc/3zqdY6Dz2KyxdruLkL2l3CmZmeoIc2YoX4bAlR+W08sOaaXhZ5YZ8AVUmJ3wN34gcs5e4wg7VXUKEXAIHj8/llRSazVRwG8gQQE9zvcSJfgRbHXVOfeMAuy63V2LAVHdAgvnP/E9Eky8+B8mJj77n5tqLKdpXq2mtfbpqE0cTCYRB1WsfsfMjltGQqAhQUjRhAljrHGAgqmaqRslvCPVw5Zafb0Wx5czF+VvwMdZlXKR11f7I1ns0PzySha8PSgDPcn8vhtnxmstIxqPfJwTUbEuNHia0QpiEHfKvneIrGfRDhqRouSz6QxPw3+zkatkA20s/84oiGK0xvL06yh7JrGhl1tcAyc9ai2aTn90b0HQTb+e50AVqlyrnA==",
 		"cntpos":[0.5,0.0,0.5],
 		"eventuse":false,
@@ -257,7 +266,7 @@
 		"plcair":false,
 		"plcoffs":[0,0,0]
 	},
-	"MA044":{
+	"MA046":{
 		"bw64":"KLUv/WBXAVUFAJJHFh2gJ+n/P1eFHAIAzMkPEC9DCMPuu80+uZG9d5N7p22bHNd3oe7HhweEH3BHNjwqYyp/l1nIamdk1tplKi3qBdGkBB3ELzMf8Ufn2owt1uuvRGo2fsF4YEQRJCCwgjJSdVWzqc1Y7gcL646MZDhIgykXBsGkcVyCS/TDAY+WiRGgICQ2joBxZJ/1V1hwyOUBIgCA6djNU7TxJnQF7MPdB4HLKHBq6JpD",
 		"cntpos":[0.5,0.0,0.5],
 		"eventuse":false,
@@ -266,16 +275,7 @@
 		"plcair":false,
 		"plcoffs":[0,-1,0]
 	},
-	"MA045":{
-		"bw64":"KLUv/WAhAL0CAKQCrgwACgAIAAQAAAACAAMBAQACAwAGAAUABAQAAgABEAYeFAAABwgDAwMDEgDA4KoAavoSX9Max7ovRBypZ7Q8htDiaHzlERxXZdmdgnH0XHkXFLrAEA==",
-		"cntpos":[0.5,0.0,0.5],
-		"eventuse":false,
-		"group":1,
-		"name":{"ja":"牢獄の扉"},
-		"plcair":false,
-		"plcoffs":[0,0,0]
-	},
-	"MA046":{
+	"MA047":{
 		"bw64":"KLUv/WC9BAUJAGKMICOgJ2kN/2eFVNVY33qq+qH4hv3/S8SOZ0Jaa6SRRnYjRMqdAnd3iAxiFV/KVJn4gXJZtEfECQgjlRukiSny8IJlapMTWCtwPDR84IwrIi1yPJRqRkDS0jVMX9Q4AKtZzAf6gaIz1WjcG6fjOGutlf5AZ0dnC5bspVOKOaUeZyaXi0JLoNGhc2qGQVrYDbCCqpJEDzVu5wOQo4gBu6HPYgpm1cVsVEmhmHkItpc2FWr5q9aXQWzRdFnrxkeb5qylKrJ2C91e5cYkF8U3vOTVYtl64XQCdqh4Kg5aJHNAYb408HSwQs6ukuVyuk31VYjrBonBZFRCXlpevpCv9t4SHu1IiB/4WAn4N8SYyaWLTG66uYYIvXCuRqGdZLbTCQ==",
 		"cntpos":[0.5,0.0,0.5],
 		"eventuse":false,
@@ -283,6 +283,15 @@
 		"name":{"ja":"牢獄の部屋"},
 		"plcair":true,
 		"plcoffs":[0,-1,0]
+	},
+	"MA048":{
+		"bw64":"KLUv/WAhAL0CAKQCrgwACgAIAAQAAAACAAMBAQACAwAGAAUABAQAAgABEAYeFAAABwgDAwMDEgDA4KoAavoSX9Max7ovRBypZ7Q8htDiaHzlERxXZdmdgnH0XHkXFLrAEA==",
+		"cntpos":[0.5,0.0,0.5],
+		"eventuse":false,
+		"group":1,
+		"name":{"ja":"牢獄の扉"},
+		"plcair":false,
+		"plcoffs":[0,0,0]
 	},
 	"MA060":{
 		"bw64":"KLUv/SCPlQEA2K4MAAQABgADAAAAAQAREQIDAwACAAIOAwMDAwkAuwCtq2vIws5GnBwz5VvBDGhvwRA=",
@@ -330,7 +339,7 @@
 		"plcoffs":[0,0,0]
 	},
 	"MA067":{
-		"bw64":"KLUv/WBLAMUCAMQCrgwACgAIAAYAAAACAAeKAgIDAAAAAQNoAAUAAgACDwEAAx4YAAANCAMDAwMSADUsVmjTNWVW9yZMWsoC7OEEwAAssALhZS5KQL47ESABlLtSMXBIAEM=",
+		"bw64":"KLUv/WBLAO0CAMQCrgwACgAIAAYAAAACAIoHAgIDAAAAAQADAGgABQACDwEAAx4YAAANCAMDAwMUoMAS0doMgALTFrYBhayVbC3i6kps6j60wu5zdHmUjg9Y9j0pHIy1CymHlGmVDg==",
 		"cntpos":[0.5,0.0,0.5],
 		"eventuse":false,
 		"group":1,

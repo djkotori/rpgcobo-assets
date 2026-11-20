@@ -138,12 +138,12 @@
 					"color":-340993,
 					"head":30,
 					"pitch":60,
-					"power":1500,
+					"power":1300,
 					"shadow":{"shadowdens":0.5,"shadowfar":100.0,"shadowray":100.0,"shadowreso":1024,"shadowsoft":0.5,"shadowtype":3},
 					"type":1
 				}
 			],
-			"exposure":{"autoexposure":false,"ev100":9.5,"evrange":[-4.0,14.0]},
+			"exposure":{"autoexposure":false,"ev100":9.6,"evrange":[-4.0,14.0]},
 			"fog":{"type":0},
 			"ibl":{"iblcolor":-100680193,"ibldiff":1600,"ibldir":-123,"iblspec":1900,"ibltex":"/resource/ibltex/wildflower_field_2k_ibl.ktx"},
 			"id":"pbr_df-4-1-1",
