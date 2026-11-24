@@ -261,8 +261,8 @@
 				}
 			],
 			"exposure":{"autoexposure":false,"ev100":7.35,"evrange":[-4.0,14.0]},
-			"fog":{"color":425469096,"density":0.05,"type":3,"yfalloff":0.1,"yplane":0.0,"zoffs":10.0},
-			"ibl":{"iblcolor":-1,"ibldiff":300,"ibldir":180,"iblspec":300,"ibltex":"/resource/ibltex/meadow_2k_ibl.ktx"},
+			"fog":{"color":425469096,"density":0.06,"type":3,"yfalloff":0.1,"yplane":0.0,"zoffs":15.0},
+			"ibl":{"iblcolor":-1,"ibldiff":400,"ibldir":180,"iblspec":400,"ibltex":"/resource/ibltex/meadow_2k_ibl.ktx"},
 			"id":"pbr_df-3-3",
 			"lock":true,
 			"name":{"en":"Forest","ja":"森"},
@@ -632,7 +632,7 @@
 			"mparams":[1.0,0.0,1.0,1.0],
 			"mtype":0,
 			"name":{"en":"Stone Floor","ja":"石畳"},
-			"ptn":["stonefloor0",0.7],
+			"ptn":["stonefloor0",0.4],
 			"rough":0.7
 		},
 		"#13#":{

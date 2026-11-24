@@ -119,14 +119,36 @@
 							"cmdblocks":[
 								[
 									{
-										"_var":{"who":"W"},
-										"cmd":"cmd_move",
-										"movespd":7.0,
-										"movetype":"dash",
-										"playani":true,
-										"pos":[8,0],
-										"wait":false,
-										"who":2
+										"cmd":"cmd_if",
+										"cmdblocks":[
+											[
+												{
+													"_var":{"who":"W"},
+													"cmd":"cmd_move",
+													"movespd":8.0,
+													"movetype":"dash",
+													"playani":true,
+													"pos":[0.0,-12.0],
+													"wait":false,
+													"who":2
+												}
+											],
+											[
+												{
+													"_var":{"who":"W"},
+													"cmd":"cmd_move",
+													"movespd":7.0,
+													"movetype":"dash",
+													"playani":true,
+													"pos":[12.0,0.0],
+													"wait":false,
+													"who":2
+												}
+											]
+										],
+										"reqs":[
+											{"key":"varcmp","lvar":"BATTLEVIEW","op":"==","rvar":1}
+										]
 									}
 								]
 							],
@@ -290,12 +312,12 @@
 				"_var":{"text":"W"},
 				"cmd":"cmd_showui",
 				"key":"message_talk",
+				"name":"",
 				"op":null,
 				"pos":{"bottom":40},
 				"text":"*message_talk*",
 				"uiclose":2,
-				"uipath":"message_talk.ui",
-				"name":""
+				"uipath":"message_talk.ui"
 			}
 		],
 		"desc":"村人のイベントロールに話しかけた時に呼ばれる。",

@@ -186,8 +186,14 @@
 		},
 		"#4#":{
 			"baseui":"/presetui/battleui.ui",
-			"en":{"desc":"","name":"Turn-battle UI","useidx":-1},
-			"ja":{"desc":"","name":"ターンバトルUI","useidx":-1},
+			"en":{"desc":"","name":"Battle UI(Side view)","useidx":-1},
+			"ja":{"desc":"","name":"バトルUI(サイトビュー)","useidx":-1},
+			"uilist":[]
+		},
+		"#5#":{
+			"baseui":"/presetui/battleui_fv.ui",
+			"en":{"desc":"","name":"Battle UI(Front view)","useidx":-1},
+			"ja":{"desc":"","name":"バトルUI(フロントビュー)","useidx":-1},
 			"uilist":[]
 		},
 		"#6#":{

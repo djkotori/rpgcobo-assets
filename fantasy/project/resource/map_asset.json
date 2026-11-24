@@ -116,7 +116,7 @@
 		"group":2,
 		"name":{"en":"Old Well","ja":"古井戸"},
 		"plcair":false,
-		"plcoffs":[0,-2,0]
+		"plcoffs":[0,-1,0]
 	},
 	"MA027":{
 		"bw64":"KLUv/WCZANUCADQDrgwABgADAAoAAAACAGMAA4MCAwHDAgMAqgAAQKoAEGNjA4MBw4CqAADAqgAAAAADAwMDDwAzrXYGHualuAesFG4aAguk8CrWEAjwSiy7AYGSgSqAQwIYAg==",
@@ -183,7 +183,7 @@
 		"group":2,
 		"name":{"ja":"自然の入口"},
 		"plcair":false,
-		"plcoffs":[0,0,0]
+		"plcoffs":[0,-1,0]
 	},
 	"MA036":{
 		"bw64":"KLUv/SC5dQEA2K4MABAAAQAIAAAAAgABAQACwwEDAsMAAwMDAwcANwUCQ4gLwCFYkRMXELrAEA==",
