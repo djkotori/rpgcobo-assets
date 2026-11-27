@@ -728,7 +728,7 @@
 			"mparams":[0.92,0.0,1.0,1.0],
 			"mtype":0,
 			"name":{"en":"Wasteland","ja":"荒地"},
-			"ptn":["block10",0.7],
+			"ptn":["block1",0.4],
 			"rough":0.91
 		},
 		"#25#":{

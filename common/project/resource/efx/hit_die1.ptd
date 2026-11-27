@@ -3,7 +3,7 @@
 ////////////////////////////////////////////////////////
 parentcoord <- false
 currentgroup <- 0
-prof <- {"showbnd":[0.161147,0.115063,0.311205,1.066499,1.153153,1.122938],"maxbnd":[-0.27877,0.080357,-0.374431,1.792059,1.665046,1.718675],"showtime":448,"wholebnd":[-0.23515,0.123331,-0.364311,1.835678,1.795259,1.728796]}
+prof <- {"showbnd":[-0.136357,0.042392,-0.093948,1.449523,1.481122,1.52169],"maxbnd":[-0.208041,-0.253453,0.334724,1.713534,1.775991,1.714049],"showtime":432,"wholebnd":[-0.115217,-0.181739,0.253253,1.806358,1.86722,1.795521]}
 groups <- [
 	with ParticleGroupData(){
 		name = "aura"
@@ -12,8 +12,8 @@ groups <- [
 		localcoord = true
 		emitter = with ParticleEmitter(){
 			num = 4
-			start = 0, start_spr = 900
-			life = 1000, life_spr = 400
+			start = 0, start_spr = 450
+			life = 500, life_spr = 200
 			posx = 0.0, posy = 0.0, posz = 0.0
 			pos_sprx = 0.5, pos_spry = 0.5, pos_sprz = 0.5
 			dirx = 0.0, diry = 0.0, dirz = 0.0
@@ -25,14 +25,14 @@ groups <- [
 		texture = "/resource/efx/tex/shockwave_smoke1.webp"
 		color = 0xffffffff
 		blendmode = 5
-		blend = 1
+		blend = 5
 		tec = "decal.softptc"
 		Ka = 0x808080ff
 		Ks = 0x00000000
 		mod = [
-		{"color":[128717568,128717666,128717588,128717578,128717568],"classid":"ptcmod_color"},
-		{"xyz":7,"scale":[0.735294,1.529412,1.823529,2.0],"classid":"ptcmod_scale"},
-		{"color":0,"scale":2.0,"classid":"ptcmod_rnd","b":10.0,"h":0.0,"p":0.0},
+		{"classid":"ptcmod_color","color":[1492779008,1492779106,1392115732,1492779018,1492779008]},
+		{"classid":"ptcmod_scale","scale":[0.735294,1.529412,1.823529,2.0],"xyz":7},
+		{"b":10.0,"classid":"ptcmod_rnd","color":0,"h":0.0,"p":0.0,"scale":2.0},
 		{"axisid":2,"classid":"ptcmod_rot","rot":[-1.0,1.0],"scale":0.698132},
 		]
 	},
@@ -43,8 +43,8 @@ groups <- [
 		localcoord = true
 		emitter = with ParticleEmitter(){
 			num = 4
-			start = 0, start_spr = 900
-			life = 1000, life_spr = 400
+			start = 0, start_spr = 450
+			life = 500, life_spr = 200
 			posx = 0.0, posy = 0.0, posz = 0.0
 			pos_sprx = 0.5, pos_spry = 0.5, pos_sprz = 0.5
 			dirx = 0.0, diry = 0.0, dirz = 0.0
@@ -56,14 +56,14 @@ groups <- [
 		texture = "/resource/efx/tex/shockwave_smoke2.webp"
 		color = 0xffffffff
 		blendmode = 5
-		blend = 1
+		blend = 5
 		tec = "decal.softptc"
 		Ka = 0x808080ff
 		Ks = 0x00000000
 		mod = [
-		{"color":[128717568,128717666,128717588,128717578,128717568],"classid":"ptcmod_color"},
-		{"xyz":7,"scale":[0.735294,1.529412,1.823529,2.0],"classid":"ptcmod_scale"},
-		{"color":0,"scale":2.0,"classid":"ptcmod_rnd","b":10.0,"h":0.0,"p":0.0},
+		{"classid":"ptcmod_color","color":[1593577472,1593577570,1778126868,1207701258,1593577472]},
+		{"classid":"ptcmod_scale","scale":[0.735294,1.529412,1.823529,2.0],"xyz":7},
+		{"b":10.0,"classid":"ptcmod_rnd","color":0,"h":0.0,"p":0.0,"scale":2.0},
 		{"axisid":2,"classid":"ptcmod_rot","rot":[1.0,-1.0],"scale":0.698132},
 		]
 	},
@@ -73,10 +73,10 @@ groups <- [
 		aimtype = 1
 		localcoord = true
 		emitter = with ParticleEmitter(){
-			num = 35
+			num = 50
 			start = 0, start_spr = 147
 			life = 503, life_spr = 295
-			posx = 0.0, posy = 0.3, posz = 0.0
+			posx = 0.0, posy = 0.15, posz = 0.0
 			pos_sprx = 0.7, pos_spry = 0.3, pos_sprz = 0.0
 			dirx = 0.0, diry = 0.0, dirz = 0.0
 			dir_sprx = 0.0, dir_spry = 2.094395, dir_sprz = 2.094395
@@ -92,11 +92,11 @@ groups <- [
 		Ka = 0x808080ff
 		Ks = 0x00000000
 		mod = [
-		{"vel":0.60705,"classid":"ptcmod_vel","vel_spr":0.0},
-		{"color":[-1,1526661375,-262145,16711680],"classid":"ptcmod_color"},
-		{"xyz":7,"scale":[0.0,1.961538,0.0,1.961538],"classid":"ptcmod_scale"},
-		{"color":0,"scale":1.4,"classid":"ptcmod_rnd","b":0.0,"p":0.0,"h":0.0},
-		{"axisid":1,"classid":"ptcmod_acc","acc":0.136485,"coord":1,"acc_spr":0.0},
+		{"classid":"ptcmod_vel","vel":0.60705,"vel_spr":0.0},
+		{"classid":"ptcmod_color","color":[-1,1526661375,-262145,16711680]},
+		{"classid":"ptcmod_scale","scale":[0.0,1.961538,0.0,1.961538],"xyz":7},
+		{"b":0.0,"classid":"ptcmod_rnd","color":0,"h":0.0,"p":0.0,"scale":1.4},
+		{"acc":0.136485,"acc_spr":0.0,"axisid":1,"classid":"ptcmod_acc","coord":1},
 		]
 	},
 ]

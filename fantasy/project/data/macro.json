@@ -25,7 +25,7 @@
 				]
 			}
 		],
-		"desc":"メインメニューを開く／閉じるときに呼び出されます。\nW=ON : 開く\nW=OFF : 閉じる",
+		"desc":"メインメニューを開く／閉じるときに呼び出される。\nW=ON : 開く\nW=OFF : 閉じる",
 		"name":"メニュー開閉",
 		"runmode":0,
 		"runrepeat":false,
@@ -128,7 +128,7 @@
 													"movespd":8.0,
 													"movetype":"dash",
 													"playani":true,
-													"pos":[0.0,-12.0],
+													"pos":[0.0,-15.0],
 													"wait":false,
 													"who":2
 												}
@@ -140,7 +140,7 @@
 													"movespd":7.0,
 													"movetype":"dash",
 													"playani":true,
-													"pos":[12.0,0.0],
+													"pos":[15.0,0.0],
 													"wait":false,
 													"who":2
 												}
@@ -241,7 +241,14 @@
 							"cmd":"cmd_if",
 							"cmdblocks":[
 								[
-									{"cmd":"cmd_wait","time":300},
+									{
+										"_var":{"who":"W"},
+										"ch":0,
+										"cmd":"cmd_snd",
+										"sndid":"SE111",
+										"vol":100,
+										"who":2
+									},
 									{
 										"_var":{"who":"W"},
 										"cmd":"cmd_opacity",
@@ -258,7 +265,8 @@
 										"pos":[0.0,0.0,0.0],
 										"wait":true,
 										"who":2
-									}
+									},
+									{"cmd":"cmd_wait","time":300}
 								]
 							],
 							"reqs":[

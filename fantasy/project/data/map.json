@@ -502,6 +502,7 @@
 		"camwork":{"fovy":32,"hpb":[0,36,0],"viewport":15.0,"yoffs":0.4},
 		"canenter_hole":false,
 		"canenter_water":false,
+		"ctrmode":1,
 		"encntrate":0.0,
 		"encount":null,
 		"event":{
@@ -604,6 +605,7 @@
 		"reverbid":"plain",
 		"rsetid":"pbr_df-4-1-1",
 		"showmap":{"bigmap":false,"explor":false,"minimap":false},
+		"silhouette":16777113,
 		"size":[128,64,128],
 		"vs":63,
 		"weather":{"type":null}
@@ -1117,7 +1119,7 @@
 			"#2000001#":{
 				"col":1,
 				"flags":1,
-				"fovy":38,
+				"fovy":35,
 				"hpb":[0,24,0],
 				"name":"*maincam",
 				"pos":[64,1,64,2],
@@ -1126,7 +1128,7 @@
 				"yoffs":-0.9
 			},
 			"#2000002#":{"col":1,"dir":-100,"flags":1,"icon":"","name":"*memberloc","pos":[75,1,64,2],"type":"route"},
-			"#2000003#":{"col":1,"dir":90,"flags":1,"icon":"","name":"*enemyloc","pos":[57,1,64,2],"type":"route"},
+			"#2000003#":{"col":1,"dir":100,"flags":1,"icon":"","name":"*enemyloc","pos":[57,1,64,2],"type":"route"},
 			"#2000004#":{
 				"col":1,
 				"flags":1,
@@ -1135,26 +1137,26 @@
 				"name":"*victorycam",
 				"pos":[73,1,63,2],
 				"type":"camera",
-				"viewport":8.0,
+				"viewport":8.5,
 				"yoffs":1.0
 			},
 			"#2000005#":{
 				"col":2,
 				"flags":1,
-				"fovy":26,
-				"hpb":[0,24,0],
+				"fovy":24,
+				"hpb":[0,16,0],
 				"name":"*maincam_fv",
 				"pos":[64,1,60,2],
 				"type":"camera",
-				"viewport":14.5,
+				"viewport":14.0,
 				"yoffs":0.0
 			},
-			"#2000006#":{"col":2,"dir":0,"flags":1,"icon":"","name":"*memberloc_fv","pos":[64,1,50,2],"type":"route"},
+			"#2000006#":{"col":2,"dir":0,"flags":1,"icon":"","name":"*memberloc_fv","pos":[64,1,48,2],"type":"route"},
 			"#2000007#":{"col":2,"dir":180,"flags":1,"icon":"","name":"*enemyloc_fv","pos":[64,1,68,2],"type":"route"},
 			"#2000008#":{
 				"col":2,
 				"flags":1,
-				"fovy":45,
+				"fovy":35,
 				"hpb":[-10,12,0],
 				"name":"*victorycam_fv",
 				"pos":[65,1,44,2],
@@ -1167,6 +1169,7 @@
 		"reverbid":"plain",
 		"rsetid":"pbr_df-4-1-1",
 		"showmap":{"bigmap":false,"explor":false,"minimap":false},
+		"silhouette":16777113,
 		"size":[128,64,128],
 		"vs":63,
 		"weather":{"type":null}
@@ -1249,7 +1252,7 @@
 			"#2000001#":{
 				"col":1,
 				"flags":1,
-				"fovy":38,
+				"fovy":35,
 				"hpb":[0,24,0],
 				"name":"*maincam",
 				"pos":[64,1,64,2],
@@ -1258,7 +1261,7 @@
 				"yoffs":-0.9
 			},
 			"#2000002#":{"col":1,"dir":-100,"flags":1,"icon":"","name":"*memberloc","pos":[75,1,64,2],"type":"route"},
-			"#2000003#":{"col":1,"dir":90,"flags":1,"icon":"","name":"*enemyloc","pos":[57,1,64,2],"type":"route"},
+			"#2000003#":{"col":1,"dir":100,"flags":1,"icon":"","name":"*enemyloc","pos":[57,1,64,2],"type":"route"},
 			"#2000004#":{
 				"col":1,
 				"flags":1,
@@ -1267,26 +1270,26 @@
 				"name":"*victorycam",
 				"pos":[73,1,63,2],
 				"type":"camera",
-				"viewport":8.0,
+				"viewport":8.5,
 				"yoffs":1.0
 			},
 			"#2000005#":{
 				"col":2,
 				"flags":1,
-				"fovy":26,
-				"hpb":[0,24,0],
+				"fovy":24,
+				"hpb":[0,16,0],
 				"name":"*maincam_fv",
 				"pos":[64,1,60,2],
 				"type":"camera",
-				"viewport":14.5,
+				"viewport":14.0,
 				"yoffs":0.0
 			},
-			"#2000006#":{"col":2,"dir":0,"flags":1,"icon":"","name":"*memberloc_fv","pos":[64,1,50,2],"type":"route"},
+			"#2000006#":{"col":2,"dir":0,"flags":1,"icon":"","name":"*memberloc_fv","pos":[64,1,48,2],"type":"route"},
 			"#2000007#":{"col":2,"dir":180,"flags":1,"icon":"","name":"*enemyloc_fv","pos":[64,1,68,2],"type":"route"},
 			"#2000008#":{
 				"col":2,
 				"flags":1,
-				"fovy":45,
+				"fovy":35,
 				"hpb":[-10,12,0],
 				"name":"*victorycam_fv",
 				"pos":[65,1,44,2],
@@ -1299,6 +1302,7 @@
 		"reverbid":"plain",
 		"rsetid":"pbr_df-4-1-1",
 		"showmap":{"bigmap":false,"explor":false,"minimap":false},
+		"silhouette":16777113,
 		"size":[128,64,128],
 		"vs":63,
 		"weather":{"type":null}
@@ -1326,6 +1330,7 @@
 		"camwork":{"fovy":32,"hpb":[0,36,0],"viewport":15.0,"yoffs":0.4},
 		"canenter_hole":false,
 		"canenter_water":false,
+		"ctrmode":1,
 		"encntrate":0.0,
 		"encount":null,
 		"event":{
@@ -1339,7 +1344,20 @@
 					{
 						"ani":{"id":"stand"},
 						"cmdblock":[
+							{"cmd":"cmd_compute","lvar":"W","op":"=","rvar":"'*maincam"},
 							{
+								"cmd":"cmd_if",
+								"cmdblocks":[
+									[
+										{"cmd":"cmd_compute","lvar":"W","op":"=","rvar":"'*maincam_fv"}
+									]
+								],
+								"reqs":[
+									{"key":"varcmp","lvar":"BATTLEVIEW","op":"==","rvar":1}
+								]
+							},
+							{
+								"_var":{"mkid":"W"},
 								"cmd":"cmd_camwork",
 								"hpb":[0,0,0],
 								"mkid":2000001,
@@ -1369,11 +1387,10 @@
 						"movespd":4,
 						"pararun":false,
 						"reqs":null,
-						"standani":null,
 						"trigger":6
 					}
 				],
-				"pos":[64,1,49,2],
+				"pos":[64,1,40,2],
 				"role":"custom",
 				"spawndist":5
 			}
@@ -1385,7 +1402,7 @@
 			"#2000001#":{
 				"col":1,
 				"flags":1,
-				"fovy":25,
+				"fovy":35,
 				"hpb":[0,24,0],
 				"name":"*maincam",
 				"pos":[64,1,64,2],
@@ -1393,15 +1410,39 @@
 				"viewport":12.0,
 				"yoffs":-0.9
 			},
-			"#2000002#":{"col":0,"dir":-100,"flags":1,"icon":"","name":"*memberloc","pos":[75,1,64,2],"type":"route"},
-			"#2000003#":{"col":0,"dir":100,"flags":1,"icon":"","name":"*enemyloc","pos":[56,1,64,2],"type":"route"},
+			"#2000002#":{"col":1,"dir":-100,"flags":1,"icon":"","name":"*memberloc","pos":[75,1,64,2],"type":"route"},
+			"#2000003#":{"col":1,"dir":100,"flags":1,"icon":"","name":"*enemyloc","pos":[57,1,64,2],"type":"route"},
 			"#2000004#":{
-				"col":0,
+				"col":1,
 				"flags":1,
-				"fovy":45,
+				"fovy":40,
 				"hpb":[75,12,0],
 				"name":"*victorycam",
 				"pos":[73,1,63,2],
+				"type":"camera",
+				"viewport":8.5,
+				"yoffs":1.0
+			},
+			"#2000005#":{
+				"col":2,
+				"flags":1,
+				"fovy":24,
+				"hpb":[0,16,0],
+				"name":"*maincam_fv",
+				"pos":[64,1,60,2],
+				"type":"camera",
+				"viewport":14.0,
+				"yoffs":0.0
+			},
+			"#2000006#":{"col":2,"dir":0,"flags":1,"icon":"","name":"*memberloc_fv","pos":[64,1,48,2],"type":"route"},
+			"#2000007#":{"col":2,"dir":180,"flags":1,"icon":"","name":"*enemyloc_fv","pos":[64,1,68,2],"type":"route"},
+			"#2000008#":{
+				"col":2,
+				"flags":1,
+				"fovy":35,
+				"hpb":[-10,12,0],
+				"name":"*victorycam_fv",
+				"pos":[65,1,44,2],
 				"type":"camera",
 				"viewport":8.0,
 				"yoffs":1.0
@@ -1411,6 +1452,7 @@
 		"reverbid":"plain",
 		"rsetid":"pbr_df-3-3",
 		"showmap":{"bigmap":false,"explor":false,"minimap":false},
+		"silhouette":16777113,
 		"size":[128,64,128],
 		"vs":63,
 		"weather":{"type":null}
@@ -1538,7 +1580,7 @@
 			"#2000001#":{
 				"col":1,
 				"flags":1,
-				"fovy":38,
+				"fovy":35,
 				"hpb":[0,24,0],
 				"name":"*maincam",
 				"pos":[64,1,64,2],
@@ -1547,7 +1589,7 @@
 				"yoffs":-0.9
 			},
 			"#2000002#":{"col":1,"dir":-100,"flags":1,"icon":"","name":"*memberloc","pos":[75,1,64,2],"type":"route"},
-			"#2000003#":{"col":1,"dir":90,"flags":1,"icon":"","name":"*enemyloc","pos":[57,1,64,2],"type":"route"},
+			"#2000003#":{"col":1,"dir":100,"flags":1,"icon":"","name":"*enemyloc","pos":[57,1,64,2],"type":"route"},
 			"#2000004#":{
 				"col":1,
 				"flags":1,
@@ -1556,26 +1598,26 @@
 				"name":"*victorycam",
 				"pos":[73,1,63,2],
 				"type":"camera",
-				"viewport":8.0,
+				"viewport":8.5,
 				"yoffs":1.0
 			},
 			"#2000005#":{
 				"col":2,
 				"flags":1,
-				"fovy":26,
-				"hpb":[0,24,0],
+				"fovy":24,
+				"hpb":[0,16,0],
 				"name":"*maincam_fv",
 				"pos":[64,1,60,2],
 				"type":"camera",
-				"viewport":14.5,
+				"viewport":14.0,
 				"yoffs":0.0
 			},
-			"#2000006#":{"col":2,"dir":0,"flags":1,"icon":"","name":"*memberloc_fv","pos":[64,1,50,2],"type":"route"},
+			"#2000006#":{"col":2,"dir":0,"flags":1,"icon":"","name":"*memberloc_fv","pos":[64,1,48,2],"type":"route"},
 			"#2000007#":{"col":2,"dir":180,"flags":1,"icon":"","name":"*enemyloc_fv","pos":[64,1,68,2],"type":"route"},
 			"#2000008#":{
 				"col":2,
 				"flags":1,
-				"fovy":45,
+				"fovy":35,
 				"hpb":[-10,12,0],
 				"name":"*victorycam_fv",
 				"pos":[65,1,44,2],
@@ -1588,6 +1630,7 @@
 		"reverbid":"plain",
 		"rsetid":"pbr_df-1-2",
 		"showmap":{"bigmap":false,"explor":false,"minimap":false},
+		"silhouette":16777113,
 		"size":[128,64,128],
 		"vs":63,
 		"weather":{"type":null}
@@ -1685,7 +1728,7 @@
 			"#2000001#":{
 				"col":1,
 				"flags":1,
-				"fovy":38,
+				"fovy":35,
 				"hpb":[0,24,0],
 				"name":"*maincam",
 				"pos":[64,1,64,2],
@@ -1694,7 +1737,7 @@
 				"yoffs":-0.9
 			},
 			"#2000002#":{"col":1,"dir":-100,"flags":1,"icon":"","name":"*memberloc","pos":[75,1,64,2],"type":"route"},
-			"#2000003#":{"col":1,"dir":90,"flags":1,"icon":"","name":"*enemyloc","pos":[57,1,64,2],"type":"route"},
+			"#2000003#":{"col":1,"dir":100,"flags":1,"icon":"","name":"*enemyloc","pos":[57,1,64,2],"type":"route"},
 			"#2000004#":{
 				"col":1,
 				"flags":1,
@@ -1703,26 +1746,26 @@
 				"name":"*victorycam",
 				"pos":[73,1,63,2],
 				"type":"camera",
-				"viewport":8.0,
+				"viewport":8.5,
 				"yoffs":1.0
 			},
 			"#2000005#":{
 				"col":2,
 				"flags":1,
-				"fovy":26,
-				"hpb":[0,24,0],
+				"fovy":24,
+				"hpb":[0,16,0],
 				"name":"*maincam_fv",
 				"pos":[64,1,60,2],
 				"type":"camera",
-				"viewport":14.5,
+				"viewport":14.0,
 				"yoffs":0.0
 			},
-			"#2000006#":{"col":2,"dir":0,"flags":1,"icon":"","name":"*memberloc_fv","pos":[64,1,50,2],"type":"route"},
+			"#2000006#":{"col":2,"dir":0,"flags":1,"icon":"","name":"*memberloc_fv","pos":[64,1,48,2],"type":"route"},
 			"#2000007#":{"col":2,"dir":180,"flags":1,"icon":"","name":"*enemyloc_fv","pos":[64,1,68,2],"type":"route"},
 			"#2000008#":{
 				"col":2,
 				"flags":1,
-				"fovy":45,
+				"fovy":35,
 				"hpb":[-10,12,0],
 				"name":"*victorycam_fv",
 				"pos":[65,1,44,2],
@@ -1735,6 +1778,7 @@
 		"reverbid":"plain",
 		"rsetid":"pbr_df-1-1-1",
 		"showmap":{"bigmap":false,"explor":false,"minimap":false},
+		"silhouette":16777113,
 		"size":[128,64,128],
 		"vs":63,
 		"weather":{"type":null}
@@ -1745,6 +1789,7 @@
 		"camwork":{"fovy":32,"hpb":[0,36,0],"viewport":15.0,"yoffs":0.4},
 		"canenter_hole":false,
 		"canenter_water":false,
+		"ctrmode":1,
 		"encntrate":0.0,
 		"encount":null,
 		"event":{
@@ -1758,7 +1803,20 @@
 					{
 						"ani":{"id":"stand"},
 						"cmdblock":[
+							{"cmd":"cmd_compute","lvar":"W","op":"=","rvar":"'*maincam"},
 							{
+								"cmd":"cmd_if",
+								"cmdblocks":[
+									[
+										{"cmd":"cmd_compute","lvar":"W","op":"=","rvar":"'*maincam_fv"}
+									]
+								],
+								"reqs":[
+									{"key":"varcmp","lvar":"BATTLEVIEW","op":"==","rvar":1}
+								]
+							},
+							{
+								"_var":{"mkid":"W"},
 								"cmd":"cmd_camwork",
 								"hpb":[0,0,0],
 								"mkid":2000001,
@@ -1791,7 +1849,7 @@
 						"trigger":6
 					}
 				],
-				"pos":[64,1,49,2],
+				"pos":[64,1,40,2],
 				"role":"custom",
 				"spawndist":5
 			}
@@ -1803,7 +1861,7 @@
 			"#2000001#":{
 				"col":1,
 				"flags":1,
-				"fovy":25,
+				"fovy":35,
 				"hpb":[0,24,0],
 				"name":"*maincam",
 				"pos":[64,1,64,2],
@@ -1811,15 +1869,39 @@
 				"viewport":12.0,
 				"yoffs":-0.9
 			},
-			"#2000002#":{"col":0,"dir":-100,"flags":1,"icon":"","name":"*memberloc","pos":[75,1,64,2],"type":"route"},
-			"#2000003#":{"col":0,"dir":100,"flags":1,"icon":"","name":"*enemyloc","pos":[56,1,64,2],"type":"route"},
+			"#2000002#":{"col":1,"dir":-100,"flags":1,"icon":"","name":"*memberloc","pos":[75,1,64,2],"type":"route"},
+			"#2000003#":{"col":1,"dir":100,"flags":1,"icon":"","name":"*enemyloc","pos":[57,1,64,2],"type":"route"},
 			"#2000004#":{
-				"col":0,
+				"col":1,
 				"flags":1,
 				"fovy":40,
 				"hpb":[75,12,0],
 				"name":"*victorycam",
 				"pos":[73,1,63,2],
+				"type":"camera",
+				"viewport":8.5,
+				"yoffs":1.0
+			},
+			"#2000005#":{
+				"col":2,
+				"flags":1,
+				"fovy":24,
+				"hpb":[0,16,0],
+				"name":"*maincam_fv",
+				"pos":[64,1,60,2],
+				"type":"camera",
+				"viewport":14.0,
+				"yoffs":0.0
+			},
+			"#2000006#":{"col":2,"dir":0,"flags":1,"icon":"","name":"*memberloc_fv","pos":[64,1,48,2],"type":"route"},
+			"#2000007#":{"col":2,"dir":180,"flags":1,"icon":"","name":"*enemyloc_fv","pos":[64,1,68,2],"type":"route"},
+			"#2000008#":{
+				"col":2,
+				"flags":1,
+				"fovy":35,
+				"hpb":[-10,12,0],
+				"name":"*victorycam_fv",
+				"pos":[65,1,44,2],
 				"type":"camera",
 				"viewport":8.0,
 				"yoffs":1.0
@@ -1829,6 +1911,7 @@
 		"reverbid":"plain",
 		"rsetid":"pbr_df-3-1",
 		"showmap":{"bigmap":false,"explor":false,"minimap":false},
+		"silhouette":16777113,
 		"size":[128,64,128],
 		"vs":63,
 		"weather":{"type":null}
@@ -1974,7 +2057,7 @@
 									]
 								],
 								"reqs":[
-									{"key":"varcmp","lvar":"FRONTVIEW","op":"==","rvar":true}
+									{"key":"varcmp","lvar":"BATTLEVIEW","op":"==","rvar":1}
 								]
 							},
 							{
@@ -2023,7 +2106,7 @@
 			"#2000001#":{
 				"col":1,
 				"flags":1,
-				"fovy":25,
+				"fovy":35,
 				"hpb":[0,24,0],
 				"name":"*maincam",
 				"pos":[64,1,64,2],
@@ -2032,7 +2115,7 @@
 				"yoffs":-0.9
 			},
 			"#2000002#":{"col":1,"dir":-100,"flags":1,"icon":"","name":"*memberloc","pos":[75,1,64,2],"type":"route"},
-			"#2000003#":{"col":1,"dir":90,"flags":1,"icon":"","name":"*enemyloc","pos":[57,1,64,2],"type":"route"},
+			"#2000003#":{"col":1,"dir":100,"flags":1,"icon":"","name":"*enemyloc","pos":[57,1,64,2],"type":"route"},
 			"#2000004#":{
 				"col":1,
 				"flags":1,
@@ -2041,29 +2124,29 @@
 				"name":"*victorycam",
 				"pos":[73,1,63,2],
 				"type":"camera",
-				"viewport":8.0,
+				"viewport":8.5,
 				"yoffs":1.0
 			},
 			"#2000005#":{
 				"col":2,
 				"flags":1,
-				"fovy":34,
-				"hpb":[0,24,0],
+				"fovy":24,
+				"hpb":[0,16,0],
 				"name":"*maincam_fv",
-				"pos":[64,1,66,2],
+				"pos":[64,1,60,2],
 				"type":"camera",
-				"viewport":15.0,
+				"viewport":14.0,
 				"yoffs":0.0
 			},
-			"#2000006#":{"col":2,"dir":0,"flags":1,"icon":"","name":"*memberloc_fv","pos":[64,1,58,2],"type":"route"},
-			"#2000007#":{"col":2,"dir":180,"flags":1,"icon":"","name":"*enemyloc_fv","pos":[64,1,72,2],"type":"route"},
+			"#2000006#":{"col":2,"dir":0,"flags":1,"icon":"","name":"*memberloc_fv","pos":[64,1,48,2],"type":"route"},
+			"#2000007#":{"col":2,"dir":180,"flags":1,"icon":"","name":"*enemyloc_fv","pos":[64,1,68,2],"type":"route"},
 			"#2000008#":{
 				"col":2,
 				"flags":1,
-				"fovy":45,
+				"fovy":35,
 				"hpb":[-10,12,0],
 				"name":"*victorycam_fv",
-				"pos":[65,1,50,2],
+				"pos":[65,1,44,2],
 				"type":"camera",
 				"viewport":8.0,
 				"yoffs":1.0
@@ -2073,6 +2156,7 @@
 		"reverbid":"plain",
 		"rsetid":"pbr_df-4-1-1",
 		"showmap":{"bigmap":false,"explor":false,"minimap":false},
+		"silhouette":16777113,
 		"size":[128,64,128],
 		"vs":63,
 		"weather":{"type":null}
